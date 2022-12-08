@@ -14,11 +14,25 @@ a {
   text-decoration: none;
 }
 
-.test {
-  width: 1000px;
-  height: 1000px;
-  background-color: #cecece;
-  font-size: 30px;
+@page {
+  size: A4;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  page-divide {
+    page-break-after: always;
+  }
+}
+.page {
+  width: 1190px;
+  height: 1679px;
 }
 
 /*# sourceMappingURL=style.css.map */
