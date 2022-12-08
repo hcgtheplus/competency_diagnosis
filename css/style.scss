@@ -8,6 +8,10 @@
     "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI",
     "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     sans-serif;
+
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 ul,
@@ -19,27 +23,11 @@ a {
   text-decoration: none;
 }
 
-@page {
-  size: A4;
-  margin: 0;
-}
-
 body {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-}
-
-@media print {
-  .page {
-    width: 1190px;
-    height: 1679px;
-  }
-
-  .for-center {
-    display: block;
-  }
 }
 
 .page {
@@ -57,14 +45,30 @@ body {
 }
 
 .need-data-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 100%;
   height: 100%;
   background-color: #e9e9e9;
+
+  padding: 1.6rem;
 }
 
 .for-margin {
   width: 100%;
   height: 100%;
-  margin: 50px;
-  background-color: #ffffff;
+  background-color: #b1c437;
+}
+
+@media print {
+  .page {
+    width: 1190px;
+    height: 1679px;
+  }
+
+  .for-center {
+    display: block;
+  }
 }
