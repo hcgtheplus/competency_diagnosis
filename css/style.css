@@ -25,11 +25,10 @@ body {
   padding: 0;
 }
 
-@media print {
-  page-divide {
-    page-break-after: always;
-  }
+.image-container {
+  page-break-before: always;
 }
+
 .page {
   width: 1190px;
   height: 1679px;
