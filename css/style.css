@@ -25,13 +25,28 @@ body {
   padding: 0;
 }
 
+.for-center {
+  display: flex;
+  justify-content: center;
+}
+
 .image-container {
   page-break-before: always;
 }
 
 .page {
-  width: 1190px;
-  height: 1679px;
+  width: 595px;
+  height: 840px;
+}
+
+@media print {
+  .page {
+    width: 1190px;
+    height: 1679px;
+  }
+  .for-center {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
