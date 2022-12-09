@@ -55,6 +55,9 @@ h6 {
   color: #494950;
 }
 
+.f16 {
+  font-size: 16px;
+}
 .fwb {
   font-weight: bold;
 }
@@ -390,7 +393,6 @@ h6 {
   align-items: center;
   padding: 5px 10px 5px 10px;
   width: fit-content;
-  height: 35px;
   background: #f4f4f6;
   border-radius: 8px;
   font-size: 16px;
@@ -421,6 +423,11 @@ table {
     writing-mode: vertical-rl;
     text-orientation: upright;
   }
+  .wmven {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+  }
   td {
     padding: 8px 20px;
     font-size: 16px;
@@ -429,8 +436,26 @@ table {
 
 ul {
   li {
-    font-size: 18px;
+    font-size: 16px;
   }
+}
+
+.text-container {
+  .main-bold-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.data-null {
+  width: 100%;
+  border: 2px dashed #ff518e;
+  background-color: #ff518e22;
+  border-radius: 5px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media print {
