@@ -23,6 +23,7 @@ ol {
 li {
   margin-left: 40px;
   color: #727272;
+  margin-bottom: 10px;
 }
 
 a {
@@ -127,6 +128,14 @@ h5 {
   }
 }
 
+.mr20 {
+  margin-right: 20px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
 .mt10 {
   margin-top: 10px;
 }
@@ -151,11 +160,23 @@ h5 {
   margin-bottom: 30px;
 }
 
+.fb {
+  font-weight: bold;
+}
+
 .flex {
   display: flex;
 
+  &.ab {
+    align-items: baseline;
+  }
+
   &.jcs {
     justify-content: center;
+  }
+
+  &.sb {
+    justify-content: space-between;
   }
 }
 
@@ -173,6 +194,10 @@ h5 {
 
   &.jcs {
     justify-content: center;
+  }
+
+  &.sb {
+    justify-content: space-between;
   }
 }
 
@@ -202,6 +227,16 @@ h5 {
 
 .h1207 {
   height: 1207px;
+}
+
+.h418 {
+  height: 418px;
+}
+
+.coch-container {
+  background-color: #cecece;
+  padding: 50px;
+  justify-content: flex-start;
 }
 
 .pr-title {

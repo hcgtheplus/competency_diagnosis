@@ -17,6 +17,7 @@ ol {
 li {
   margin-left: 40px;
   color: #727272;
+  margin-bottom: 10px;
 }
 
 a {
@@ -109,6 +110,14 @@ h5 {
   width: 380px;
 }
 
+.mr20 {
+  margin-right: 20px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
 .mt10 {
   margin-top: 10px;
 }
@@ -133,11 +142,21 @@ h5 {
   margin-bottom: 30px;
 }
 
+.fb {
+  font-weight: bold;
+}
+
 .flex {
   display: flex;
 }
+.flex.ab {
+  align-items: baseline;
+}
 .flex.jcs {
   justify-content: center;
+}
+.flex.sb {
+  justify-content: space-between;
 }
 
 .jcw {
@@ -154,6 +173,9 @@ h5 {
 }
 .flc.jcs {
   justify-content: center;
+}
+.flc.sb {
+  justify-content: space-between;
 }
 
 .h-100 {
@@ -182,6 +204,16 @@ h5 {
 
 .h1207 {
   height: 1207px;
+}
+
+.h418 {
+  height: 418px;
+}
+
+.coch-container {
+  background-color: #cecece;
+  padding: 50px;
+  justify-content: flex-start;
 }
 
 .pr-title {
