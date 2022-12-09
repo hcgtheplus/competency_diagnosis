@@ -128,10 +128,6 @@ h6 {
   font-size: 25px;
 }
 
-.page-13-sub-image-1 img {
-  width: 380px;
-}
-
 .image-sub-title-js {
   font-weight: bold;
   font-size: 25px;
@@ -505,6 +501,12 @@ ul li {
   width: 330px;
   margin: 22px;
   padding-top: 33px;
+}
+
+.page-14-js-problem-img {
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 27px;
 }
 
 @media print {
