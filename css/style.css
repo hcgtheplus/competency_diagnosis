@@ -16,6 +16,7 @@ ol {
 
 li {
   margin-left: 40px;
+  color: #727272;
 }
 
 a {
@@ -102,6 +103,10 @@ h4 {
   width: 380px;
 }
 
+.mt10 {
+  margin-top: 10px;
+}
+
 .mt20 {
   margin-top: 20px;
 }
@@ -112,6 +117,10 @@ h4 {
 
 .mt50 {
   margin-top: 50px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
 }
 
 .mb30 {
@@ -147,6 +156,10 @@ h4 {
 
 .w-50 {
   width: 50%;
+}
+
+.p0-27 {
+  padding: 0px 27px;
 }
 
 .left-container {
