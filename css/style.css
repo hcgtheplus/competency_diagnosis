@@ -261,6 +261,19 @@ h5 {
   font-size: 21px;
 }
 
+.page-15-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-15-main-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .text-container .main-sub-title {
   font-size: 25px;
   font-weight: bold;
