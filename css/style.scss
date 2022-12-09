@@ -322,12 +322,28 @@ h6 {
 .page-25-container {
   display: flex;
   flex-direction: column;
+  padding-left: 40px;
   .item-container {
     flex-direction: row;
+    .right-section {
+      width: 376px;
+    }
+    .left-section {
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+    }
     .page-25-chart-info {
       flex-direction: column;
       align-items: center;
+      padding-bottom: 40px;
 
+      .blue-bg {
+        background-color: #cfebfc;
+      }
+      .yello-bg {
+        background-color: #feffe2;
+      }
       p {
         font-size: 16px;
         color: #878792;
@@ -353,13 +369,17 @@ h6 {
           width: 32px;
         }
       }
-    }
-    .right-section {
-      width: 376px;
-    }
-    .left-section {
-      display: flex;
-      flex-direction: column;
+      td {
+        padding: 8px 14px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .bt {
+        text-align: center;
+      }
+      .br {
+        font-size: 15px;
+      }
     }
   }
 }
