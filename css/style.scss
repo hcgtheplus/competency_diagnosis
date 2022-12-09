@@ -16,9 +16,12 @@
   print-color-adjust: exact;
 }
 
-ul,
 ol {
-  list-style: none;
+  margin-left: 20px;
+}
+
+li {
+  margin-left: 40px;
 }
 
 a {
@@ -129,6 +132,10 @@ h4 {
   margin-top: 50px;
 }
 
+.mb30 {
+  margin-bottom: 30px;
+}
+
 .flex {
   display: flex;
 
@@ -178,8 +185,14 @@ h4 {
   border-radius: 7px;
   background: #e7f5fd;
   color: #0091ea;
-  margin-top: 85px;
   font-size: 21px;
+}
+
+.text-container {
+  .main-sub-title {
+    font-size: 25px;
+    font-weight: bold;
+  }
 }
 
 @media print {
