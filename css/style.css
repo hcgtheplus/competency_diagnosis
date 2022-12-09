@@ -170,6 +170,10 @@ h6 {
   margin-top: 30px;
 }
 
+.mt40 {
+  margin-top: 40px;
+}
+
 .mt50 {
   margin-top: 50px;
 }
@@ -205,6 +209,9 @@ h6 {
 }
 .flex.sb {
   justify-content: space-between;
+}
+.flex.ac {
+  align-items: center;
 }
 
 .jcw {
@@ -363,6 +370,26 @@ h6 {
 }
 .page-25-container .item-container .page-25-chart-info .br {
   font-size: 15px;
+}
+
+.page-26-container {
+  color: #494950;
+}
+.page-26-container p {
+  font-size: 16px;
+}
+.page-26-container .third-area-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.page-26-container .third-area-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.page-26-container .info {
+  height: fit-content;
 }
 
 .info {
