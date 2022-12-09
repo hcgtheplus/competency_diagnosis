@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
 * {
   margin: 0px;
@@ -119,6 +118,10 @@ h5 {
   margin-right: 30px;
 }
 
+.mr60 {
+  margin-right: 60px;
+}
+
 .mt10 {
   margin-top: 10px;
 }
@@ -207,13 +210,14 @@ h5 {
   height: 1207px;
 }
 
-ㄴ .h418 {
+.h418 {
   height: 418px;
 }
 
 .leader-type-title {
   font-size: 20px;
   color: #0091ea;
+  margin-right: 50px;
 }
 
 .coch-container {
