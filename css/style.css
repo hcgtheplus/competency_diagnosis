@@ -196,6 +196,16 @@ h4 {
   height: 1207px;
 }
 
+.h418 {
+  height: 418px;
+}
+
+.coch-container {
+  background-color: #cecece;
+  padding: 50px;
+  justify-content: flex-start;
+}
+
 .pr-title {
   border: 3px solid #88cef9;
   padding: 14px 40px;
