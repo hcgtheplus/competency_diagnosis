@@ -17,6 +17,7 @@ ol {
 li {
   margin-left: 40px;
   color: #727272;
+  margin-bottom: 10px;
 }
 
 a {
@@ -144,6 +145,9 @@ h4 {
 }
 .flc.jcs {
   justify-content: center;
+}
+.flc.sb {
+  justify-content: space-between;
 }
 
 .h-100 {

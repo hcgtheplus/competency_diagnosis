@@ -23,6 +23,7 @@ ol {
 li {
   margin-left: 40px;
   color: #727272;
+  margin-bottom: 10px;
 }
 
 a {
@@ -163,6 +164,10 @@ h4 {
 
   &.jcs {
     justify-content: center;
+  }
+
+  &.sb {
+    justify-content: space-between;
   }
 }
 
