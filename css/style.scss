@@ -42,6 +42,12 @@ h4 {
   color: #383936;
 }
 
+h5 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #494950;
+}
+
 .page {
   // width: 595px;
   // height: 840px;
@@ -153,6 +159,10 @@ h4 {
   }
 }
 
+.jcw {
+  justify-content: space-between;
+}
+
 .fc {
   flex-direction: column;
 }
@@ -210,6 +220,18 @@ h4 {
     font-size: 25px;
     font-weight: bold;
   }
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+  width: fit-content;
+  height: 35px;
+  background: #f4f4f6;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
 @media print {
