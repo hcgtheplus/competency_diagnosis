@@ -136,11 +136,21 @@ h4 {
   margin-bottom: 30px;
 }
 
+.fb {
+  font-weight: bold;
+}
+
 .flex {
   display: flex;
 }
+.flex.ab {
+  align-items: baseline;
+}
 .flex.jcs {
   justify-content: center;
+}
+.flex.sb {
+  justify-content: space-between;
 }
 
 .fc {
