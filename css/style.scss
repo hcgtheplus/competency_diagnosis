@@ -49,6 +49,12 @@ h5 {
   color: #494950;
 }
 
+h6 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #494950;
+}
+
 .fwb {
   font-weight: bold;
 }
@@ -144,6 +150,9 @@ h5 {
   font-size: 25px;
   margin-top: 16px;
 }
+.mr8 {
+  margin-right: 8px;
+}
 
 .mr20 {
   margin-right: 20px;
@@ -155,6 +164,10 @@ h5 {
 
 .mr60 {
   margin-right: 60px;
+}
+
+.mt5 {
+  margin-top: 5px;
 }
 
 .mt10 {
@@ -171,6 +184,10 @@ h5 {
 
 .mt50 {
   margin-top: 50px;
+}
+
+.pt30 {
+  padding-top: 30px;
 }
 
 .mb10 {
@@ -299,6 +316,51 @@ h5 {
   .main-sub-title {
     font-size: 25px;
     font-weight: bold;
+  }
+}
+
+.page-25-container {
+  display: flex;
+  flex-direction: column;
+  .item-container {
+    flex-direction: row;
+    .page-25-chart-info {
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        font-size: 16px;
+        color: #878792;
+      }
+      .bar-blue {
+        width: 32px;
+        height: 16px;
+        background-color: #cfebfc;
+        border: 2px solid #0091ea;
+      }
+      .bar-yellow {
+        width: 32px;
+        height: 16px;
+        background-color: #feffe2;
+        border: 2px solid #ffd66c;
+      }
+      .icon-align {
+        display: flex;
+        align-items: center;
+        span {
+          display: flex;
+          justify-content: center;
+          width: 32px;
+        }
+      }
+    }
+    .right-section {
+      width: 376px;
+    }
+    .left-section {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 

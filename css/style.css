@@ -43,6 +43,12 @@ h5 {
   color: #494950;
 }
 
+h6 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #494950;
+}
+
 .fwb {
   font-weight: bold;
 }
@@ -128,6 +134,10 @@ h5 {
   margin-top: 16px;
 }
 
+.mr8 {
+  margin-right: 8px;
+}
+
 .mr20 {
   margin-right: 20px;
 }
@@ -138,6 +148,10 @@ h5 {
 
 .mr60 {
   margin-right: 60px;
+}
+
+.mt5 {
+  margin-top: 5px;
 }
 
 .mt10 {
@@ -154,6 +168,10 @@ h5 {
 
 .mt50 {
   margin-top: 50px;
+}
+
+.pt30 {
+  padding-top: 30px;
 }
 
 .mb10 {
@@ -277,6 +295,50 @@ h5 {
 .text-container .main-sub-title {
   font-size: 25px;
   font-weight: bold;
+}
+
+.page-25-container {
+  display: flex;
+  flex-direction: column;
+}
+.page-25-container .item-container {
+  flex-direction: row;
+}
+.page-25-container .item-container .page-25-chart-info {
+  flex-direction: column;
+  align-items: center;
+}
+.page-25-container .item-container .page-25-chart-info p {
+  font-size: 16px;
+  color: #878792;
+}
+.page-25-container .item-container .page-25-chart-info .bar-blue {
+  width: 32px;
+  height: 16px;
+  background-color: #cfebfc;
+  border: 2px solid #0091ea;
+}
+.page-25-container .item-container .page-25-chart-info .bar-yellow {
+  width: 32px;
+  height: 16px;
+  background-color: #feffe2;
+  border: 2px solid #ffd66c;
+}
+.page-25-container .item-container .page-25-chart-info .icon-align {
+  display: flex;
+  align-items: center;
+}
+.page-25-container .item-container .page-25-chart-info .icon-align span {
+  display: flex;
+  justify-content: center;
+  width: 32px;
+}
+.page-25-container .item-container .right-section {
+  width: 376px;
+}
+.page-25-container .item-container .left-section {
+  display: flex;
+  flex-direction: column;
 }
 
 .info {
