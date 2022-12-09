@@ -49,6 +49,17 @@ h5 {
   color: #494950;
 }
 
+.fwb {
+  font-weight: bold;
+}
+
+.tc {
+  text-align: center;
+}
+.tl {
+  text-align: left;
+}
+
 .page {
   // width: 595px;
   // height: 840px;
@@ -284,6 +295,37 @@ h5 {
   background: #f4f4f6;
   border-radius: 8px;
   font-size: 16px;
+}
+
+table {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  .bt {
+    border-top: 1px solid #eaeaec;
+  }
+  .bb {
+    border-bottom: 1px solid #eaeaec;
+  }
+  .br {
+    border-right: 1px solid #eaeaec;
+  }
+  .header {
+    background-color: #f4f4f6;
+  }
+  .emphasize {
+    background-color: #eaeaec;
+  }
+  .wmv {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  td {
+    padding: 8px 20px;
+    font-size: 16px;
+  }
 }
 
 @media print {

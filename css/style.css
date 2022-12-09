@@ -43,6 +43,18 @@ h5 {
   color: #494950;
 }
 
+.fwb {
+  font-weight: bold;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
 .page {
   width: 1190px;
   height: 1679px;
@@ -259,6 +271,37 @@ h5 {
   height: 35px;
   background: #f4f4f6;
   border-radius: 8px;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table .bt {
+  border-top: 1px solid #eaeaec;
+}
+table .bb {
+  border-bottom: 1px solid #eaeaec;
+}
+table .br {
+  border-right: 1px solid #eaeaec;
+}
+table .header {
+  background-color: #f4f4f6;
+}
+table .emphasize {
+  background-color: #eaeaec;
+}
+table .wmv {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+table td {
+  padding: 8px 20px;
   font-size: 16px;
 }
 
