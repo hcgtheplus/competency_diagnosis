@@ -84,6 +84,14 @@ h6 {
 
 .image-container {
   page-break-before: always;
+  position: relative;
+}
+
+.page-absolute {
+  position: absolute;
+  bottom: 65px;
+  right: 65px;
+  color: #545454;
 }
 
 .need-data-container {
@@ -959,6 +967,10 @@ ul {
 
 .wsn {
   white-space: nowrap;
+}
+
+.pr {
+  position: relative;
 }
 
 @media print {
