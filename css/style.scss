@@ -473,7 +473,7 @@ h6 {
     }
     p {
       width: 30px;
-      font-size: 15px;
+      font-size: 14px;
       margin-left: 20px;
       color: #61616b;
     }
@@ -517,6 +517,31 @@ h6 {
   ul {
     li {
       margin-left: 20px;
+    }
+  }
+  .sub-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .combine-label {
+    display: flex;
+    margin-bottom: 10px;
+    p {
+      font-size: 16px;
+    }
+    .bar-blue {
+      width: 32px;
+      height: 16px;
+      background-color: #cfebfc;
+      border: 2px solid #0091ea;
+    }
+    .bar-yellow {
+      width: 32px;
+      height: 16px;
+      background-color: #feffe2;
+      border: 2px solid #ffd66c;
     }
   }
 }
