@@ -973,8 +973,13 @@ ul {
   position: relative;
 }
 
+.index-label {
+  font-size: 26px;
+  color: #565758;
+}
+
 .index-input {
-  height: 224px;
+  height: 187px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -983,8 +988,15 @@ ul {
   top: 29px;
   z-index: 1;
 
+  background-color: #ffffff;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  border: 1px solid #f1e9e9;
+  padding: 0px 49px;
+
   input {
-    width: 300px;
+    width: 100%;
     height: 58px;
     border-radius: 10px;
     margin-top: 10px;
