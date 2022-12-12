@@ -734,6 +734,37 @@ ul {
   right: 186px;
 }
 
+.lecture-list-table {
+  td {
+    border: 1px solid #eaeaec;
+    font-size: 15px;
+    word-break: keep-all;
+    line-height: 21px;
+    div {
+      font-size: 15px;
+    }
+    .info-red {
+      font-size: 10px;
+      color: #d3171a;
+      line-height: 13px;
+      margin-top: 5px;
+    }
+  }
+  .w110 {
+    width: 110px;
+  }
+  .w150 {
+    width: 150px;
+  }
+  .w180 {
+    width: 180px;
+  }
+}
+
+.wsn {
+  white-space: nowrap;
+}
+
 @media print {
   .page {
     width: 1190px;
