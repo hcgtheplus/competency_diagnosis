@@ -413,11 +413,11 @@ h6 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 5px 10px 5px 10px;
+  padding: 8px 10px;
   width: fit-content;
   background: #f4f4f6;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 table {
@@ -561,6 +561,27 @@ ul {
   font-weight: bold;
   font-size: 26px;
   margin-top: 27px;
+}
+
+.personal-result-title {
+  display: flex;
+  align-items: center;
+  color: #297ebb;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: #c3e6f84b;
+  border: 1px solid #2895d458;
+  width: fit-content;
+  border-radius: 100px;
+  line-height: 16px;
+}
+.emphasize-line {
+  position: absolute;
+  border: 3px solid red;
+  width: 96px;
+  height: -webkit-fill-available;
+  right: 186px;
 }
 
 @media print {
