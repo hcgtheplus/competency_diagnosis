@@ -472,18 +472,21 @@ h6 {
   background-color: #0073cc;
   border-radius: 4px;
 }
-.page-26-container .bt .prograss-bar .level-first-active.yellow {
-  background-color: #ffde89;
+.page-26-container .bt .prograss-bar .level-first-active.primary {
+  background-color: #0091ea;
 }
 .page-26-container .bt .prograss-bar .level-second-active {
   height: 8px;
-  background-color: #57b9f4;
+  background-color: #87cdf7;
   border-radius: 4px;
 }
 .page-26-container .bt .prograss-bar .level-third-active {
   height: 8px;
-  background-color: #d4d4d8;
+  background-color: #ffd66c;
   border-radius: 4px;
+}
+.page-26-container .bt .prograss-bar .level-third-active.transparency {
+  background-color: rgba(255, 214, 108, 0.5019607843);
 }
 .page-26-container .bt:first-child {
   text-align: right;
@@ -513,14 +516,12 @@ h6 {
 .page-26-container .combine-label .bar-blue {
   width: 32px;
   height: 16px;
-  background-color: #cfebfc;
-  border: 2px solid #0091ea;
+  background-color: #0091ea;
 }
 .page-26-container .combine-label .bar-yellow {
   width: 32px;
   height: 16px;
-  background-color: #feffe2;
-  border: 2px solid #ffd66c;
+  background-color: #ffd66c;
 }
 
 .page-27-container table .br {
