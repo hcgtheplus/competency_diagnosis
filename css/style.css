@@ -450,7 +450,7 @@ h6 {
 }
 .page-26-container .bt p {
   width: 30px;
-  font-size: 15px;
+  font-size: 14px;
   margin-left: 20px;
   color: #61616b;
 }
@@ -488,6 +488,31 @@ h6 {
 }
 .page-26-container ul li {
   margin-left: 20px;
+}
+.page-26-container .sub-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-26-container .combine-label {
+  display: flex;
+  margin-bottom: 10px;
+}
+.page-26-container .combine-label p {
+  font-size: 16px;
+}
+.page-26-container .combine-label .bar-blue {
+  width: 32px;
+  height: 16px;
+  background-color: #cfebfc;
+  border: 2px solid #0091ea;
+}
+.page-26-container .combine-label .bar-yellow {
+  width: 32px;
+  height: 16px;
+  background-color: #feffe2;
+  border: 2px solid #ffd66c;
 }
 
 .page-27-container table .br {
