@@ -332,21 +332,21 @@ h6 {
   }
 }
 
-.page-25-container {
+.page-23-container {
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
   .item-container {
     flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
     .right-section {
       width: 376px;
     }
     .left-section {
-      margin-left: 20px;
       display: flex;
       flex-direction: column;
     }
-    .page-25-chart-info {
+    .page-23-chart-info {
       flex-direction: column;
       align-items: center;
       padding-bottom: 40px;
@@ -397,7 +397,7 @@ h6 {
   }
 }
 
-.page-26-container {
+.page-24-container {
   color: #494950;
   p {
     font-size: 16px;
@@ -416,10 +416,180 @@ h6 {
     height: fit-content;
   }
 }
+.page-25-container {
+  color: #494950;
+  display: flex;
+  height: 1200px;
+  p {
+    font-size: 16px;
+  }
+  .left-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    border: 1px solid #87cdf7;
+    border-radius: 8px;
+    background-color: #e7f5fd;
+    margin-right: 10px;
+    padding: 20px;
+  }
+  .right-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    border: 1px solid #eaeaec;
+    border-radius: 8px;
+    background-color: #f4f4f6;
+    margin-left: 10px;
+    padding: 20px;
+  }
+  img {
+    width: 192px;
+  }
+  ul {
+    li {
+      margin: 20px 20px;
+    }
+  }
+}
+.page-26-container {
+  table {
+    tr:last-child {
+      border-bottom: 1px solid #eaeaec;
+    }
+  }
+  .bt {
+    background-color: #fff;
+    border-right: 1px solid #eaeaec;
+    padding: 4px 12px;
+    span {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+    p {
+      width: 30px;
+      font-size: 15px;
+      margin-left: 20px;
+      color: #61616b;
+    }
+    .prograss-bar {
+      width: 100%;
+      height: 8px;
+      border-radius: 4px;
 
-.normal-font {
-  font-size: 16px;
-  color: #727272;
+      .level-first-active {
+        height: 8px;
+        background-color: #0073cc;
+        border-radius: 4px;
+
+        &.yellow {
+          background-color: #ffde89;
+        }
+      }
+
+      .level-second-active {
+        height: 8px;
+        background-color: #57b9f4;
+        border-radius: 4px;
+      }
+
+      .level-third-active {
+        height: 8px;
+        background-color: #d4d4d8;
+        border-radius: 4px;
+      }
+    }
+  }
+  .bt:first-child {
+    text-align: right;
+    border-right: 1px solid #eaeaec;
+    background-color: #f6f4f4;
+  }
+  .bt:last-child {
+    text-align: right;
+    border-right: none !important;
+  }
+  ul {
+    li {
+      margin-left: 20px;
+    }
+  }
+}
+
+.page-27-container {
+  table {
+    .br {
+      width: 20%;
+      font-weight: 600;
+      &.page-28 {
+        width: 25%;
+      }
+    }
+    tr:last-child {
+      border-bottom: 1px solid #eaeaec;
+    }
+  }
+  .bt {
+    background-color: #fff;
+    border-right: 1px solid #eaeaec;
+    padding: 8px 12px;
+    span {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+    p {
+      width: 30px;
+      font-size: 16px;
+      margin-left: 20px;
+      color: #61616b;
+    }
+    .prograss-bar {
+      width: 100%;
+      height: 12px;
+      border-radius: 4px;
+
+      .level-first-active {
+        height: 12px;
+        background-color: #0073cc;
+        border-radius: 4px;
+      }
+
+      .level-second-active {
+        height: 12px;
+        background-color: #57b9f4;
+        border-radius: 4px;
+      }
+
+      .level-third-active {
+        height: 12px;
+        background-color: #d4d4d8;
+        border-radius: 4px;
+      }
+    }
+  }
+  .bt:first-child {
+    text-align: right;
+    border-right: 1px solid #eaeaec;
+    background-color: #f4f4f6;
+  }
+  &.wt {
+    background-color: #fff;
+  }
+  .bt:last-child {
+    text-align: right;
+    border-right: none;
+  }
+  ul {
+    li {
+      margin-left: 20px;
+    }
+  }
 }
 
 .info {
