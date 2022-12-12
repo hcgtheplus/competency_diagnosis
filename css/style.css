@@ -517,11 +517,13 @@ h6 {
   width: 32px;
   height: 16px;
   background-color: #0091ea;
+  border-radius: 4px;
 }
 .page-26-container .combine-label .bar-yellow {
   width: 32px;
   height: 16px;
   background-color: #ffd66c;
+  border-radius: 4px;
 }
 
 .page-27-container table .br {
