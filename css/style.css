@@ -900,6 +900,31 @@ ul li {
   position: relative;
 }
 
+.index-input {
+  height: 224px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 29px;
+  z-index: 1;
+}
+.index-input input {
+  width: 300px;
+  height: 58px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: none;
+  border: 1px solid #9e9c9c;
+  padding: 0px 20px;
+}
+
+.input-fixed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media print {
   .page {
     width: 1190px;
@@ -907,6 +932,12 @@ ul li {
   }
   .for-center {
     display: block;
+  }
+  .input-fixed {
+    display: none;
+  }
+  .index-input {
+    display: none;
   }
 }
 
