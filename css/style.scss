@@ -200,6 +200,10 @@ h6 {
   padding-top: 30px;
 }
 
+.mb2 {
+  margin-bottom: 2px;
+}
+
 .mb10 {
   margin-bottom: 10px;
 }
@@ -210,6 +214,10 @@ h6 {
 
 .mb30 {
   margin-bottom: 30px;
+}
+
+.mr10 {
+  margin-right: 10px;
 }
 
 .mr20 {
@@ -333,10 +341,93 @@ h6 {
   margin-bottom: 20px;
 }
 
-.text-container {
-  .main-sub-title {
-    font-size: 25px;
-    font-weight: bold;
+.page-22-line-container {
+  .vertical-line {
+    position: absolute;
+    width: 1px;
+    background-color: red;
+    height: 332px;
+    right: 328px;
+  }
+  .vertical-text {
+    color: red;
+    position: absolute;
+    bottom: -24px;
+    right: 312px;
+    font-size: 14px;
+  }
+}
+
+.page-22-bar-graph-three-type {
+  width: 100%;
+  height: max-content;
+  p {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+
+  .item-row {
+    display: flex;
+    .categories-header {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      width: 140px;
+      font-size: 18px;
+      background-color: #878792;
+      color: #fff;
+    }
+    .type-header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 180px;
+      font-size: 16px;
+      background-color: #f4f4f6;
+      color: #494950;
+      padding: 8px 16px;
+    }
+    .percentage-text {
+      font-size: 14px;
+      color: #878792;
+      margin-left: 10px;
+    }
+    .bar-graph {
+      min-width: 30px;
+      &.sometimes {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 100%;
+        height: 100%;
+        background-color: #0091ea;
+        color: #fff;
+        padding-left: 8px;
+      }
+      &.no-problem {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 100%;
+        height: 100%;
+        background-color: #cfebfc;
+        padding-left: 8px;
+      }
+      &.urgent {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 100%;
+        height: 100%;
+        background-color: #6952e0;
+        color: #fff;
+        padding-left: 8px;
+      }
+    }
   }
 }
 
@@ -345,20 +436,30 @@ h6 {
   flex-direction: column;
   .item-container {
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 10px;
     justify-content: space-between;
     .right-section {
-      width: 376px;
+      width: 41%;
+      padding: 24px;
+      border: 2px solid #eaeaec;
+      border-radius: 8px;
+      img {
+        width: 100%;
+      }
     }
     .left-section {
       display: flex;
       flex-direction: column;
+      padding: 24px;
+      border: 2px solid #eaeaec;
+      border-radius: 8px;
+      p {
+        color: #383936;
+      }
     }
     .page-23-chart-info {
       flex-direction: column;
       align-items: center;
-      padding-bottom: 40px;
-
       .blue-bg {
         background-color: #cfebfc;
       }
@@ -393,7 +494,6 @@ h6 {
       td {
         padding: 8px 14px;
         font-size: 16px;
-        font-weight: 500;
       }
       .bt {
         text-align: center;
@@ -681,10 +781,66 @@ ul {
 }
 
 .text-container {
+  .main-sub-title {
+    font-size: 25px;
+    font-weight: bold;
+    min-width: max-content;
+  }
   .main-bold-title {
     font-size: 20px;
     font-weight: bold;
+    min-width: max-content;
   }
+  &.row {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: flex-end;
+    p {
+      color: #878792;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .combine-label {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      align-items: center;
+      .bar-blue {
+        width: 32px;
+        height: 16px;
+        background-color: #0091ea;
+        border-radius: 4px;
+        margin-right: 6px;
+
+        &.light {
+          background-color: #cfebfc;
+        }
+      }
+
+      .bar-yellow {
+        width: 32px;
+        height: 16px;
+        background-color: #ffd66c;
+        margin-right: 6px;
+        border-radius: 4px;
+      }
+
+      .bar-purple {
+        width: 32px;
+        height: 16px;
+        background-color: #6952e0;
+        border-radius: 4px;
+        margin-right: 6px;
+      }
+    }
+  }
+}
+
+.normal-font {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
 }
 
 .data-null {
