@@ -11,9 +11,9 @@ export default function Page() {
               <div className="top-line"></div>
               <h4 className="main-title">소속별 조직문화 진단</h4>
               <hr className="bottom-line" />
-              <div className="w-100 pt30">
+              <div className="w-100 mt50">
                 <div className="text-container">
-                  <div className="main-sub-title">총평</div>
+                  <h5>총평</h5>
                   <ul className="flex fc mt10">
                     <li>
                       홍길동님이 속한 조직의 지배적인 조직문화는 공동체형이며,
@@ -39,9 +39,7 @@ export default function Page() {
                 <div className="text-container">
                   <div className="flc">
                     <div className="text-container row mt40">
-                      <div className="main-bold-title mr10">
-                        소속별 조직문화
-                      </div>
+                      <h5 className="mr10">소속별 조직문화</h5>
                       <p>(소속 조직의 조직문화 유형 특성)</p>
                     </div>
                   </div>

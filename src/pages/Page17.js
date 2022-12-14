@@ -20,10 +20,10 @@ export default function Page() {
               <div>
                 <div className="flex ab sb">
                   <h4 className="main-title">
-                    Summary 부서 조직문화 진단 결과
+                    Summary 개인 성격 특성
                   </h4>
                   <div className="flc">
-                    <div>우리 부서 조직문화</div>
+                    <div>나의 개인 성격 특성</div>
                   </div>
                 </div>
 
@@ -32,9 +32,9 @@ export default function Page() {
 
               <div>
                 <div className="text-container">
-                  <div className="mt30">
-                    <div className="mb20">
-                      <div className="main-sub-title mb10">강한 특성</div>
+                  <div className="mt50">
+                    <div className="mb30">
+                      <div className="mb10">강한 특성</div>
                       <ul>
                         <li>
                           타인과 협력하지 않고 의사결정을 하려는 권위주의적
@@ -47,8 +47,8 @@ export default function Page() {
                         </li>
                       </ul>
                     </div>
-                    <div className="mb20">
-                      <div className="main-sub-title mb10">약한 특성</div>
+                    <div className="mb30">
+                      <div className="mb10">약한 특성</div>
                       <ul>
                         <li>
                           타인이 요령있게 대화하길 바라는 세련된 대화 선호 특질
@@ -61,8 +61,8 @@ export default function Page() {
                         </li>
                       </ul>
                     </div>
-                    <div className="mb20">
-                      <div className="main-sub-title mb10">피해야 할 특질</div>
+                    <div className="mb30">
+                      <div className="mb10">피해야 할 특질</div>
                       <ul>
                         <li>발견되지 않았습니다.</li>
                       </ul>
@@ -290,7 +290,7 @@ export default function Page() {
                       </table>
                     </div>
 
-                    <div className="main-sub-title mb10">해리슨 진단 Guide</div>
+                    <div className="mb10">해리슨 진단 Guide</div>
                     <div className="normal-font">
                       해리슨 진단은 개인 특성을 특질과 특질이 말이나 행동으로
                       발현되어 관찰되는 행동특성, 동기부여요소, 흥미/선호사항,

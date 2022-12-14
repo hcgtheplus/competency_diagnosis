@@ -23,7 +23,7 @@ export default function Page() {
               <div className="page-24-container">
                 <div className="text-container row">
                   <div className="flex" style={{ alignItems: "flex-end" }}>
-                    <h5 className="main-bold-title mr10">
+                    <h5 className="mr10">
                       업무 및 의사소통 방식
                     </h5>
                     <p style={{ minWidth: "max-content" }}>
@@ -51,7 +51,7 @@ export default function Page() {
                   className="text-container row mt40"
                   style={{ alignItems: "flex-end" }}
                 >
-                  <h5 className="mr8">조직內관계</h5>
+                  <h5 className="mr10">조직內관계</h5>
                   <p className="ml">
                     (조직內상사, 동료, 후배와의 신뢰, 팀워크 등 부서內관계에
                     대한 건강도)
@@ -70,7 +70,7 @@ export default function Page() {
                       className="flex mt40"
                       style={{ alignItems: "flex-end" }}
                     >
-                      <h5 className="mr8">조직만족</h5>
+                      <h5 className="mr10">조직만족</h5>
                       <p>(조직/조직장에 대한 만족도)</p>
                     </div>
                     <div className="page-15-image mt20">
@@ -86,7 +86,7 @@ export default function Page() {
                       className="flex mt40"
                       style={{ alignItems: "flex-end" }}
                     >
-                      <h5 className="mr8">업무 몰입</h5>
+                      <h5 className="mr10">업무 몰입</h5>
                       <p>(업무에 대한 몰입도)</p>
                     </div>
                     <div className="page-15-image mt20">

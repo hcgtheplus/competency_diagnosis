@@ -86,7 +86,7 @@ export default function Page() {
               <div>
                 <div className="text-container">
                   <div className="mb30 mt30">
-                    <div className="main-sub-title mb10">특징</div>
+                    <div className="mb10">특징</div>
                     <ul>
                       <li>
                         과업지향성 및 관계지향성을 높게 보유하는 코칭형 리더십
@@ -97,7 +97,7 @@ export default function Page() {
                   </div>
 
                   <div className="mb30">
-                    <div className="main-sub-title mb10">강점</div>
+                    <div className="mb10">강점</div>
                     <ul>
                       <li>
                         안정적인 조직성과 달성함과 동시에 구성원들의 긍정적인
@@ -113,7 +113,7 @@ export default function Page() {
                   </div>
 
                   <div className="mb30">
-                    <div className="main-sub-title mb10">주의할 점</div>
+                    <div className="mb10">주의할 점</div>
                     <ul>
                       <li>
                         새로운 방식의 업무에 도전하거나 이를 추진 시, 리더로서

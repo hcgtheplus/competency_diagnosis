@@ -50,7 +50,7 @@ export default function Page() {
                             alt="page_13_sub_image_2"
                           />
                         </div>
-                        <div className="main-sub-title mb10">특징</div>
+                        <div className="mb10">특징</div>
                         <ul>
                           <li>
                             구성원들의 정서적인 측면(지지행동)과 업무 목표
@@ -60,7 +60,7 @@ export default function Page() {
                       </div>
 
                       <div className="mb30">
-                        <div className="main-sub-title mb10">강점</div>
+                        <div className="mb10">강점</div>
                         <ul>
                           <li>
                             직원을 인격적으로 존중하고, 긴밀한 유대관계
@@ -76,7 +76,7 @@ export default function Page() {
                       </div>
 
                       <div className="mb30">
-                        <div className="main-sub-title mb10">주의할 점</div>
+                        <div className="mb10">주의할 점</div>
                         <ul>
                           <li>
                             직원들의 직무 발단 단계에 따른 지시행동&지지행동의
@@ -111,7 +111,7 @@ export default function Page() {
                             alt="page_13_sub_image_3"
                           />
                         </div>
-                        <div className="main-sub-title mb10">특징</div>
+                        <div className="mb10">특징</div>
                         <ul>
                           <li>
                             구체적인 계획 하에 조직을 안정적으로 운영하며,
@@ -121,7 +121,7 @@ export default function Page() {
                       </div>
 
                       <div className="mb30">
-                        <div className="main-sub-title mb10">강점</div>
+                        <div className="mb10">강점</div>
                         <ul>
                           <li>과업 배분 및 분쟁 조정 능력이 뛰어납니다.</li>
                           <li>
@@ -137,7 +137,7 @@ export default function Page() {
                       </div>
 
                       <div className="mb30">
-                        <div className="main-sub-title mb10">주의할 점</div>
+                        <div className="mb10">주의할 점</div>
                         <ul>
                           <li>변화에 대한 수용 및 적응이 필요합니다.</li>
                         </ul>

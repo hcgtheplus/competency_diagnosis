@@ -24,10 +24,10 @@ export default function Page() {
               <div>
                 <div className="flex ab sb">
                   <h4 className="main-title">
-                    Summary 부서 조직문화 진단 결과
+                    Summary 소속별 조직문화 진단 결과
                   </h4>
                   <div className="flc">
-                    <div>우리 부서 조직문화</div>
+                    <div>우리 소속별 조직문화</div>
                   </div>
                 </div>
 
@@ -55,7 +55,7 @@ export default function Page() {
                 <div className="flex jcs mt50">
                   <div>
                     <div className="page-15-main-title">
-                      부서 조직문화 특징과 적합한 리더십 스타일
+                      소속별 조직문화 특징과 적합한 리더십 스타일
                     </div>
                     <ul>
                       <li>
@@ -76,7 +76,7 @@ export default function Page() {
                       <span className="material-symbols-outlined">
                         arrow_right
                       </span>
-                      역량에 관한 상세사항은 12페이지에 서술되어 있습니다.
+                      역량에 관한 상세사항은 11페이지에 서술되어 있습니다.
                     </div>
 
                     <table>
@@ -125,7 +125,7 @@ export default function Page() {
                 <div className="text-container">
                   <div className="mb30">
                     <div className="main-sub-title mb10">
-                      부서 조직문화 진단 영역 결과
+                      소속별 조직문화 진단 영역 결과
                     </div>
                     <ul>
                       <li>

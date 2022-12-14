@@ -14,7 +14,7 @@ export default function Page() {
             </div>
             <div className="w-100 h1207">
               <div className="text-container row ac mt50">
-                <div className="main-bold-title">리더십 위험유형별 수준</div>
+                <h5>리더십 위험유형별 수준</h5>
                 <div className="combine-label">
                   <div className="bar-purple"></div>
                   <p className="mr20">개선이 시급함</p>
