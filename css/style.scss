@@ -1481,6 +1481,68 @@ ul {
   text-orientation: upright;
 }
 
+.page-20-grape-container {
+  height: 200px;
+}
+
+.page-20-legend {
+  width: 22px;
+  height: 15px;
+  background-color: #0091ea;
+  border-radius: 5px;
+  margin-right: 15px;
+
+  &.sec {
+    background-color: #61616b;
+  }
+
+  &.thr {
+    background-color: #ffb26a;
+  }
+
+  &.four {
+    background-color: #ffde89;
+  }
+}
+
+.page-20-our-department {
+  background-color: #0091ea;
+  width: 28px;
+  height: 70%;
+  min-height: 20%;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  padding-top: 10px;
+
+  &.sec {
+    background-color: #61616b;
+    color: #ffffff;
+  }
+
+  &.thr {
+    background-color: #ffb26a;
+    color: #ffffff;
+  }
+
+  &.four {
+    background-color: #ffde89;
+    color: #ffffff;
+  }
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.al-end {
+  align-items: end;
+}
+
+.h160 {
+  height: 160px;
+}
+
 @media print {
   .page {
     width: 1190px;
