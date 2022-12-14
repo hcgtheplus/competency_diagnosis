@@ -58,6 +58,12 @@ h6 {
   font-size: 16px;
 }
 
+.f18 {
+  font-size: 18px;
+  color: #494950;
+  font-weight: 600;
+}
+
 .fwb {
   font-weight: bold;
 }
@@ -263,6 +269,9 @@ h6 {
 }
 .flex.afe {
   align-items: flex-end;
+}
+.flex.afs {
+  align-items: flex-start;
 }
 .flex.jce {
   justify-content: end;
@@ -545,6 +554,42 @@ h6 {
 }
 .page-24-container .info {
   height: fit-content;
+}
+.page-24-container .hug-graph {
+  width: 100%;
+  height: max-content;
+  padding: 20px;
+  background-color: #f4f4f6;
+  border-radius: 12px;
+}
+.page-24-container .hug-graph .graph-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #494950;
+  padding: 2px;
+}
+.page-24-container .hug-graph .graph-body-txt {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #494950;
+}
+.page-24-container .hug-graph .page-graph-line-left {
+  border-width: 2px 0px 0px 2px;
+  border-style: solid;
+  border-color: #bfbfc5;
+  width: 40px;
+  height: 16px;
+  margin-right: 10px;
+}
+.page-24-container .hug-graph .page-graph-line-right {
+  border-width: 2px 2px 0px 0px;
+  border-style: solid;
+  border-color: #bfbfc5;
+  width: 40px;
+  height: 16px;
+  margin-left: 10px;
 }
 
 .page-25-container {
@@ -1272,6 +1317,10 @@ ul li {
 .page-18-grape-item {
   width: 130px;
 }
+.page-18-grape-item.page-25 {
+  width: 100%;
+  height: max-content;
+}
 
 .leadership-style-label {
   justify-content: flex-end;
@@ -1430,6 +1479,10 @@ ul li {
 
 .h160 {
   height: 160px;
+}
+
+.h100 {
+  height: 100px;
 }
 
 @media print {

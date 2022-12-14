@@ -63,6 +63,13 @@ h6 {
 .f16 {
   font-size: 16px;
 }
+
+.f18 {
+  font-size: 18px;
+  color: #494950;
+  font-weight: 600;
+}
+
 .fwb {
   font-weight: bold;
 }
@@ -278,6 +285,10 @@ h6 {
 
   &.afe {
     align-items: flex-end;
+  }
+
+  &.afs {
+    align-items: flex-start;
   }
 
   &.jce {
@@ -567,6 +578,43 @@ h6 {
   }
   .info {
     height: fit-content;
+  }
+  .hug-graph {
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    background-color: #f4f4f6;
+    border-radius: 12px;
+
+    .graph-title {
+      font-size: 18px;
+      font-weight: 600;
+      text-align: center;
+      color: #494950;
+      padding: 2px;
+    }
+    .graph-body-txt {
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+      color: #494950;
+    }
+    .page-graph-line-left {
+      border-width: 2px 0px 0px 2px;
+      border-style: solid;
+      border-color: #bfbfc5;
+      width: 40px;
+      height: 16px;
+      margin-right: 10px;
+    }
+    .page-graph-line-right {
+      border-width: 2px 2px 0px 0px;
+      border-style: solid;
+      border-color: #bfbfc5;
+      width: 40px;
+      height: 16px;
+      margin-left: 10px;
+    }
   }
 }
 .page-25-container {
@@ -1378,6 +1426,10 @@ ul {
 
 .page-18-grape-item {
   width: 130px;
+  &.page-25 {
+    width: 100%;
+    height: max-content;
+  }
 }
 
 .leadership-style-label {
@@ -1541,6 +1593,10 @@ ul {
 
 .h160 {
   height: 160px;
+}
+
+.h100 {
+  height: 100px;
 }
 
 @media print {
