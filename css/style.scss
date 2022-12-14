@@ -216,6 +216,10 @@ h6 {
   margin-bottom: 30px;
 }
 
+.mb40 {
+  margin-bottom: 40px;
+}
+
 .mr10 {
   margin-right: 10px;
 }
@@ -1109,6 +1113,58 @@ ul {
   }
 }
 
+.page-18-grape-label-bottom {
+  div {
+    margin-right: 20px;
+
+    &:nth-child(1) {
+      width: 128px;
+      text-align: center;
+    }
+
+    &:nth-child(2) {
+      margin-left: 14px;
+    }
+
+    &:nth-child(3) {
+      margin-left: 12px;
+      width: 121px;
+      text-align: center;
+      word-break: keep-all;
+    }
+
+    &:nth-child(4) {
+      margin-left: -4px;
+    }
+  }
+
+  &.thr {
+    div {
+      margin-right: 20px;
+
+      &:nth-child(1) {
+        width: 128px;
+        text-align: center;
+      }
+
+      &:nth-child(2) {
+        margin-left: 15px;
+      }
+
+      &:nth-child(3) {
+        margin-left: 16px;
+        width: 121px;
+        text-align: center;
+        word-break: keep-all;
+      }
+
+      &:nth-child(4) {
+        margin-left: 22px;
+      }
+    }
+  }
+}
+
 .personal-result-title {
   display: flex;
   align-items: center;
@@ -1243,6 +1299,26 @@ ul {
   }
 }
 
+.page-18-our-department {
+  background-color: #ffde89;
+  width: 41px;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  padding-top: 10px;
+
+  &.company {
+    background-color: #0091ea;
+    color: #ffffff;
+  }
+}
+
+.page-18-grape-img-data {
+  height: 175px;
+  display: flex;
+}
+
 .page-16-legend-title {
   font-size: 24px;
   font-weight: bold;
@@ -1255,6 +1331,10 @@ ul {
 
 .page-16-grape-item {
   width: 240px;
+}
+
+.page-18-grape-item {
+  width: 130px;
 }
 
 @media print {
