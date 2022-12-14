@@ -231,7 +231,7 @@ export default function Page() {
                               <div className="flc sb">
                                 <div>
                                   <div>탄력적 근무 선호</div>
-                                  <div>(Wants Flexible Work Time))</div>
+                                  <div>(Wants Flexible Work Time)</div>
                                 </div>
                                 <div>1.0</div>
                               </div>
