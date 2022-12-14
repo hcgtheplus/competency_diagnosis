@@ -70,6 +70,10 @@ h6 {
   font-weight: 600;
 }
 
+.f50 {
+  font-size: 50px;
+}
+
 .fwb {
   font-weight: bold;
 }
@@ -165,7 +169,7 @@ h6 {
 .image-sub-title-js {
   font-weight: bold;
   font-size: 25px;
-  margin-top: 16px;
+  margin-top: 25px;
 }
 
 .mr8 {
@@ -220,6 +224,10 @@ h6 {
   margin-top: 30px;
 }
 
+.mt35 {
+  margin-top: 35px;
+}
+
 .mt40 {
   margin-top: 40px;
 }
@@ -270,6 +278,10 @@ h6 {
 
 .ml15 {
   margin-left: 15px;
+}
+
+.ml40 {
+  margin-left: 40px;
 }
 
 .fb {
@@ -367,7 +379,7 @@ h6 {
 
 .coch-container {
   justify-content: flex-start;
-  margin-top: 85px;
+  margin-top: 45px;
   border-radius: 18px;
   background-color: #f4f4f4;
   padding: 28px 40px;
@@ -1544,7 +1556,7 @@ ul {
   }
 }
 .leadership-style {
-  margin: 20px auto 0;
+  margin: 20px auto 5px;
   line-height: 16px;
   .block {
     position: relative;
@@ -1557,7 +1569,7 @@ ul {
     font-size: 17px;
     .triangle {
       color: #878792;
-      font-size: 12px;
+      font-size: 13px;
       top: 48px;
       right: -2px;
       width: 90px;
@@ -1566,6 +1578,12 @@ ul {
       border-radius: 6px 0 6px;
       background-color: #f4f4f6;
       position: absolute;
+      padding: 15px;
+      &.active {
+        color: #0091ea;
+        border: 2px solid #0091ea;
+        background-color: #cfebfc;
+      }
     }
     .section1 {
       right: 1px;
@@ -1630,6 +1648,70 @@ ul {
 .wmvkr {
   writing-mode: vertical-rl;
   text-orientation: upright;
+}
+.leadership-type {
+  .type-block-container {
+    padding: 30px 30px 5px 5px;
+  }
+  .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #bfbfc5;
+    width: 140px;
+    height: 140px;
+    border: 1px solid #e4e4e7;
+    &.active {
+      color: #0091ea;
+      border: 2px solid #0091ea;
+      background-color: #cfebfc;
+    }
+  }
+  .type-h {
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #0091ea;
+    background-color: #57b9f4;
+    border-radius: 30px;
+  }
+  .type-l {
+    color: #303036;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #eaeaec;
+    background-color: #f4f4f6;
+    border-radius: 30px;
+  }
+  .type-bh {
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #18181b;
+    background-color: #494950;
+    border-radius: 30px;
+  }
+  .type-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    hr {
+      border: 1px solid #d4d4d8;
+      height: 80px;
+      width: 1px;
+    }
+  }
+  .type-right {
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    hr {
+      border: 1px solid #d4d4d8;
+      height: 1px;
+      width: 90px;
+    }
+  }
 }
 
 .page-20-grape-container {
