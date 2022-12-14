@@ -47,6 +47,7 @@ h5 {
   font-size: 22px;
   font-weight: 700;
   color: #494950;
+  min-width: max-content;
 }
 
 h6 {
@@ -55,9 +56,6 @@ h6 {
   color: #494950;
 }
 
-.f14 {
-  font-size: 14px;
-}
 .f16 {
   font-size: 16px;
 }
@@ -183,10 +181,6 @@ h6 {
   margin-top: 10px;
 }
 
-.mt15 {
-  margin-top: 15px;
-}
-
 .mt20 {
   margin-top: 20px;
 }
@@ -211,16 +205,8 @@ h6 {
   margin-bottom: 2px;
 }
 
-.mb5 {
-  margin-bottom: 5px;
-}
-
 .mb10 {
   margin-bottom: 10px;
-}
-
-.mb15 {
-  margin-bottom: 15px;
 }
 
 .mb20 {
@@ -231,16 +217,12 @@ h6 {
   margin-bottom: 30px;
 }
 
-.mr5 {
-  margin-right: 5px;
+.mb40 {
+  margin-bottom: 40px;
 }
 
 .mr10 {
   margin-right: 10px;
-}
-
-.mr15 {
-  margin-right: 15px;
 }
 
 .mr20 {
@@ -251,16 +233,8 @@ h6 {
   margin-right: 40px;
 }
 
-.ml5 {
-  margin-left: 5px;
-}
-
-.ml10 {
-  margin-left: 10px;
-}
-
-.ml15 {
-  margin-left: 15px;
+.mb40 {
+  margin-bottom: 40px;
 }
 
 .fb {
@@ -272,14 +246,6 @@ h6 {
 
   &.ab {
     align-items: baseline;
-  }
-
-  &.afe {
-    align-items: flex-end;
-  }
-
-  &.jce {
-    justify-content: end;
   }
 
   &.jcs {
@@ -1118,6 +1084,92 @@ ul {
   margin-top: 27px;
 }
 
+.page-16-grape-label-bottom {
+  div {
+    &:nth-child(1) {
+      margin-left: 232px;
+    }
+    &:nth-child(2) {
+      margin-left: 91px;
+    }
+    &:nth-child(3) {
+      margin-left: 96px;
+    }
+    &:nth-child(4) {
+      margin-left: 114px;
+    }
+  }
+
+  &.sec {
+    div {
+      &:nth-child(1) {
+        margin-left: 258px;
+      }
+      &:nth-child(2) {
+        margin-left: 152px;
+      }
+      &:nth-child(3) {
+        margin-left: 152px;
+      }
+      &:nth-child(4) {
+        margin-left: 104px;
+      }
+    }
+  }
+}
+
+.page-18-grape-label-bottom {
+  div {
+    margin-right: 20px;
+
+    &:nth-child(1) {
+      width: 128px;
+      text-align: center;
+    }
+
+    &:nth-child(2) {
+      margin-left: 14px;
+    }
+
+    &:nth-child(3) {
+      margin-left: 12px;
+      width: 121px;
+      text-align: center;
+      word-break: keep-all;
+    }
+
+    &:nth-child(4) {
+      margin-left: -4px;
+    }
+  }
+
+  &.thr {
+    div {
+      margin-right: 20px;
+
+      &:nth-child(1) {
+        width: 128px;
+        text-align: center;
+      }
+
+      &:nth-child(2) {
+        margin-left: 15px;
+      }
+
+      &:nth-child(3) {
+        margin-left: 16px;
+        width: 121px;
+        text-align: center;
+        word-break: keep-all;
+      }
+
+      &:nth-child(4) {
+        margin-left: 22px;
+      }
+    }
+  }
+}
+
 .personal-result-title {
   display: flex;
   align-items: center;
@@ -1213,48 +1265,83 @@ ul {
   justify-content: center;
 }
 
-.leadership-style-label {
-  justify-content: flex-end;
-  div {
-    color: #878792;
-  }
-  p {
-    width: 35px;
-    height: 20px;
-    background-color: #cfebfc;
-    border: 2px solid #0091ea;
+.page-16-data-image {
+  height: 180px;
+  width: 100%;
+}
+
+.page-16-legend {
+  width: 22px;
+  height: 15px;
+  background-color: #ffde89;
+  border-radius: 5px;
+  margin-right: 15px;
+
+  &.sec {
+    background-color: #0091ea;
   }
 }
-.leadership-style {
-  margin: 20px auto 0;
-  line-height: 16px;
-  .block {
-    position: relative;
-    width: 140px;
-    height: 140px;
-    border: 2px solid #e4e4e7;
-    border-radius: 10px;
-    padding: 10px;
-    color: #494950;
-    font-size: 17px;
-    .triangle {
-      content: "";
-      top: 47px;
-      right: 0;
-      width: 90px;
-      height: 90px;
-      border: 2px solid #e4e4e7;
-      border-radius: 10px;
-      background-color: lightblue;
-      clip-path: polygon(0% 0%, 100% 100%, 100% 0%);
-      position: absolute;
-      transform: rotate(180deg);
-    }
+
+.al-end {
+  align-items: end;
+}
+
+.h160 {
+  height: 160px;
+}
+
+.page-16-our-department {
+  background-color: #ffde89;
+  width: 49px;
+  height: 70%;
+  min-height: 20%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+  &.company {
+    background-color: #0091ea;
+    color: #ffffff;
   }
 }
-.wmvkr {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
+
+.page-18-our-department {
+  background-color: #ffde89;
+  width: 41px;
+  height: 70%;
+  min-height: 20%;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  padding-top: 10px;
+
+  &.company {
+    background-color: #0091ea;
+    color: #ffffff;
+  }
+}
+
+.page-18-grape-img-data {
+  height: 175px;
+  display: flex;
+}
+
+.page-16-legend-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+
+  &.sec {
+    margin-top: 100px;
+  }
+}
+
+.page-16-grape-item {
+  width: 240px;
+}
+
+.page-18-grape-item {
+  width: 130px;
 }
 
 @media print {
