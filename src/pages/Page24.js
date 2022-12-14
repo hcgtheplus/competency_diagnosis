@@ -1,5 +1,3 @@
-import right_graph from "../image/sub-image/page-25/right-graph.png";
-
 export default function Page() {
   return (
     <div className="image-containe page 24 pr">
@@ -57,7 +55,73 @@ export default function Page() {
                           </div>
                         </div>
                         <div className="mt50" style={{ width: "100%" }}>
-                          <img src={right_graph} alt="right_graph"></img>
+                          <div
+                            class="leadership-style flc jcs fc"
+                            style={{ marginTop: "50px" }}
+                          >
+                            <div class="fwb f18 mb15">유연성/자율성</div>
+                            <div class="flc">
+                              <div
+                                class="fwb f18 wmvkr mr15"
+                                style={{ letterSpacing: "-1.5px" }}
+                              >
+                                내부지향성
+                              </div>
+                              <div
+                                class="flc fc"
+                                style={{ position: "relative" }}
+                              >
+                                <div class="flc">
+                                  <div className="emphasize block2"></div>
+                                  <div class="fwb block small active mr5 mb5">
+                                    공동체형
+                                    <div class="triangle f11 small section1">
+                                      촉진자
+                                    </div>
+                                    <div class="triangle f11 small section2">
+                                      조언자
+                                    </div>
+                                  </div>
+                                  <div class="flex jce fwb block small mb5">
+                                    혁신중시형
+                                    <div class="triangle f11 small section3">
+                                      개혁자
+                                    </div>
+                                    <div class="triangle f11 small section4">
+                                      중재자
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="flc">
+                                  <div class="flex afe fwb block small mr5">
+                                    위계질서형
+                                    <div class="triangle f11 small section5">
+                                      감시자
+                                    </div>
+                                    <div class="triangle f11 small section6 active">
+                                      조정자
+                                    </div>
+                                  </div>
+                                  <div class="flex jce afe fwb block small">
+                                    성과중시형
+                                    <div class="triangle f11 small section7">
+                                      감독자
+                                    </div>
+                                    <div class="triangle f11 small section8">
+                                      성취자
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="fwb f18 wmvkr ml15"
+                                style={{ letterSpacing: "-1.5px" }}
+                              >
+                                외부지향성
+                              </div>
+                            </div>
+                            <div class="fwb f18 mt15">안정성</div>
+                          </div>
                         </div>
                       </div>
                       <div className="left-section">

@@ -147,7 +147,7 @@ export default function Page() {
                             </div>
                           </div>
                           <div class="flc">
-                            <div class="flex afe fwb block mr5 mb5">
+                            <div class="flex afe fwb block mr5">
                               위계질서형
                               <div class="triangle p15 f13 section5">
                                 감시자
@@ -156,7 +156,7 @@ export default function Page() {
                                 조정자
                               </div>
                             </div>
-                            <div class="flex jce afe fwb block mb5">
+                            <div class="flex jce afe fwb block">
                               성과중시형
                               <div class="triangle p15 f13 section7">
                                 감독자

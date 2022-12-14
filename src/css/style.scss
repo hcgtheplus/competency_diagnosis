@@ -1574,6 +1574,32 @@ ul {
 .leadership-style {
   margin: 20px auto 5px;
   line-height: 16px;
+  .emphasize {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    color: #0091ea;
+    border-radius: 10px;
+    border: 2px solid #0091ea;
+    background-color: #cfebfc47;
+    z-index: 9;
+    &.block1 {
+      top: 0;
+      left: 0;
+    }
+    &.block2 {
+      top: 0;
+      right: 0;
+    }
+    &.block3 {
+      bottom: 0;
+      left: 0;
+    }
+    &.block4 {
+      bottom: 0;
+      right: 0;
+    }
+  }
   .block {
     position: relative;
     width: 140px;

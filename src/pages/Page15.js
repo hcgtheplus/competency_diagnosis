@@ -1,5 +1,3 @@
-import page_14_sub_image_2 from "../image/sub-image/page-14/page-14-sub-image-2.png";
-import page_14_sub_image from "../image/sub-image/page-14/page-14-sub-image.png";
 import page_13_sub_image_2 from "../image/sub-image/page-13/page-13-sub-image-2.png";
 import page_13_sub_image_3 from "../image/sub-image/page-13/page-13-sub-image-3.png";
 
@@ -108,7 +106,7 @@ export default function Page() {
                             </div>
                           </div>
                           <div class="flc">
-                            <div class="flex afe fwb block mr5 mb5">
+                            <div class="flex afe fwb block mr5">
                               위계질서형
                               <div class="triangle p15 f13 section5">
                                 감시자
@@ -117,7 +115,7 @@ export default function Page() {
                                 조정자
                               </div>
                             </div>
-                            <div class="flex jce afe fwb block mb5">
+                            <div class="flex jce afe fwb block">
                               성과중시형
                               <div class="triangle p15 f13 section7">
                                 감독자

@@ -51,9 +51,10 @@ export default function Page() {
                           >
                             내부지향성
                           </div>
-                          <div class="flc fc">
+                          <div class="flc fc" style={{ position: "relative" }}>
                             <div class="flc">
-                              <div class="fwb block small mr5 mb5">
+                              <div className="emphasize block2"></div>
+                              <div class="fwb block small active mr5 mb5">
                                 공동체형
                                 <div class="triangle f11 small section1">
                                   촉진자
@@ -73,7 +74,7 @@ export default function Page() {
                               </div>
                             </div>
                             <div class="flc">
-                              <div class="flex afe fwb block small mr5 mb5">
+                              <div class="flex afe fwb block small mr5">
                                 위계질서형
                                 <div class="triangle f11 small section5">
                                   감시자
@@ -82,7 +83,7 @@ export default function Page() {
                                   조정자
                                 </div>
                               </div>
-                              <div class="flex jce afe fwb block small mb5">
+                              <div class="flex jce afe fwb block small">
                                 성과중시형
                                 <div class="triangle f11 small section7">
                                   감독자
