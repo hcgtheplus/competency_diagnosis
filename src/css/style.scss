@@ -1254,6 +1254,100 @@ ul {
   }
 }
 
+.page-20-grape-label-bottom {
+  div {
+    margin-right: 20px;
+    font-size: 16px;
+
+    &:nth-child(1) {
+      text-align: center;
+    }
+
+    &:nth-child(2) {
+      margin-left: 73px;
+    }
+
+    &:nth-child(3) {
+      margin-left: 73px;
+      width: 121px;
+      text-align: center;
+      word-break: keep-all;
+    }
+
+    &:nth-child(4) {
+      margin-left: 54px;
+    }
+  }
+
+  .first {
+    margin-left: 190px;
+  }
+}
+
+.page-21-grape-label-bottom {
+  div {
+    margin-right: 20px;
+    font-size: 16px;
+
+    &:nth-child(1) {
+      width: 128px;
+      text-align: center;
+      margin-left: 190px;
+    }
+
+    &:nth-child(2) {
+      margin-left: 73px;
+    }
+
+    &:nth-child(3) {
+      margin-left: 73px;
+      width: 121px;
+      text-align: center;
+      word-break: keep-all;
+    }
+
+    &:nth-child(4) {
+      margin-left: 54px;
+    }
+  }
+
+  .first {
+    margin-left: 190px;
+  }
+}
+
+.page-22-grape-label-bottom {
+  div {
+    margin-right: 20px;
+    font-size: 16px;
+
+    &:nth-child(1) {
+      width: 128px;
+      text-align: center;
+      margin-left: 190px;
+    }
+
+    &:nth-child(2) {
+      margin-left: 73px;
+    }
+
+    &:nth-child(3) {
+      margin-left: 73px;
+      width: 121px;
+      text-align: center;
+      word-break: keep-all;
+    }
+
+    &:nth-child(4) {
+      margin-left: 72px;
+    }
+  }
+
+  .first {
+    margin-left: 190px;
+  }
+}
+
 .personal-result-title {
   display: flex;
   align-items: center;
@@ -1410,6 +1504,11 @@ ul {
   display: flex;
 }
 
+.page-20-grape-img-data {
+  height: 130px;
+  display: flex;
+}
+
 .page-16-legend-title {
   font-size: 24px;
   font-weight: bold;
@@ -1534,7 +1633,7 @@ ul {
 }
 
 .page-20-grape-container {
-  height: 200px;
+  height: 140px;
 }
 
 .page-20-legend {
@@ -1542,7 +1641,8 @@ ul {
   height: 15px;
   background-color: #0091ea;
   border-radius: 5px;
-  margin-right: 15px;
+  margin-right: 10px;
+  font-size: 16px;
 
   &.sec {
     background-color: #61616b;
@@ -1557,10 +1657,29 @@ ul {
   }
 }
 
+.page-20-active-item {
+  background-color: #79c2fa;
+  width: 185px;
+  height: 200px;
+  position: absolute;
+  top: -21px;
+  border-radius: 23px;
+  opacity: 0.1;
+
+  &.sec {
+    height: 217px;
+  }
+
+  &.thr {
+    height: 198px;
+  }
+}
+
 .page-20-our-department {
   background-color: #0091ea;
+  color: #ffffff;
   width: 28px;
-  height: 70%;
+  height: 100%;
   min-height: 20%;
   display: flex;
   justify-content: center;
@@ -1574,13 +1693,31 @@ ul {
 
   &.thr {
     background-color: #ffb26a;
-    color: #ffffff;
+    color: #3b3b3b;
   }
 
   &.four {
     background-color: #ffde89;
-    color: #ffffff;
+    color: #3b3b3b;
   }
+}
+
+.page-20-grape-item {
+  width: 180px;
+}
+
+.top-line-page-20 {
+  width: 180px;
+  height: 2px;
+  background-color: #575757;
+}
+
+.h125 {
+  height: 125px;
+}
+
+.f16 {
+  font-size: 16px;
 }
 
 .f18 {
