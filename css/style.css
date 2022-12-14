@@ -41,6 +41,7 @@ h5 {
   font-size: 22px;
   font-weight: 700;
   color: #494950;
+  min-width: max-content;
 }
 
 h6 {
