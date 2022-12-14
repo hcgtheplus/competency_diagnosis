@@ -339,6 +339,10 @@ h6 {
   justify-content: space-between;
 }
 
+.jce {
+  justify-content: flex-end;
+}
+
 .fc {
   flex-direction: column;
 }
@@ -358,6 +362,10 @@ h6 {
 
 .h-100 {
   height: 100%;
+}
+
+.h-50 {
+  height: 50%;
 }
 
 .w-100 {
@@ -423,6 +431,93 @@ h6 {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+.page-19-average-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+
+  .page-19-data-table {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+
+    .select-red {
+      background-color: #ffebf3;
+    }
+    .select-blue {
+      background-color: #e7f5fd;
+    }
+    .rate-value {
+      width: 40px;
+      height: 20px;
+      font-size: 14px;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 4px;
+      padding: 4px 0;
+    }
+    .relation-explanatory-bar {
+      width: 50%;
+      background-color: #87cdf7;
+    }
+    .writing {
+      width: 100%;
+      padding: 8px 8px 0 8px;
+      border-top: 2px solid #000;
+      font-size: 16px;
+      font-weight: 500;
+      writing-mode: vertical-rl;
+      &.en {
+        text-orientation: upright;
+      }
+    }
+  }
+
+  .average-line-mark {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    border-top: 1px solid #0091ea;
+    bottom: 50%;
+  }
+  .average-text {
+    position: absolute;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+    height: 20%;
+    bottom: 56%;
+    right: 0;
+    color: #0091ea;
+  }
+}
+
+.page-19-average-check-text {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  white-space: nowrap;
+  padding: 0 16px;
+  .bracket-left {
+    width: 40%;
+    height: 16px;
+    border-width: 0 0 2px 2px;
+    border-style: solid;
+    border-color: #bfbfc5;
+    margin-right: 10px;
+  }
+  .bracket-right {
+    width: 40%;
+    height: 16px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: #bfbfc5;
+    margin-left: 10px;
+  }
 }
 
 .page-22-line-container {
@@ -1694,6 +1789,7 @@ ul {
     }
   }
 }
+
 .wmvkr {
   writing-mode: vertical-rl;
   text-orientation: upright;

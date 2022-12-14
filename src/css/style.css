@@ -309,6 +309,10 @@ h6 {
   height: 100%;
 }
 
+.h-50 {
+  height: 50%;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -375,6 +379,12 @@ h6 {
   margin-bottom: 20px;
 }
 
+.page-19-data-table .rate-value {
+  width: 60px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
 .page-22-line-container .vertical-line {
   position: absolute;
   width: 1px;
