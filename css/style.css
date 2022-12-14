@@ -1091,6 +1091,21 @@ ul li {
   justify-content: center;
 }
 
+.page-16-data-image {
+  height: 395px;
+  width: 100%;
+}
+
+.page-16-legend {
+  width: 22px;
+  height: 15px;
+  background-color: #ffde89;
+  border-radius: 5px;
+}
+.page-16-legend.sec {
+  background-color: #0091ea;
+}
+
 @media print {
   .page {
     width: 1190px;
