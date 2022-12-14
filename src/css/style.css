@@ -41,6 +41,7 @@ h5 {
   font-size: 22px;
   font-weight: 700;
   color: #494950;
+  min-width: max-content;
 }
 
 h6 {
@@ -49,8 +50,18 @@ h6 {
   color: #494950;
 }
 
+.f14 {
+  font-size: 14px;
+}
+
 .f16 {
   font-size: 16px;
+}
+
+.f18 {
+  font-size: 18px;
+  color: #494950;
+  font-weight: 600;
 }
 
 .fwb {
@@ -146,12 +157,28 @@ h6 {
   margin-right: 8px;
 }
 
+.mr5 {
+  margin-right: 5px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
 .mr20 {
   margin-right: 20px;
 }
 
 .mr30 {
   margin-right: 30px;
+}
+
+.mr40 {
+  margin-right: 40px;
 }
 
 .mr60 {
@@ -164,6 +191,10 @@ h6 {
 
 .mt10 {
   margin-top: 10px;
+}
+
+.mt15 {
+  margin-top: 15px;
 }
 
 .mt20 {
@@ -190,8 +221,16 @@ h6 {
   margin-bottom: 2px;
 }
 
+.mb5 {
+  margin-bottom: 5px;
+}
+
 .mb10 {
   margin-bottom: 10px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
 }
 
 .mb20 {
@@ -202,16 +241,20 @@ h6 {
   margin-bottom: 30px;
 }
 
-.mr10 {
-  margin-right: 10px;
+.mb40 {
+  margin-bottom: 40px;
 }
 
-.mr20 {
-  margin-right: 20px;
+.ml5 {
+  margin-left: 5px;
 }
 
-.mr40 {
-  margin-right: 40px;
+.ml10 {
+  margin-left: 10px;
+}
+
+.ml15 {
+  margin-left: 15px;
 }
 
 .fb {
@@ -223,6 +266,15 @@ h6 {
 }
 .flex.ab {
   align-items: baseline;
+}
+.flex.afe {
+  align-items: flex-end;
+}
+.flex.afs {
+  align-items: flex-start;
+}
+.flex.jce {
+  justify-content: end;
 }
 .flex.jcs {
   justify-content: center;
@@ -502,6 +554,42 @@ h6 {
 }
 .page-24-container .info {
   height: fit-content;
+}
+.page-24-container .hug-graph {
+  width: 100%;
+  height: max-content;
+  padding: 20px;
+  background-color: #f4f4f6;
+  border-radius: 12px;
+}
+.page-24-container .hug-graph .graph-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #494950;
+  padding: 2px;
+}
+.page-24-container .hug-graph .graph-body-txt {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #494950;
+}
+.page-24-container .hug-graph .page-graph-line-left {
+  border-width: 2px 0px 0px 2px;
+  border-style: solid;
+  border-color: #bfbfc5;
+  width: 40px;
+  height: 16px;
+  margin-right: 10px;
+}
+.page-24-container .hug-graph .page-graph-line-right {
+  border-width: 2px 2px 0px 0px;
+  border-style: solid;
+  border-color: #bfbfc5;
+  width: 40px;
+  height: 16px;
+  margin-left: 10px;
 }
 
 .page-25-container {
@@ -1000,6 +1088,70 @@ ul li {
   margin-top: 27px;
 }
 
+.page-16-grape-label-bottom div:nth-child(1) {
+  margin-left: 232px;
+}
+.page-16-grape-label-bottom div:nth-child(2) {
+  margin-left: 91px;
+}
+.page-16-grape-label-bottom div:nth-child(3) {
+  margin-left: 96px;
+}
+.page-16-grape-label-bottom div:nth-child(4) {
+  margin-left: 114px;
+}
+.page-16-grape-label-bottom.sec div:nth-child(1) {
+  margin-left: 258px;
+}
+.page-16-grape-label-bottom.sec div:nth-child(2) {
+  margin-left: 152px;
+}
+.page-16-grape-label-bottom.sec div:nth-child(3) {
+  margin-left: 152px;
+}
+.page-16-grape-label-bottom.sec div:nth-child(4) {
+  margin-left: 104px;
+}
+
+.page-18-grape-label-bottom div {
+  margin-right: 20px;
+}
+.page-18-grape-label-bottom div:nth-child(1) {
+  width: 128px;
+  text-align: center;
+}
+.page-18-grape-label-bottom div:nth-child(2) {
+  margin-left: 14px;
+}
+.page-18-grape-label-bottom div:nth-child(3) {
+  margin-left: 12px;
+  width: 121px;
+  text-align: center;
+  word-break: keep-all;
+}
+.page-18-grape-label-bottom div:nth-child(4) {
+  margin-left: -4px;
+}
+.page-18-grape-label-bottom.thr div {
+  margin-right: 20px;
+}
+.page-18-grape-label-bottom.thr div:nth-child(1) {
+  width: 128px;
+  text-align: center;
+}
+.page-18-grape-label-bottom.thr div:nth-child(2) {
+  margin-left: 15px;
+}
+.page-18-grape-label-bottom.thr div:nth-child(3) {
+  margin-left: 16px;
+  width: 121px;
+  text-align: center;
+  word-break: keep-all;
+}
+.page-18-grape-label-bottom.thr div:nth-child(4) {
+  margin-left: 22px;
+}
+
 .personal-result-title {
   display: flex;
   align-items: center;
@@ -1089,6 +1241,248 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.page-16-data-image {
+  height: 180px;
+  width: 100%;
+}
+
+.page-16-legend {
+  width: 22px;
+  height: 15px;
+  background-color: #ffde89;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.page-16-legend.sec {
+  background-color: #0091ea;
+}
+
+.al-end {
+  align-items: end;
+}
+
+.h160 {
+  height: 160px;
+}
+
+.page-16-our-department {
+  background-color: #ffde89;
+  width: 49px;
+  height: 70%;
+  min-height: 20%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.page-16-our-department.company {
+  background-color: #0091ea;
+  color: #ffffff;
+}
+
+.page-18-our-department {
+  background-color: #ffde89;
+  width: 41px;
+  height: 70%;
+  min-height: 20%;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  padding-top: 10px;
+}
+.page-18-our-department.company {
+  background-color: #0091ea;
+  color: #ffffff;
+}
+
+.page-18-grape-img-data {
+  height: 175px;
+  display: flex;
+}
+
+.page-16-legend-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.page-16-legend-title.sec {
+  margin-top: 100px;
+}
+
+.page-16-grape-item {
+  width: 240px;
+}
+
+.page-18-grape-item {
+  width: 130px;
+}
+.page-18-grape-item.page-25 {
+  width: 100%;
+  height: max-content;
+}
+
+.leadership-style-label {
+  justify-content: flex-end;
+}
+.leadership-style-label div {
+  color: #878792;
+}
+.leadership-style-label p {
+  width: 35px;
+  height: 15px;
+  background-color: #cfebfc;
+  border: 2px solid #0091ea;
+}
+
+.leadership-style {
+  margin: 20px auto 0;
+  line-height: 16px;
+}
+.leadership-style .block {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border: 2px solid #e4e4e7;
+  border-radius: 10px;
+  padding: 10px;
+  color: #494950;
+  font-size: 17px;
+}
+.leadership-style .block .triangle {
+  color: #878792;
+  font-size: 12px;
+  top: 48px;
+  right: -2px;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #e4e4e7;
+  border-radius: 6px 0 6px;
+  background-color: #f4f4f6;
+  position: absolute;
+}
+.leadership-style .block .section1 {
+  right: 1px;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  display: flex;
+  align-items: flex-end;
+}
+.leadership-style .block .section2 {
+  top: 45px;
+  clip-path: polygon(0% 0%, 100% 100%, 100% 0%);
+  display: flex;
+  justify-content: flex-end;
+}
+.leadership-style .block .section3 {
+  left: -2px;
+  top: 45px;
+  clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+  border-radius: 0 6px 6px;
+  display: flex;
+  align-items: flex-start;
+}
+.leadership-style .block .section4 {
+  left: 1px;
+  top: 48px;
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0%);
+  border-radius: 0 6px 6px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.leadership-style .block .section5 {
+  top: -2px;
+  right: 1px;
+  clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+  border-radius: 0 6px 6px;
+}
+.leadership-style .block .section6 {
+  top: 1px;
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0%);
+  border-radius: 0 6px 6px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.leadership-style .block .section7 {
+  left: -2px;
+  top: 1px;
+  clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.leadership-style .block .section8 {
+  left: 1px;
+  top: -2px;
+  clip-path: polygon(100% 100%, 0% 0%, 100% 0%);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wmvkr {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.page-20-grape-container {
+  height: 200px;
+}
+
+.page-20-legend {
+  width: 22px;
+  height: 15px;
+  background-color: #0091ea;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.page-20-legend.sec {
+  background-color: #61616b;
+}
+.page-20-legend.thr {
+  background-color: #ffb26a;
+}
+.page-20-legend.four {
+  background-color: #ffde89;
+}
+
+.page-20-our-department {
+  background-color: #0091ea;
+  width: 28px;
+  height: 70%;
+  min-height: 20%;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  padding-top: 10px;
+}
+.page-20-our-department.sec {
+  background-color: #61616b;
+  color: #ffffff;
+}
+.page-20-our-department.thr {
+  background-color: #ffb26a;
+  color: #ffffff;
+}
+.page-20-our-department.four {
+  background-color: #ffde89;
+  color: #ffffff;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.al-end {
+  align-items: end;
+}
+
+.h160 {
+  height: 160px;
+}
+
+.h100 {
+  height: 100px;
 }
 
 @media print {
