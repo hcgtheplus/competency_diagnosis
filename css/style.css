@@ -50,6 +50,10 @@ h6 {
   color: #494950;
 }
 
+.f14 {
+  font-size: 14px;
+}
+
 .f16 {
   font-size: 16px;
 }
@@ -147,12 +151,28 @@ h6 {
   margin-right: 8px;
 }
 
+.mr5 {
+  margin-right: 5px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
 .mr20 {
   margin-right: 20px;
 }
 
 .mr30 {
   margin-right: 30px;
+}
+
+.mr40 {
+  margin-right: 40px;
 }
 
 .mr60 {
@@ -165,6 +185,10 @@ h6 {
 
 .mt10 {
   margin-top: 10px;
+}
+
+.mt15 {
+  margin-top: 15px;
 }
 
 .mt20 {
@@ -191,8 +215,16 @@ h6 {
   margin-bottom: 2px;
 }
 
+.mb5 {
+  margin-bottom: 5px;
+}
+
 .mb10 {
   margin-bottom: 10px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
 }
 
 .mb20 {
@@ -207,20 +239,16 @@ h6 {
   margin-bottom: 40px;
 }
 
-.mr10 {
-  margin-right: 10px;
+.ml5 {
+  margin-left: 5px;
 }
 
-.mr20 {
-  margin-right: 20px;
+.ml10 {
+  margin-left: 10px;
 }
 
-.mr40 {
-  margin-right: 40px;
-}
-
-.mb40 {
-  margin-bottom: 40px;
+.ml15 {
+  margin-left: 15px;
 }
 
 .fb {
@@ -232,6 +260,12 @@ h6 {
 }
 .flex.ab {
   align-items: baseline;
+}
+.flex.afe {
+  align-items: flex-end;
+}
+.flex.jce {
+  justify-content: end;
 }
 .flex.jcs {
   justify-content: center;
@@ -1237,6 +1271,52 @@ ul li {
 
 .page-18-grape-item {
   width: 130px;
+}
+
+.leadership-style-label {
+  justify-content: flex-end;
+}
+.leadership-style-label div {
+  color: #878792;
+}
+.leadership-style-label p {
+  width: 35px;
+  height: 20px;
+  background-color: #cfebfc;
+  border: 2px solid #0091ea;
+}
+
+.leadership-style {
+  margin: 20px auto 0;
+  line-height: 16px;
+}
+.leadership-style .block {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border: 2px solid #e4e4e7;
+  border-radius: 10px;
+  padding: 10px;
+  color: #494950;
+  font-size: 17px;
+}
+.leadership-style .block .triangle {
+  content: "";
+  top: 47px;
+  right: 0;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #e4e4e7;
+  border-radius: 10px;
+  background-color: lightblue;
+  clip-path: polygon(0% 0%, 100% 100%, 100% 0%);
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+.wmvkr {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
 
 @media print {
