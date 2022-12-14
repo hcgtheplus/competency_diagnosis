@@ -56,6 +56,14 @@ h6 {
   color: #494950;
 }
 
+.f11 {
+  font-size: 11px;
+}
+
+.f13 {
+  font-size: 13px;
+}
+
 .f14 {
   font-size: 14px;
 }
@@ -174,6 +182,10 @@ h6 {
   font-weight: bold;
   font-size: 25px;
   margin-top: 25px;
+}
+
+.p15 {
+  padding: 15px;
 }
 
 .mr8 {
@@ -1571,9 +1583,12 @@ ul {
     padding: 10px;
     color: #494950;
     font-size: 17px;
+    &.small {
+      width: 120px;
+      height: 120px;
+    }
     .triangle {
       color: #878792;
-      font-size: 13px;
       top: 48px;
       right: -2px;
       width: 90px;
@@ -1582,7 +1597,11 @@ ul {
       border-radius: 6px 0 6px;
       background-color: #f4f4f6;
       position: absolute;
-      padding: 15px;
+      &.small {
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+      }
       &.active {
         color: #0091ea;
         border: 2px solid #0091ea;
@@ -1661,6 +1680,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
     font-weight: bold;
     color: #bfbfc5;
     width: 140px;

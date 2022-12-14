@@ -1,8 +1,5 @@
-import page_13_sub_image from "../image/sub-image/page-13/page-13-sub-image.png";
-import page_13_sub_image_4 from "../image/sub-image/page-13/page-13-sub-image-4.png";
 import page_13_sub_image_2 from "../image/sub-image/page-13/page-13-sub-image-2.png";
 import page_13_sub_image_3 from "../image/sub-image/page-13/page-13-sub-image-3.png";
-<img className="w250px" src={page_13_sub_image_2} alt="page_13_sub_image_2" />;
 
 export default function Page() {
   return (
@@ -35,7 +32,7 @@ export default function Page() {
                       <div class="type-h flc jcs fwb">H</div>
                       <hr />
                       <div
-                        class="wmvkr mt15 mb15 fwb"
+                        class="wmvkr mt15 mb15 f18 fwb"
                         style={{ letterSpacing: "-1.5px" }}
                       >
                         지지행동
@@ -56,7 +53,7 @@ export default function Page() {
                   <div class="type-right">
                     <div class="type-l flc jcs fwb">L</div>
                     <hr />
-                    <div class="ml15 mr15 fwb">지시행동</div>
+                    <div class="ml15 mr15 f18 fwb">지시행동</div>
                     <hr />
                     <div class="type-bh flc jcs fwb">H</div>
                   </div>
@@ -132,25 +129,41 @@ export default function Page() {
                           <div class="flc">
                             <div class="fwb block mr5 mb5">
                               공동체형
-                              <div class="triangle section1">촉진자</div>
-                              <div class="triangle section2">조언자</div>
+                              <div class="triangle p15 f13 section1">
+                                촉진자
+                              </div>
+                              <div class="triangle p15 f13 section2">
+                                조언자
+                              </div>
                             </div>
                             <div class="flex jce fwb block mb5">
                               혁신중시형
-                              <div class="triangle section3">개혁자</div>
-                              <div class="triangle section4">중재자</div>
+                              <div class="triangle p15 f13 section3">
+                                개혁자
+                              </div>
+                              <div class="triangle p15 f13 section4">
+                                중재자
+                              </div>
                             </div>
                           </div>
                           <div class="flc">
                             <div class="flex afe fwb block mr5 mb5">
                               위계질서형
-                              <div class="triangle section5">감시자</div>
-                              <div class="triangle section6 active">조정자</div>
+                              <div class="triangle p15 f13 section5">
+                                감시자
+                              </div>
+                              <div class="triangle p15 f13 section6 active">
+                                조정자
+                              </div>
                             </div>
                             <div class="flex jce afe fwb block mb5">
                               성과중시형
-                              <div class="triangle section7">감독자</div>
-                              <div class="triangle section8">성취자</div>
+                              <div class="triangle p15 f13 section7">
+                                감독자
+                              </div>
+                              <div class="triangle p15 f13 section8">
+                                성취자
+                              </div>
                             </div>
                           </div>
                         </div>

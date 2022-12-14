@@ -34,26 +34,110 @@ export default function Page() {
                 <hr className="bottom-line" />
               </div>
 
-              <div className="flc sb">
-                <div className="flex jcs mt50">
-                  <div className="flc fc">
-                    <img
-                      style={{ width: 400 }}
-                      src={page_14_sub_image}
-                      alt="page_14_sub_image"
-                    />
-                    <div className="image-sub-title-js">나의 리더십 유형</div>
+              <div class="flc sb">
+                <div class="flex jcs mt50 ml40">
+                  <div class="flc fc">
+                    <div class="leadership-type flc fc mt35">
+                      <div class="page-13-sub-image-1 flex">
+                        <div class="type-left">
+                          <div class="type-h flc jcs fwb">H</div>
+                          <hr />
+                          <div
+                            class="wmvkr mt15 mb15 f18 fwb"
+                            style={{ letterSpacing: "-1.5px" }}
+                          >
+                            지지행동
+                          </div>
+                          <hr />
+                        </div>
+                        <div class="flc fc type-block-container">
+                          <div class="flc">
+                            <div class="block">지원형</div>
+                            <div class="block active">코칭형</div>
+                          </div>
+                          <div class="flc">
+                            <div class="block">위임형</div>
+                            <div class="block">지시형</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="type-right">
+                        <div class="type-l flc jcs fwb">L</div>
+                        <hr />
+                        <div class="ml15 mr15 f18 fwb">지시행동</div>
+                        <hr />
+                        <div class="type-bh flc jcs fwb">H</div>
+                      </div>
+                    </div>
+                    <div class="image-sub-title-js">나의 리더십 유형</div>
                   </div>
                 </div>
-
-                <div className="flex jcs mt50">
-                  <div className="flc fc">
-                    <img
-                      style={{ width: 400 }}
-                      src={page_14_sub_image_2}
-                      alt="page_14_sub_image_2"
-                    />
-                    <div className="image-sub-title-js">나의 리더십 스타일</div>
+                <div class="fwb f50" style={{ color: "#e9e9e9" }}>
+                  X
+                </div>
+                <div class="flex jcs mt50 mr40">
+                  <div class="flc fc">
+                    <div class="leadership-style flc jcs fc">
+                      <div class="fwb f18 mb15">유연성/자율성</div>
+                      <div class="flc">
+                        <div
+                          class="fwb f18 wmvkr mr15"
+                          style={{ letterSpacing: "-1.5px" }}
+                        >
+                          내부지향성
+                        </div>
+                        <div class="flc fc">
+                          <div class="flc">
+                            <div class="fwb block mr5 mb5">
+                              공동체형
+                              <div class="triangle p15 f13 section1">
+                                촉진자
+                              </div>
+                              <div class="triangle p15 f13 section2">
+                                조언자
+                              </div>
+                            </div>
+                            <div class="flex jce fwb block mb5">
+                              혁신중시형
+                              <div class="triangle p15 f13 section3">
+                                개혁자
+                              </div>
+                              <div class="triangle p15 f13 section4">
+                                중재자
+                              </div>
+                            </div>
+                          </div>
+                          <div class="flc">
+                            <div class="flex afe fwb block mr5 mb5">
+                              위계질서형
+                              <div class="triangle p15 f13 section5">
+                                감시자
+                              </div>
+                              <div class="triangle p15 f13 section6 active">
+                                조정자
+                              </div>
+                            </div>
+                            <div class="flex jce afe fwb block mb5">
+                              성과중시형
+                              <div class="triangle p15 f13 section7">
+                                감독자
+                              </div>
+                              <div class="triangle p15 f13 section8">
+                                성취자
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="fwb f18 wmvkr ml15"
+                          style={{ letterSpacing: "-1.5px" }}
+                        >
+                          외부지향성
+                        </div>
+                      </div>
+                      <div class="fwb f18 mt15">안정성</div>
+                    </div>
+                    <div class="image-sub-title-js">나의 리더십 스타일</div>
                   </div>
                 </div>
               </div>

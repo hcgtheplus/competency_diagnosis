@@ -30,7 +30,7 @@ export default function Page() {
                 <hr class="bottom-line" />
               </div>
 
-              <div class="flex mt20">
+              <div class="flex mt20 mb30">
                 <div class="flex mt50">
                   <div class="flc fc">
                     <div class="page-15-image">
@@ -39,16 +39,74 @@ export default function Page() {
                         src={page_15_sub_image_1}
                         alt="page_15_sub_image_1"
                       />
-                      <img
-                        class="page-15-img-not-working"
-                        src={page_15_sub_image_2}
-                        alt="page_15_sub_image_2"
-                      />
+                      <div
+                        class="leadership-style flc jcs fc"
+                        style={{ marginTop: "50px" }}
+                      >
+                        <div class="fwb f18 mb15">유연성/자율성</div>
+                        <div class="flc">
+                          <div
+                            class="fwb f18 wmvkr mr15"
+                            style={{ letterSpacing: "-1.5px" }}
+                          >
+                            내부지향성
+                          </div>
+                          <div class="flc fc">
+                            <div class="flc">
+                              <div class="fwb block small mr5 mb5">
+                                공동체형
+                                <div class="triangle f11 small section1">
+                                  촉진자
+                                </div>
+                                <div class="triangle f11 small section2">
+                                  조언자
+                                </div>
+                              </div>
+                              <div class="flex jce fwb block small mb5">
+                                혁신중시형
+                                <div class="triangle f11 small section3">
+                                  개혁자
+                                </div>
+                                <div class="triangle f11 small section4">
+                                  중재자
+                                </div>
+                              </div>
+                            </div>
+                            <div class="flc">
+                              <div class="flex afe fwb block small mr5 mb5">
+                                위계질서형
+                                <div class="triangle f11 small section5">
+                                  감시자
+                                </div>
+                                <div class="triangle f11 small section6 active">
+                                  조정자
+                                </div>
+                              </div>
+                              <div class="flex jce afe fwb block small mb5">
+                                성과중시형
+                                <div class="triangle f11 small section7">
+                                  감독자
+                                </div>
+                                <div class="triangle f11 small section8">
+                                  성취자
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="fwb f18 wmvkr ml15"
+                            style={{ letterSpacing: "-1.5px" }}
+                          >
+                            외부지향성
+                          </div>
+                        </div>
+                        <div class="fwb f18 mt15">안정성</div>
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="flex jcs mt50">
+                <div class="flex jcs mt50 ml30">
                   <div>
                     <div class="page-15-main-title">
                       부서 조직문화 특징과 적합한 리더십 스타일
