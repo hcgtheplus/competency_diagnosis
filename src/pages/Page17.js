@@ -1,4 +1,38 @@
+import { compact } from "lodash";
+
 export default function Page({ data, name, organization, position }) {
+  const 강한특성 = {
+    특질: compact([
+      data[9].Column6,
+      data[10].Column6,
+      data[11].Column6,
+      data[12].Column6,
+      data[13].Column6,
+      data[14].Column6,
+    ]).length,
+    행동특성: compact([data[16].Column6, data[17].Column6]).length,
+    동기부여: compact([data[19].Column6, data[20].Column6]).length,
+    흥미선호: compact([data[22].Column6, data[23].Column6]).length,
+  };
+  const 약한특성 = {
+    특질: compact([
+      data[25].Column6,
+      data[26].Column6,
+      data[27].Column6,
+      data[28].Column6,
+      data[29].Column6,
+      data[30].Column6,
+    ]).length,
+    행동특성: compact([data[32].Column6, data[33].Column6]).length,
+    동기부여: compact([data[35].Column6, data[36].Column6]).length,
+    흥미선호: compact([data[38].Column6, data[39].Column6]).length,
+  };
+  const 피해야할특질 = compact([
+    data[41].Column6,
+    data[42].Column6,
+    data[43].Column6,
+  ]).length;
+
   return (
     <div className="image-container page 17 pr">
       <div className="page-absolute">17 / 36</div>
@@ -73,101 +107,233 @@ export default function Page({ data, name, organization, position }) {
                             </td>
                           </tr>
                           <tr>
-                            <td rowSpan={6} className="tc sec-header">
+                            <td
+                              rowSpan={강한특성.특질}
+                              className="tc sec-header"
+                            >
                               특질
                             </td>
-                          </tr>
-                          <tr>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[9].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[9].Column6.split("\r\n")[1]}</div>
+                            {data[9].Column6 && (
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[9].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[9].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[9].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[9].E.toFixed(1)}</div>
-                              </div>
-                            </td>
+                              </td>
+                            )}
                           </tr>
-                          <tr>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[10].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[10].Column6.split("\r\n")[1]}</div>
+                          {data[10].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[10].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[10].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[10].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[10].E.toFixed(1)}</div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[11].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[11].Column6.split("\r\n")[1]}</div>
+                              </td>
+                            </tr>
+                          )}
+                          {data[11].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[11].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[11].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[11].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[11].E.toFixed(1)}</div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[12].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[12].Column6.split("\r\n")[1]}</div>
+                              </td>
+                            </tr>
+                          )}
+                          {data[12].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[12].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[12].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[12].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[12].E.toFixed(1)}</div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[13].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[13].Column6.split("\r\n")[1]}</div>
+                              </td>
+                            </tr>
+                          )}
+                          {data[13].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[13].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[13].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[13].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[13].E.toFixed(1)}</div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td className="tc sec-header">행동특성</td>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[16].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[16].Column6.split("\r\n")[1]}</div>
+                              </td>
+                            </tr>
+                          )}
+                          {data[14].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[14].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[14].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[14].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[16].E.toFixed(1)}</div>
-                              </div>
-                            </td>
-                          </tr>
+                              </td>
+                            </tr>
+                          )}
                           <tr>
-                            <td className="tc sec-header">동기부여</td>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[19].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[19].Column6.split("\r\n")[1]}</div>
-                                </div>
-                                <div>{data[19].E.toFixed(1)}</div>
-                              </div>
+                            <td
+                              rowSpan={강한특성.행동특성}
+                              className="tc sec-header"
+                            >
+                              행동특성
                             </td>
+                            {data[16].Column6 && (
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[16].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[16].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[16].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            )}
                           </tr>
+                          {data[17].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[17].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[17].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[17].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
                           <tr>
-                            <td className="tc sec-header">흥미 선호</td>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[22].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[22].Column6.split("\r\n")[1]}</div>
-                                </div>
-                                <div>{data[22].E.toFixed(1)}</div>
-                              </div>
+                            <td
+                              rowSpan={강한특성.동기부여}
+                              className="tc sec-header"
+                            >
+                              동기부여
                             </td>
+                            {data[19].Column6 && (
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[19].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[19].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[19].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            )}
                           </tr>
+                          {data[20].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[20].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[20].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[20].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
+                          <tr>
+                            <td
+                              rowSpan={강한특성.흥미선호}
+                              className="tc sec-header"
+                            >
+                              흥미 선호
+                            </td>
+                            {data[22].Column6 && (
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[22].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[22].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[22].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            )}
+                          </tr>
+                          {data[23].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[23].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[23].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[23].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
                         </tbody>
                       </table>
 
@@ -182,101 +348,235 @@ export default function Page({ data, name, organization, position }) {
                             </td>
                           </tr>
                           <tr>
-                            <td rowSpan={5} className="tc sec-header">
+                            <td
+                              rowSpan={약한특성.특질}
+                              className="tc sec-header"
+                            >
                               특질
                             </td>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[25].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[25].Column6.split("\r\n")[1]}</div>
+                            {data[25].Column6 && (
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[25].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[25].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[25].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[25].E.toFixed(1)}</div>
-                              </div>
-                            </td>
+                              </td>
+                            )}
                           </tr>
-                          <tr>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[26].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[26].Column6.split("\r\n")[1]}</div>
+                          {data[26].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[26].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[26].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[26].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[26].E.toFixed(1)}</div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[27].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[27].Column6.split("\r\n")[1]}</div>
+                              </td>
+                            </tr>
+                          )}
+                          {data[27].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[27].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[27].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[27].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[27].E.toFixed(1)}</div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[28].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[28].Column6.split("\r\n")[1]}</div>
+                              </td>
+                            </tr>
+                          )}
+                          {data[28].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[28].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[28].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[28].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[28].E.toFixed(1)}</div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[29].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[29].Column6.split("\r\n")[1]}</div>
+                              </td>
+                            </tr>
+                          )}
+                          {data[29].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[29].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[29].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[29].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[29].E.toFixed(1)}</div>
-                              </div>
-                            </td>
-                          </tr>
+                              </td>
+                            </tr>
+                          )}
+                          {data[30].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[30].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[30].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[30].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
 
                           <tr>
-                            <td className="tc sec-header">행동특성</td>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[32].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[32].Column6.split("\r\n")[1]}</div>
-                                </div>
-                                <div>{data[32].E.toFixed(1)}</div>
-                              </div>
+                            <td
+                              rowSpan={약한특성.행동특성}
+                              className="tc sec-header"
+                            >
+                              행동특성
                             </td>
+                            {data[32].Column6 && (
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[32].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[32].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[32].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            )}
                           </tr>
+                          {data[33].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[33].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[33].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[33].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
 
                           <tr>
-                            <td className="tc sec-header">동기부여</td>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[35].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[35].Column6.split("\r\n")[1]}</div>
-                                </div>
-                                <div>{data[35].E.toFixed(1)}</div>
-                              </div>
+                            <td
+                              rowSpan={약한특성.동기부여}
+                              className="tc sec-header"
+                            >
+                              동기부여
                             </td>
+                            {data[35].Column6 && (
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[35].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[35].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[35].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            )}
                           </tr>
+                          {data[36].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[36].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[36].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[36].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
                           <tr>
-                            <td className="tc sec-header">흥미 선호</td>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[38].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[38].Column6.split("\r\n")[1]}</div>
-                                </div>
-                                <div>{data[38].E.toFixed(1)}</div>
-                              </div>
+                            <td
+                              rowSpan={약한특성.흥미선호}
+                              className="tc sec-header"
+                            >
+                              흥미 선호
                             </td>
+                            {data[38].Column6 && (
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[38].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[38].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[38].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            )}
                           </tr>
+                          {data[39].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[39].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[39].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[39].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
                           <tr className="tc">
                             <td className="header thr-thr" colSpan={2}>
                               <div className="flc sb w-100">
@@ -286,19 +586,62 @@ export default function Page({ data, name, organization, position }) {
                             </td>
                           </tr>
                           <tr>
-                            <td rowSpan={2} className="tc sec-header thr-thr">
+                            <td
+                              rowSpan={피해야할특질}
+                              className="tc sec-header thr-thr"
+                            >
                               피해야할 특질
                             </td>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>{data[41].Column6.split("\r\n")[0]}</div>
-                                  <div>{data[41].Column6.split("\r\n")[1]}</div>
+                            {data[41].Column6 && (
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[41].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[41].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[41].E.toFixed(1)}</div>
                                 </div>
-                                <div>{data[41].E.toFixed(1)}</div>
-                              </div>
-                            </td>
+                              </td>
+                            )}
                           </tr>
+                          {data[42].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[42].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[42].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[42].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
+                          {data[43].Column6 && (
+                            <tr>
+                              <td className="right-td">
+                                <div className="flc sb">
+                                  <div>
+                                    <div>
+                                      {data[43].Column6.split("\r\n")[0]}
+                                    </div>
+                                    <div>
+                                      {data[43].Column6.split("\r\n")[1]}
+                                    </div>
+                                  </div>
+                                  <div>{data[43].E.toFixed(1)}</div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
                         </tbody>
                       </table>
                     </div>
