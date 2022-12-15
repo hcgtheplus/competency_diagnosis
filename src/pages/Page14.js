@@ -1,14 +1,59 @@
-import page_13_sub_image_2 from "../image/sub-image/page-13/page-13-sub-image-2.png";
-import page_13_sub_image_3 from "../image/sub-image/page-13/page-13-sub-image-3.png";
+import page_13_위임형 from "../image/sub-image/page-13/leadership-type/page-13-위임형.jpg";
+import page_13_지시형 from "../image/sub-image/page-13/leadership-type/page-13-지시형.jpg";
+import page_13_지원형 from "../image/sub-image/page-13/leadership-type/page-13-지원형.jpg";
+import page_13_코칭형 from "../image/sub-image/page-13/leadership-type/page-13-코칭형.jpg";
 
-export default function Page({
-  data,
-  name,
-  organization,
-  position,
-  leadershipType,
-  leadershipStyle,
-}) {
+import page_13_감독자 from "../image/sub-image/page-13/leadership-style/page-13-감독자.jpg";
+import page_13_감시자 from "../image/sub-image/page-13/leadership-style/page-13-감시자.jpg";
+import page_13_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-개혁자.jpg";
+import page_13_성취자 from "../image/sub-image/page-13/leadership-style/page-13-성취자.jpg";
+import page_13_조언자 from "../image/sub-image/page-13/leadership-style/page-13-조언자.jpg";
+import page_13_조정자 from "../image/sub-image/page-13/leadership-style/page-13-조정자.jpg";
+import page_13_중재자 from "../image/sub-image/page-13/leadership-style/page-13-중재자.jpg";
+import page_13_촉진자 from "../image/sub-image/page-13/leadership-style/page-13-촉진자.jpg";
+
+export default function Page({ data }) {
+  const leadershipType = data[4].Column6.split("X")[0].split("(")[0].trim();
+  const leadershipStyle = data[4].Column6.split("X")[1].split("(")[0].trim();
+
+  const leadershipTypeImage = (leadershipType) => {
+    switch (leadershipType) {
+      case "지원형":
+        return page_13_지원형;
+      case "코칭형":
+        return page_13_코칭형;
+      case "위임형":
+        return page_13_위임형;
+      case "지시형":
+        return page_13_지시형;
+      default:
+        return null;
+    }
+  };
+
+  const leadershipStyleImage = (leadershipStyle) => {
+    switch (leadershipStyle) {
+      case "감독자":
+        return page_13_감독자;
+      case "감시자":
+        return page_13_감시자;
+      case "개혁자":
+        return page_13_개혁자;
+      case "성취자":
+        return page_13_성취자;
+      case "조언자":
+        return page_13_조언자;
+      case "조정자":
+        return page_13_조정자;
+      case "중재자":
+        return page_13_중재자;
+      case "촉진자":
+        return page_13_촉진자;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="image-container page 14 pr">
       <div className="page-absolute">14 / 36</div>
@@ -17,12 +62,12 @@ export default function Page({
           <div className="for-margin">
             <div className="user-info">
               <div className="sub-title">소속:</div>
-              <div className="department">{organization}</div>
+              <div className="department">{data[1].Column6}</div>
 
               <div className="sub-title">직책:</div>
-              <div className="duty">{position}</div>
+              <div className="duty">{data[2].Column6}</div>
 
-              <div className="user-name">{name}</div>
+              <div className="user-name">{data[0].Column6}</div>
             </div>
 
             <div className="title-container">
@@ -97,8 +142,8 @@ export default function Page({
                         <div className="flc jcs">
                           <img
                             style={{ width: 250 }}
-                            src={page_13_sub_image_2}
-                            alt="page_13_sub_image_2"
+                            src={leadershipTypeImage(leadershipType)}
+                            alt="leadership-type"
                           />
                         </div>
                         <div className="main-sub-title mb10">특징</div>
@@ -241,8 +286,8 @@ export default function Page({
                         <div className="flc jcs">
                           <img
                             className="w250px"
-                            src={page_13_sub_image_3}
-                            alt="page_13_sub_image_3"
+                            src={leadershipStyleImage(leadershipStyle)}
+                            alt="leadership-style"
                           />
                         </div>
                         <div className="mb10">특징</div>
