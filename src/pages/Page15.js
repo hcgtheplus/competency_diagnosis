@@ -1,5 +1,16 @@
-import page_13_sub_image_2 from "../image/sub-image/page-13/page-13-sub-image-2.png";
-import page_13_sub_image_3 from "../image/sub-image/page-13/page-13-sub-image-3.png";
+import page_13_위임형 from "../image/sub-image/page-13/leadership-type/page-13-위임형.jpg";
+import page_13_지시형 from "../image/sub-image/page-13/leadership-type/page-13-지시형.jpg";
+import page_13_지원형 from "../image/sub-image/page-13/leadership-type/page-13-지원형.jpg";
+import page_13_코칭형 from "../image/sub-image/page-13/leadership-type/page-13-코칭형.jpg";
+
+import page_13_감독자 from "../image/sub-image/page-13/leadership-style/page-13-감독자.jpg";
+import page_13_감시자 from "../image/sub-image/page-13/leadership-style/page-13-감시자.jpg";
+import page_13_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-개혁자.jpg";
+import page_13_성취자 from "../image/sub-image/page-13/leadership-style/page-13-성취자.jpg";
+import page_13_조언자 from "../image/sub-image/page-13/leadership-style/page-13-조언자.jpg";
+import page_13_조정자 from "../image/sub-image/page-13/leadership-style/page-13-조정자.jpg";
+import page_13_중재자 from "../image/sub-image/page-13/leadership-style/page-13-중재자.jpg";
+import page_13_촉진자 from "../image/sub-image/page-13/leadership-style/page-13-촉진자.jpg";
 
 export default function Page({
   data,
@@ -9,6 +20,44 @@ export default function Page({
   leadershipType,
   leadershipStyle,
 }) {
+  const leadershipTypeImage = (leadershipType) => {
+    switch (leadershipType) {
+      case "지원형":
+        return page_13_지원형;
+      case "코칭형":
+        return page_13_코칭형;
+      case "위임형":
+        return page_13_위임형;
+      case "지시형":
+        return page_13_지시형;
+      default:
+        return null;
+    }
+  };
+
+  const leadershipStyleImage = (leadershipStyle) => {
+    switch (leadershipStyle) {
+      case "감독자":
+        return page_13_감독자;
+      case "감시자":
+        return page_13_감시자;
+      case "개혁자":
+        return page_13_개혁자;
+      case "성취자":
+        return page_13_성취자;
+      case "조언자":
+        return page_13_조언자;
+      case "조정자":
+        return page_13_조정자;
+      case "중재자":
+        return page_13_중재자;
+      case "촉진자":
+        return page_13_촉진자;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="image-container page 15 pr">
       <div className="page-absolute">15 / 36</div>
@@ -212,16 +261,16 @@ export default function Page({
                 <div className="flc jcs mr60">
                   <img
                     className="w250px"
-                    src={page_13_sub_image_2}
-                    alt="page_13_sub_image_2"
+                    src={leadershipTypeImage(leadershipType)}
+                    alt="leadership-type"
                   />
                 </div>
 
                 <div className="flc jcs">
                   <img
                     className="w250px"
-                    src={page_13_sub_image_3}
-                    alt="page_13_sub_image_3"
+                    src={leadershipStyleImage(leadershipStyle)}
+                    alt="leadership-style"
                   />
                 </div>
               </div>
