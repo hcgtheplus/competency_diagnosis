@@ -1,3 +1,4 @@
+// import { useState } from "react";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
 import Page3 from "./pages/Page3";
@@ -40,6 +41,7 @@ import fullData from "./fullData.json";
 // import emailList from "./emailList.json"; // 257명
 
 function App() {
+  // const [userEmail, setUserEmail] = useState("1billion@nhqv.com");
   const groupByEmail = groupBy(fullData, "B");
   const groupByEmailWithPage = reduce(
     groupByEmail,
@@ -52,6 +54,7 @@ function App() {
     {}
   );
   const sampleData = groupByEmailWithPage["1billion@nhqv.com"];
+  // const sampleData = groupByEmailWithPage[userEmail];
   const mainData = sampleData["12"];
   const name = mainData[0].Column6;
   const organization = mainData[1].Column6;
@@ -65,8 +68,16 @@ function App() {
     <div className="App">
       {/* <div className="w-100 flex input-fixed">
         <div className="index-input">
-          <div className="index-label">대상자 Index ID</div>
-          <input placeholder="ID 값을 입력하십시오"></input>
+          <div className="index-label">대상자 Email</div>
+          <input
+            placeholder="Email 값을 입력하십시오"
+            onChange={(event) => {
+              const { value } = event.target;
+              if (groupByEmailWithPage[value]) {
+                setUserEmail(value);
+              }
+            }}
+          />
         </div>
       </div> */}
       <div className="for-center">
