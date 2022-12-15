@@ -12,10 +12,14 @@ import page_13_조정자 from "../image/sub-image/page-13/leadership-style/page-
 import page_13_중재자 from "../image/sub-image/page-13/leadership-style/page-13-중재자.jpg";
 import page_13_촉진자 from "../image/sub-image/page-13/leadership-style/page-13-촉진자.jpg";
 
-export default function Page({ data }) {
-  const leadershipType = data[4].Column6.split("X")[0].split("(")[0].trim();
-  const leadershipStyle = data[4].Column6.split("X")[1].split("(")[0].trim();
-
+export default function Page({
+  data,
+  name,
+  organization,
+  position,
+  leadershipType,
+  leadershipStyle,
+}) {
   const leadershipTypeImage = (leadershipType) => {
     switch (leadershipType) {
       case "지원형":
@@ -62,12 +66,12 @@ export default function Page({ data }) {
           <div className="for-margin">
             <div className="user-info">
               <div className="sub-title">소속:</div>
-              <div className="department">{data[1].Column6}</div>
+              <div className="department">{organization}</div>
 
               <div className="sub-title">직책:</div>
-              <div className="duty">{data[2].Column6}</div>
+              <div className="duty">{position}</div>
 
-              <div className="user-name">{data[0].Column6}</div>
+              <div className="user-name">{name}</div>
             </div>
 
             <div className="title-container">
@@ -318,11 +322,14 @@ export default function Page({ data }) {
 
                       <div className="mb30">
                         <div className="main-sub-title mb10">주의할 점</div>
-                        {data[14].Column6.trim() && (
-                          <ul>
+                        <ul>
+                          {data[14].Column6.trim() && (
                             <li>{data[14].Column6.trim()}</li>
-                          </ul>
-                        )}
+                          )}
+                          {data[15].Column6.trim() && (
+                            <li>{data[15].Column6.trim()}</li>
+                          )}
+                        </ul>
                       </div>
                     </div>
                   </div>

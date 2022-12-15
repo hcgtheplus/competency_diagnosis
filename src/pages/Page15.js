@@ -298,11 +298,14 @@ export default function Page({
                   </div>
                   <div className="mb30">
                     <div className="mb10 main-sub-title mb10">주의할 점</div>
-                    {data[6].Column6.trim() && (
-                      <ul>
+                    <ul>
+                      {data[6].Column6.trim() && (
                         <li>{data[6].Column6.trim()}</li>
-                      </ul>
-                    )}
+                      )}
+                      {data[7].Column6.trim() && (
+                        <li>{data[7].Column6.trim()}</li>
+                      )}
+                    </ul>
                   </div>
                 </div>
               </div>

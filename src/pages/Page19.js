@@ -48,8 +48,8 @@ export default function Page({ data }) {
             <div className="w-100 h1207">
               <div className="mt50">
                 <ul>
-                  <li>{data[0].Column6}</li>
-                  <li>{data[1].Column6}</li>
+                  {data[0].Column6.trim() && <li>{data[0].Column6}</li>}
+                  {data[1].Column6.trim() && <li>{data[1].Column6}</li>}
                 </ul>
                 <div className="info mt20">
                   <span className="material-symbols-outlined">arrow_right</span>
