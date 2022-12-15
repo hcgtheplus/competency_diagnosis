@@ -134,7 +134,7 @@ export default function Page({ data, name, organization, position }) {
         data:
           type === "leadingBiz"
             ? leadingBizLineGraphSeriesData
-            : type === "leadingBiz"
+            : type === "managingOrganization"
             ? managingOrganizationLineGraphSeriesData
             : buildingTrustLineGraphSeriesData,
         smooth: true,
