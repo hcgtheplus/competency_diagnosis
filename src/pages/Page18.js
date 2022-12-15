@@ -75,13 +75,13 @@ export default function Page({ data, name, organization, position }) {
       axisLine: {
         onZero: true,
         lineStyle: {
-          color: "#cecece",
+          color: "#383936",
         },
       },
       splitLine: {
         show: false,
         lineStyle: {
-          color: "#cecece",
+          color: "#383936",
         },
       },
       axisLabel: {
@@ -103,12 +103,12 @@ export default function Page({ data, name, organization, position }) {
       splitLine: {
         show: true,
         lineStyle: {
-          color: "#cecece",
+          color: "#eff2fe",
         },
       },
       axisLine: {
         lineStyle: {
-          color: "#cecece",
+          color: "#eff2fe",
         },
         show: false,
       },
@@ -306,10 +306,12 @@ export default function Page({ data, name, organization, position }) {
                             </div>
                             <div class="top-line"></div>
                           </div>
-                          <ReactEcharts
-                            style={{ height: 250, width: 450 }}
-                            option={graphOption("leadingBiz")}
-                          />
+                          <div>
+                            <ReactEcharts
+                              style={{ height: 188, width: 423 }}
+                              option={graphOption("leadingBiz")}
+                            />
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -445,10 +447,12 @@ export default function Page({ data, name, organization, position }) {
                           <div>경계없는 협력</div>
                         </div>
                       </div>
-                      <ReactEcharts
-                        style={{ height: 250, width: 450 }}
-                        option={graphOption("managingOrganization")}
-                      />
+                      <div>
+                        <ReactEcharts
+                          style={{ height: 188, width: 423 }}
+                          option={graphOption("managingOrganization")}
+                        />
+                      </div>
                     </div>
                   </div>
 
@@ -568,10 +572,12 @@ export default function Page({ data, name, organization, position }) {
                           <div>롤모델</div>
                         </div>
                       </div>
-                      <ReactEcharts
-                        style={{ height: 250, width: 450 }}
-                        option={graphOption("buildingTrust")}
-                      />
+                      <div>
+                        <ReactEcharts
+                          style={{ height: 188, width: 423 }}
+                          option={graphOption("buildingTrust")}
+                        />
+                      </div>
                     </div>
                   </div>
 
