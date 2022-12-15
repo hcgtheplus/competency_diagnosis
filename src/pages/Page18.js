@@ -135,432 +135,450 @@ export default function Page({ data, name, organization, position }) {
   });
 
   return (
-    <div class="image-container page 18 pr">
-      <div class="page-absolute">18 / 36</div>
-      <div class="page 17">
-        <div class="need-data-container">
-          <div class="for-margin">
-            <div class="user-info">
-              <div class="sub-title">소속:</div>
-              <div class="department">{organization}</div>
+    <div className="image-container page 18 pr">
+      <div className="page-absolute">18 / 36</div>
+      <div className="page 17">
+        <div className="need-data-container">
+          <div className="for-margin">
+            <div className="user-info">
+              <div className="sub-title">소속:</div>
+              <div className="department">{organization}</div>
 
-              <div class="sub-title">직책:</div>
-              <div class="duty">{position}</div>
+              <div className="sub-title">직책:</div>
+              <div className="duty">{position}</div>
 
-              <div class="user-name">{name}</div>
+              <div className="user-name">{name}</div>
             </div>
 
-            <div class="title-container">
-              <div class="top-line"></div>
+            <div className="title-container">
+              <div className="top-line"></div>
               <div>
-                <div class="flex ab sb">
-                  <h4 class="main-title">Summary 리더십 진단 결과</h4>
-                  <div class="flc">
+                <div className="flex ab sb">
+                  <h4 className="main-title">Summary 리더십 진단 결과</h4>
+                  <div className="flc">
                     <div>나의 리더십 역량</div>
                   </div>
                 </div>
 
-                <hr class="bottom-line" />
+                <hr className="bottom-line" />
               </div>
 
               <div>
-                <div class="text-container">
-                  <div class="mt30">
-                    <div class="mb20">
-                      <ul>
-                        {data[0].Column6.trim() && (
-                          <li>{data[0].Column6.trim()}</li>
-                        )}
-                        {data[1].Column6.trim() && (
-                          <li>{data[1].Column6.trim()}</li>
-                        )}
-                        {data[2].Column6.trim() && (
-                          <li>{data[2].Column6.trim()}</li>
-                        )}
-                      </ul>
-                      <div class="info mt20">
-                        <span class="material-symbols-outlined">
-                          arrow_right
-                        </span>
-                        회사 평균 대비 +0.5 초과인 경우 “높은” 수준, -0.5 미만인
-                        경우 “낮은“ 수준으로 표현하였습니다.
+                <div className="text-container">
+                  <div className="mt50">
+                    <ul>
+                      {data[0].Column6.trim() && (
+                        <li>{data[0].Column6.trim()}</li>
+                      )}
+                      {data[1].Column6.trim() && (
+                        <li>{data[1].Column6.trim()}</li>
+                      )}
+                      {data[2].Column6.trim() && (
+                        <li>{data[2].Column6.trim()}</li>
+                      )}
+                    </ul>
+                    <div className="info mt20">
+                      <span className="material-symbols-outlined">
+                        arrow_right
+                      </span>
+                      회사 평균 대비 +0.5 초과인 경우 “높은” 수준, -0.5 미만인
+                      경우 “낮은“ 수준으로 표현하였습니다.
+                    </div>
+                  </div>
+
+                  <div className="mt40">
+                    <div className="flex sb">
+                      <div className="fb">Leading Biz.</div>
+                      <div className="flex">
+                        <div className="flc jcs">
+                          <div className="flc mr20">
+                            <div className="page-16-legend"></div>
+                            <div>나</div>
+                          </div>
+                          <div className="flc">
+                            <div className="page-16-legend sec"></div>
+                            <div>우리 회사</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex">
+                      <div className="flex fc">
+                        <div class="page-18-grape-img-data">
+                          <div class="page-18-grape-item">
+                            <div class="flex jcs h160 al-end">
+                              <div
+                                class="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(leadingBiz.me.leadingBiz) * 20
+                                  }%`,
+                                }}
+                              >
+                                {leadingBiz.me.leadingBiz}
+                              </div>
+                              <div
+                                class="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(leadingBiz.company.leadingBiz) * 20
+                                  }%`,
+                                }}
+                              >
+                                {leadingBiz.company.leadingBiz}
+                              </div>
+                            </div>
+                            <div class="top-line"></div>
+                          </div>
+                          <div class="page-18-grape-item">
+                            <div class="flex jcs h160 al-end">
+                              <div
+                                class="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(leadingBiz.me.vision) * 20
+                                  }%`,
+                                }}
+                              >
+                                {leadingBiz.me.vision}
+                              </div>
+                              <div
+                                class="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(leadingBiz.company.vision) * 20
+                                  }%`,
+                                }}
+                              >
+                                {leadingBiz.company.vision}
+                              </div>
+                            </div>
+                            <div class="top-line"></div>
+                          </div>
+                          <div class="page-18-grape-item">
+                            <div class="flex jcs h160 al-end">
+                              <div
+                                class="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(leadingBiz.me.decision) * 20
+                                  }%`,
+                                }}
+                              >
+                                {leadingBiz.me.decision}
+                              </div>
+                              <div
+                                class="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(leadingBiz.company.decision) * 20
+                                  }%`,
+                                }}
+                              >
+                                {leadingBiz.company.decision}
+                              </div>
+                            </div>
+                            <div class="top-line"></div>
+                          </div>
+                          <div class="page-18-grape-item">
+                            <div class="flex jcs h160 al-end">
+                              <div
+                                class="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(leadingBiz.me.execution) * 20
+                                  }%`,
+                                }}
+                              >
+                                {leadingBiz.me.execution}
+                              </div>
+                              <div
+                                class="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(leadingBiz.company.execution) * 20
+                                  }%`,
+                                }}
+                              >
+                                {leadingBiz.company.execution}
+                              </div>
+                            </div>
+                            <div class="top-line"></div>
+                          </div>
+                          <ReactEcharts
+                            style={{ height: 250, width: 450 }}
+                            option={graphOption("leadingBiz")}
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="mt30">
-                    <div class="fb">Leading Biz.</div>
-                    <div class="flc jcs">
-                      <div class="flc mr20">
-                        <div class="page-16-legend"></div>
-                        <div>나</div>
-                      </div>
-                      <div class="flc">
-                        <div class="page-16-legend sec"></div>
-                        <div>우리 회사</div>
-                      </div>
-                    </div>
-
-                    <div class="page-18-grape-img-data">
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${
-                                Number(leadingBiz.me.leadingBiz) * 20
-                              }%`,
-                            }}
-                          >
-                            {leadingBiz.me.leadingBiz}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(leadingBiz.company.leadingBiz) * 20
-                              }%`,
-                            }}
-                          >
-                            {leadingBiz.company.leadingBiz}
-                          </div>
-                        </div>
-                        <div class="top-line"></div>
-                      </div>
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${Number(leadingBiz.me.vision) * 20}%`,
-                            }}
-                          >
-                            {leadingBiz.me.vision}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(leadingBiz.company.vision) * 20
-                              }%`,
-                            }}
-                          >
-                            {leadingBiz.company.vision}
-                          </div>
-                        </div>
-                        <div class="top-line"></div>
-                      </div>
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${Number(leadingBiz.me.decision) * 20}%`,
-                            }}
-                          >
-                            {leadingBiz.me.decision}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(leadingBiz.company.decision) * 20
-                              }%`,
-                            }}
-                          >
-                            {leadingBiz.company.decision}
-                          </div>
-                        </div>
-                        <div class="top-line"></div>
-                      </div>
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${
-                                Number(leadingBiz.me.execution) * 20
-                              }%`,
-                            }}
-                          >
-                            {leadingBiz.me.execution}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(leadingBiz.company.execution) * 20
-                              }%`,
-                            }}
-                          >
-                            {leadingBiz.company.execution}
-                          </div>
-                        </div>
-                        <div class="top-line"></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="flex page-18-grape-label-bottom mb40">
-                    <div>Leading Business</div>
-                    <div>비전제시</div>
-                    <div>합리적 의사결정</div>
-                    <div>강력한 실행력</div>
-                  </div>
-
-                  <ReactEcharts
-                    style={{ height: 250, width: 450 }}
-                    option={graphOption("leadingBiz")}
-                  />
-
-                  <div>
-                    <div class="fb">Managing Organization</div>
-
-                    <div class="page-18-grape-img-data">
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${
-                                Number(
-                                  managingOrganization.me.managingOrganization
-                                ) * 20
-                              }%`,
-                            }}
-                          >
-                            {managingOrganization.me.managingOrganization}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(
+                  <div className="mt40">
+                    <div className="fb">Managing Organization</div>
+                    <div className="flex">
+                      <div className="flex fc">
+                        <div className="page-18-grape-img-data">
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
+                              <div
+                                className="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(
+                                      managingOrganization.me
+                                        .managingOrganization
+                                    ) * 20
+                                  }%`,
+                                }}
+                              >
+                                {managingOrganization.me.managingOrganization}
+                              </div>
+                              <div
+                                className="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(
+                                      managingOrganization.company
+                                        .managingOrganization
+                                    ) * 20
+                                  }%`,
+                                }}
+                              >
+                                {
                                   managingOrganization.company
                                     .managingOrganization
-                                ) * 20
-                              }%`,
-                            }}
-                          >
-                            {managingOrganization.company.managingOrganization}
+                                }
+                              </div>
+                            </div>
+                            <div className="top-line"></div>
+                          </div>
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
+                              <div
+                                className="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(managingOrganization.me.talent) * 20
+                                  }%`,
+                                }}
+                              >
+                                {managingOrganization.me.talent}
+                              </div>
+                              <div
+                                className="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(
+                                      managingOrganization.company.talent
+                                    ) * 20
+                                  }%`,
+                                }}
+                              >
+                                {managingOrganization.company.talent}
+                              </div>
+                            </div>
+                            <div className="top-line"></div>
+                          </div>
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
+                              <div
+                                className="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(managingOrganization.me.operate) * 20
+                                  }%`,
+                                }}
+                              >
+                                {managingOrganization.me.operate}
+                              </div>
+                              <div
+                                className="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(
+                                      managingOrganization.company.operate
+                                    ) * 20
+                                  }%`,
+                                }}
+                              >
+                                {managingOrganization.company.operate}
+                              </div>
+                            </div>
+                            <div className="top-line"></div>
+                          </div>
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
+                              <div
+                                className="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(
+                                      managingOrganization.me.cooperation
+                                    ) * 20
+                                  }%`,
+                                }}
+                              >
+                                {managingOrganization.me.cooperation}
+                              </div>
+                              <div
+                                className="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(
+                                      managingOrganization.company.cooperation
+                                    ) * 20
+                                  }%`,
+                                }}
+                              >
+                                {managingOrganization.company.cooperation}
+                              </div>
+                            </div>
+                            <div className="top-line"></div>
                           </div>
                         </div>
-                        <div class="top-line"></div>
-                      </div>
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${
-                                Number(managingOrganization.me.talent) * 20
-                              }%`,
-                            }}
-                          >
-                            {managingOrganization.me.talent}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(managingOrganization.company.talent) * 20
-                              }%`,
-                            }}
-                          >
-                            {managingOrganization.company.talent}
-                          </div>
+                        <div className="flex page-18-grape-label-bottom mb40">
+                          <div>Managing Organization</div>
+                          <div>인재육성</div>
+                          <div>효율적인 조직운영</div>
+                          <div>경계없는 협력</div>
                         </div>
-                        <div class="top-line"></div>
                       </div>
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${
-                                Number(managingOrganization.me.operate) * 20
-                              }%`,
-                            }}
-                          >
-                            {managingOrganization.me.operate}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(managingOrganization.company.operate) *
-                                20
-                              }%`,
-                            }}
-                          >
-                            {managingOrganization.company.operate}
-                          </div>
-                        </div>
-                        <div class="top-line"></div>
-                      </div>
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${
-                                Number(managingOrganization.me.cooperation) * 20
-                              }%`,
-                            }}
-                          >
-                            {managingOrganization.me.cooperation}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(
-                                  managingOrganization.company.cooperation
-                                ) * 20
-                              }%`,
-                            }}
-                          >
-                            {managingOrganization.company.cooperation}
-                          </div>
-                        </div>
-                        <div class="top-line"></div>
-                      </div>
+                      <ReactEcharts
+                        style={{ height: 250, width: 450 }}
+                        option={graphOption("managingOrganization")}
+                      />
                     </div>
                   </div>
 
-                  <div class="flex page-18-grape-label-bottom mb40">
-                    <div>Managing Organization</div>
-                    <div>인재육성</div>
-                    <div>효율적인 조직운영</div>
-                    <div>경계없는 협력</div>
-                  </div>
+                  <div className="mt40">
+                    <div className="fb">Building Trust</div>
 
-                  <ReactEcharts
-                    style={{ height: 250, width: 450 }}
-                    option={graphOption("managingOrganization")}
-                  />
-
-                  <div>
-                    <div class="fb">Building Trust</div>
-
-                    <div class="page-18-grape-img-data">
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${
-                                Number(buildingTrust.me.buildingTrust) * 20
-                              }%`,
-                            }}
-                          >
-                            {buildingTrust.me.buildingTrust}
+                    <div className="flex">
+                      <div className="flex fc">
+                        <div className="page-18-grape-img-data">
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
+                              <div
+                                className="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(buildingTrust.me.buildingTrust) * 20
+                                  }%`,
+                                }}
+                              >
+                                {buildingTrust.me.buildingTrust}
+                              </div>
+                              <div
+                                className="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(
+                                      buildingTrust.company.buildingTrust
+                                    ) * 20
+                                  }%`,
+                                }}
+                              >
+                                {buildingTrust.company.buildingTrust}
+                              </div>
+                            </div>
+                            <div className="top-line"></div>
                           </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(buildingTrust.company.buildingTrust) * 20
-                              }%`,
-                            }}
-                          >
-                            {buildingTrust.company.buildingTrust}
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
+                              <div
+                                className="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(buildingTrust.me.ethics) * 20
+                                  }%`,
+                                }}
+                              >
+                                {buildingTrust.me.ethics}
+                              </div>
+                              <div
+                                className="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(buildingTrust.company.ethics) * 20
+                                  }%`,
+                                }}
+                              >
+                                {buildingTrust.company.ethics}
+                              </div>
+                            </div>
+                            <div className="top-line"></div>
+                          </div>
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
+                              <div
+                                className="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(buildingTrust.me.emotion) * 20
+                                  }%`,
+                                }}
+                              >
+                                {buildingTrust.me.emotion}
+                              </div>
+                              <div
+                                className="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(buildingTrust.company.emotion) * 20
+                                  }%`,
+                                }}
+                              >
+                                {buildingTrust.company.emotion}
+                              </div>
+                            </div>
+                            <div className="top-line"></div>
+                          </div>
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
+                              <div
+                                className="page-18-our-department mr10"
+                                style={{
+                                  height: `${
+                                    Number(buildingTrust.me.roleModel) * 20
+                                  }%`,
+                                }}
+                              >
+                                {buildingTrust.me.roleModel}
+                              </div>
+                              <div
+                                className="page-18-our-department company"
+                                style={{
+                                  height: `${
+                                    Number(buildingTrust.company.roleModel) * 20
+                                  }%`,
+                                }}
+                              >
+                                {buildingTrust.company.roleModel}
+                              </div>
+                            </div>
+                            <div className="top-line"></div>
                           </div>
                         </div>
-                        <div class="top-line"></div>
-                      </div>
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${
-                                Number(buildingTrust.me.ethics) * 20
-                              }%`,
-                            }}
-                          >
-                            {buildingTrust.me.ethics}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(buildingTrust.company.ethics) * 20
-                              }%`,
-                            }}
-                          >
-                            {buildingTrust.company.ethics}
-                          </div>
+                        <div className="flex page-18-grape-label-bottom thr mb40">
+                          <div>Building Trust</div>
+                          <div>윤리의식</div>
+                          <div>감성지능</div>
+                          <div>롤모델</div>
                         </div>
-                        <div class="top-line"></div>
                       </div>
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${
-                                Number(buildingTrust.me.emotion) * 20
-                              }%`,
-                            }}
-                          >
-                            {buildingTrust.me.emotion}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(buildingTrust.company.emotion) * 20
-                              }%`,
-                            }}
-                          >
-                            {buildingTrust.company.emotion}
-                          </div>
-                        </div>
-                        <div class="top-line"></div>
-                      </div>
-                      <div class="page-18-grape-item">
-                        <div class="flex jcs h160 al-end">
-                          <div
-                            class="page-18-our-department mr10"
-                            style={{
-                              height: `${
-                                Number(buildingTrust.me.roleModel) * 20
-                              }%`,
-                            }}
-                          >
-                            {buildingTrust.me.roleModel}
-                          </div>
-                          <div
-                            class="page-18-our-department company"
-                            style={{
-                              height: `${
-                                Number(buildingTrust.company.roleModel) * 20
-                              }%`,
-                            }}
-                          >
-                            {buildingTrust.company.roleModel}
-                          </div>
-                        </div>
-                        <div class="top-line"></div>
-                      </div>
+                      <ReactEcharts
+                        style={{ height: 250, width: 450 }}
+                        option={graphOption("buildingTrust")}
+                      />
                     </div>
                   </div>
 
-                  <div class="flex page-18-grape-label-bottom thr mb40">
-                    <div>Building Trust</div>
-                    <div>윤리의식</div>
-                    <div>감성지능</div>
-                    <div>롤모델</div>
-                  </div>
-
-                  <ReactEcharts
-                    style={{ height: 250, width: 450 }}
-                    option={graphOption("buildingTrust")}
-                  />
-
-                  <div class="info mt20">
-                    <span class="material-symbols-outlined">arrow_right</span>
+                  <div className="info mt20">
+                    <span className="material-symbols-outlined">
+                      arrow_right
+                    </span>
                     리포트 내 모든 결과값은 소수점 둘째 자리에서 반올림 처리한
                     값입니다. 단, 본인점수와 전사 평균 간 점수가 ±0.5점을 초과한
                     역량 선정은 반올림 처리하지 않은 값을 기준으로 하였습니다.
