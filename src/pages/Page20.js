@@ -126,148 +126,150 @@ export default function Page() {
               <div class="mt20 pr">
                 <div class="emphasize-line"></div>
                 <table class="bt">
-                  <tr class="tc header">
-                    <td class="br" rowspan="2">
-                      리더역할
-                    </td>
-                    <td class="br" rowspan="2">
-                      리더십 역량
-                    </td>
-                    <td class="br" rowspan="2">
-                      역량 Keyword
-                    </td>
-                    <td rowspan="2">20년</td>
-                    <td rowspan="2">21년</td>
-                    <td rowspan="2">22년</td>
-                    <td colspan="2">평균</td>
-                  </tr>
-                  <tr class="tc header">
-                    <td class="bt br">사업부</td>
-                    <td class="bt br">전사</td>
-                  </tr>
-                  <tr class="tc bt">
-                    <td></td>
-                    <td colspan="2">Total</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>3.5</td>
-                    <td>3.5</td>
-                    <td>3.5</td>
-                  </tr>
-                  {/* <!-- 비전제시 데이터 --> */}
-                  <tr class="tc">
-                    <td class="wmven fwb bt emphasize" rowspan="25">
-                      Leading Business
-                    </td>
-                    <td class="fwb br bt header" rowspan="4">
-                      비전제시
-                    </td>
-                    <td class="header fwb bt tl">비전제시</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">비즈니스 감각</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">혁신적 사고</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">비전 실행관리</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  {/* <!-- / --> */}
-                  {/* <!-- 합리적 의사결정 데이터 --> */}
-                  <tr class="tc">
-                    <td class="fwb br bt header" rowspan="4">
-                      합리적 의사결정
-                    </td>
-                    <td class="header fwb bt tl">합리적 의사결정</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">고객중심</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">전문성</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">계획수립</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  {/* <!-- / --> */}
-                  {/* <!-- 강력한 실행력 데이터 --> */}
-                  <tr class="tc">
-                    <td class="fwb br bt header" rowspan="4">
-                      강력한 실행력
-                    </td>
-                    <td class="header fwb bt tl">강력한 실행력</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">전략적 네트워크</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">위험관리</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">추진력</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  {/* <!-- / --> */}
+                  <tbody>
+                    <tr class="tc header">
+                      <td class="br" rowSpan={2}>
+                        리더역할
+                      </td>
+                      <td class="br" rowSpan={2}>
+                        리더십 역량
+                      </td>
+                      <td class="br" rowSpan={2}>
+                        역량 Keyword
+                      </td>
+                      <td rowSpan={2}>20년</td>
+                      <td rowSpan={2}>21년</td>
+                      <td rowSpan={2}>22년</td>
+                      <td colSpan={2}>평균</td>
+                    </tr>
+                    <tr class="tc header">
+                      <td class="bt br">사업부</td>
+                      <td class="bt br">전사</td>
+                    </tr>
+                    <tr class="tc bt">
+                      <td></td>
+                      <td colSpan={2}>Total</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>3.5</td>
+                      <td>3.5</td>
+                      <td>3.5</td>
+                    </tr>
+                    {/* <!-- 비전제시 데이터 --> */}
+                    <tr class="tc">
+                      <td class="wmven fwb bt emphasize" rowSpan={25}>
+                        Leading Business
+                      </td>
+                      <td class="fwb br bt header" rowSpan={4}>
+                        비전제시
+                      </td>
+                      <td class="header fwb bt tl">비전제시</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">비즈니스 감각</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">혁신적 사고</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">비전 실행관리</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    {/* <!-- / --> */}
+                    {/* <!-- 합리적 의사결정 데이터 --> */}
+                    <tr class="tc">
+                      <td class="fwb br bt header" rowSpan={4}>
+                        합리적 의사결정
+                      </td>
+                      <td class="header fwb bt tl">합리적 의사결정</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">고객중심</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">전문성</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">계획수립</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    {/* <!-- / --> */}
+                    {/* <!-- 강력한 실행력 데이터 --> */}
+                    <tr class="tc">
+                      <td class="fwb br bt header" rowSpan={4}>
+                        강력한 실행력
+                      </td>
+                      <td class="header fwb bt tl">강력한 실행력</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">전략적 네트워크</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">위험관리</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">추진력</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    {/* <!-- / --> */}
+                  </tbody>
                 </table>
               </div>
             </div>

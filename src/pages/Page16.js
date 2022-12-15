@@ -164,38 +164,42 @@ export default function Page({ data, organization, position }) {
                       </div>
 
                       <table class="page-15-table mt50">
-                        <tr class="tc header">
-                          <td colspan="3">조언자</td>
-                        </tr>
-                        <tr>
-                          <td class="tc">경력비전제시</td>
-                          <td class="tc">코칭/피드백</td>
-                        </tr>
-                        <tr>
-                          <td class="tc">동기부여</td>
-                          <td class="tc">다양성존중</td>
-                        </tr>
-                        <tr>
-                          <td class="tc">경청/의사소통</td>
-                          <td class="tc">인간 관계 형성/지원</td>
-                        </tr>
+                        <tbody>
+                          <tr class="tc header">
+                            <td colSpan={3}>조언자</td>
+                          </tr>
+                          <tr>
+                            <td class="tc">경력비전제시</td>
+                            <td class="tc">코칭/피드백</td>
+                          </tr>
+                          <tr>
+                            <td class="tc">동기부여</td>
+                            <td class="tc">다양성존중</td>
+                          </tr>
+                          <tr>
+                            <td class="tc">경청/의사소통</td>
+                            <td class="tc">인간 관계 형성/지원</td>
+                          </tr>
+                        </tbody>
                       </table>
                       <table class="page-15-table mt50">
-                        <tr class="tc header">
-                          <td colspan="3">촉진자</td>
-                        </tr>
-                        <tr>
-                          <td class="tc">동기부여</td>
-                          <td class="tc">상호이해</td>
-                        </tr>
-                        <tr>
-                          <td class="tc">문제해결지원</td>
-                          <td class="tc">갈등관리</td>
-                        </tr>
-                        <tr>
-                          <td class="tc">경청/의사소통</td>
-                          <td class="tc">인간적 관계 형성/지원</td>
-                        </tr>
+                        <tbody>
+                          <tr class="tc header">
+                            <td colSpan={3}>촉진자</td>
+                          </tr>
+                          <tr>
+                            <td class="tc">동기부여</td>
+                            <td class="tc">상호이해</td>
+                          </tr>
+                          <tr>
+                            <td class="tc">문제해결지원</td>
+                            <td class="tc">갈등관리</td>
+                          </tr>
+                          <tr>
+                            <td class="tc">경청/의사소통</td>
+                            <td class="tc">인간적 관계 형성/지원</td>
+                          </tr>
+                        </tbody>
                       </table>
                     </div>
                   </div>

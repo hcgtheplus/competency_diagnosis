@@ -159,13 +159,13 @@ export default function Page() {
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td className="bt yello-bg" rowSpan="2">
+                                  <td className="bt yello-bg" rowSpan={2}>
                                     공동체형
                                   </td>
-                                  <td className="bt yello-bg fwb" rowSpan="2">
+                                  <td className="bt yello-bg fwb" rowSpan={2}>
                                     3.5
                                   </td>
-                                  <td className="bt yello-bg" rowSpan="2">
+                                  <td className="bt yello-bg" rowSpan={2}>
                                     3.7
                                   </td>
                                   <td className="bt yello-bg">조언자</td>
@@ -178,13 +178,13 @@ export default function Page() {
                                   <td className="bt yello-bg">3.83</td>
                                 </tr>
                                 <tr>
-                                  <td className="bt" rowSpan="2">
+                                  <td className="bt" rowSpan={2}>
                                     위계질서형
                                   </td>
-                                  <td className="bt fwb" rowSpan="2">
+                                  <td className="bt fwb" rowSpan={2}>
                                     3.5
                                   </td>
-                                  <td className="bt" rowSpan="2">
+                                  <td className="bt" rowSpan={2}>
                                     3.5
                                   </td>
                                   <td className="bt">감시자</td>
@@ -197,13 +197,13 @@ export default function Page() {
                                   <td className="bt blue-bg">3.90</td>
                                 </tr>
                                 <tr>
-                                  <td className="bt" rowSpan="2">
+                                  <td className="bt" rowSpan={2}>
                                     성과중시형
                                   </td>
-                                  <td className="bt fwb" rowSpan="2">
+                                  <td className="bt fwb" rowSpan={2}>
                                     3.3
                                   </td>
-                                  <td className="bt" rowSpan="2">
+                                  <td className="bt" rowSpan={2}>
                                     3.7
                                   </td>
                                   <td className="bt">감독자</td>
@@ -218,7 +218,7 @@ export default function Page() {
                                 <tr>
                                   <td
                                     className="bt"
-                                    rowSpan="2"
+                                    rowSpan={2}
                                     style={{
                                       borderBottom: "1px solid #eaeaec",
                                     }}
@@ -227,7 +227,7 @@ export default function Page() {
                                   </td>
                                   <td
                                     className="bt fwb"
-                                    rowSpan="2"
+                                    rowSpan={2}
                                     style={{
                                       borderBottom: "1px solid #eaeaec",
                                     }}
@@ -236,7 +236,7 @@ export default function Page() {
                                   </td>
                                   <td
                                     className="bt"
-                                    rowSpan="2"
+                                    rowSpan={2}
                                     style={{
                                       borderBottom: "1px solid #eaeaec",
                                     }}

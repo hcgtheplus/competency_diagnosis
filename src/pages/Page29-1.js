@@ -24,7 +24,7 @@ export default function Page() {
                         Keyword
                       </td>
                       <td className="w180 fwb">정의</td>
-                      <td className="fwb" colSpan="2">
+                      <td className="fwb" colSpan={2}>
                         관련 개발 서적 및 강의
                       </td>
                       <td className="w110 fwb">
@@ -34,16 +34,16 @@ export default function Page() {
                       </td>
                     </tr>
                     <tr className="tc header">
-                      <td colSpan="5">강력한 실행력 Driving Force</td>
+                      <td colSpan={5}>강력한 실행력 Driving Force</td>
                     </tr>
                     {/* <!-- 전략적 네트워크 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         전략적 네트워크
                         <br />
                         Strategic Network
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         비즈니스를 성공적으로 수행하기 위해 도움이 되는 전문적인
                         네트워크를 형성하고 관계를 지속적으로 유지한다.
                       </td>
@@ -60,7 +60,7 @@ export default function Page() {
                           Professional Relationships
                         </div>
                       </td>
-                      <td rowSpan="2">중재자</td>
+                      <td rowSpan={2}>중재자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -79,12 +79,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 위험관리 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         위험관리
                         <br />
                         Risk Mgmt.
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         발생 가능한 위험 요인을 예측하고 선제적으로 대응하여
                         성과를 창출한다.
                       </td>
@@ -96,7 +96,7 @@ export default function Page() {
                           Steps
                         </div>
                       </td>
-                      <td rowSpan="2">감시자</td>
+                      <td rowSpan={2}>감시자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -118,12 +118,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 추진력 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         추진력
                         <br />
                         Execution
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         업무 추진 과정에 어려움이 발생하더라도 설득과 협상을
                         통해 결단력 있게 추진한다.
                       </td>
@@ -140,7 +140,7 @@ export default function Page() {
                           things done
                         </div>
                       </td>
-                      <td rowSpan="2">성취자, 중재자, 개혁자</td>
+                      <td rowSpan={2}>성취자, 중재자, 개혁자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>

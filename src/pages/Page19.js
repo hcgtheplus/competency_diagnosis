@@ -61,10 +61,10 @@ export default function Page({ data }) {
                 <table>
                   <tbody className="bt">
                     <tr className="tc header">
-                      <td className="br" rowSpan="2">
+                      <td className="br" rowSpan={2}>
                         영역
                       </td>
-                      <td colSpan="4">평균</td>
+                      <td colSpan={4}>평균</td>
                     </tr>
                     <tr className="tc header">
                       <td className="bt br" style={{ width: "15%" }}>

@@ -24,7 +24,7 @@ export default function Page() {
                         Keyword
                       </td>
                       <td className="w180 fwb">정의</td>
-                      <td className="fwb" colSpan="2">
+                      <td className="fwb" colSpan={2}>
                         관련 개발 서적 및 강의
                       </td>
                       <td className="w110 fwb">
@@ -34,18 +34,18 @@ export default function Page() {
                       </td>
                     </tr>
                     <tr className="tc header">
-                      <td colSpan="5">
+                      <td colSpan={5}>
                         경계 없는 협력 Boundaryless Collaboration
                       </td>
                     </tr>
                     {/* <!-- 상호이해 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         상호이해
                         <br />
                         Mutual Understanding
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         조직/구성원들 간 다양한 입장을 공유할 수 있는 기회를
                         마련하여 상호간의 이해를 촉진하고, 조직 간 공감대를
                         형성한다.
@@ -63,7 +63,7 @@ export default function Page() {
                           brings out the best in employees | Chris White
                         </div>
                       </td>
-                      <td rowSpan="2">촉진자</td>
+                      <td rowSpan={2}>촉진자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -85,12 +85,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 문제해결지원 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         문제해결지원
                         <br />
                         Cross-Functional Support
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         문제 발생 시 본부/부서의 이익만 주장하지 않고
                         전사/조직전반 차원에서 해결책을 찾아내기 위해 노력한다.
                       </td>
@@ -102,7 +102,7 @@ export default function Page() {
                           Coleman & Anne McLaughlin | TEDxAtlantaWomen
                         </div>
                       </td>
-                      <td rowSpan="2">촉진자, 조정자</td>
+                      <td rowSpan={2}>촉진자, 조정자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -125,12 +125,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 갈등관리 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         갈등관리
                         <br />
                         Conflict Management
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         객관적인 자세로 갈등 당사자들의 의견을 수렴하고 조율하여
                         합의점을 모색한다.
                       </td>
@@ -142,7 +142,7 @@ export default function Page() {
                           Manage Team Conflict In Under 6 Minutes!
                         </div>
                       </td>
-                      <td rowSpan="2">촉진자, 조정자</td>
+                      <td rowSpan={2}>촉진자, 조정자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>

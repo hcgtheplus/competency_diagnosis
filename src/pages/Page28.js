@@ -24,7 +24,7 @@ export default function Page() {
                         Keyword
                       </td>
                       <td className="w180 fwb">정의</td>
-                      <td className="fwb" colSpan="2">
+                      <td className="fwb" colSpan={2}>
                         관련 개발 서적 및 강의
                       </td>
                       <td className="w110 fwb">
@@ -34,16 +34,16 @@ export default function Page() {
                       </td>
                     </tr>
                     <tr className="tc header">
-                      <td colSpan="5">비전제시 Being Visionary</td>
+                      <td colSpan={5}>비전제시 Being Visionary</td>
                     </tr>
                     {/* <!-- 비즈니스 감각 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         비즈니스 감각
                         <br />
                         Business Insight
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         시장과 정책의 변화가 비즈니스에 미치는 영향을 이해하고
                         사업/업무 포트폴리오를 조정한다.
                       </td>
@@ -60,7 +60,7 @@ export default function Page() {
                           to create business value
                         </div>
                       </td>
-                      <td rowSpan="2">중재자</td>
+                      <td rowSpan={2}>중재자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -86,12 +86,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 혁신적 사고 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         혁신적 사고
                         <br />
                         Innovative Thinking
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         신기술이나 다른 업무방식이 새로운 (사업)기회가 될 수
                         있음을 이해하고 새로운 아이디어를 적극적으로 탐색하고
                         수용한다.
@@ -109,7 +109,7 @@ export default function Page() {
                           Caffi | TEDxGuildford
                         </div>
                       </td>
-                      <td rowSpan="2">개혁자</td>
+                      <td rowSpan={2}>개혁자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -127,12 +127,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 비전 실행관리 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         비전 실행관리
                         <br />
                         Vision Administrator
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         조직의 전략방향을 구성원들과 공유하고 구성원들의 업무가
                         전략방향과 연계될 수 있도록 지원한다.
                       </td>
@@ -143,7 +143,7 @@ export default function Page() {
                           Root Impact, [조직문화 201] 구글이 일하는 방식
                         </div>
                       </td>
-                      <td rowSpan="2">개혁자</td>
+                      <td rowSpan={2}>개혁자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -165,18 +165,18 @@ export default function Page() {
                     </tr>
                     {/* <!-- / --> */}
                     <tr className="tc header">
-                      <td colSpan="5">
+                      <td colSpan={5}>
                         합리적 의사결정 Reasonable Decision Making
                       </td>
                     </tr>
                     {/* <!-- 고객중심 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         고객중심
                         <br />
                         Customer Orientation
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         고객의 니즈를 파악하고 이해하기 위해 다양한 활동을
                         수행하며, 고객의 관점에서 문제를 바라보고 해결안을
                         제시한다.
@@ -194,7 +194,7 @@ export default function Page() {
                           mindset
                         </div>
                       </td>
-                      <td rowSpan="2">중재자, 개혁자</td>
+                      <td rowSpan={2}>중재자, 개혁자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -218,19 +218,19 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 전문성 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         전문성
                         <br />
                         Expertism
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         담당 분야에 대한 전문성과 통찰력을 바탕으로 사업/업무를
                         리드한다.
                       </td>
-                      <td className="wsn" rowSpan="2">
+                      <td className="wsn" rowSpan={2}>
                         서적
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         <div className="flex">
                           <div className="mr8">-</div>
                           ‘피터 드러커 자기경영노트’ | 피터 F. 드러커 지음
@@ -245,18 +245,18 @@ export default function Page() {
                           자기관리,통찰력 관련 서적을 선정하였습니다.
                         </div>
                       </td>
-                      <td rowSpan="2">성취자</td>
+                      <td rowSpan={2}>성취자</td>
                     </tr>
                     <tr></tr>
                     {/* <!-- / --> */}
                     {/* <!-- 계획수립 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         계획수립
                         <br />
                         Planning
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         회사의 전략방향과 조직의 미션을 반영하여 구체적인 계획을
                         수립하고 업무 우선순위를 설정하는 등 업무를 체계적으로
                         추진한다.
@@ -274,7 +274,7 @@ export default function Page() {
                           goals | John Doerr
                         </div>
                       </td>
-                      <td rowSpan="2">조정자, 감독자</td>
+                      <td rowSpan={2}>조정자, 감독자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
