@@ -100,7 +100,11 @@ function App() {
             leadershipType={leadershipType}
             leadershipStyle={leadershipStyle}
           />
-          <Page16 data={sampleData["14"]} />
+          <Page16
+            data={sampleData["14"]}
+            organization={organization}
+            position={position}
+          />
           <Page17 data={sampleData["15"]} />
           <Page18 data={sampleData["16"]} />
           <Page19 data={sampleData["17"]} />
