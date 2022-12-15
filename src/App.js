@@ -82,7 +82,7 @@ function App() {
       </div> */}
       <div className="for-center">
         <div className="main-image-container page 1">
-          <Page1 />
+          <Page1 name={name} organization={organization} />
           <Page2 />
           <Page3 />
           <Page4 />
