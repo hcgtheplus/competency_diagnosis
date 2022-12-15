@@ -213,11 +213,11 @@ export default function Page({ data, name, organization, position }) {
 
                     <div className="flex">
                       <div className="flex fc">
-                        <div class="page-18-grape-img-data">
-                          <div class="page-18-grape-item">
-                            <div class="flex jcs h160 al-end">
+                        <div className="page-18-grape-img-data">
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
                               <div
-                                class="page-18-our-department mr10"
+                                className="page-18-our-department mr10"
                                 style={{
                                   height: `${
                                     Number(leadingBiz.me.leadingBiz) * 20
@@ -227,7 +227,7 @@ export default function Page({ data, name, organization, position }) {
                                 {leadingBiz.me.leadingBiz}
                               </div>
                               <div
-                                class="page-18-our-department company"
+                                className="page-18-our-department company"
                                 style={{
                                   height: `${
                                     Number(leadingBiz.company.leadingBiz) * 20
@@ -237,12 +237,12 @@ export default function Page({ data, name, organization, position }) {
                                 {leadingBiz.company.leadingBiz}
                               </div>
                             </div>
-                            <div class="top-line"></div>
+                            <div className="top-line"></div>
                           </div>
-                          <div class="page-18-grape-item">
-                            <div class="flex jcs h160 al-end">
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
                               <div
-                                class="page-18-our-department mr10"
+                                className="page-18-our-department mr10"
                                 style={{
                                   height: `${
                                     Number(leadingBiz.me.vision) * 20
@@ -252,7 +252,7 @@ export default function Page({ data, name, organization, position }) {
                                 {leadingBiz.me.vision}
                               </div>
                               <div
-                                class="page-18-our-department company"
+                                className="page-18-our-department company"
                                 style={{
                                   height: `${
                                     Number(leadingBiz.company.vision) * 20
@@ -262,12 +262,12 @@ export default function Page({ data, name, organization, position }) {
                                 {leadingBiz.company.vision}
                               </div>
                             </div>
-                            <div class="top-line"></div>
+                            <div className="top-line"></div>
                           </div>
-                          <div class="page-18-grape-item">
-                            <div class="flex jcs h160 al-end">
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
                               <div
-                                class="page-18-our-department mr10"
+                                className="page-18-our-department mr10"
                                 style={{
                                   height: `${
                                     Number(leadingBiz.me.decision) * 20
@@ -277,7 +277,7 @@ export default function Page({ data, name, organization, position }) {
                                 {leadingBiz.me.decision}
                               </div>
                               <div
-                                class="page-18-our-department company"
+                                className="page-18-our-department company"
                                 style={{
                                   height: `${
                                     Number(leadingBiz.company.decision) * 20
@@ -287,12 +287,12 @@ export default function Page({ data, name, organization, position }) {
                                 {leadingBiz.company.decision}
                               </div>
                             </div>
-                            <div class="top-line"></div>
+                            <div className="top-line"></div>
                           </div>
-                          <div class="page-18-grape-item">
-                            <div class="flex jcs h160 al-end">
+                          <div className="page-18-grape-item">
+                            <div className="flex jcs h160 al-end">
                               <div
-                                class="page-18-our-department mr10"
+                                className="page-18-our-department mr10"
                                 style={{
                                   height: `${
                                     Number(leadingBiz.me.execution) * 20
@@ -302,7 +302,7 @@ export default function Page({ data, name, organization, position }) {
                                 {leadingBiz.me.execution}
                               </div>
                               <div
-                                class="page-18-our-department company"
+                                className="page-18-our-department company"
                                 style={{
                                   height: `${
                                     Number(leadingBiz.company.execution) * 20
@@ -312,7 +312,7 @@ export default function Page({ data, name, organization, position }) {
                                 {leadingBiz.company.execution}
                               </div>
                             </div>
-                            <div class="top-line"></div>
+                            <div className="top-line"></div>
                           </div>
                           <div>
                             <ReactEcharts

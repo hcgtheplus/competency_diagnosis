@@ -525,7 +525,7 @@ export default function Page({ data }) {
                     </tr>
                     {/* <!-- 비전제시 데이터 --> */}
                     <tr className="tc">
-                      <td className="wmven fwb bt emphasize" rowspan={25}>
+                      <td className="wmven fwb bt emphasize" rowSpan={25}>
                         Managing Org.
                       </td>
                       <td className="fwb br bt header" rowSpan={4}>
