@@ -313,6 +313,12 @@ export default function Page({ data, name, organization, position }) {
                             />
                           </div>
                         </div>
+                        <div className="flex page-18-grape-label-bottom mb40">
+                          <div>Leading Business</div>
+                          <div>비전제시</div>
+                          <div>합리적 의사결정</div>
+                          <div>강력한 실행력</div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -565,7 +571,7 @@ export default function Page({ data, name, organization, position }) {
                             <div className="top-line"></div>
                           </div>
                         </div>
-                        <div className="flex page-18-grape-label-bottom thr mb40">
+                        <div className="flex page-18-grape-label-bottom mb40">
                           <div>Building Trust</div>
                           <div>윤리의식</div>
                           <div>감성지능</div>
