@@ -1,10 +1,14 @@
 import page_13_sub_image_2 from "../image/sub-image/page-13/page-13-sub-image-2.png";
 import page_13_sub_image_3 from "../image/sub-image/page-13/page-13-sub-image-3.png";
 
-export default function Page({ data, subData }) {
-  const leadershipType = data[0].Column6.split("X")[0].split("(")[0].trim();
-  const leadershipStyle = data[0].Column6.split("X")[1].split("(")[0].trim();
-
+export default function Page({
+  data,
+  name,
+  organization,
+  position,
+  leadershipType,
+  leadershipStyle,
+}) {
   return (
     <div className="image-container page 15 pr">
       <div className="page-absolute">15 / 36</div>
@@ -13,12 +17,12 @@ export default function Page({ data, subData }) {
           <div className="for-margin">
             <div className="user-info">
               <div className="sub-title">소속:</div>
-              <div className="department">{subData[1].Column6}</div>
+              <div className="department">{organization}</div>
 
               <div className="sub-title">직책:</div>
-              <div className="duty">{subData[2].Column6}</div>
+              <div className="duty">{position}</div>
 
-              <div className="user-name">{subData[0].Column6}</div>
+              <div className="user-name">{name}</div>
             </div>
 
             <div className="title-container">

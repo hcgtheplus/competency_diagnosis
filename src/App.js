@@ -52,15 +52,23 @@ function App() {
     {}
   );
   const sampleData = groupByEmailWithPage["1billion@nhqv.com"];
+  const mainData = sampleData["12"];
+  const name = mainData[0].Column6;
+  const organization = mainData[1].Column6;
+  const position = mainData[2].Column6;
+  const leadershipType = mainData[4].Column6.split("X")[0].split("(")[0].trim();
+  const leadershipStyle = mainData[4].Column6.split("X")[1]
+    .split("(")[0]
+    .trim();
 
   return (
     <div className="App">
-      <div className="w-100 flex input-fixed">
+      {/* <div className="w-100 flex input-fixed">
         <div className="index-input">
           <div className="index-label">대상자 Index ID</div>
           <input placeholder="ID 값을 입력하십시오"></input>
         </div>
-      </div>
+      </div> */}
       <div className="for-center">
         <div className="main-image-container page 1">
           <Page1 />
@@ -76,20 +84,33 @@ function App() {
           <Page11 />
           <Page12 />
           <Page13 />
-          <Page14 data={sampleData["12"]} />
-          <Page15 />
-          <Page16 />
-          <Page15 data={sampleData["13"]} subData={sampleData["12"]} />
-          <Page17 />
-          <Page18 />
-          <Page19 />
-          <Page20 />
-          <Page21 />
-          <Page22 />
-          <Page23 />
-          <Page24 />
-          <Page25 />
-          <Page26 />
+          <Page14
+            data={sampleData["12"]}
+            name={name}
+            organization={organization}
+            position={position}
+            leadershipType={leadershipType}
+            leadershipStyle={leadershipStyle}
+          />
+          <Page15
+            data={sampleData["13"]}
+            name={name}
+            organization={organization}
+            position={position}
+            leadershipType={leadershipType}
+            leadershipStyle={leadershipStyle}
+          />
+          <Page16 data={sampleData["14"]} />
+          <Page17 data={sampleData["15"]} />
+          <Page18 data={sampleData["16"]} />
+          <Page19 data={sampleData["17"]} />
+          <Page20 data={sampleData["18"]} />
+          <Page21 data={sampleData["19"]} />
+          <Page22 data={sampleData["20"]} />
+          <Page23 data={sampleData["21"]} />
+          <Page24 data={sampleData["22"]} />
+          <Page25 data={sampleData["23"]} />
+          <Page26 data={sampleData["24"]} />
           <Page27 />
           <Page28 />
           <Page29 />
