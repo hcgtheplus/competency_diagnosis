@@ -290,7 +290,7 @@ export default function Page({ data }) {
                             alt="leadership-style"
                           />
                         </div>
-                        <div className="mb10">특징</div>
+                        <div className="main-sub-title mb10">특징</div>
                         {data[11].Column6.trim() && (
                           <ul>
                             <li>{data[11].Column6.trim()}</li>
@@ -299,7 +299,7 @@ export default function Page({ data }) {
                       </div>
 
                       <div className="mb30">
-                        <div className="mb10">강점</div>
+                        <div className="main-sub-title mb10">강점</div>
                         <ul>
                           {data[12].Column6.trim() && (
                             <li>{data[12].Column6.trim()}</li>
@@ -311,7 +311,7 @@ export default function Page({ data }) {
                       </div>
 
                       <div className="mb30">
-                        <div className="mb10">주의할 점</div>
+                        <div className="main-sub-title mb10">주의할 점</div>
                         {data[14].Column6.trim() && (
                           <ul>
                             <li>{data[14].Column6.trim()}</li>
