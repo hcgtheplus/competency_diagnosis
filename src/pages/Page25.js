@@ -1,5 +1,4 @@
 export default function Page({ data }) {
-
   // 부서 E 사업부 F
   const 업무및의사소통방식 = {
     업무효율성: { 부서: data[3].E.toFixed(1), 사업부: data[3].F.toFixed(1) },
@@ -111,10 +110,26 @@ export default function Page({ data }) {
                       <div className="flex">
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${
+                                  Number(업무및의사소통방식.업무효율성.부서) *
+                                  20
+                                }%`,
+                              }}
+                            >
                               {업무및의사소통방식.업무효율성.부서}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(업무및의사소통방식.업무효율성.사업부) *
+                                  20
+                                }%`,
+                              }}
+                            >
                               {업무및의사소통방식.업무효율성.사업부}
                             </div>
                           </div>
@@ -122,10 +137,27 @@ export default function Page({ data }) {
                         </div>
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${
+                                  Number(업무및의사소통방식.커뮤니케이션.부서) *
+                                  20
+                                }%`,
+                              }}
+                            >
                               {업무및의사소통방식.커뮤니케이션.부서}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(
+                                    업무및의사소통방식.커뮤니케이션.사업부
+                                  ) * 20
+                                }%`,
+                              }}
+                            >
                               {업무및의사소통방식.커뮤니케이션.사업부}
                             </div>
                           </div>
@@ -133,10 +165,25 @@ export default function Page({ data }) {
                         </div>
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${
+                                  Number(업무및의사소통방식.소통기회.부서) * 20
+                                }%`,
+                              }}
+                            >
                               {업무및의사소통방식.소통기회.부서}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(업무및의사소통방식.소통기회.사업부) *
+                                  20
+                                }%`,
+                              }}
+                            >
                               {업무및의사소통방식.소통기회.사업부}
                             </div>
                           </div>
@@ -144,10 +191,26 @@ export default function Page({ data }) {
                         </div>
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${
+                                  Number(업무및의사소통방식.수평적소통.부서) *
+                                  20
+                                }%`,
+                              }}
+                            >
                               {업무및의사소통방식.수평적소통.부서}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(업무및의사소통방식.수평적소통.사업부) *
+                                  20
+                                }%`,
+                              }}
+                            >
                               {업무및의사소통방식.수평적소통.사업부}
                             </div>
                           </div>
@@ -244,10 +307,24 @@ export default function Page({ data }) {
                       <div className="flex">
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.상사.신뢰존중.부서) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.상사.신뢰존중.부서}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.상사.신뢰존중.사업부) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.상사.신뢰존중.사업부}
                             </div>
                           </div>
@@ -255,10 +332,24 @@ export default function Page({ data }) {
                         </div>
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.상사.협업.부서) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.상사.협업.부서}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.상사.협업.사업부) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.상사.협업.사업부}
                             </div>
                           </div>
@@ -266,10 +357,24 @@ export default function Page({ data }) {
                         </div>
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.동료.신뢰존중.부서) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.동료.신뢰존중.부서}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.동료.신뢰존중.사업부) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.동료.신뢰존중.사업부}
                             </div>
                           </div>
@@ -277,10 +382,24 @@ export default function Page({ data }) {
                         </div>
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.동료.협업.사업부) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.동료.협업.사업부}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.동료.협업.사업부) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.동료.협업.사업부}
                             </div>
                           </div>
@@ -288,10 +407,24 @@ export default function Page({ data }) {
                         </div>
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.후배.신뢰존중.부서) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.후배.신뢰존중.부서}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.후배.신뢰존중.사업부) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.후배.신뢰존중.사업부}
                             </div>
                           </div>
@@ -299,10 +432,24 @@ export default function Page({ data }) {
                         </div>
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.후배.협업.부서) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.후배.협업.부서}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.후배.협업.사업부) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.후배.협업.사업부}
                             </div>
                           </div>
@@ -310,10 +457,22 @@ export default function Page({ data }) {
                         </div>
                         <div className="page-18-grape-item page-25">
                           <div className="flex jcs h160 al-end">
-                            <div className="page-18-our-department mr10">
+                            <div
+                              className="page-18-our-department mr10"
+                              style={{
+                                height: `${Number(조직외관계.종합.부서) * 20}%`,
+                              }}
+                            >
                               {조직외관계.종합.부서}
                             </div>
-                            <div className="page-18-our-department company">
+                            <div
+                              className="page-18-our-department company"
+                              style={{
+                                height: `${
+                                  Number(조직외관계.종합.사업부) * 20
+                                }%`,
+                              }}
+                            >
                               {조직외관계.종합.사업부}
                             </div>
                           </div>
@@ -409,10 +568,28 @@ export default function Page({ data }) {
                           <div className="flex">
                             <div className="page-18-grape-item page-25">
                               <div className="flex jcs h160 al-end">
-                                <div className="page-18-our-department mr10">
+                                <div
+                                  className="page-18-our-department mr10"
+                                  style={{
+                                    height: `${
+                                      Number(
+                                        조건만족.조직장에의한동기부여.부서
+                                      ) * 20
+                                    }%`,
+                                  }}
+                                >
                                   {조건만족.조직장에의한동기부여.부서}
                                 </div>
-                                <div className="page-18-our-department company">
+                                <div
+                                  className="page-18-our-department company"
+                                  style={{
+                                    height: `${
+                                      Number(
+                                        조건만족.조직장에의한동기부여.사업부
+                                      ) * 20
+                                    }%`,
+                                  }}
+                                >
                                   {조건만족.조직장에의한동기부여.사업부}
                                 </div>
                               </div>
@@ -420,10 +597,26 @@ export default function Page({ data }) {
                             </div>
                             <div className="page-18-grape-item page-25">
                               <div className="flex jcs h160 al-end">
-                                <div className="page-18-our-department mr10">
+                                <div
+                                  className="page-18-our-department mr10"
+                                  style={{
+                                    height: `${
+                                      Number(조건만족.조직에대한자부심.부서) *
+                                      20
+                                    }%`,
+                                  }}
+                                >
                                   {조건만족.조직에대한자부심.부서}
                                 </div>
-                                <div className="page-18-our-department company">
+                                <div
+                                  className="page-18-our-department company"
+                                  style={{
+                                    height: `${
+                                      Number(조건만족.조직에대한자부심.사업부) *
+                                      20
+                                    }%`,
+                                  }}
+                                >
                                   {조건만족.조직에대한자부심.사업부}
                                 </div>
                               </div>
@@ -480,10 +673,24 @@ export default function Page({ data }) {
                           <div className="flex">
                             <div className="page-18-grape-item page-25">
                               <div className="flex jcs h160 al-end">
-                                <div className="page-18-our-department mr10">
+                                <div
+                                  className="page-18-our-department mr10"
+                                  style={{
+                                    height: `${
+                                      Number(업무몰입.업무주도성.부서) * 20
+                                    }%`,
+                                  }}
+                                >
                                   {업무몰입.업무주도성.부서}
                                 </div>
-                                <div className="page-18-our-department company">
+                                <div
+                                  className="page-18-our-department company"
+                                  style={{
+                                    height: `${
+                                      Number(업무몰입.업무주도성.사업부) * 20
+                                    }%`,
+                                  }}
+                                >
                                   {업무몰입.업무주도성.사업부}
                                 </div>
                               </div>
@@ -491,10 +698,25 @@ export default function Page({ data }) {
                             </div>
                             <div className="page-18-grape-item page-25">
                               <div className="flex jcs h160 al-end">
-                                <div className="page-18-our-department mr10">
+                                <div
+                                  className="page-18-our-department mr10"
+                                  style={{
+                                    height: `${
+                                      Number(업무몰입.업무를통한성장.부서) * 20
+                                    }%`,
+                                  }}
+                                >
                                   {업무몰입.업무를통한성장.부서}
                                 </div>
-                                <div className="page-18-our-department company">
+                                <div
+                                  className="page-18-our-department company"
+                                  style={{
+                                    height: `${
+                                      Number(업무몰입.업무를통한성장.사업부) *
+                                      20
+                                    }%`,
+                                  }}
+                                >
                                   {업무몰입.업무를통한성장.사업부}
                                 </div>
                               </div>
