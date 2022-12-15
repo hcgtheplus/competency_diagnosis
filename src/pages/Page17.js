@@ -588,7 +588,7 @@ export default function Page({ data, name, organization, position }) {
                           <tr>
                             <td
                               rowSpan={피해야할특질}
-                              className="tc sec-header thr-thr"
+                              className="tc sec-header word-k-all thr-thr"
                             >
                               피해야할 특질
                             </td>
