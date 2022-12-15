@@ -72,7 +72,13 @@ export default function Page({ data }) {
 
             <div className="title-container">
               <div className="top-line"></div>
-              <h4 className="main-title">Summary 리더십 유형</h4>
+              <div className="flex ab sb">
+                <h4 className="main-title">Summary 리더십 유형</h4>
+                <div className="flc">
+                  <div className="mr30 fb">리더십Type :</div>
+                  <div>{data[4].Column6}</div>
+                </div>
+              </div>
               <hr className="bottom-line" />
             </div>
 
