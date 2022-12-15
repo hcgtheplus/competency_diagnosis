@@ -1,4 +1,5 @@
-export default function Page() {
+export default function Page({ data, name, organization, position }) {
+
   return (
     <div className="image-container page 17 pr">
       <div className="page-absolute">17 / 36</div>
@@ -7,12 +8,11 @@ export default function Page() {
           <div className="for-margin">
             <div className="user-info">
               <div className="sub-title">소속:</div>
-              <div className="department">미래 전략 기획부</div>
-
+              <div className="department">{organization}</div>
               <div className="sub-title">직책:</div>
-              <div className="duty">부장</div>
+              <div className="duty">{position}</div>
 
-              <div className="user-name">홍길동</div>
+              <div className="user-name">{name}</div>
             </div>
 
             <div className="title-container">
@@ -34,36 +34,32 @@ export default function Page() {
                     <div className="mb30">
                       <div className="mb10 fb f24">강한 특성</div>
                       <ul>
-                        <li>
-                          타인과 협력하지 않고 의사결정을 하려는 권위주의적
-                          성향과 규정을 위반한 타인을 능숙하게 시정하는 성향인
-                          효과적인 준칙요구 특성 등이 나타납니다.
-                        </li>
-                        <li>
-                          승진 선호가 강해 승진이 동기부여에 영향을 미치며
-                          재무/비즈니스에 대한 흥미가 높습니다.
-                        </li>
+                        {data[0].Column6.trim() && (
+                          <li>{data[0].Column6.trim()}</li>
+                        )}
+                        {data[1].Column6.trim() && (
+                          <li>{data[1].Column6.trim()}</li>
+                        )}
                       </ul>
                     </div>
                     <div className="mb30">
                       <div className="mb10 fb f24">약한 특성</div>
                       <ul>
-                        <li>
-                          타인이 요령있게 대화하길 바라는 세련된 대화 선호 특질
-                          등이 약하게 나타납니다.
-                        </li>
-                        <li>
-                          탄력적 근무 선호가 약해 탄력적 근무가 동기부여에
-                          영향을 미치지 않으며, 연구/학습에 대한 흥미가
-                          낮습니다.
-                        </li>
+                        {data[3].Column6.trim() && (
+                          <li>{data[3].Column6.trim()}</li>
+                        )}
+                        {data[4].Column6.trim() && (
+                          <li>{data[4].Column6.trim()}</li>
+                        )}
                       </ul>
                     </div>
                     <div className="mb30">
                       <div className="mb10 fb f24">피해야 할 특질</div>
-                      <ul>
-                        <li>발견되지 않았습니다.</li>
-                      </ul>
+                      {data[6].Column6.trim() && (
+                        <ul>
+                          <li>{data[6].Column6.trim()}</li>
+                        </ul>
+                      )}
                     </div>
 
                     <div className="flex mb30">
@@ -86,10 +82,10 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>권위주의적</div>
-                                  <div>(Effective Enforcing)</div>
+                                  <div>{data[9].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[9].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>9.9</div>
+                                <div>{data[9].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
@@ -97,10 +93,10 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>솔직한</div>
-                                  <div>(Frank)</div>
+                                  <div>{data[10].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[10].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>9.6</div>
+                                <div>{data[10].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
@@ -108,10 +104,10 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>유능한 리더 선호</div>
-                                  <div>(Wants Capable Leader)</div>
+                                  <div>{data[11].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[11].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>9.5</div>
+                                <div>{data[11].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
@@ -119,10 +115,10 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>세련된 진솔함</div>
-                                  <div>(Forthright Diplomacy)</div>
+                                  <div>{data[12].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[12].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>9.4</div>
+                                <div>{data[12].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
@@ -130,10 +126,10 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>참여유도형 권위주장</div>
-                                  <div>(Authoritative Collaboration)</div>
+                                  <div>{data[13].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[13].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>9.4</div>
+                                <div>{data[13].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
@@ -142,10 +138,10 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>효과적인 준칙요구</div>
-                                  <div>(Effective Enforcing)</div>
+                                  <div>{data[16].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[16].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>9.2</div>
+                                <div>{data[16].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
@@ -154,10 +150,10 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>승진선호</div>
-                                  <div>(Wants Advancement)</div>
+                                  <div>{data[19].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[19].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>10.0</div>
+                                <div>{data[19].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
@@ -166,10 +162,10 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>재무/비즈니스</div>
-                                  <div>(Finance / business)</div>
+                                  <div>{data[22].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[22].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>10.0</div>
+                                <div>{data[22].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
@@ -187,28 +183,60 @@ export default function Page() {
                             </td>
                           </tr>
                           <tr>
-                            <td rowSpan="2" className="tc sec-header">
+                            <td rowSpan="5" className="tc sec-header">
                               특질
                             </td>
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>세련된 대화 선호</div>
-                                  <div>(Wants Diplomacy)</div>
+                                  <div>{data[25].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[25].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>2.3</div>
+                                <div>{data[25].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
-
                           <tr>
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>도전성</div>
-                                  <div>(Wants Challenge)</div>
+                                  <div>{data[26].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[26].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>2.3</div>
+                                <div>{data[26].E.toFixed(1)}</div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="right-td">
+                              <div className="flc sb">
+                                <div>
+                                  <div>{data[27].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[27].Column6.split("\r\n")[1]}</div>
+                                </div>
+                                <div>{data[27].E.toFixed(1)}</div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="right-td">
+                              <div className="flc sb">
+                                <div>
+                                  <div>{data[28].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[28].Column6.split("\r\n")[1]}</div>
+                                </div>
+                                <div>{data[28].E.toFixed(1)}</div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="right-td">
+                              <div className="flc sb">
+                                <div>
+                                  <div>{data[29].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[29].Column6.split("\r\n")[1]}</div>
+                                </div>
+                                <div>{data[29].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
@@ -218,9 +246,10 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>-</div>
+                                  <div>{data[32].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[32].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>-</div>
+                                <div>{data[32].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
@@ -230,27 +259,25 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>탄력적 근무 선호</div>
-                                  <div>(Wants Flexible Work Time)</div>
+                                  <div>{data[35].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[35].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>1.0</div>
+                                <div>{data[35].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
-
                           <tr>
                             <td className="tc sec-header">흥미 선호</td>
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>연구/학습</div>
-                                  <div>(Research / learning)</div>
+                                  <div>{data[38].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[38].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>3.4</div>
+                                <div>{data[38].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>
-
                           <tr className="tc">
                             <td className="header thr-thr" colSpan="2">
                               <div className="flc sb w-100">
@@ -259,7 +286,6 @@ export default function Page() {
                               </div>
                             </td>
                           </tr>
-
                           <tr>
                             <td rowSpan="2" className="tc sec-header thr-thr">
                               피해야할 특질
@@ -267,20 +293,10 @@ export default function Page() {
                             <td className="right-td">
                               <div className="flc sb">
                                 <div>
-                                  <div>-</div>
+                                  <div>{data[41].Column6.split("\r\n")[0]}</div>
+                                  <div>{data[41].Column6.split("\r\n")[1]}</div>
                                 </div>
-                                <div>-</div>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td className="right-td">
-                              <div className="flc sb">
-                                <div>
-                                  <div>-</div>
-                                </div>
-                                <div>-</div>
+                                <div>{data[41].E.toFixed(1)}</div>
                               </div>
                             </td>
                           </tr>

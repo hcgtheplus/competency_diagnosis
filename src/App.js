@@ -105,7 +105,12 @@ function App() {
             organization={organization}
             position={position}
           />
-          <Page17 data={sampleData["15"]} />
+          <Page17
+            data={sampleData["15"]}
+            name={name}
+            organization={organization}
+            position={position}
+          />
           <Page18 data={sampleData["16"]} />
           <Page19 data={sampleData["17"]} />
           <Page20 data={sampleData["18"]} />
