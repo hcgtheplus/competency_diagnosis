@@ -122,7 +122,7 @@ function App() {
           <Page21 data={sampleData["19"]} />
           <Page22 data={sampleData["20"]} />
           <Page23 data={sampleData["21"]} />
-          <Page24 data={sampleData["22"]} />
+          <Page24 data={sampleData["22"]} leadershipStyle={leadershipStyle} />
           <Page25 data={sampleData["23"]} />
           <Page26 data={sampleData["24"]} />
           <Page27 />
