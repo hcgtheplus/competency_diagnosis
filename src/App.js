@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-pascal-case */
+import { useState } from "react";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
 import Page3 from "./pages/Page3";
@@ -26,20 +28,27 @@ import Page25 from "./pages/Page25";
 import Page26 from "./pages/Page26";
 import Page27 from "./pages/Page27";
 import Page28 from "./pages/Page28";
+import Page28_1 from "./pages/Page28-1";
 import Page29 from "./pages/Page29";
+import Page29_1 from "./pages/Page29-1";
 import Page30 from "./pages/Page30";
+import Page30_1 from "./pages/Page30-1";
 import Page31 from "./pages/Page31";
+import Page31_1 from "./pages/Page31-1";
 import Page32 from "./pages/Page32";
+import Page32_1 from "./pages/Page32-1";
 import Page33 from "./pages/Page33";
+import Page33_1 from "./pages/Page33-1";
 import Page34 from "./pages/Page34";
 import Page35 from "./pages/Page35";
 import Page36 from "./pages/Page36";
 
 import { groupBy, reduce } from "lodash";
 import fullData from "./fullData.json";
-// import emailList from "./emailList.json"; // 257명
+import emailList from "./emailList.json"; // 257명
 
 function App() {
+  const [userEmail, setUserEmail] = useState("1billion@nhqv.com");
   const groupByEmail = groupBy(fullData, "B");
   const groupByEmailWithPage = reduce(
     groupByEmail,
@@ -51,7 +60,8 @@ function App() {
     },
     {}
   );
-  const sampleData = groupByEmailWithPage["1billion@nhqv.com"];
+  // const sampleData = groupByEmailWithPage["1billion@nhqv.com"];
+  const sampleData = groupByEmailWithPage[userEmail];
   const mainData = sampleData["12"];
   const name = mainData[0].Column6;
   const organization = mainData[1].Column6;
@@ -60,18 +70,28 @@ function App() {
   const leadershipStyle = mainData[4].Column6.split("X")[1]
     .split("(")[0]
     .trim();
+  const anotherView = // 임원인 경우 28, 29, 30, 31, 32, 33 페이지는 별도로 보여준다
+    emailList.find((item) => item.email === userEmail).position === "임원";
 
   return (
     <div className="App">
-      {/* <div className="w-100 flex input-fixed">
+      <div className="w-100 flex input-fixed">
         <div className="index-input">
-          <div className="index-label">대상자 Index ID</div>
-          <input placeholder="ID 값을 입력하십시오"></input>
+          <div className="index-label">대상자 Email</div>
+          <input
+            placeholder="Email 값을 입력하십시오"
+            onChange={(event) => {
+              const { value } = event.target;
+              if (groupByEmailWithPage[value]) {
+                setUserEmail(value);
+              }
+            }}
+          />
         </div>
-      </div> */}
+      </div>
       <div className="for-center">
         <div className="main-image-container page 1">
-          <Page1 />
+          <Page1 name={name} organization={organization} />
           <Page2 />
           <Page3 />
           <Page4 />
@@ -126,12 +146,25 @@ function App() {
           <Page25 data={sampleData["23"]} />
           <Page26 data={sampleData["24"]} />
           <Page27 />
-          <Page28 />
-          <Page29 />
-          <Page30 />
-          <Page31 />
-          <Page32 />
-          <Page33 />
+          {anotherView ? (
+            <>
+              <Page28_1 />
+              <Page29_1 />
+              <Page30_1 />
+              <Page31_1 />
+              <Page32_1 />
+              <Page33_1 />
+            </>
+          ) : (
+            <>
+              <Page28 />
+              <Page29 />
+              <Page30 />
+              <Page31 />
+              <Page32 />
+              <Page33 />
+            </>
+          )}
           <Page34 />
           <Page35 />
           <Page36 />

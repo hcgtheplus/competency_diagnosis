@@ -88,23 +88,23 @@ export default function Page({
                 <hr className="bottom-line" />
               </div>
 
-              <div class="flc sb">
-                <div class="flex jcs mt50 ml40">
-                  <div class="flc fc">
-                    <div class="leadership-type flc fc mt35">
-                      <div class="page-13-sub-image-1 flex">
-                        <div class="type-left">
-                          <div class="type-h flc jcs fwb">H</div>
+              <div className="flc sb">
+                <div className="flex jcs mt50 ml40">
+                  <div className="flc fc">
+                    <div className="leadership-type flc fc mt35">
+                      <div className="page-13-sub-image-1 flex">
+                        <div className="type-left">
+                          <div className="type-h flc jcs fwb">H</div>
                           <hr />
                           <div
-                            class="wmvkr mt15 mb15 f18 fwb"
+                            className="wmvkr mt15 mb15 f18 fwb"
                             style={{ letterSpacing: "-1.5px" }}
                           >
                             지지행동
                           </div>
                           <hr />
                         </div>
-                        <div class="flc fc type-block-container">
+                        <div className="flc fc type-block-container">
                           <div className="flc">
                             <div
                               className={`block ${
@@ -139,27 +139,27 @@ export default function Page({
                           </div>
                         </div>
                       </div>
-                      <div class="type-right">
-                        <div class="type-l flc jcs fwb">L</div>
+                      <div className="type-right">
+                        <div className="type-l flc jcs fwb">L</div>
                         <hr />
-                        <div class="ml15 mr15 f18 fwb">지시행동</div>
+                        <div className="ml15 mr15 f18 fwb">지시행동</div>
                         <hr />
-                        <div class="type-bh flc jcs fwb">H</div>
+                        <div className="type-bh flc jcs fwb">H</div>
                       </div>
                     </div>
-                    <div class="image-sub-title-js">나의 리더십 유형</div>
+                    <div className="image-sub-title-js">나의 리더십 유형</div>
                   </div>
                 </div>
-                <div class="fwb f50" style={{ color: "#e9e9e9" }}>
+                <div className="fwb f50" style={{ color: "#e9e9e9" }}>
                   X
                 </div>
-                <div class="flex jcs mt50 mr40">
-                  <div class="flc fc">
-                    <div class="leadership-style flc jcs fc">
-                      <div class="fwb f18 mb15">유연성/자율성</div>
-                      <div class="flc">
+                <div className="flex jcs mt50 mr40">
+                  <div className="flc fc">
+                    <div className="leadership-style flc jcs fc">
+                      <div className="fwb f18 mb15">유연성/자율성</div>
+                      <div className="flc">
                         <div
-                          class="fwb f18 wmvkr mr15"
+                          className="fwb f18 wmvkr mr15"
                           style={{ letterSpacing: "-1.5px" }}
                         >
                           내부지향성
@@ -239,15 +239,15 @@ export default function Page({
                           </div>
                         </div>
                         <div
-                          class="fwb f18 wmvkr ml15"
+                          className="fwb f18 wmvkr ml15"
                           style={{ letterSpacing: "-1.5px" }}
                         >
                           외부지향성
                         </div>
                       </div>
-                      <div class="fwb f18 mt15">안정성</div>
+                      <div className="fwb f18 mt15">안정성</div>
                     </div>
-                    <div class="image-sub-title-js">나의 리더십 스타일</div>
+                    <div className="image-sub-title-js">나의 리더십 스타일</div>
                   </div>
                 </div>
               </div>

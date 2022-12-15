@@ -1,9 +1,9 @@
-import page_25_image_01 from '../image/sub-image/page-27/page-25-image-01.png';
-import page_25_image_02 from '../image/sub-image/page-27/page-25-image-02.png';
+import page_25_image_01 from "../image/sub-image/page-27/page-25-image-01.png";
+import page_25_image_02 from "../image/sub-image/page-27/page-25-image-02.png";
 
 export default function Page({ data }) {
-  const 강점텍스트 = data[0].Column6.split('\n');
-  const 미흡텍스트 = data[0].Column9.split('\n');
+  const 강점텍스트 = data[0].Column6.split("\n");
+  const 미흡텍스트 = data[0].Column9.split("\n");
   return (
     <div className="image-container page 26 pr">
       <div className="page-absolute">26 / 36</div>
@@ -25,7 +25,7 @@ export default function Page({ data }) {
                     <img src={page_25_image_01} alt="page_25_image_01" />
                     <ul className="mt10">
                       {강점텍스트.map((text) => (
-                        <li>{text}</li>
+                        <li key={text}>{text}</li>
                       ))}
                     </ul>
                   </div>
@@ -34,7 +34,7 @@ export default function Page({ data }) {
                     <img src={page_25_image_02} alt="page_25_image_02" />
                     <ul className="mt10">
                       {미흡텍스트.map((text) => (
-                        <li>{text}</li>
+                        <li key={text}>{text}</li>
                       ))}
                     </ul>
                   </div>

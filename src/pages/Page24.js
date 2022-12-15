@@ -97,29 +97,29 @@ export default function Page({ data, leadershipStyle }) {
                         </div>
                         <div className="mt50" style={{ width: "100%" }}>
                           <div
-                            class="leadership-style flc jcs fc"
+                            className="leadership-style flc jcs fc"
                             style={{ marginTop: "50px" }}
                           >
-                            <div class="fwb f18 mb15">유연성/자율성</div>
-                            <div class="flc">
+                            <div className="fwb f18 mb15">유연성/자율성</div>
+                            <div className="flc">
                               <div
-                                class="fwb f18 wmvkr mr15"
+                                className="fwb f18 wmvkr mr15"
                                 style={{ letterSpacing: "-1.5px" }}
                               >
                                 내부지향성
                               </div>
                               <div
-                                class="flc fc"
+                                className="flc fc"
                                 style={{ position: "relative" }}
                               >
-                                <div class="flc">
+                                <div className="flc">
                                   <div
                                     className={`emphasizeOC block${번호}`}
                                   ></div>
-                                  <div class="fwb block small mr5 mb5">
+                                  <div className="fwb block small mr5 mb5">
                                     공동체형
                                     <div
-                                      class={`triangle f11 small section1 ${
+                                      className={`triangle f11 small section1 ${
                                         leadershipStyle === "촉진자"
                                           ? "active"
                                           : ""
@@ -128,7 +128,7 @@ export default function Page({ data, leadershipStyle }) {
                                       촉진자
                                     </div>
                                     <div
-                                      class={`triangle f11 small section2 ${
+                                      className={`triangle f11 small section2 ${
                                         leadershipStyle === "조언자"
                                           ? "active"
                                           : ""
@@ -137,10 +137,10 @@ export default function Page({ data, leadershipStyle }) {
                                       조언자
                                     </div>
                                   </div>
-                                  <div class="flex jce fwb block small mb5">
+                                  <div className="flex jce fwb block small mb5">
                                     혁신중시형
                                     <div
-                                      class={`triangle f11 small section3 ${
+                                      className={`triangle f11 small section3 ${
                                         leadershipStyle === "개혁자"
                                           ? "active"
                                           : ""
@@ -149,7 +149,7 @@ export default function Page({ data, leadershipStyle }) {
                                       개혁자
                                     </div>
                                     <div
-                                      class={`triangle f11 small section4 ${
+                                      className={`triangle f11 small section4 ${
                                         leadershipStyle === "중재자"
                                           ? "active"
                                           : ""
@@ -159,11 +159,11 @@ export default function Page({ data, leadershipStyle }) {
                                     </div>
                                   </div>
                                 </div>
-                                <div class="flc">
-                                  <div class="flex afe fwb block small mr5">
+                                <div className="flc">
+                                  <div className="flex afe fwb block small mr5">
                                     위계질서형
                                     <div
-                                      class={`triangle f11 small section5 ${
+                                      className={`triangle f11 small section5 ${
                                         leadershipStyle === "감시자"
                                           ? "active"
                                           : ""
@@ -172,7 +172,7 @@ export default function Page({ data, leadershipStyle }) {
                                       감시자
                                     </div>
                                     <div
-                                      class={`triangle f11 small section6 ${
+                                      className={`triangle f11 small section6 ${
                                         leadershipStyle === "조정자"
                                           ? "active"
                                           : ""
@@ -181,10 +181,10 @@ export default function Page({ data, leadershipStyle }) {
                                       조정자
                                     </div>
                                   </div>
-                                  <div class="flex jce afe fwb block small">
+                                  <div className="flex jce afe fwb block small">
                                     성과중시형
                                     <div
-                                      class={`triangle f11 small section7 ${
+                                      className={`triangle f11 small section7 ${
                                         leadershipStyle === "감독자"
                                           ? "active"
                                           : ""
@@ -193,7 +193,7 @@ export default function Page({ data, leadershipStyle }) {
                                       감독자
                                     </div>
                                     <div
-                                      class={`triangle f11 small section8 ${
+                                      className={`triangle f11 small section8 ${
                                         leadershipStyle === "성취자"
                                           ? "active"
                                           : ""
@@ -205,13 +205,13 @@ export default function Page({ data, leadershipStyle }) {
                                 </div>
                               </div>
                               <div
-                                class="fwb f18 wmvkr ml15"
+                                className="fwb f18 wmvkr ml15"
                                 style={{ letterSpacing: "-1.5px" }}
                               >
                                 외부지향성
                               </div>
                             </div>
-                            <div class="fwb f18 mt15">안정성</div>
+                            <div className="fwb f18 mt15">안정성</div>
                           </div>
                         </div>
                       </div>
