@@ -218,7 +218,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department company"
                             style={{
                               height: `${
-                                Number(leadingBiz.company.leadingBiz) * 10
+                                Number(leadingBiz.company.leadingBiz) * 20
                               }%`,
                             }}
                           >
@@ -232,7 +232,7 @@ export default function Page({ data, name, organization, position }) {
                           <div
                             class="page-18-our-department mr10"
                             style={{
-                              height: `${Number(leadingBiz.me.vision) * 10}%`,
+                              height: `${Number(leadingBiz.me.vision) * 20}%`,
                             }}
                           >
                             {leadingBiz.me.vision}
@@ -241,7 +241,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department company"
                             style={{
                               height: `${
-                                Number(leadingBiz.company.vision) * 10
+                                Number(leadingBiz.company.vision) * 20
                               }%`,
                             }}
                           >
@@ -255,7 +255,7 @@ export default function Page({ data, name, organization, position }) {
                           <div
                             class="page-18-our-department mr10"
                             style={{
-                              height: `${Number(leadingBiz.me.decision) * 10}%`,
+                              height: `${Number(leadingBiz.me.decision) * 20}%`,
                             }}
                           >
                             {leadingBiz.me.decision}
@@ -264,7 +264,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department company"
                             style={{
                               height: `${
-                                Number(leadingBiz.company.decision) * 10
+                                Number(leadingBiz.company.decision) * 20
                               }%`,
                             }}
                           >
@@ -279,7 +279,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department mr10"
                             style={{
                               height: `${
-                                Number(leadingBiz.me.execution) * 10
+                                Number(leadingBiz.me.execution) * 20
                               }%`,
                             }}
                           >
@@ -289,7 +289,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department company"
                             style={{
                               height: `${
-                                Number(leadingBiz.company.execution) * 10
+                                Number(leadingBiz.company.execution) * 20
                               }%`,
                             }}
                           >
@@ -325,7 +325,7 @@ export default function Page({ data, name, organization, position }) {
                               height: `${
                                 Number(
                                   managingOrganization.me.managingOrganization
-                                ) * 10
+                                ) * 20
                               }%`,
                             }}
                           >
@@ -338,7 +338,7 @@ export default function Page({ data, name, organization, position }) {
                                 Number(
                                   managingOrganization.company
                                     .managingOrganization
-                                ) * 10
+                                ) * 20
                               }%`,
                             }}
                           >
@@ -353,7 +353,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department mr10"
                             style={{
                               height: `${
-                                Number(managingOrganization.me.talent) * 10
+                                Number(managingOrganization.me.talent) * 20
                               }%`,
                             }}
                           >
@@ -363,7 +363,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department company"
                             style={{
                               height: `${
-                                Number(managingOrganization.company.talent) * 10
+                                Number(managingOrganization.company.talent) * 20
                               }%`,
                             }}
                           >
@@ -378,7 +378,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department mr10"
                             style={{
                               height: `${
-                                Number(managingOrganization.me.operate) * 10
+                                Number(managingOrganization.me.operate) * 20
                               }%`,
                             }}
                           >
@@ -389,7 +389,7 @@ export default function Page({ data, name, organization, position }) {
                             style={{
                               height: `${
                                 Number(managingOrganization.company.operate) *
-                                10
+                                20
                               }%`,
                             }}
                           >
@@ -404,7 +404,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department mr10"
                             style={{
                               height: `${
-                                Number(managingOrganization.me.cooperation) * 10
+                                Number(managingOrganization.me.cooperation) * 20
                               }%`,
                             }}
                           >
@@ -416,7 +416,7 @@ export default function Page({ data, name, organization, position }) {
                               height: `${
                                 Number(
                                   managingOrganization.company.cooperation
-                                ) * 10
+                                ) * 20
                               }%`,
                             }}
                           >
@@ -450,7 +450,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department mr10"
                             style={{
                               height: `${
-                                Number(buildingTrust.me.buildingTrust) * 10
+                                Number(buildingTrust.me.buildingTrust) * 20
                               }%`,
                             }}
                           >
@@ -460,7 +460,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department company"
                             style={{
                               height: `${
-                                Number(buildingTrust.company.buildingTrust) * 10
+                                Number(buildingTrust.company.buildingTrust) * 20
                               }%`,
                             }}
                           >
@@ -475,7 +475,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department mr10"
                             style={{
                               height: `${
-                                Number(buildingTrust.me.ethics) * 10
+                                Number(buildingTrust.me.ethics) * 20
                               }%`,
                             }}
                           >
@@ -485,7 +485,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department company"
                             style={{
                               height: `${
-                                Number(buildingTrust.company.ethics) * 10
+                                Number(buildingTrust.company.ethics) * 20
                               }%`,
                             }}
                           >
@@ -500,7 +500,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department mr10"
                             style={{
                               height: `${
-                                Number(buildingTrust.me.emotion) * 10
+                                Number(buildingTrust.me.emotion) * 20
                               }%`,
                             }}
                           >
@@ -510,7 +510,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department company"
                             style={{
                               height: `${
-                                Number(buildingTrust.company.emotion) * 10
+                                Number(buildingTrust.company.emotion) * 20
                               }%`,
                             }}
                           >
@@ -525,7 +525,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department mr10"
                             style={{
                               height: `${
-                                Number(buildingTrust.me.roleModel) * 10
+                                Number(buildingTrust.me.roleModel) * 20
                               }%`,
                             }}
                           >
@@ -535,7 +535,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department company"
                             style={{
                               height: `${
-                                Number(buildingTrust.company.roleModel) * 10
+                                Number(buildingTrust.company.roleModel) * 20
                               }%`,
                             }}
                           >
