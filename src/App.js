@@ -79,6 +79,7 @@ function App() {
           <Page14 data={sampleData["12"]} />
           <Page15 />
           <Page16 />
+          <Page15 data={sampleData["13"]} subData={sampleData["12"]} />
           <Page17 />
           <Page18 />
           <Page19 />
