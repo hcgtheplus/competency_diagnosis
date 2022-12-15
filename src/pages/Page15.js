@@ -278,7 +278,7 @@ export default function Page({
               <div>
                 <div className="text-container">
                   <div className="mb30 mt30">
-                    <div className="mb10">특징</div>
+                    <div className="mb10 main-sub-title mb10">특징</div>
                     {data[3].Column6.trim() && (
                       <ul>
                         <li>{data[3].Column6.trim()}</li>
@@ -286,7 +286,7 @@ export default function Page({
                     )}
                   </div>
                   <div className="mb30">
-                    <div className="mb10">강점</div>
+                    <div className="mb10 main-sub-title mb10">강점</div>
                     <ul>
                       {data[4].Column6.trim() && (
                         <li>{data[4].Column6.trim()}</li>
@@ -297,7 +297,7 @@ export default function Page({
                     </ul>
                   </div>
                   <div className="mb30">
-                    <div className="mb10">주의할 점</div>
+                    <div className="mb10 main-sub-title mb10">주의할 점</div>
                     {data[6].Column6.trim() && (
                       <ul>
                         <li>{data[6].Column6.trim()}</li>
