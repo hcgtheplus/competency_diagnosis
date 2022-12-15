@@ -59,138 +59,145 @@ export default function Page({ data, organization, position }) {
                 <hr class="bottom-line" />
               </div>
 
-              <div class="flex mt20 mb30">
-                <div class="flex mt50">
-                  <div class="flc fc">
-                    <div class="page-15-image">
-                      <img
-                        style={{ width: 250 }}
-                        src={page_15_sub_image_1}
-                        alt="page_15_sub_image_1"
-                      />
-                      <div
-                        class="leadership-style flc jcs fc"
-                        style={{ marginTop: "50px" }}
-                      >
-                        <div class="fwb f18 mb15">유연성/자율성</div>
-                        <div class="flc">
-                          <div
-                            class="fwb f18 wmvkr mr15"
-                            style={{ letterSpacing: "-1.5px" }}
-                          >
-                            내부지향성
-                          </div>
-                          <div class="flc fc" style={{ position: "relative" }}>
-                            <div class="flc">
-                              <div className="emphasize block2"></div>
-                              <div class="fwb block small active mr5 mb5">
-                                공동체형
-                                <div class="triangle f11 small section1">
-                                  촉진자
+              <div class="text-container mt20 mb30">
+                <div class="main-sub-title mb10">
+                  부서 조직문화 특징과 적합한 리더십 스타일
+                </div>
+                <div className="flex">
+                  <div class="flex">
+                    <div class="flc fc">
+                      <div class="page-15-image">
+                        <img
+                          style={{ width: 250 }}
+                          src={page_15_sub_image_1}
+                          alt="page_15_sub_image_1"
+                        />
+                        <div
+                          class="leadership-style flc jcs fc"
+                          style={{ marginTop: "50px" }}
+                        >
+                          <div class="fwb f18 mb15">유연성/자율성</div>
+                          <div class="flc">
+                            <div
+                              class="fwb f18 wmvkr mr15"
+                              style={{ letterSpacing: "-1.5px" }}
+                            >
+                              내부지향성
+                            </div>
+                            <div
+                              class="flc fc"
+                              style={{ position: "relative" }}
+                            >
+                              <div class="flc">
+                                <div className="emphasize block2"></div>
+                                <div class="fwb block small active mr5 mb5">
+                                  공동체형
+                                  <div class="triangle f11 small section1">
+                                    촉진자
+                                  </div>
+                                  <div class="triangle f11 small section2">
+                                    조언자
+                                  </div>
                                 </div>
-                                <div class="triangle f11 small section2">
-                                  조언자
+                                <div class="flex jce fwb block small mb5">
+                                  혁신중시형
+                                  <div class="triangle f11 small section3">
+                                    개혁자
+                                  </div>
+                                  <div class="triangle f11 small section4">
+                                    중재자
+                                  </div>
                                 </div>
                               </div>
-                              <div class="flex jce fwb block small mb5">
-                                혁신중시형
-                                <div class="triangle f11 small section3">
-                                  개혁자
+                              <div class="flc">
+                                <div class="flex afe fwb block small mr5">
+                                  위계질서형
+                                  <div class="triangle f11 small section5">
+                                    감시자
+                                  </div>
+                                  <div class="triangle f11 small section6 active">
+                                    조정자
+                                  </div>
                                 </div>
-                                <div class="triangle f11 small section4">
-                                  중재자
+                                <div class="flex jce afe fwb block small">
+                                  성과중시형
+                                  <div class="triangle f11 small section7">
+                                    감독자
+                                  </div>
+                                  <div class="triangle f11 small section8">
+                                    성취자
+                                  </div>
                                 </div>
                               </div>
                             </div>
-                            <div class="flc">
-                              <div class="flex afe fwb block small mr5">
-                                위계질서형
-                                <div class="triangle f11 small section5">
-                                  감시자
-                                </div>
-                                <div class="triangle f11 small section6 active">
-                                  조정자
-                                </div>
-                              </div>
-                              <div class="flex jce afe fwb block small">
-                                성과중시형
-                                <div class="triangle f11 small section7">
-                                  감독자
-                                </div>
-                                <div class="triangle f11 small section8">
-                                  성취자
-                                </div>
-                              </div>
+                            <div
+                              class="fwb f18 wmvkr ml15"
+                              style={{ letterSpacing: "-1.5px" }}
+                            >
+                              외부지향성
                             </div>
                           </div>
-                          <div
-                            class="fwb f18 wmvkr ml15"
-                            style={{ letterSpacing: "-1.5px" }}
-                          >
-                            외부지향성
-                          </div>
+                          <div class="fwb f18 mt15">안정성</div>
                         </div>
-                        <div class="fwb f18 mt15">안정성</div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="flex jcs mt50 ml30">
-                  <div>
-                    <div class="page-15-main-title">
-                      부서 조직문화 특징과 적합한 리더십 스타일
-                    </div>
-                    <ul>
-                      {data[5].Column6.trim() && (
-                        <li>{data[5].Column6.trim()}</li>
-                      )}
-                      {data[6].Column6.trim() && (
-                        <li>{data[6].Column6.trim()}</li>
-                      )}
-                      {data[7].Column6.trim() && (
-                        <li>{data[7].Column6.trim()}</li>
-                      )}
-                    </ul>
-                    <div class="info mt20">
-                      <span class="material-symbols-outlined">arrow_right</span>
-                      역량에 관한 상세사항은 12페이지에 서술되어 있습니다.
-                    </div>
+                  <div class="flex jcs mt50 ml30">
+                    <div>
+                      <ul>
+                        {data[5].Column6.trim() && (
+                          <li>{data[5].Column6.trim()}</li>
+                        )}
+                        {data[6].Column6.trim() && (
+                          <li>{data[6].Column6.trim()}</li>
+                        )}
+                        {data[7].Column6.trim() && (
+                          <li>{data[7].Column6.trim()}</li>
+                        )}
+                      </ul>
+                      <div class="info mt20">
+                        <span class="material-symbols-outlined">
+                          arrow_right
+                        </span>
+                        역량에 관한 상세사항은 12페이지에 서술되어 있습니다.
+                      </div>
 
-                    <table class="page-15-table mt50">
-                      <tr class="tc header">
-                        <td colspan="3">조언자</td>
-                      </tr>
-                      <tr>
-                        <td class="tc">경력비전제시</td>
-                        <td class="tc">코칭/피드백</td>
-                      </tr>
-                      <tr>
-                        <td class="tc">동기부여</td>
-                        <td class="tc">다양성존중</td>
-                      </tr>
-                      <tr>
-                        <td class="tc">경청/의사소통</td>
-                        <td class="tc">인간 관계 형성/지원</td>
-                      </tr>
-                    </table>
-                    <table class="page-15-table mt50">
-                      <tr class="tc header">
-                        <td colspan="3">촉진자</td>
-                      </tr>
-                      <tr>
-                        <td class="tc">동기부여</td>
-                        <td class="tc">상호이해</td>
-                      </tr>
-                      <tr>
-                        <td class="tc">문제해결지원</td>
-                        <td class="tc">갈등관리</td>
-                      </tr>
-                      <tr>
-                        <td class="tc">경청/의사소통</td>
-                        <td class="tc">인간적 관계 형성/지원</td>
-                      </tr>
-                    </table>
+                      <table class="page-15-table mt50">
+                        <tr class="tc header">
+                          <td colspan="3">조언자</td>
+                        </tr>
+                        <tr>
+                          <td class="tc">경력비전제시</td>
+                          <td class="tc">코칭/피드백</td>
+                        </tr>
+                        <tr>
+                          <td class="tc">동기부여</td>
+                          <td class="tc">다양성존중</td>
+                        </tr>
+                        <tr>
+                          <td class="tc">경청/의사소통</td>
+                          <td class="tc">인간 관계 형성/지원</td>
+                        </tr>
+                      </table>
+                      <table class="page-15-table mt50">
+                        <tr class="tc header">
+                          <td colspan="3">촉진자</td>
+                        </tr>
+                        <tr>
+                          <td class="tc">동기부여</td>
+                          <td class="tc">상호이해</td>
+                        </tr>
+                        <tr>
+                          <td class="tc">문제해결지원</td>
+                          <td class="tc">갈등관리</td>
+                        </tr>
+                        <tr>
+                          <td class="tc">경청/의사소통</td>
+                          <td class="tc">인간적 관계 형성/지원</td>
+                        </tr>
+                      </table>
+                    </div>
                   </div>
                 </div>
               </div>
