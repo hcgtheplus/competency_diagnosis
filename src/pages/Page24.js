@@ -72,7 +72,7 @@ export default function Page() {
                                 style={{ position: "relative" }}
                               >
                                 <div class="flc">
-                                  <div className="emphasize block2"></div>
+                                  <div className="emphasizeOC block2"></div>
                                   <div class="fwb block small active mr5 mb5">
                                     공동체형
                                     <div class="triangle f11 small section1">
