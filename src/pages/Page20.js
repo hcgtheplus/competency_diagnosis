@@ -49,10 +49,6 @@ export default function Page({ data }) {
                 <ul>
                   {text123[0] ? <li>{text123[0]}</li> : ""}
                   {text123[1] ? <li>{text123[1]}</li> : ""}
-                  <li>
-                    홍길동 님의 Leading Business 역할은 4.1으로 이는
-                    회사內유사한 수준이며, 소속 조직內유사한 수준입니다.
-                  </li>
                 </ul>
                 <div className="info mt20">
                   {text123[2] ? (
