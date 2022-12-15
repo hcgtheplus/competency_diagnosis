@@ -386,11 +386,11 @@ export default function Page({ data }) {
                               className="page-18-our-department mr10"
                               style={{
                                 height: `${
-                                  Number(조직외관계.동료.협업.사업부) * 20
+                                  Number(조직외관계.동료.협업.부서) * 20
                                 }%`,
                               }}
                             >
-                              {조직외관계.동료.협업.사업부}
+                              {조직외관계.동료.협업.부서}
                             </div>
                             <div
                               className="page-18-our-department company"
