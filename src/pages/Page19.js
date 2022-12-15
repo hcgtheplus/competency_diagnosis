@@ -1,5 +1,3 @@
-import bar_graph from "../image/sub-image/page-18/bar-graph.png";
-
 export default function Page() {
   return (
     <div className="image-container page 19 pr">
