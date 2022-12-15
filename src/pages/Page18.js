@@ -208,7 +208,7 @@ export default function Page({ data, name, organization, position }) {
                             class="page-18-our-department mr10"
                             style={{
                               height: `${
-                                Number(leadingBiz.me.leadingBiz) * 10
+                                Number(leadingBiz.me.leadingBiz) * 20
                               }%`,
                             }}
                           >
