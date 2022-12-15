@@ -82,7 +82,7 @@ export default function Page({ data, leadershipStyle }) {
                   </div>
                   <div className="page-23-container">
                     <div className="item-container flex">
-                      <div className="right-section">
+                      <div className="right-section mr5">
                         <div className="page-23-chart-info">
                           <div className="flex ac mt10">
                             <div className="bar-blue mr8"></div>
