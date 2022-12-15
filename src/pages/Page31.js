@@ -24,7 +24,7 @@ export default function Page() {
                         Keyword
                       </td>
                       <td className="w180 fwb">정의</td>
-                      <td className="fwb" colSpan="2">
+                      <td className="fwb" colSpan={2}>
                         관련 개발 서적 및 강의
                       </td>
                       <td className="w110 fwb">
@@ -34,16 +34,16 @@ export default function Page() {
                       </td>
                     </tr>
                     <tr className="tc header">
-                      <td colSpan="5">롤모델 Role Model</td>
+                      <td colSpan={5}>롤모델 Role Model</td>
                     </tr>
                     {/* <!-- 주체성 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         주체성
                         <br />
                         Ownership
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         자신이 판단해야 할 의사결정 사항을 동료 혹은 상위
                         의사결정자에게 전가하지 않는다.
                       </td>
@@ -55,7 +55,7 @@ export default function Page() {
                           TEDxUniversityofNevada
                         </div>
                       </td>
-                      <td rowSpan="2">중재자, 개혁자</td>
+                      <td rowSpan={2}>중재자, 개혁자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -82,12 +82,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 책임감 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         책임감
                         <br />
                         Responsibility
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         조직 성과 달성을 위한 구성원들의 과정 및 결과에 대해
                         리더로서 책임을 다한다.
                       </td>
@@ -99,7 +99,7 @@ export default function Page() {
                           at TedxColumbiaCollege
                         </div>
                       </td>
-                      <td rowSpan="2">감독자</td>
+                      <td rowSpan={2}>감독자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -126,12 +126,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 솔선수범 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         솔선수범
                         <br />
                         Lead Self
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         솔선수범하는 모습을 보임으로써 구성원들의 본보기가 된다.
                       </td>
                       <td className="wsn">강의</td>
@@ -142,7 +142,7 @@ export default function Page() {
                           Within | LollyDaskal | TEDxLincolnSquare
                         </div>
                       </td>
-                      <td rowSpan="2">개혁자</td>
+                      <td rowSpan={2}>개혁자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>

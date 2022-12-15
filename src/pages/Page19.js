@@ -1,4 +1,35 @@
-export default function Page() {
+export default function Page({ data }) {
+  // 전사, 부문/사업부, 본부, 부서/센터
+  // E , F , Column9 , H
+
+  const 합계 = {
+    전사: data[4].E && data[4].E.toFixed(1),
+    부문사업부: data[4].F && data[4].F.toFixed(1),
+    본부: data[4].Column9 && data[4].Column9.toFixed(1),
+    부서센터: data[4].H && data[4].H.toFixed(1),
+  };
+
+  const 직원경험 = {
+    전사: data[5].E && data[5].E.toFixed(1),
+    부문사업부: data[5].F && data[5].F.toFixed(1),
+    본부: data[5].Column9 && data[5].Column9.toFixed(1),
+    부서센터: data[5].H && data[5].H.toFixed(1),
+  };
+
+  const 효과성 = {
+    전사: data[6].E && data[6].E.toFixed(1),
+    부문사업부: data[6].F && data[6].F.toFixed(1),
+    본부: data[6].Column9 && data[6].Column9.toFixed(1),
+    부서센터: data[6].H && data[6].H.toFixed(1),
+  };
+
+  const 직원몰입 = {
+    전사: data[7].E && data[7].E.toFixed(1),
+    부문사업부: data[7].F && data[7].F.toFixed(1),
+    본부: data[7].Column9 && data[7].Column9.toFixed(1),
+    부서센터: data[7].H && data[7].H.toFixed(1),
+  };
+
   return (
     <div className="image-container page 19 pr">
       <div className="page-absolute">19 / 36</div>
@@ -17,14 +48,8 @@ export default function Page() {
             <div className="w-100 h1207">
               <div className="mt50">
                 <ul>
-                  <li>
-                    홍길동님이 소속된 000부의 전사 조직문화 만족도는 직원몰입,
-                    직원경험, 효과성 순으로 높습니다.
-                  </li>
-                  <li>
-                    귀하의 조직은 NH투자증권의 모든 전사 조직문화 영역에 대해
-                    회사 평균 대비 유사한 수준입니다.
-                  </li>
+                  <li>{data[0].Column6}</li>
+                  <li>{data[1].Column6}</li>
                 </ul>
                 <div className="info mt20">
                   <span className="material-symbols-outlined">arrow_right</span>
@@ -36,10 +61,10 @@ export default function Page() {
                 <table>
                   <tbody className="bt">
                     <tr className="tc header">
-                      <td className="br" rowSpan="2">
+                      <td className="br" rowSpan={2}>
                         영역
                       </td>
-                      <td colSpan="4">평균</td>
+                      <td colSpan={4}>평균</td>
                     </tr>
                     <tr className="tc header">
                       <td className="bt br" style={{ width: "15%" }}>
@@ -57,10 +82,10 @@ export default function Page() {
                     </tr>
                     <tr className="tc bt emphasize">
                       <td>합계</td>
-                      <td>3.3</td>
-                      <td>3.5</td>
-                      <td>3.5</td>
-                      <td>3.5</td>
+                      <td>{합계.전사}</td>
+                      <td>{합계.부문사업부}</td>
+                      <td>{합계.본부}</td>
+                      <td>{합계.부서센터}</td>
                     </tr>
                     <tr className="tc">
                       <td className="fwb br header">
@@ -68,10 +93,10 @@ export default function Page() {
                         <br />
                         (Experience)
                       </td>
-                      <td className="bb">3.3</td>
-                      <td className="bb">3.5</td>
-                      <td className="bb">3.5</td>
-                      <td className="bb">3.5</td>
+                      <td className="bb">{직원경험.전사}</td>
+                      <td className="bb">{직원경험.부문사업부}</td>
+                      <td className="bb">{직원경험.본부}</td>
+                      <td className="bb">{직원경험.부서센터}</td>
                     </tr>
 
                     <tr className="tc">
@@ -80,10 +105,10 @@ export default function Page() {
                         <br />
                         (Effectiveness)
                       </td>
-                      <td className="bb">3.3</td>
-                      <td className="bb">3.5</td>
-                      <td className="bb">3.5</td>
-                      <td className="bb">3.5</td>
+                      <td className="bb">{효과성.전사}</td>
+                      <td className="bb">{효과성.부문사업부}</td>
+                      <td className="bb">{효과성.본부}</td>
+                      <td className="bb">{효과성.부서센터}</td>
                     </tr>
 
                     <tr className="tc">
@@ -92,10 +117,10 @@ export default function Page() {
                         <br />
                         (Engagement)
                       </td>
-                      <td className="bb">3.3</td>
-                      <td className="bb">3.5</td>
-                      <td className="bb">3.5</td>
-                      <td className="bb">3.5</td>
+                      <td className="bb">{직원몰입.전사}</td>
+                      <td className="bb">{직원몰입.부문사업부}</td>
+                      <td className="bb">{직원몰입.본부}</td>
+                      <td className="bb">{직원몰입.부서센터}</td>
                     </tr>
                   </tbody>
                 </table>

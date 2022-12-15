@@ -608,7 +608,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                     style={{
                                       borderBottom: "1px solid #eaeaec",
                                     }}
@@ -624,7 +624,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                     style={{
                                       borderBottom: "1px solid #eaeaec",
                                     }}

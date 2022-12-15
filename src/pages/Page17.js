@@ -1,5 +1,4 @@
 export default function Page({ data, name, organization, position }) {
-
   return (
     <div className="image-container page 17 pr">
       <div className="page-absolute">17 / 36</div>
@@ -66,7 +65,7 @@ export default function Page({ data, name, organization, position }) {
                       <table className="mr30">
                         <tbody className="page-16-table-sec mt20">
                           <tr className="tc">
-                            <td className="header" colSpan="2">
+                            <td className="header" colSpan={2}>
                               <div className="flc sb w-100">
                                 <div>강한 특성</div>
                                 <div className="sub-title-page-16">결과값</div>
@@ -74,7 +73,7 @@ export default function Page({ data, name, organization, position }) {
                             </td>
                           </tr>
                           <tr>
-                            <td rowSpan="6" className="tc sec-header">
+                            <td rowSpan={6} className="tc sec-header">
                               특질
                             </td>
                           </tr>
@@ -183,7 +182,7 @@ export default function Page({ data, name, organization, position }) {
                             </td>
                           </tr>
                           <tr>
-                            <td rowSpan="5" className="tc sec-header">
+                            <td rowSpan={5} className="tc sec-header">
                               특질
                             </td>
                             <td className="right-td">
@@ -279,7 +278,7 @@ export default function Page({ data, name, organization, position }) {
                             </td>
                           </tr>
                           <tr className="tc">
-                            <td className="header thr-thr" colSpan="2">
+                            <td className="header thr-thr" colSpan={2}>
                               <div className="flc sb w-100">
                                 <div>피해야 할 특질</div>
                                 <div className="sub-title-page-16">결과값</div>
@@ -287,7 +286,7 @@ export default function Page({ data, name, organization, position }) {
                             </td>
                           </tr>
                           <tr>
-                            <td rowSpan="2" className="tc sec-header thr-thr">
+                            <td rowSpan={2} className="tc sec-header thr-thr">
                               피해야할 특질
                             </td>
                             <td className="right-td">

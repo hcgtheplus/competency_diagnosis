@@ -24,7 +24,7 @@ export default function Page() {
                         Keyword
                       </td>
                       <td className="w180 fwb">정의</td>
-                      <td className="fwb" colSpan="2">
+                      <td className="fwb" colSpan={2}>
                         관련 개발 서적 및 강의
                       </td>
                       <td className="w110 fwb">
@@ -34,16 +34,16 @@ export default function Page() {
                       </td>
                     </tr>
                     <tr className="tc header">
-                      <td colSpan="5">인재육성 Developing Talent</td>
+                      <td colSpan={5}>인재육성 Developing Talent</td>
                     </tr>
                     {/* <!-- 경력비전제시 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         경력비전제시
                         <br />
                         Visioning Career Goal
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         구성원들의 역량 수준과 육성 니즈를 반영하여 관련 업무
                         경험을 부여하고 교육을 제공하는 등 역량 개발을 지원한다.
                       </td>
@@ -55,7 +55,7 @@ export default function Page() {
                           plan for improved employee performance
                         </div>
                       </td>
-                      <td rowSpan="2">조언자</td>
+                      <td rowSpan={2}>조언자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -77,12 +77,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 코칭/피드백 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         코칭/피드백
                         <br />
                         Coaching/ Feedback
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         구성원이 자신의 장단점을 파악하고 역량을 개발할 수
                         있도록 명확하고 구체적으로 피드백을 제공한다.
                       </td>
@@ -99,7 +99,7 @@ export default function Page() {
                           만드는 칭찬법 따로 있다!
                         </div>
                       </td>
-                      <td rowSpan="2">조언자</td>
+                      <td rowSpan={2}>조언자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -122,12 +122,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 동기부여 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         동기부여
                         <br />
                         Motivation
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         성원에게 담당업무의 목적과 중요성을 인식시키고 성취감을
                         느낄 수 있도록 칭찬하고 인정한다.
                       </td>
@@ -144,7 +144,7 @@ export default function Page() {
                           스켈레톤 국가대표 총감독 | 세바시 914회
                         </div>
                       </td>
-                      <td rowSpan="2">조언자, 촉진자, 성취자</td>
+                      <td rowSpan={2}>조언자, 촉진자, 성취자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -169,18 +169,18 @@ export default function Page() {
                     </tr>
                     {/* <!-- / --> */}
                     <tr className="tc header">
-                      <td colSpan="5">
+                      <td colSpan={5}>
                         효율적 조직운영 Organizational Effectiveness
                       </td>
                     </tr>
                     {/* <!-- 자원관리 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         자원관리
                         <br />
                         Resource Mgmt.
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         목표 달성에 필요한 인적/물적 자원을 확보하고 업무의
                         우선순위에 따라 효율적으로 배분한다.
                       </td>
@@ -192,7 +192,7 @@ export default function Page() {
                           of Project and Portfolio Management
                         </div>
                       </td>
-                      <td rowSpan="2">중재자</td>
+                      <td rowSpan={2}>중재자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -215,12 +215,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 권한/책임부여 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         권한/책임부여
                         <br />
                         Empowerment
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         구성원에게 업무방향을 명확히 제시하고 적절한 권한을
                         부여한다.
                       </td>
@@ -237,7 +237,7 @@ export default function Page() {
                           잘하도록 하는 권한위임 방법 | 지식 디자이너
                         </div>
                       </td>
-                      <td rowSpan="2">감독자, 성취자</td>
+                      <td rowSpan={2}>감독자, 성취자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -259,12 +259,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 성과관리 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         성과관리
                         <br />
                         Performance Mgmt
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         계획 대비 추진실적을 점검하고 미진할 경우 대처방안을
                         강구하여 목표를 달성한다.
                       </td>
@@ -276,7 +276,7 @@ export default function Page() {
                           EBS 비즈니스 리뷰 플러스 이길상 편
                         </div>
                       </td>
-                      <td rowSpan="2">감시자, 감독자, 성취자</td>
+                      <td rowSpan={2}>감시자, 감독자, 성취자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>

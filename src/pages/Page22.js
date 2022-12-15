@@ -127,148 +127,150 @@ export default function Page() {
               <div class="mt20 pr">
                 <div class="emphasize-line"></div>
                 <table class="bt">
-                  <tr class="tc header">
-                    <td class="br" rowspan="2">
-                      리더역할
-                    </td>
-                    <td class="br" rowspan="2" style={{ width: 176 }}>
-                      리더십 역량
-                    </td>
-                    <td class="br" rowspan="2">
-                      역량 Keyword
-                    </td>
-                    <td rowspan="2">20년</td>
-                    <td rowspan="2">21년</td>
-                    <td rowspan="2">22년</td>
-                    <td colspan="2">평균</td>
-                  </tr>
-                  <tr class="tc header">
-                    <td class="bt br">사업부</td>
-                    <td class="bt br">전사</td>
-                  </tr>
-                  <tr class="tc bt">
-                    <td></td>
-                    <td colspan="2">Total</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>3.5</td>
-                    <td>3.5</td>
-                    <td>3.5</td>
-                  </tr>
-                  {/* <!-- 비전제시 데이터 --> */}
-                  <tr class="tc">
-                    <td class="wmven fwb bt emphasize" rowspan="25">
-                      Building Trust
-                    </td>
-                    <td class="fwb br bt header" rowspan="4">
-                      윤리의식
-                    </td>
-                    <td class="header fwb bt tl">윤리의식</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">원칙준수</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">조직관리 공정성</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">의사결정 공정성</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  {/* <!-- / -->
+                  <tbody>
+                    <tr class="tc header">
+                      <td class="br" rowSpan={2}>
+                        리더역할
+                      </td>
+                      <td class="br" rowSpan={2} style={{ width: 176 }}>
+                        리더십 역량
+                      </td>
+                      <td class="br" rowSpan={2}>
+                        역량 Keyword
+                      </td>
+                      <td rowSpan={2}>20년</td>
+                      <td rowSpan={2}>21년</td>
+                      <td rowSpan={2}>22년</td>
+                      <td colSpan={2}>평균</td>
+                    </tr>
+                    <tr class="tc header">
+                      <td class="bt br">사업부</td>
+                      <td class="bt br">전사</td>
+                    </tr>
+                    <tr class="tc bt">
+                      <td></td>
+                      <td colSpan={2}>Total</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>3.5</td>
+                      <td>3.5</td>
+                      <td>3.5</td>
+                    </tr>
+                    {/* <!-- 비전제시 데이터 --> */}
+                    <tr class="tc">
+                      <td class="wmven fwb bt emphasize" rowSpan={25}>
+                        Building Trust
+                      </td>
+                      <td class="fwb br bt header" rowSpan={4}>
+                        윤리의식
+                      </td>
+                      <td class="header fwb bt tl">윤리의식</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">원칙준수</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">조직관리 공정성</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">의사결정 공정성</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    {/* <!-- / -->
                 <!-- 합리적 의사결정 데이터 --> */}
-                  <tr class="tc">
-                    <td class="fwb br bt header" rowspan="4">
-                      감성지능
-                    </td>
-                    <td class="header fwb bt tl">감성지능</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">다양성 존중</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">경청/의사소통</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">정보공유</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  {/* <!-- / -->
+                    <tr class="tc">
+                      <td class="fwb br bt header" rowSpan={4}>
+                        감성지능
+                      </td>
+                      <td class="header fwb bt tl">감성지능</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">다양성 존중</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">경청/의사소통</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">정보공유</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    {/* <!-- / -->
                 <!-- 강력한 실행력 데이터 --> */}
-                  <tr class="tc">
-                    <td class="fwb br bt header" rowspan="4">
-                      롤모델
-                    </td>
-                    <td class="header fwb bt tl">롤모델</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">주체성</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">책임감</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  <tr class="tc">
-                    <td class="header bt tl">솔선수범</td>
-                    <td class="bt">-</td>
-                    <td class="bt">-</td>
-                    <td class="bt">3.3</td>
-                    <td class="bt">3.5</td>
-                    <td class="bt">3.5</td>
-                  </tr>
-                  {/* <!-- / --> */}
+                    <tr class="tc">
+                      <td class="fwb br bt header" rowSpan={4}>
+                        롤모델
+                      </td>
+                      <td class="header fwb bt tl">롤모델</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">주체성</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">책임감</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    <tr class="tc">
+                      <td class="header bt tl">솔선수범</td>
+                      <td class="bt">-</td>
+                      <td class="bt">-</td>
+                      <td class="bt">3.3</td>
+                      <td class="bt">3.5</td>
+                      <td class="bt">3.5</td>
+                    </tr>
+                    {/* <!-- / --> */}
+                  </tbody>
                 </table>
               </div>
             </div>

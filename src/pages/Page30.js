@@ -24,7 +24,7 @@ export default function Page() {
                         Keyword
                       </td>
                       <td className="w180 fwb">정의</td>
-                      <td className="fwb" colSpan="2">
+                      <td className="fwb" colSpan={2}>
                         관련 개발 서적 및 강의
                       </td>
                       <td className="w110 fwb">
@@ -34,16 +34,16 @@ export default function Page() {
                       </td>
                     </tr>
                     <tr className="tc header">
-                      <td colSpan="5">윤리의식 Business Ethics</td>
+                      <td colSpan={5}>윤리의식 Business Ethics</td>
                     </tr>
                     {/* <!-- 원칙준수 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         원칙준수
                         <br />
                         Compliance
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         직업적/개인적 윤리의식을 가지고, 회사의 규정과 절차에
                         따라 업무를 수행한다.
                       </td>
@@ -55,7 +55,7 @@ export default function Page() {
                           and why is it important?
                         </div>
                       </td>
-                      <td rowSpan="2">감시자</td>
+                      <td rowSpan={2}>감시자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -77,12 +77,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 조직관리 공정성 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         조직관리 공정성
                         <br />
                         Managing Fairness
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         구성원들의 배경에 관계 없이 역량에 합당한 업무기회를
                         제공하고, 성과를 기반으로 공정하게 평가, 보상한다.
                       </td>
@@ -94,7 +94,7 @@ export default function Page() {
                           Work - Tips For A Winning & Fair Workplace
                         </div>
                       </td>
-                      <td rowSpan="2">감독자</td>
+                      <td rowSpan={2}>감독자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -113,12 +113,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 의사결정 공정성 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         의사결정 공정성
                         <br />
                         Decisioning Fairness
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         개인의 이해관계보다는 조직의 목표와 이익을 우선으로 하여
                         합리적으로 의사결정한다.
                       </td>
@@ -135,7 +135,7 @@ export default function Page() {
                           신영준 작가
                         </div>
                       </td>
-                      <td rowSpan="2">성취자</td>
+                      <td rowSpan={2}>성취자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -161,16 +161,16 @@ export default function Page() {
                     </tr>
                     {/* <!-- / --> */}
                     <tr className="tc header">
-                      <td colSpan="5">감성지능 Emotional Intelligence</td>
+                      <td colSpan={5}>감성지능 Emotional Intelligence</td>
                     </tr>
                     {/* <!-- 다양성 존중 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         다양성 존중
                         <br />
                         Diversity
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         나이, 성별, 조직, 직급, 업무 차이를 막론하고 구성원을
                         존중하고 배려한다
                       </td>
@@ -187,7 +187,7 @@ export default function Page() {
                           brings out the best in employees | Chris White
                         </div>
                       </td>
-                      <td rowSpan="2">조언자</td>
+                      <td rowSpan={2}>조언자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -210,12 +210,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 경청/의사소통 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         경청/의사소통
                         <br />
                         Communication
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         의사결정 과정에 구성원들을 참여시켜 자유로운 의견개진을
                         유도하고 합의된 방향을 공유한다.
                       </td>
@@ -232,7 +232,7 @@ export default function Page() {
                           brings out the best in employees | Chris White
                         </div>
                       </td>
-                      <td rowSpan="2">조언자, 촉진자</td>
+                      <td rowSpan={2}>조언자, 촉진자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
@@ -254,12 +254,12 @@ export default function Page() {
                     {/* <!-- / --> */}
                     {/* <!-- 정보공유 --> */}
                     <tr className="tc">
-                      <td rowSpan="2">
+                      <td rowSpan={2}>
                         정보공유
                         <br />
                         Information Sharing
                       </td>
-                      <td className="tl" rowSpan="2">
+                      <td className="tl" rowSpan={2}>
                         업무에 필요하거나 도움이 되는 정보를 독점하지 않고
                         구성원에게 적절하게 공유될 수 있도록 지원한다.
                       </td>
@@ -276,7 +276,7 @@ export default function Page() {
                           PWC 컨설턴트 이해성 [리얼밸리 EP 16]
                         </div>
                       </td>
-                      <td rowSpan="2">감시자, 조정자</td>
+                      <td rowSpan={2}>감시자, 조정자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
