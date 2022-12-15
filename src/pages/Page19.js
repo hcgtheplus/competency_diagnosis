@@ -443,7 +443,7 @@ export default function Page({ data }) {
               {/* <img style={{ width: 900 }} src={bar_graph} alt="bar_graph" /> */}
               <div className="info mt20">
                 <span className="material-symbols-outlined">arrow_right</span>
-                항목별 상세 진단문항은 4페이지를 참고부탁드립니다.
+                항목별 상세 진단문항은 6페이지를 참고부탁드립니다.
               </div>
               <div className="mt20">
                 <ul>
