@@ -117,11 +117,19 @@ export default function Page({ data, name, organization, position }) {
       {
         type: "line",
         symbolSize: 10,
+        itemStyle: {
+          borderColor: "#0091ea",
+          color: "#0091ea",
+          borderWidth: 2,
+        },
         lineStyle: {
           width: 2,
+          color: "#0091ea",
         },
-        itemStyle: {
-          borderWidth: 2,
+        label: {
+          show: true,
+          fontSize: 30,
+          color: "#0091ea",
         },
         data:
           type === "leadingBiz"
