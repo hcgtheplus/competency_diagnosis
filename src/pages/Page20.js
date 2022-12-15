@@ -293,6 +293,7 @@ export default function Page({ data }) {
                       <td className="fwb br bt header" rowSpan={4}>
                         비전제시
                       </td>
+                      <td className="header fwb bt tl">비전제시</td>
                       <td className="bt">
                         {chart2비전제시?.E?.toFixed(1) ?? "-"}
                       </td>

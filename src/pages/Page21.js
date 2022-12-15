@@ -505,14 +505,14 @@ export default function Page({ data }) {
                       <td className="br" rowSpan={2}>
                         역량 Keyword
                       </td>
-                      <td rowSpan={2}>20년</td>
-                      <td rowSpan={2}>21년</td>
-                      <td rowSpan={2}>22년</td>
+                      <td rowSpan={2}>'20년</td>
+                      <td rowSpan={2}>'21년</td>
+                      <td rowSpan={2}>'22년</td>
                       <td colSpan={2}>평균</td>
                     </tr>
                     <tr className="tc header">
-                      <td className="bt br">사업부</td>
-                      <td className="bt br">전사</td>
+                      <td className="bt br">부문</td>
+                      <td className="bt br">전사평균</td>
                     </tr>
                     <tr className="tc bt">
                       <td></td>
