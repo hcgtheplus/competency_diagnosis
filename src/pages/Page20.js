@@ -264,25 +264,25 @@ export default function Page({ data }) {
                         리더십 역량
                       </td>
                       <td class="br" rowSpan={2}>
-                        역량 Keyword
+                        {chart2column.Column6}
                       </td>
-                      <td rowSpan={2}>20년</td>
-                      <td rowSpan={2}>21년</td>
-                      <td rowSpan={2}>22년</td>
+                      <td rowSpan={2}>{chart2column.E}</td>
+                      <td rowSpan={2}>{chart2column.F}</td>
+                      <td rowSpan={2}>{chart2column.Column9}</td>
                       <td colSpan={2}>평균</td>
                     </tr>
                     <tr class="tc header">
-                      <td class="bt br">사업부</td>
-                      <td class="bt br">전사</td>
+                      <td class="bt br">{chart2column.H}</td>
+                      <td class="bt br">{chart2column.I}</td>
                     </tr>
                     <tr class="tc bt">
                       <td></td>
                       <td colSpan={2}>Total</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>3.5</td>
-                      <td>3.5</td>
-                      <td>3.5</td>
+                      <td>{chart2total?.E?.toFixed(1) ?? "-"}</td>
+                      <td>{chart2total?.F?.toFixed(1) ?? "-"}</td>
+                      <td>{chart2total?.Column9?.toFixed(1) ?? "-"}</td>
+                      <td>{chart2total?.H?.toFixed(1) ?? "-"}</td>
+                      <td>{chart2total?.I?.toFixed(1) ?? "-"}</td>
                     </tr>
                     {/* <!-- 비전제시 데이터 --> */}
                     <tr class="tc">
@@ -292,36 +292,59 @@ export default function Page({ data }) {
                       <td class="fwb br bt header" rowSpan={4}>
                         비전제시
                       </td>
-                      <td class="header fwb bt tl">비전제시</td>
-                      <td class="bt">-</td>
-                      <td class="bt">-</td>
-                      <td class="bt">3.3</td>
-                      <td class="bt">3.5</td>
-                      <td class="bt">3.5</td>
+                      <td class="bt">{chart2비전제시?.E?.toFixed(1) ?? "-"}</td>
+                      <td class="bt">{chart2비전제시?.F?.toFixed(1) ?? "-"}</td>
+                      <td class="bt">
+                        {chart2비전제시?.Column9?.toFixed(1) ?? "-"}
+                      </td>
+                      <td class="bt">{chart2비전제시?.H?.toFixed(1) ?? "-"}</td>
+                      <td class="bt">{chart2비전제시?.I?.toFixed(1) ?? "-"}</td>
                     </tr>
                     <tr class="tc">
                       <td class="header bt tl">비즈니스 감각</td>
-                      <td class="bt">-</td>
-                      <td class="bt">-</td>
-                      <td class="bt">3.3</td>
-                      <td class="bt">3.5</td>
-                      <td class="bt">3.5</td>
+                      <td class="bt">
+                        {chart2비즈니스감각?.E?.toFixed(1) ?? "-"}
+                      </td>
+                      <td class="bt">
+                        {chart2비즈니스감각?.F?.toFixed(1) ?? "-"}
+                      </td>
+                      <td class="bt">
+                        {chart2비즈니스감각?.Column9?.toFixed(1) ?? "-"}
+                      </td>
+                      <td class="bt">
+                        {chart2비즈니스감각?.H?.toFixed(1) ?? "-"}
+                      </td>
+                      <td class="bt">
+                        {chart2비즈니스감각?.I?.toFixed(1) ?? "-"}
+                      </td>
                     </tr>
                     <tr class="tc">
                       <td class="header bt tl">혁신적 사고</td>
-                      <td class="bt">-</td>
-                      <td class="bt">-</td>
-                      <td class="bt">3.3</td>
-                      <td class="bt">3.5</td>
-                      <td class="bt">3.5</td>
+                      <td class="bt">
+                        {chart2혁신적사고?.E?.toFixed(1) ?? "-"}
+                      </td>
+                      <td class="bt">
+                        {chart2혁신적사고?.F?.toFixed(1) ?? "-"}
+                      </td>
+                      <td class="bt">
+                        {chart2혁신적사고?.Column9?.toFixed(1) ?? "-"}
+                      </td>
+                      <td class="bt">
+                        {chart2혁신적사고?.H?.toFixed(1) ?? "-"}
+                      </td>
+                      <td class="bt">
+                        {chart2혁신적사고?.I?.toFixed(1) ?? "-"}
+                      </td>
                     </tr>
                     <tr class="tc">
-                      <td class="header bt tl">비전 실행관리</td>
-                      <td class="bt">-</td>
-                      <td class="bt">-</td>
-                      <td class="bt">3.3</td>
-                      <td class="bt">3.5</td>
-                      <td class="bt">3.5</td>
+                      <td class="header bt tl">변화주도</td>
+                      <td class="bt">{chart2변화주도?.E?.toFixed(1) ?? "-"}</td>
+                      <td class="bt">{chart2변화주도?.F?.toFixed(1) ?? "-"}</td>
+                      <td class="bt">
+                        {chart2변화주도?.Column9?.toFixed(1) ?? "-"}
+                      </td>
+                      <td class="bt">{chart2변화주도?.H?.toFixed(1) ?? "-"}</td>
+                      <td class="bt">{chart2변화주도?.I?.toFixed(1) ?? "-"}</td>
                     </tr>
                     {/* <!-- / --> */}
                     {/* <!-- 합리적 의사결정 데이터 --> */}
