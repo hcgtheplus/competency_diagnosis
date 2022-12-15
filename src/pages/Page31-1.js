@@ -1,15 +1,15 @@
 export default function Page() {
   return (
-    <div className="image-container page 32 pr">
-      <div className="page-absolute">29 / 36</div>
-      <div className="page 30-2">
+    <div className="image-container page 34 pr">
+      <div className="page-absolute">31 / 36</div>
+      <div className="page 31-2">
         <div className="need-data-container">
           <div className="for-margin">
             <div className="title-container">
               <div className="top-line"></div>
               <div className="flc jcw">
                 <h4 className="main-title">리더십 역량 개발 가이드</h4>
-                <h5 className="main-title">Leading Business 역할</h5>
+                <h5 className="main-title">Building Trust 역할</h5>
               </div>
               <hr className="bottom-line" />
             </div>
@@ -34,130 +34,119 @@ export default function Page() {
                       </td>
                     </tr>
                     <tr className="tc header">
-                      <td colSpan="5">강력한 실행력 Driving Force</td>
+                      <td colSpan="5">롤모델 Role Model</td>
                     </tr>
-                    {/* <!-- 전략적 네트워크 --> */}
+                    {/* <!-- 주체성 --> */}
                     <tr className="tc">
                       <td rowSpan="2">
-                        전략적 네트워크
+                        주체성
                         <br />
-                        Strategic Network
+                        Ownership
                       </td>
                       <td className="tl" rowSpan="2">
-                        비즈니스를 성공적으로 수행하기 위해 도움이 되는 전문적인
-                        네트워크를 형성하고 관계를 지속적으로 유지한다.
+                        자신이 판단해야 할 의사결정 사항을 동료 혹은 상위
+                        의사결정자에게 전가하지 않는다.
                       </td>
                       <td className="wsn">강의</td>
                       <td className="tl">
                         <div className="flex">
                           <div className="mr8">-</div>
-                          TEDx Talks, Networking: Why it matters and how to do
-                          it better | Paul Taylor | TEDxUniversityofStrathclyde
-                        </div>
-                        <div className="flex">
-                          <div className="mr8">-</div>
-                          Andrew LaCivita, Business Networking : How to Build
-                          Professional Relationships
+                          TEDx Talks, Extreme Ownership | Jocko Willink |
+                          TEDxUniversityofNevada
                         </div>
                       </td>
-                      <td rowSpan="2">중재자</td>
+                      <td rowSpan="2">중재자, 개혁자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
                       <td className="tl">
                         <div className="flex">
                           <div className="mr8">-</div>
-                          ‘인맥보다 강력한 네트워킹의 힘’ | 재닌 가너 지음
+                          ‘창업자 정신’ | 크리스 주크, 제임스 앨런 지음
                         </div>
                         <div className="flex">
                           <div className="mr8">-</div>
-                          ‘나보다 똑똑한 우리, 소셜 네트워킹과 집단지성의
-                          비즈니스 혁명’ | 배리 리버트, 존 스펙터 지음
+                          ‘오픈스페이스 베타’ | 실케 헤르만, 닐스 플레깅 지음
+                        </div>
+                        <div className="flex">
+                          <div className="mr8">-</div>
+                          ‘네이비씰 승리의 기술(Extreme Ownership)’ | 조코
+                          윌링크 & 레이프 바빈 지음
                         </div>
                       </td>
                     </tr>
                     {/* <!-- / --> */}
-                    {/* <!-- 위험관리 --> */}
+                    {/* <!-- 책임감 --> */}
                     <tr className="tc">
                       <td rowSpan="2">
-                        위험관리
+                        책임감
                         <br />
-                        Risk Mgmt.
+                        Responsibility
                       </td>
                       <td className="tl" rowSpan="2">
-                        발생 가능한 위험 요인을 예측하고 선제적으로 대응하여
-                        성과를 창출한다.
+                        조직 성과 달성을 위한 구성원들의 과정 및 결과에 대해
+                        리더로서 책임을 다한다.
                       </td>
                       <td className="wsn">강의</td>
                       <td className="tl">
                         <div className="flex">
                           <div className="mr8">-</div>
-                          QualityGurus, Risk Management for Managers - 5 Simple
-                          Steps
+                          TedX Talks, Responsibility and Leadership: Simon Sinek
+                          at TedxColumbiaCollege
                         </div>
                       </td>
-                      <td rowSpan="2">감시자</td>
+                      <td rowSpan="2">감독자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
                       <td className="tl">
                         <div className="flex">
                           <div className="mr8">-</div>
-                          ‘잘나가던 기업이 왜 망했을까?’ | 아라키 히로유키 지음
+                          ‘스위치를 올려라’ | 존 G. 밀러 지음
                         </div>
                         <div className="flex">
                           <div className="mr8">-</div>
-                          ‘업스트림’ | 댄 히스 지음
+                          ‘리더의 조건’ | 캐슬린 리어던 등 지음
                         </div>
                         <div className="flex">
                           <div className="mr8">-</div>
-                          ‘위기의 시대, 글로벌 기업의 리스크 관리’ | 김영식 지음
+                          ‘책임은 어떻게 삶을 성장시키는가’ | 쓰쓰미 구미코 지음
                         </div>
                       </td>
                     </tr>
                     {/* <!-- / --> */}
-                    {/* <!-- 추진력 --> */}
+                    {/* <!-- 솔선수범 --> */}
                     <tr className="tc">
                       <td rowSpan="2">
-                        추진력
+                        솔선수범
                         <br />
-                        Execution
+                        Lead Self
                       </td>
                       <td className="tl" rowSpan="2">
-                        업무 추진 과정에 어려움이 발생하더라도 설득과 협상을
-                        통해 결단력 있게 추진한다.
+                        솔선수범하는 모습을 보임으로써 구성원들의 본보기가 된다.
                       </td>
                       <td className="wsn">강의</td>
                       <td className="tl">
                         <div className="flex">
                           <div className="mr8">-</div>
-                          Harvard Business Review, The Explainer: Balancing
-                          Execution and Adaptation
-                        </div>
-                        <div className="flex">
-                          <div className="mr8">-</div>
-                          Jim Clemmer, Execution – the key to how leaders get
-                          things done
+                          We Cannot Lead Others Without First Leading From
+                          Within | LollyDaskal | TEDxLincolnSquare
                         </div>
                       </td>
-                      <td rowSpan="2">성취자, 중재자, 개혁자</td>
+                      <td rowSpan="2">개혁자</td>
                     </tr>
                     <tr className="tc">
                       <td className="wsn">서적</td>
                       <td className="tl">
                         <div className="flex">
                           <div className="mr8">-</div>
-                          ‘허슬, 멈추지 않는 추진력의 비밀’ | 닐 파텔, 패트릭
-                          블라스코비츠, 보나스 코플러 지음
+                          ‘나는 리더인가: 존경받는 롤모델 리더의 비밀’ | 홍석환
+                          지음
                         </div>
                         <div className="flex">
                           <div className="mr8">-</div>
-                          ‘모든 것이 달라지는 순간’ | 리타 맥그래스 지음
-                        </div>
-                        <div className="flex">
-                          <div className="mr8">-</div>
-                          ‘성공하는 프로젝트는 실행이 다르다’ | 사비에르 길버트,
-                          베티나 뷔첼, 로다 데이비드슨 지음
+                          ‘넥스트 리더십 3.0 차세대 리더의 7가지 조건’ | 브래드
+                          카쉬 & 커트니 템플린 지음 윈 지음
                         </div>
                       </td>
                     </tr>
