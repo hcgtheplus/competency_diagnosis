@@ -35,7 +35,24 @@ import Page34 from "./pages/Page34";
 import Page35 from "./pages/Page35";
 import Page36 from "./pages/Page36";
 
+import { groupBy, reduce } from "lodash";
+import fullData from "./fullData.json";
+// import emailList from "./emailList.json"; // 257명
+
 function App() {
+  const groupByEmail = groupBy(fullData, "B");
+  const groupByEmailWithPage = reduce(
+    groupByEmail,
+    (result, value, key) => {
+      const groupByPage = groupBy(value, "Page");
+      result[key] = groupByPage;
+
+      return result;
+    },
+    {}
+  );
+  const sampleData = groupByEmailWithPage["1billion@nhqv.com"];
+
   return (
     <div className="App">
       <div className="w-100 flex input-fixed">
@@ -59,7 +76,7 @@ function App() {
           <Page11 />
           <Page12 />
           <Page13 />
-          <Page14 />
+          <Page14 data={sampleData["12"]} />
           <Page15 />
           <Page16 />
           <Page17 />
