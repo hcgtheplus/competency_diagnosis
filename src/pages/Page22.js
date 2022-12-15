@@ -1,5 +1,4 @@
 export default function Page({ data }) {
-  console.log(data);
   const text123 = data
     .filter(
       (d) =>
