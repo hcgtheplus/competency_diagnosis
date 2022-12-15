@@ -249,7 +249,6 @@ export default function Page({ data }) {
     }
   );
 
-  console.log("convertData : ", convertData);
   const {
     text1,
     text2,
