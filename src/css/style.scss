@@ -1964,6 +1964,26 @@ ul {
   height: 100px;
 }
 
+.page-1-user-name {
+  .page-1-department {
+    position: absolute;
+    top: 1147px;
+    left: 308px;
+    font-size: 28px;
+    width: 270px;
+    word-break: keep-all;
+  }
+
+  .page-1-user-name {
+    position: absolute;
+    top: 1147px;
+    left: 595px;
+    font-size: 28px;
+    width: 270px;
+    word-break: keep-all;
+  }
+}
+
 @media print {
   .page {
     width: 1190px;
