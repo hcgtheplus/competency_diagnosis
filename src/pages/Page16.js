@@ -12,7 +12,7 @@ export default function Page({ data, organization, position }) {
       working: data[13].F.toFixed(1),
       communication: data[14].F.toFixed(1),
       satisfaction: data[15].F.toFixed(1),
-      immersion: data[15].F.toFixed(1),
+      immersion: data[16].F.toFixed(1),
     },
   };
 
@@ -50,7 +50,9 @@ export default function Page({ data, organization, position }) {
               <div className="top-line"></div>
               <div>
                 <div className="flex ab sb">
-                  <h4 className="main-title">Summary 부서 조직문화 진단 결과</h4>
+                  <h4 className="main-title">
+                    Summary 부서 조직문화 진단 결과
+                  </h4>
                   <div className="flc">
                     <div>{data[0].Column6}</div>
                   </div>
@@ -350,7 +352,9 @@ export default function Page({ data, organization, position }) {
                     <div className="page-16-grape-item">
                       <div className="h130 al-end">
                         <div>
-                          <div className="page-16-legend-title sec">조직內관계</div>
+                          <div className="page-16-legend-title sec">
+                            조직內관계
+                          </div>
                         </div>
                         <div className="top-line mt30"></div>
                       </div>
@@ -459,7 +463,9 @@ export default function Page({ data, organization, position }) {
                   </div>
 
                   <div className="info mt20">
-                    <span className="material-symbols-outlined">arrow_right</span>
+                    <span className="material-symbols-outlined">
+                      arrow_right
+                    </span>
                     조직문화 유형, 연계 리더십 스타일, Top/Bottom 3 문항 선정은
                     반올림 처리하지 않은 값을 기준으로 하였습니다.
                   </div>
