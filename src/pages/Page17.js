@@ -337,7 +337,7 @@ export default function Page({ data, name, organization, position }) {
                         </tbody>
                       </table>
 
-                      <table>
+                      <table className="page-16-main-table-thr">
                         <tbody className="page-16-table-thr mt20">
                           <tr className="tc">
                             <td className="header" colSpan="2">
