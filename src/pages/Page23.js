@@ -1,4 +1,38 @@
-export default function Page() {
+export default function Page({ data }) {
+  const leaderShipRiskObject = {
+    개선이시급함값: {
+      복종강요형: Math.round(Number(data[1].E) * 100),
+      책임전가형: Math.round(Number(data[1].F) * 100),
+      의사결정회피형: Math.round(Number(data[1].Column9) * 100),
+      현실안주형: Math.round(Number(data[1].H) * 100),
+      파벌형성형: Math.round(Number(data[1].I) * 100),
+      소통장애형: Math.round(Number(data[1].J) * 100),
+      비관형: Math.round(Number(data[1].K) * 100),
+      변덕형: Math.round(Number(data[1].L) * 100),
+    },
+    가끔주의가필요함값: {
+      복종강요형: Math.round(Number(data[2].E) * 100),
+      책임전가형: Math.round(Number(data[2].F) * 100),
+      의사결정회피형: Math.round(Number(data[2].Column9) * 100),
+      현실안주형: Math.round(Number(data[2].H) * 100),
+      파벌형성형: Math.round(Number(data[2].I) * 100),
+      소통장애형: Math.round(Number(data[2].J) * 100),
+      비관형: Math.round(Number(data[2].K) * 100),
+      변덕형: Math.round(Number(data[2].L) * 100),
+    },
+    거의문제없음값: {
+      복종강요형: Math.round(Number(data[3].E) * 100),
+      책임전가형: Math.round(Number(data[3].F) * 100),
+      의사결정회피형: Math.round(Number(data[3].Column9) * 100),
+      현실안주형: Math.round(Number(data[3].H) * 100),
+      파벌형성형: Math.round(Number(data[3].I) * 100),
+      소통장애형: Math.round(Number(data[3].J) * 100),
+      비관형: Math.round(Number(data[3].K) * 100),
+      변덕형: Math.round(Number(data[3].L) * 100),
+    },
+    경계필요유형텍스트: data[5].Column6,
+    주의필요유형텍스트: data[6].Column6,
+  };
   return (
     <div className="image-container page 23 pr">
       <div className="page-absolute">23 / 36</div>
@@ -36,20 +70,89 @@ export default function Page() {
                       <div className="flex w-100 mb2">
                         <div className="type-header">복종 강요형</div>
                         <div className="flex w-100">
-                          <div style={{ width: "29%", minWidth: 60 }}>
-                            <div className="bar-graph sometimes">29%</div>
-                          </div>
-                          <div style={{ width: "71%", minWidth: 60 }}>
-                            <div className="bar-graph no-problem">71%</div>
-                          </div>
+                          {leaderShipRiskObject.개선이시급함값.복종강요형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.개선이시급함값.복종강요형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph urgent">
+                                {`${leaderShipRiskObject.개선이시급함값.복종강요형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.가끔주의가필요함값.복종강요형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.가끔주의가필요함값.복종강요형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph sometimes">
+                                {`${leaderShipRiskObject.가끔주의가필요함값.복종강요형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.거의문제없음값.복종강요형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.거의문제없음값.복종강요형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph no-problem">
+                                {`${leaderShipRiskObject.거의문제없음값.복종강요형}%`}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                       <div className="flex w-100">
                         <div className="type-header">책임 전가형</div>
                         <div className="flex w-100">
-                          <div style={{ width: "100%", minWidth: 60 }}>
-                            <div className="bar-graph no-problem">100%</div>
-                          </div>
+                          {leaderShipRiskObject.개선이시급함값.책임전가형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.개선이시급함값.책임전가형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph urgent">
+                                {`${leaderShipRiskObject.개선이시급함값.책임전가형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.가끔주의가필요함값.책임전가형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.가끔주의가필요함값.책임전가형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph sometimes">
+                                {`${leaderShipRiskObject.가끔주의가필요함값.책임전가형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.거의문제없음값.책임전가형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.거의문제없음값.책임전가형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph no-problem">
+                                {`${leaderShipRiskObject.거의문제없음값.책임전가형}%`}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -60,23 +163,89 @@ export default function Page() {
                       <div className="flex w-100 mb2">
                         <div className="type-header">의사결정회피형</div>
                         <div className="flex w-100">
-                          <div style={{ width: "29%", minWidth: 60 }}>
-                            <div className="bar-graph sometimes">29%</div>
-                          </div>
-                          <div style={{ width: "71%", minWidth: 60 }}>
-                            <div className="bar-graph no-problem">71%</div>
-                          </div>
+                          {leaderShipRiskObject.개선이시급함값.의사결정회피형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.개선이시급함값.의사결정회피형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph urgent">
+                                {`${leaderShipRiskObject.개선이시급함값.의사결정회피형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.가끔주의가필요함값
+                            .의사결정회피형 > 0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.가끔주의가필요함값.의사결정회피형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph sometimes">
+                                {`${leaderShipRiskObject.가끔주의가필요함값.의사결정회피형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.거의문제없음값.의사결정회피형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.거의문제없음값.의사결정회피형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph no-problem">
+                                {`${leaderShipRiskObject.거의문제없음값.의사결정회피형}%`}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                       <div className="flex w-100 mb2">
                         <div className="type-header">현실안주형</div>
                         <div className="flex w-100">
-                          <div style={{ width: "29%", minWidth: 60 }}>
-                            <div className="bar-graph sometimes">29%</div>
-                          </div>
-                          <div style={{ width: "71%", minWidth: 60 }}>
-                            <div className="bar-graph no-problem">71%</div>
-                          </div>
+                          {leaderShipRiskObject.개선이시급함값.현실안주형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.개선이시급함값.현실안주형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph urgent">
+                                {`${leaderShipRiskObject.개선이시급함값.현실안주형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.가끔주의가필요함값.현실안주형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.가끔주의가필요함값.현실안주형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph sometimes">
+                                {`${leaderShipRiskObject.가끔주의가필요함값.현실안주형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.거의문제없음값.현실안주형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.거의문제없음값.현실안주형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph no-problem">
+                                {`${leaderShipRiskObject.거의문제없음값.현실안주형}%`}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -87,26 +256,89 @@ export default function Page() {
                       <div className="flex w-100 mb2">
                         <div className="type-header">파벌형성형</div>
                         <div className="flex w-100">
-                          <div style={{ width: "15%", minWidth: 60 }}>
-                            <div className="bar-graph urgent">15%</div>
-                          </div>
-                          <div style={{ width: "14%", minWidth: 60 }}>
-                            <div className="bar-graph sometimes">14%</div>
-                          </div>
-                          <div style={{ width: "71%", minWidth: 60 }}>
-                            <div className="bar-graph no-problem">71%</div>
-                          </div>
+                          {leaderShipRiskObject.개선이시급함값.파벌형성형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.개선이시급함값.파벌형성형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph urgent">
+                                {`${leaderShipRiskObject.개선이시급함값.파벌형성형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.가끔주의가필요함값.파벌형성형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.가끔주의가필요함값.파벌형성형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph sometimes">
+                                {`${leaderShipRiskObject.가끔주의가필요함값.파벌형성형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.거의문제없음값.파벌형성형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.거의문제없음값.파벌형성형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph no-problem">
+                                {`${leaderShipRiskObject.거의문제없음값.파벌형성형}%`}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                       <div className="flex w-100">
                         <div className="type-header">소통장애형</div>
                         <div className="flex w-100">
-                          <div style={{ width: "14%", minWidth: 60 }}>
-                            <div className="bar-graph sometimes">14%</div>
-                          </div>
-                          <div style={{ width: "86%", minWidth: 60 }}>
-                            <div className="bar-graph no-problem">86%</div>
-                          </div>
+                          {leaderShipRiskObject.개선이시급함값.소통장애형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.개선이시급함값.소통장애형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph urgent">
+                                {`${leaderShipRiskObject.개선이시급함값.소통장애형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.가끔주의가필요함값.소통장애형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.가끔주의가필요함값.소통장애형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph sometimes">
+                                {`${leaderShipRiskObject.가끔주의가필요함값.소통장애형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.거의문제없음값.소통장애형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.거의문제없음값.소통장애형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph no-problem">
+                                {`${leaderShipRiskObject.거의문제없음값.소통장애형}%`}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -117,26 +349,85 @@ export default function Page() {
                       <div className="flex w-100 mb2">
                         <div className="type-header">비관형</div>
                         <div className="flex w-100">
-                          <div style={{ width: "14%", minWidth: 60 }}>
-                            <div className="bar-graph urgent">14%</div>
-                          </div>
-                          <div style={{ width: "29%", minWidth: 60 }}>
-                            <div className="bar-graph sometimes">29%</div>
-                          </div>
-                          <div style={{ width: "57%", minWidth: 60 }}>
-                            <div className="bar-graph no-problem">57%</div>
-                          </div>
+                          {leaderShipRiskObject.개선이시급함값.비관형 > 0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.개선이시급함값.비관형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph urgent">
+                                {`${leaderShipRiskObject.개선이시급함값.비관형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.가끔주의가필요함값.비관형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.가끔주의가필요함값.비관형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph sometimes">
+                                {`${leaderShipRiskObject.가끔주의가필요함값.비관형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.거의문제없음값.비관형 > 0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.거의문제없음값.비관형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph no-problem">
+                                {`${leaderShipRiskObject.거의문제없음값.비관형}%`}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                       <div className="flex w-100">
                         <div className="type-header">변덕형</div>
                         <div className="flex w-100">
-                          <div style={{ width: "14%", minWidth: 60 }}>
-                            <div className="bar-graph sometimes">14%</div>
-                          </div>
-                          <div style={{ width: "86%", minWidth: 60 }}>
-                            <div className="bar-graph no-problem">86%</div>
-                          </div>
+                          {leaderShipRiskObject.개선이시급함값.변덕형 > 0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.개선이시급함값.변덕형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph urgent">
+                                {`${leaderShipRiskObject.개선이시급함값.변덕형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.가끔주의가필요함값.변덕형 >
+                            0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.가끔주의가필요함값.변덕형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph sometimes">
+                                {`${leaderShipRiskObject.가끔주의가필요함값.변덕형}%`}
+                              </div>
+                            </div>
+                          )}
+                          {leaderShipRiskObject.거의문제없음값.변덕형 > 0 && (
+                            <div
+                              style={{
+                                width: `${leaderShipRiskObject.거의문제없음값.변덕형}%`,
+                                minWidth: 60,
+                              }}
+                            >
+                              <div className="bar-graph no-problem">
+                                {`${leaderShipRiskObject.거의문제없음값.변덕형}%`}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -158,7 +449,7 @@ export default function Page() {
                     각 리더십 위험 유형에서‘개선이 시급함’을 응답한 건수가
                     전체의 50% 이상인 유형을 의미합니다.
                   </li>
-                  <li>홍길동 님의 [경계가 필요한 유형]은 없습니다.</li>
+                  <li>{leaderShipRiskObject.경계필요유형텍스트}</li>
                 </ul>
               </div>
               <div className="text-container mt50">
@@ -171,7 +462,7 @@ export default function Page() {
                     시급함’을 응답한 건수의 합이 전체의 50% 이상인 유형을
                     의미합니다.
                   </li>
-                  <li>홍길동 님의 [주의가 필요한 유형]은 없습니다.</li>
+                  <li>{leaderShipRiskObject.주의필요유형텍스트}</li>
                 </ul>
               </div>
             </div>
