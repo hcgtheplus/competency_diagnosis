@@ -253,7 +253,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                   >
                                     공동체형
                                   </td>
@@ -263,7 +263,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                   >
                                     {organizationalCultureType.community.total}
                                   </td>
@@ -365,7 +365,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                   >
                                     위계질서형
                                   </td>
@@ -375,7 +375,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                   >
                                     {organizationalCultureType.hierarchy.total}
                                   </td>
@@ -385,7 +385,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                   >
                                     {organizationalCultureType.hierarchy.entire}
                                   </td>
@@ -477,7 +477,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                   >
                                     성과중시형
                                   </td>
@@ -487,7 +487,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                   >
                                     {
                                       organizationalCultureType
@@ -500,7 +500,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                   >
                                     {
                                       organizationalCultureType
@@ -595,7 +595,7 @@ export default function Page({ data, leadershipStyle }) {
                                         ? "yello-bg"
                                         : ""
                                     }`}
-                                    rowSpan="2"
+                                    rowSpan={2}
                                     style={{
                                       borderBottom: "1px solid #eaeaec",
                                     }}
