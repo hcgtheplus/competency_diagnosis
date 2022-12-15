@@ -420,7 +420,7 @@ export default function Page() {
               {/* <img style={{ width: 900 }} src={bar_graph} alt="bar_graph" /> */}
               <div className="info mt20">
                 <span className="material-symbols-outlined">arrow_right</span>
-                항목별 상세 진단문항은 4페이지를 참고
+                항목별 상세 진단문항은 4페이지를 참고부탁드립니다.
               </div>
               <div className="mt20">
                 <ul>
@@ -431,10 +431,10 @@ export default function Page() {
                     의미합니다.
                   </li>
                   <li>
-                    부하가 평가한 리더십 역량은 리더가 직접 운영하는 영역(평가,
-                    조직, 프로세스, 인력)과 리더와의 상호작용에서 경험할 수 있는
-                    영역(직무만족, 소속감, 소통)에 영향을 미치는 것으로
-                    나타났습니다.
+                    리더십 역량 중 리더가 직접 관여하는 항목(평가, 조직,
+                    프로세스, 인력)과 리더와 부하 직원 간의 상호작용으로 경험할
+                    수 있는 항목(직무만족, 소속감, 소통)이 전사 조직문화에 큰
+                    영향을 미치는 것으로 나타났습니다.
                   </li>
                   <li>
                     따라서 리더십 역량이 전사 조직문화 체감에 기여할 수 있으며,
