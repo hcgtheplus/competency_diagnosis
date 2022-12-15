@@ -58,7 +58,7 @@ export default function Page({ data }) {
                   <p className="mr20">거의 문제 없음</p>
                 </div>
               </div>
-              <div style={{ position: "relative" }}>
+              <div style={{ position: 'relative' }}>
                 <div className="page-22-line-container">
                   <div className="vertical-line"></div>
                   <div className="vertical-text">50%</div>
@@ -434,7 +434,6 @@ export default function Page({ data }) {
                   </div>
                 </div>
               </div>
-
               {/* <!-- <img style={{width:930px;" src="image/sub-image/page-22/bar-graph-table.png" alt=""/> --> */}
               <div className="info mt20">
                 <span className="material-symbols-outlined">arrow_right</span>
@@ -449,7 +448,7 @@ export default function Page({ data }) {
                     각 리더십 위험 유형에서‘개선이 시급함’을 응답한 건수가
                     전체의 50% 이상인 유형을 의미합니다.
                   </li>
-                  <li>{leaderShipRiskObject.경계필요유형텍스트}</li>
+                  <li>{leaderShipRiskObject.경계필요유형텍스트.trim()}</li>
                 </ul>
               </div>
               <div className="text-container mt50">
@@ -462,7 +461,7 @@ export default function Page({ data }) {
                     시급함’을 응답한 건수의 합이 전체의 50% 이상인 유형을
                     의미합니다.
                   </li>
-                  <li>{leaderShipRiskObject.주의필요유형텍스트}</li>
+                  <li>{leaderShipRiskObject.주의필요유형텍스트.trim()}</li>
                 </ul>
               </div>
             </div>
