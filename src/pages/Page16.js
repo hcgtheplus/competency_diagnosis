@@ -241,7 +241,7 @@ export default function Page({ data, organization, position }) {
                         <div
                           class="page-16-our-department mr10"
                           style={{
-                            height: `${Number(culture.team.working) * 10}%`,
+                            height: `${Number(culture.team.working) * 20}%`,
                           }}
                         >
                           {culture.team.working}
@@ -249,7 +249,7 @@ export default function Page({ data, organization, position }) {
                         <div
                           class="page-16-our-department company"
                           style={{
-                            height: `${Number(culture.company.working) * 10}%`,
+                            height: `${Number(culture.company.working) * 20}%`,
                           }}
                         >
                           {culture.company.working}
@@ -264,7 +264,7 @@ export default function Page({ data, organization, position }) {
                           class="page-16-our-department mr10"
                           style={{
                             height: `${
-                              Number(culture.team.communication) * 10
+                              Number(culture.team.communication) * 20
                             }%`,
                           }}
                         >
@@ -274,7 +274,7 @@ export default function Page({ data, organization, position }) {
                           class="page-16-our-department company"
                           style={{
                             height: `${
-                              Number(culture.company.communication) * 10
+                              Number(culture.company.communication) * 20
                             }%`,
                           }}
                         >
@@ -290,7 +290,7 @@ export default function Page({ data, organization, position }) {
                           class="page-16-our-department mr10"
                           style={{
                             height: `${
-                              Number(culture.team.satisfaction) * 10
+                              Number(culture.team.satisfaction) * 20
                             }%`,
                           }}
                         >
@@ -300,7 +300,7 @@ export default function Page({ data, organization, position }) {
                           class="page-16-our-department company"
                           style={{
                             height: `${
-                              Number(culture.company.satisfaction) * 10
+                              Number(culture.company.satisfaction) * 20
                             }%`,
                           }}
                         >
@@ -315,7 +315,7 @@ export default function Page({ data, organization, position }) {
                         <div
                           class="page-16-our-department mr10"
                           style={{
-                            height: `${Number(culture.team.immersion) * 10}%`,
+                            height: `${Number(culture.team.immersion) * 20}%`,
                           }}
                         >
                           {culture.team.immersion}
@@ -324,7 +324,7 @@ export default function Page({ data, organization, position }) {
                           class="page-16-our-department company"
                           style={{
                             height: `${
-                              Number(culture.company.immersion) * 10
+                              Number(culture.company.immersion) * 20
                             }%`,
                           }}
                         >
@@ -357,7 +357,7 @@ export default function Page({ data, organization, position }) {
                         <div
                           class="page-16-our-department mr10"
                           style={{
-                            height: `${Number(relation.team.superior) * 10}%`,
+                            height: `${Number(relation.team.superior) * 20}%`,
                           }}
                         >
                           {relation.team.superior}
@@ -366,7 +366,7 @@ export default function Page({ data, organization, position }) {
                           class="page-16-our-department company"
                           style={{
                             height: `${
-                              Number(relation.company.superior) * 10
+                              Number(relation.company.superior) * 20
                             }%`,
                           }}
                         >
@@ -381,7 +381,7 @@ export default function Page({ data, organization, position }) {
                         <div
                           class="page-16-our-department mr10"
                           style={{
-                            height: `${Number(relation.team.colleague) * 10}%`,
+                            height: `${Number(relation.team.colleague) * 20}%`,
                           }}
                         >
                           {relation.team.colleague}
@@ -390,7 +390,7 @@ export default function Page({ data, organization, position }) {
                           class="page-16-our-department company"
                           style={{
                             height: `${
-                              Number(relation.company.colleague) * 10
+                              Number(relation.company.colleague) * 20
                             }%`,
                           }}
                         >
@@ -405,7 +405,7 @@ export default function Page({ data, organization, position }) {
                         <div
                           class="page-16-our-department mr10"
                           style={{
-                            height: `${Number(relation.team.junior) * 10}%`,
+                            height: `${Number(relation.team.junior) * 20}%`,
                           }}
                         >
                           {relation.team.junior}
@@ -413,7 +413,7 @@ export default function Page({ data, organization, position }) {
                         <div
                           class="page-16-our-department company"
                           style={{
-                            height: `${Number(relation.company.junior) * 10}%`,
+                            height: `${Number(relation.company.junior) * 20}%`,
                           }}
                         >
                           {relation.company.junior}
@@ -427,7 +427,7 @@ export default function Page({ data, organization, position }) {
                         <div
                           class="page-16-our-department mr10"
                           style={{
-                            height: `${Number(relation.team.preference) * 10}%`,
+                            height: `${Number(relation.team.preference) * 20}%`,
                           }}
                         >
                           {relation.team.preference}
@@ -436,7 +436,7 @@ export default function Page({ data, organization, position }) {
                           class="page-16-our-department company"
                           style={{
                             height: `${
-                              Number(relation.company.preference) * 10
+                              Number(relation.company.preference) * 20
                             }%`,
                           }}
                         >
