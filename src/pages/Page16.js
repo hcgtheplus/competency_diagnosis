@@ -1,6 +1,6 @@
 import page_15_sub_image_1 from "../image/sub-image/page-15/page-15-sub-image-1.png";
 
-export default function Page({ data, organization, position }) {
+export default function Page({ data, organization, name, position }) {
   const culture = {
     team: {
       working: data[13].E.toFixed(1),
@@ -42,8 +42,9 @@ export default function Page({ data, organization, position }) {
               <div className="department">{organization}</div>
 
               <div className="sub-title">직책:</div>
+              <div className="duty">{position}</div>
 
-              <div className="user-name">{position}</div>
+              <div className="user-name">{name}</div>
             </div>
 
             <div className="title-container">

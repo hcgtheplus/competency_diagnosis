@@ -123,6 +123,7 @@ function App() {
           <Page16
             data={sampleData["14"]}
             organization={organization}
+            name={name}
             position={position}
           />
           <Page17
