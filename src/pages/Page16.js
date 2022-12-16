@@ -1,4 +1,13 @@
-import page_15_sub_image_1 from "../image/sub-image/page-15/page-15-sub-image-1.png";
+import page_13_공동체형_성과중시형_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-공동체형-성과중시형-혁신중시형.jpg";
+import page_13_공동체형_성과중시형 from "../image/sub-image/page-13/division-culture/page-13-공동체형-성과중시형.jpg";
+import page_13_공동체형_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-공동체형-혁신중시형.jpg";
+import page_13_공동체형 from "../image/sub-image/page-13/division-culture/page-13-공동체형.jpg";
+
+import page_13_성과중시형_위계질서형 from "../image/sub-image/page-13/division-culture/page-13-성과중시형-위계질서형.jpg";
+import page_13_성과중시형_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-성과중시형-혁신중시형.jpg";
+import page_13_성과중시형 from "../image/sub-image/page-13/division-culture/page-13-성과중시형.jpg";
+import page_13_위계질서형 from "../image/sub-image/page-13/division-culture/page-13-위계질서형.jpg";
+import page_13_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-혁신중시형.jpg";
 
 export default function Page({
   data,
@@ -41,9 +50,37 @@ export default function Page({
   const orgCultureType = needType.orgCultureType
     .split(",")
     .map((type) => type.trim());
+
   const leadershipStyle = needType.leadershipStyle
     .split(",")
     .map((type) => type.trim());
+
+  const divisionCultureImage = (() => {
+    switch (true) {
+      case orgCultureType.some(
+        (type) => type === "공동체형-성과중시형-혁신중시형"
+      ):
+        return page_13_공동체형_성과중시형_혁신중시형;
+      case orgCultureType.some((type) => type === "공동체형-성과중시형"):
+        return page_13_공동체형_성과중시형;
+      case orgCultureType.some((type) => type === "공동체형-혁신중시형"):
+        return page_13_공동체형_혁신중시형;
+      case orgCultureType.some((type) => type === "성과중시형-위계질서형"):
+        return page_13_성과중시형_위계질서형;
+      case orgCultureType.some((type) => type === "성과중시형-혁신중시형"):
+        return page_13_성과중시형_혁신중시형;
+      case orgCultureType.some((type) => type === "공동체형"):
+        return page_13_공동체형;
+      case orgCultureType.some((type) => type === "성과중시형"):
+        return page_13_성과중시형;
+      case orgCultureType.some((type) => type === "위계질서형"):
+        return page_13_위계질서형;
+      case orgCultureType.some((type) => type === "혁신중시형"):
+        return page_13_혁신중시형;
+      default:
+        return null;
+    }
+  })();
 
   return (
     <div className="image-container page 16 pr">
@@ -86,8 +123,8 @@ export default function Page({
                       <div className="page-15-image">
                         <img
                           style={{ width: 250 }}
-                          src={page_15_sub_image_1}
-                          alt="page_15_sub_image_1"
+                          src={divisionCultureImage}
+                          alt="test"
                         />
                         <div
                           className="leadership-style flc jcs fc"
