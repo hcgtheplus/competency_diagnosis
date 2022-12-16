@@ -44,6 +44,9 @@ export default function Page({
   const leadershipStyle = needType.leadershipStyle
     .split(",")
     .map((type) => type.trim());
+  const count = Object.keys(needType).filter((type) =>
+    type.includes("needType")
+  ).length;
 
   return (
     <div className="image-container page 16 pr">
