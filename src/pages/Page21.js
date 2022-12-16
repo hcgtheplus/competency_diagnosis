@@ -1,6 +1,4 @@
 export default function Page({ data }) {
-  console.log("🚀 ~ file: Page21.js:2 ~ Page ~ data", data);
-
   const convertData = data.reduce(
     (acc, cur, idx) => {
       if (cur["C"] === "Text 1") {
