@@ -652,13 +652,13 @@ h6 {
         color: #878792;
       }
       .bar-blue {
-        width: 32px;
+        min-width: 32px;
         height: 16px;
         background-color: #cfebfc;
         border: 2px solid #0091ea;
       }
       .bar-yellow {
-        width: 32px;
+        min-width: 32px;
         height: 16px;
         background-color: #feffe2;
         border: 2px solid #ffd66c;

@@ -55,10 +55,10 @@ export default function Page({ data }) {
                   <div className="bar-blue"></div>
                   <p className="mr20">가끔 주의가 필요함</p>
                   <div className="bar-blue light"></div>
-                  <p className="mr20">거의 문제 없음</p>
+                  <p>거의 문제 없음</p>
                 </div>
               </div>
-              <div style={{ position: 'relative' }}>
+              <div style={{ position: "relative" }}>
                 <div className="page-22-line-container">
                   <div className="vertical-line"></div>
                   <div className="vertical-text">50%</div>

@@ -77,10 +77,12 @@ export default function Page({ data, needType }) {
                             <div className="bar-blue mr8"></div>
                             <p>나의 리더십 스타일</p>
                           </div>
-                          <div className="flex ac mt10">
+                          <div className="flex mt10">
                             <div className="bar-yellow mr8"></div>
                             {data[5].Column6.trim() && (
-                              <p>{data[5].Column6.trim()}</p>
+                              <p className="word-k-all">
+                                {data[5].Column6.trim()}
+                              </p>
                             )}
                           </div>
                         </div>
@@ -254,7 +256,7 @@ export default function Page({ data, needType }) {
                         </div>
                       </div>
                       <div className="left-section">
-                        <div className="page-23-chart-info">
+                        <div className="page-23-chart-info w-100">
                           <div className="flex ac mt10">
                             <div className="bar-blue mr8"></div>
                             <p>
@@ -265,7 +267,9 @@ export default function Page({ data, needType }) {
                           <div className="flex mt10">
                             <div className="bar-yellow mr8"></div>
                             {data[10].Column6.trim() && (
-                              <p>{data[10].Column6.trim()}</p>
+                              <p className="word-k-all">
+                                {data[10].Column6.trim()}
+                              </p>
                             )}
                           </div>
                           <div className="mt30">
