@@ -288,7 +288,10 @@ export default function Page({
                         const type = keyword.find((k) => k.type === item);
 
                         return (
-                          <table className="page-15-table mt50">
+                          <table
+                            key={`needType${num}`}
+                            className="page-15-table mt50"
+                          >
                             <tbody>
                               <tr className="tc header">
                                 <td colSpan={3}>{item}</td>
