@@ -24,7 +24,7 @@ export default function Page({ data }) {
                     <h5 className="mt30">강점</h5>
                     <img src={page_25_image_01} alt="page_25_image_01" />
                     <ul className="mt10">
-                      {강점텍스트.map((text) => (
+                      {강점텍스트.filter(Boolean).map((text) => (
                         <li key={text}>{text}</li>
                       ))}
                     </ul>
@@ -33,7 +33,7 @@ export default function Page({ data }) {
                     <h5 className="mt30">미흡한 점</h5>
                     <img src={page_25_image_02} alt="page_25_image_02" />
                     <ul className="mt10">
-                      {미흡텍스트.map((text) => (
+                      {미흡텍스트.filter(Boolean).map((text) => (
                         <li key={text}>{text}</li>
                       ))}
                     </ul>
