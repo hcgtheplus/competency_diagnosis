@@ -50,7 +50,7 @@ import keyword from "./keyword.json";
 import needType from "./needType.json";
 
 function App() {
-  const [userEmail, setUserEmail] = useState("1billion@nhqv.com");
+  const [userEmail, setUserEmail] = useState("lgh99@nhqv.com");
   const groupByEmail = groupBy(fullData, "B");
   const groupByEmailWithPage = reduce(
     groupByEmail,
@@ -62,16 +62,16 @@ function App() {
     },
     {}
   );
-  // const sampleData = groupByEmailWithPage["1billion@nhqv.com"];
   const sampleData = groupByEmailWithPage[userEmail];
   const mainData = sampleData["12"];
   const name = mainData[0].Column6;
   const organization = mainData[1].Column6;
   const position = mainData[2].Column6;
   const leadershipType = mainData[4].Column6.split("X")[0].split("(")[0].trim();
-  const leadershipStyle = mainData[4].Column6.split("X")[1]
-    .split("(")[0]
-    .trim();
+  const mainDataNeedType = needType.find((type) => type.email === userEmail);
+  const leadershipStyle = mainDataNeedType.leadershipStyle
+    .split(",")
+    .map((type) => type.trim());
   const anotherView = // 임원인 경우 28, 29, 30, 31, 32, 33 페이지는 별도로 보여준다
     emailList.find((item) => item.email === userEmail).position === "임원";
 

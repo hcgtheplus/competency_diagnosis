@@ -35,8 +35,8 @@ export default function Page({
     }
   };
 
-  const leadershipStyleImage = (leadershipStyle) => {
-    switch (leadershipStyle) {
+  const leadershipStyleImage = (style) => {
+    switch (style) {
       case "감독자":
         return page_13_감독자;
       case "감시자":
@@ -170,14 +170,22 @@ export default function Page({
                               공동체형
                               <div
                                 className={`triangle p15 f13 section1 ${
-                                  leadershipStyle === "촉진자" ? "active" : ""
+                                  leadershipStyle.some(
+                                    (style) => style === "촉진자"
+                                  )
+                                    ? "active"
+                                    : ""
                                 }`}
                               >
                                 촉진자
                               </div>
                               <div
                                 className={`triangle p15 f13 section2 ${
-                                  leadershipStyle === "조언자" ? "active" : ""
+                                  leadershipStyle.some(
+                                    (style) => style === "조언자"
+                                  )
+                                    ? "active"
+                                    : ""
                                 }`}
                               >
                                 조언자
@@ -187,14 +195,22 @@ export default function Page({
                               혁신중시형
                               <div
                                 className={`triangle p15 f13 section3 ${
-                                  leadershipStyle === "개혁자" ? "active" : ""
+                                  leadershipStyle.some(
+                                    (style) => style === "개혁자"
+                                  )
+                                    ? "active"
+                                    : ""
                                 }`}
                               >
                                 개혁자
                               </div>
                               <div
                                 className={`triangle p15 f13 section4 ${
-                                  leadershipStyle === "중재자" ? "active" : ""
+                                  leadershipStyle.some(
+                                    (style) => style === "중재자"
+                                  )
+                                    ? "active"
+                                    : ""
                                 }`}
                               >
                                 중재자
@@ -206,14 +222,22 @@ export default function Page({
                               위계질서형
                               <div
                                 className={`triangle p15 f13 section5 ${
-                                  leadershipStyle === "감시자" ? "active" : ""
+                                  leadershipStyle.some(
+                                    (style) => style === "감시자"
+                                  )
+                                    ? "active"
+                                    : ""
                                 }`}
                               >
                                 감시자
                               </div>
                               <div
                                 className={`triangle p15 f13 section6 ${
-                                  leadershipStyle === "조정자" ? "active" : ""
+                                  leadershipStyle.some(
+                                    (style) => style === "조정자"
+                                  )
+                                    ? "active"
+                                    : ""
                                 }`}
                               >
                                 조정자
@@ -223,14 +247,22 @@ export default function Page({
                               성과중시형
                               <div
                                 className={`triangle p15 f13 section7 ${
-                                  leadershipStyle === "감독자" ? "active" : ""
+                                  leadershipStyle.some(
+                                    (style) => style === "감독자"
+                                  )
+                                    ? "active"
+                                    : ""
                                 }`}
                               >
                                 감독자
                               </div>
                               <div
                                 className={`triangle p15 f13 section8 ${
-                                  leadershipStyle === "성취자" ? "active" : ""
+                                  leadershipStyle.some(
+                                    (style) => style === "성취자"
+                                  )
+                                    ? "active"
+                                    : ""
                                 }`}
                               >
                                 성취자
@@ -267,11 +299,16 @@ export default function Page({
                 </div>
 
                 <div className="flc jcs">
-                  <img
-                    className="w250px"
-                    src={leadershipStyleImage(leadershipStyle)}
-                    alt="leadership-style"
-                  />
+                  {leadershipStyle.map((style) => {
+                    return (
+                      <img
+                        key={style}
+                        className="w250px"
+                        src={leadershipStyleImage(style)}
+                        alt="leadership-style"
+                      />
+                    );
+                  })}
                 </div>
               </div>
 
