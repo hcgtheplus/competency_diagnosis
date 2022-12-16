@@ -154,7 +154,7 @@ export default function Page({ data }) {
                       <div
                         className="page-20-our-department company four"
                         style={{
-                          height: `${비전제시.H?.toFixed(1) || 0 * 20}%`,
+                          height: `${(비전제시.H?.toFixed(1) || 0) * 20}%`,
                         }}
                       >
                         {비전제시.H?.toFixed(1) || "0"}
@@ -191,7 +191,9 @@ export default function Page({ data }) {
                       <div
                         className="page-20-our-department company four"
                         style={{
-                          height: `${합리적의사결정.H?.toFixed(1) || 0 * 20}%`,
+                          height: `${
+                            (합리적의사결정.H?.toFixed(1) || 0) * 20
+                          }%`,
                         }}
                       >
                         {합리적의사결정.H?.toFixed(1) || "0"}
@@ -228,7 +230,7 @@ export default function Page({ data }) {
                       <div
                         className="page-20-our-department company four"
                         style={{
-                          height: `${강력한실행력.H?.toFixed(1) || 0 * 20}%`,
+                          height: `${(강력한실행력.H?.toFixed(1) || 0) * 20}%`,
                         }}
                       >
                         {강력한실행력.H?.toFixed(1) || "0"}
