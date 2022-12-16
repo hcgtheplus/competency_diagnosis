@@ -61,17 +61,21 @@ export default function Page({
 
   const divisionCultureImage = (() => {
     switch (true) {
-      case orgCultureType.some(
-        (type) => type === "공동체형-성과중시형-혁신중시형"
-      ):
+      case orgCultureType.some((type) => type === "공동체형") &&
+        orgCultureType.some((type) => type === "성과중시형") &&
+        orgCultureType.some((type) => type === "혁신중시형"):
         return page_13_공동체형_성과중시형_혁신중시형;
-      case orgCultureType.some((type) => type === "공동체형-성과중시형"):
+      case orgCultureType.some((type) => type === "성과중시형") &&
+        orgCultureType.some((type) => type === "공동체형"):
         return page_13_공동체형_성과중시형;
-      case orgCultureType.some((type) => type === "공동체형-혁신중시형"):
+      case orgCultureType.some((type) => type === "공동체형") &&
+        orgCultureType.some((type) => type === "혁신중시형"):
         return page_13_공동체형_혁신중시형;
-      case orgCultureType.some((type) => type === "성과중시형-위계질서형"):
+      case orgCultureType.some((type) => type === "위계질서형") &&
+        orgCultureType.some((type) => type === "성과중시형"):
         return page_13_성과중시형_위계질서형;
-      case orgCultureType.some((type) => type === "성과중시형-혁신중시형"):
+      case orgCultureType.some((type) => type === "혁신중시형") &&
+        orgCultureType.some((type) => type === "성과중시형"):
         return page_13_성과중시형_혁신중시형;
       case orgCultureType.some((type) => type === "공동체형"):
         return page_13_공동체형;
