@@ -85,7 +85,7 @@ export default function Page({ data }) {
                       <td>{합계.전사}</td>
                       <td>{합계.부문사업부}</td>
                       <td>{합계.본부}</td>
-                      <td>{합계.부서센터}</td>
+                      <td>{합계.부서센터 || "-"}</td>
                     </tr>
                     <tr className="tc">
                       <td className="fwb br header">
@@ -96,7 +96,7 @@ export default function Page({ data }) {
                       <td className="bb">{직원경험.전사}</td>
                       <td className="bb">{직원경험.부문사업부}</td>
                       <td className="bb">{직원경험.본부}</td>
-                      <td className="bb">{직원경험.부서센터}</td>
+                      <td className="bb">{직원경험.부서센터 || "-"}</td>
                     </tr>
 
                     <tr className="tc">
@@ -108,7 +108,7 @@ export default function Page({ data }) {
                       <td className="bb">{효과성.전사}</td>
                       <td className="bb">{효과성.부문사업부}</td>
                       <td className="bb">{효과성.본부}</td>
-                      <td className="bb">{효과성.부서센터}</td>
+                      <td className="bb">{효과성.부서센터 || "-"}</td>
                     </tr>
 
                     <tr className="tc">
@@ -120,7 +120,7 @@ export default function Page({ data }) {
                       <td className="bb">{직원몰입.전사}</td>
                       <td className="bb">{직원몰입.부문사업부}</td>
                       <td className="bb">{직원몰입.본부}</td>
-                      <td className="bb">{직원몰입.부서센터}</td>
+                      <td className="bb">{직원몰입.부서센터 || "-"}</td>
                     </tr>
                   </tbody>
                 </table>
