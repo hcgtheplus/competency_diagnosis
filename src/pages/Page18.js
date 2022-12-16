@@ -47,19 +47,19 @@ export default function Page({ data, name, organization, position }) {
   };
 
   const leadingBizLineGraphSeriesData = [
-    [data[11].Column6, Number(data[11].E.toFixed(1))],
-    [data[12].Column6, Number(data[12].E.toFixed(1))],
-    [data[13].Column6, Number(data[13].E.toFixed(1))],
+    [data[11].Column6, data[11].E && Number(data[11].E.toFixed(1))],
+    [data[12].Column6, data[12].E && Number(data[12].E.toFixed(1))],
+    [data[13].Column6, data[13].E && Number(data[13].E.toFixed(1))],
   ];
   const managingOrganizationLineGraphSeriesData = [
-    [data[22].Column6, Number(data[22].E.toFixed(1))],
-    [data[23].Column6, Number(data[23].E.toFixed(1))],
-    [data[24].Column6, Number(data[24].E.toFixed(1))],
+    [data[22].Column6, data[22].E && Number(data[22].E.toFixed(1))],
+    [data[23].Column6, data[23].E && Number(data[23].E.toFixed(1))],
+    [data[24].Column6, data[24].E && Number(data[24].E.toFixed(1))],
   ];
   const buildingTrustLineGraphSeriesData = [
-    [data[33].Column6, Number(data[33].E.toFixed(1))],
-    [data[34].Column6, Number(data[34].E.toFixed(1))],
-    [data[35].Column6, Number(data[35].E.toFixed(1))],
+    [data[33].Column6, data[33].E && Number(data[33].E.toFixed(1))],
+    [data[34].Column6, data[34].E && Number(data[34].E.toFixed(1))],
+    [data[35].Column6, data[35].E && Number(data[35].E.toFixed(1))],
   ];
 
   const graphOption = (type) => ({
@@ -175,13 +175,13 @@ export default function Page({ data, name, organization, position }) {
                 <div className="text-container">
                   <div className="mt50">
                     <ul>
-                      {data[0].Column6.trim() && (
+                      {data[0].Column6 && data[0].Column6.trim() && (
                         <li>{data[0].Column6.trim()}</li>
                       )}
-                      {data[1].Column6.trim() && (
+                      {data[1].Column6 && data[1].Column6.trim() && (
                         <li>{data[1].Column6.trim()}</li>
                       )}
-                      {data[2].Column6.trim() && (
+                      {data[2].Column6 && data[2].Column6.trim() && (
                         <li>{data[2].Column6.trim()}</li>
                       )}
                     </ul>

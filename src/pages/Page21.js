@@ -293,10 +293,14 @@ export default function Page({ data }) {
                   <li>{text1}</li>
                   <li>{text2}</li>
                 </ul>
-                <div className="info mt20">
-                  <span className="material-symbols-outlined">arrow_right</span>
-                  {text3}
-                </div>
+                {text3 && text3.trim() && (
+                  <div className="info mt20">
+                    <span className="material-symbols-outlined">
+                      arrow_right
+                    </span>
+                    {text3}
+                  </div>
+                )}
               </div>
               <div className="text-container mt50">
                 <h5 className="mb20">관계별 결과 비교</h5>
