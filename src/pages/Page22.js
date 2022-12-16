@@ -237,7 +237,7 @@ export default function Page({ data }) {
               <div className="mt20 pr">
                 <div
                   className="emphasize-line"
-                  style={{ right: chart2column.H === "사업부" ? 194 : 196 }}
+                  style={{ right: chart2column.H && "사업부" ? 194 : 196 }}
                 ></div>
                 <table className="bt">
                   <tbody>

@@ -28,10 +28,6 @@ export default function Page({ data }) {
   const chart2위험관리 = data[22];
   const chart2추진력 = data[23];
 
-  console.log(chart2column.H);
-
-  chart2column.H === "사업부" ? console.log("맞음") : console.log("아님");
-
   return (
     <div className="image-container page 20 pr">
       <div className="page-absolute">20 / 36</div>
