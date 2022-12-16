@@ -52,7 +52,11 @@ export default function Page({ data, name, organization, position }) {
   ]).length;
 
   if (data.length === 2) {
-    return <div></div>;
+    return (
+      <div className="no-harrison-container">
+        <div className="no-harrison">Harrison결과가 없습니다.</div>
+      </div>
+    );
   }
 
   return (
@@ -82,6 +86,8 @@ export default function Page({ data, name, organization, position }) {
 
                 <hr className="bottom-line" />
               </div>
+
+              {/* 92번째 줄 부터 729번째 줄까지 해리슨 있을때 나오는 데이터 */}
 
               <div>
                 <div className="text-container">
@@ -721,6 +727,12 @@ export default function Page({ data, name, organization, position }) {
                   </div>
                 </div>
               </div>
+
+              {/* 733번째 줄 부터 735번째 줄 까지 해리슨 없을때 나오는 데이터 */}
+
+              {/* <div className="no-harrison-container">
+                <div className="no-harrison">Harrison결과가 없습니다.</div>
+              </div> */}
             </div>
           </div>
         </div>
