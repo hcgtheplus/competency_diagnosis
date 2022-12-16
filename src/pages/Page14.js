@@ -12,6 +12,24 @@ import page_13_조정자 from "../image/sub-image/page-13/leadership-style/page-
 import page_13_중재자 from "../image/sub-image/page-13/leadership-style/page-13-중재자.jpg";
 import page_13_촉진자 from "../image/sub-image/page-13/leadership-style/page-13-촉진자.jpg";
 
+import page_13_감독자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-감독자-개혁자.jpg";
+import page_13_감독자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-감독자-중재자.jpg";
+
+import page_13_감시자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-감시자-개혁자.jpg";
+
+import page_13_성취자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-성취자-중재자.jpg";
+
+import page_13_조언자_감독자 from "../image/sub-image/page-13/leadership-style/page-13-조언자-감독자.jpg";
+import page_13_조언자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-조언자-개혁자.jpg";
+
+import page_13_조정자_감독자 from "../image/sub-image/page-13/leadership-style/page-13-조정자-감독자.jpg";
+import page_13_조정자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-조정자-중재자.jpg";
+
+import page_13_중재자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-중재자-개혁자.jpg";
+import page_13_촉진자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-촉진자-개혁자.jpg";
+
+import page_13_촉진자_조정자 from "../image/sub-image/page-13/leadership-style/page-13-촉진자-조정자.jpg";
+
 export default function Page({
   data,
   name,
@@ -53,6 +71,28 @@ export default function Page({
         return page_13_중재자;
       case "촉진자":
         return page_13_촉진자;
+      case "감독자-개혁자":
+        return page_13_감독자_개혁자;
+      case "감독자-중재자":
+        return page_13_감독자_중재자;
+      case "감시자-개혁자":
+        return page_13_감시자_개혁자;
+      case "성취자-중재자":
+        return page_13_성취자_중재자;
+      case "조언자-감독자":
+        return page_13_조언자_감독자;
+      case "조언자-개혁자":
+        return page_13_조언자_개혁자;
+      case "조정자-감독자":
+        return page_13_조정자_감독자;
+      case "조정자-중재자":
+        return page_13_조정자_중재자;
+      case "중재자-개혁자":
+        return page_13_중재자_개혁자;
+      case "촉진자-개혁자":
+        return page_13_촉진자_개혁자;
+      case "촉진자-조정자":
+        return page_13_촉진자_조정자;
       default:
         return null;
     }
