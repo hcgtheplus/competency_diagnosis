@@ -111,7 +111,10 @@ export default function Page({ data }) {
                           )}
                         </div>
                       </div>
-                      <div className="flex w-100">
+                      <div
+                        className="flex w-100"
+                        style={{ backgroundColor: "#cfebfc" }}
+                      >
                         <div className="type-header">책임 전가형</div>
                         <div className="flex w-100">
                           {leaderShipRiskObject.개선이시급함값.책임전가형 >
