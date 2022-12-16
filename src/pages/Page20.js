@@ -272,10 +272,10 @@ export default function Page({ data }) {
                     </tr>
                     <tr className="tc header">
                       <td className="bt br" style={{ width: 100 }}>
-                        {chart2column.H}
+                        {chart2column.H ?? "-"}
                       </td>
                       <td className="bt br" style={{ width: 100 }}>
-                        {chart2column.I}
+                        {chart2column.I ?? "-"}
                       </td>
                     </tr>
                     <tr className="tc bt">
