@@ -54,6 +54,7 @@ export default function Page({
   const leadershipStyle = needType.leadershipStyle
     .split(",")
     .map((type) => type.trim());
+
   const count = Object.keys(needType).filter((type) =>
     type.includes("needType")
   ).length;
@@ -125,7 +126,7 @@ export default function Page({
                     <div className="flc fc">
                       <div className="page-15-image">
                         <img
-                          style={{ width: 250 }}
+                          style={{ width: 250, marginTop: 35 }}
                           src={divisionCultureImage}
                           alt="test"
                         />
@@ -299,7 +300,7 @@ export default function Page({
                     </div>
                   </div>
 
-                  <div className="flex jcs mt50 ml30">
+                  <div className="flex jcs mt25 ml30">
                     <div>
                       <ul>
                         {data[5].Column6.trim() && (
@@ -318,40 +319,48 @@ export default function Page({
                         </span>
                         역량에 관한 상세사항은 12페이지에 서술되어 있습니다.
                       </div>
-                      {[1, 2, 3, 4, 5, 6].map((num) => {
-                        const item = needType[`needType${num}`];
+                      <div className="page-15-table-container">
+                        {[1, 2, 3, 4, 5, 6].map((num) => {
+                          const item = needType[`needType${num}`];
 
-                        if (!item) {
-                          return null;
-                        }
+                          if (!item) {
+                            return null;
+                          }
 
-                        const type = keyword.find((k) => k.type === item);
+                          const type = keyword.find((k) => k.type === item);
 
-                        return (
-                          <table
-                            key={`needType${num}`}
-                            className="page-15-table mt50"
-                          >
-                            <tbody>
-                              <tr className="tc header">
-                                <td colSpan={3}>{item}</td>
-                              </tr>
-                              <tr>
-                                <td className="tc">{type.keyword1}</td>
-                                <td className="tc">{type.keyword2}</td>
-                              </tr>
-                              <tr>
-                                <td className="tc">{type.keyword3}</td>
-                                <td className="tc">{type.keyword4}</td>
-                              </tr>
-                              <tr>
-                                <td className="tc">{type.keyword5}</td>
-                                <td className="tc">{type.keyword6}</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        );
-                      })}
+                          return (
+                            <table
+                              key={`needType${num}`}
+                              className={`page-15-table ${
+                                count === 1 ? "count-one" : ""
+                              } ${count === 2 ? "count-two" : ""} ${
+                                count === 3 ? "count-thr" : ""
+                              } ${count === 4 ? "count-four" : ""} ${
+                                count === 5 ? "count-five" : ""
+                              } ${count === 6 ? "count-six" : ""}`}
+                            >
+                              <tbody>
+                                <tr className="tc header">
+                                  <td colSpan={3}>{item}</td>
+                                </tr>
+                                <tr>
+                                  <td className="tc">{type.keyword1}</td>
+                                  <td className="tc">{type.keyword2}</td>
+                                </tr>
+                                <tr>
+                                  <td className="tc">{type.keyword3}</td>
+                                  <td className="tc">{type.keyword4}</td>
+                                </tr>
+                                <tr>
+                                  <td className="tc">{type.keyword5}</td>
+                                  <td className="tc">{type.keyword6}</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
                 </div>

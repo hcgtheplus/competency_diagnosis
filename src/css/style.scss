@@ -1093,6 +1093,10 @@ ul {
   background-color: #ddd;
 }
 
+.mt25 {
+  margin-top: 25px;
+}
+
 .customers th {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -1101,12 +1105,86 @@ ul {
   color: white;
 }
 
+.page-15-table-container {
+  display: flex;
+  width: 615px;
+  flex-wrap: wrap;
+}
+
 .page-15-table {
   width: 100%;
   padding: 0;
   border: 0;
   border-spacing: 0px;
   border-collapse: collapse;
+  margin-top: 50px;
+
+  &.count-one {
+    width: 100%;
+  }
+
+  &.count-two {
+    width: 100%;
+  }
+
+  &.count-thr {
+    width: 46%;
+    margin-top: 16px;
+    margin-right: 22px;
+
+    td {
+      font-size: 14px;
+      word-break: keep-all;
+    }
+  }
+
+  &.count-four {
+    width: 46%;
+    margin-top: 16px;
+    margin-right: 22px;
+
+    td {
+      font-size: 14px;
+      word-break: keep-all;
+    }
+  }
+
+  &.count-five {
+    padding: 3px 20px;
+    border: 1px solid #e5e5e5;
+    width: 180px;
+
+    margin-top: 29px;
+    margin-right: 22px;
+
+    td {
+      font-size: 14px;
+
+      word-break: keep-all;
+    }
+
+    tr > td {
+      padding: 5px 1px;
+    }
+  }
+
+  &.count-six {
+    padding: 3px 20px;
+    border: 1px solid #e5e5e5;
+    width: 180px;
+
+    margin-top: 29px;
+    margin-right: 22px;
+
+    td {
+      font-size: 14px;
+      word-break: keep-all;
+    }
+
+    tr > td {
+      padding: 5px 1px;
+    }
+  }
 
   tr > td {
     padding: 5px 20px;
