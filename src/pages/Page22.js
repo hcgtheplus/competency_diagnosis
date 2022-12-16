@@ -248,17 +248,17 @@ export default function Page({ data }) {
                       <td className="br" rowSpan="2">
                         {chart2column.Column6}
                       </td>
-                      <td rowSpan="2">{chart2column.E}</td>
-                      <td rowSpan="2">{chart2column.F}</td>
+                      <td rowSpan="2">{chart2column.E ?? "-"}</td>
+                      <td rowSpan="2">{chart2column.F ?? "-"}</td>
                       <td rowSpan="2">{chart2column.Column9}</td>
                       <td colSpan="2">평균</td>
                     </tr>
                     <tr className="tc header">
                       <td className="bt br" style={{ width: 100 }}>
-                        {chart2column.H}
+                        {chart2column.H ?? "-"}
                       </td>
                       <td className="bt br" style={{ width: 100 }}>
-                        {chart2column.I}
+                        {chart2column.I ?? "-"}
                       </td>
                     </tr>
                     <tr className="tc bt">
