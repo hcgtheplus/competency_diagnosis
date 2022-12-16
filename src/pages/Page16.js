@@ -36,14 +36,14 @@ export default function Page({
     team: {
       superior: data[19].E.toFixed(1),
       colleague: data[20].E.toFixed(1),
-      junior: data[21].E.toFixed(1),
-      preference: data[22].E.toFixed(1),
+      junior: data[21].E?.toFixed(1) || 0,
+      preference: data[22].E && data[22].E.toFixed(1),
     },
     company: {
       superior: data[19].F.toFixed(1),
       colleague: data[20].F.toFixed(1),
-      junior: data[21].F.toFixed(1),
-      preference: data[22].F.toFixed(1),
+      junior: data[21].F.toFixed(1) || 0,
+      preference: data[22].F && data[22].F.toFixed(1),
     },
   };
 

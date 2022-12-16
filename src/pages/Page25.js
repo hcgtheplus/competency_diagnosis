@@ -17,8 +17,14 @@ export default function Page({ data }) {
       협업: { 부서: data[16].E.toFixed(1), 사업부: data[16].F.toFixed(1) },
     },
     후배: {
-      신뢰존중: { 부서: data[17].E.toFixed(1), 사업부: data[17].F.toFixed(1) },
-      협업: { 부서: data[18].E.toFixed(1), 사업부: data[18].F.toFixed(1) },
+      신뢰존중: {
+        부서: data[17].E?.toFixed(1) || 0,
+        사업부: data[17].F?.toFixed(1) || 0,
+      },
+      협업: {
+        부서: data[18].E?.toFixed(1) || 0,
+        사업부: data[18].F?.toFixed(1) || 0,
+      },
     },
     종합: { 부서: data[19].E.toFixed(1), 사업부: data[19].F.toFixed(1) },
   };
