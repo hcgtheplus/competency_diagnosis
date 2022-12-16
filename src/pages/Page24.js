@@ -1,4 +1,4 @@
-export default function Page({ data, leadershipStyle }) {
+export default function Page({ data, needType }) {
   //조직문화 유형 , 총점 : total, 전사 : entire
   const organizationalCultureType = {
     community: {
@@ -27,23 +27,12 @@ export default function Page({ data, leadershipStyle }) {
     },
   };
 
-  //데이터 추가되면 props로 대체해야함
-  const 조직문화유형 = "혁신중시형";
-
-  const 번호 = (() => {
-    switch (조직문화유형) {
-      case "공동체형":
-        return 1;
-      case "혁신중시형":
-        return 2;
-      case "위계질서형":
-        return 3;
-      case "성과중시형":
-        return 4;
-      default:
-        return -1;
-    }
-  })();
+  const orgCultureType = needType.orgCultureType
+    .split(",")
+    .map((type) => type.trim());
+  const leadershipStyle = needType.leadershipStyle
+    .split(",")
+    .map((type) => type.trim());
 
   return (
     <div className="image-containe page 24 pr">
@@ -114,13 +103,21 @@ export default function Page({ data, leadershipStyle }) {
                               >
                                 <div className="flc">
                                   <div
-                                    className={`emphasizeOC block${번호}`}
+                                    className={`${
+                                      orgCultureType.some(
+                                        (type) => type === "공동체형"
+                                      )
+                                        ? "emphasizeOC"
+                                        : ""
+                                    } block1`}
                                   ></div>
                                   <div className="fwb block small mr5 mb5">
                                     공동체형
                                     <div
                                       className={`triangle f11 small section1 ${
-                                        leadershipStyle === "촉진자"
+                                        leadershipStyle.some(
+                                          (style) => style === "촉진자"
+                                        )
                                           ? "active"
                                           : ""
                                       }`}
@@ -129,7 +126,9 @@ export default function Page({ data, leadershipStyle }) {
                                     </div>
                                     <div
                                       className={`triangle f11 small section2 ${
-                                        leadershipStyle === "조언자"
+                                        leadershipStyle.some(
+                                          (style) => style === "조언자"
+                                        )
                                           ? "active"
                                           : ""
                                       }`}
@@ -137,11 +136,22 @@ export default function Page({ data, leadershipStyle }) {
                                       조언자
                                     </div>
                                   </div>
+                                  <div
+                                    className={`${
+                                      orgCultureType.some(
+                                        (type) => type === "혁신중시형"
+                                      )
+                                        ? "emphasizeOC"
+                                        : ""
+                                    } block2`}
+                                  ></div>
                                   <div className="flex jce fwb block small mb5">
                                     혁신중시형
                                     <div
                                       className={`triangle f11 small section3 ${
-                                        leadershipStyle === "개혁자"
+                                        leadershipStyle.some(
+                                          (style) => style === "개혁자"
+                                        )
                                           ? "active"
                                           : ""
                                       }`}
@@ -150,7 +160,9 @@ export default function Page({ data, leadershipStyle }) {
                                     </div>
                                     <div
                                       className={`triangle f11 small section4 ${
-                                        leadershipStyle === "중재자"
+                                        leadershipStyle.some(
+                                          (style) => style === "중재자"
+                                        )
                                           ? "active"
                                           : ""
                                       }`}
@@ -160,11 +172,22 @@ export default function Page({ data, leadershipStyle }) {
                                   </div>
                                 </div>
                                 <div className="flc">
+                                  <div
+                                    className={`${
+                                      orgCultureType.some(
+                                        (type) => type === "위계질서형"
+                                      )
+                                        ? "emphasizeOC"
+                                        : ""
+                                    } block3`}
+                                  ></div>
                                   <div className="flex afe fwb block small mr5">
                                     위계질서형
                                     <div
                                       className={`triangle f11 small section5 ${
-                                        leadershipStyle === "감시자"
+                                        leadershipStyle.some(
+                                          (style) => style === "감시자"
+                                        )
                                           ? "active"
                                           : ""
                                       }`}
@@ -173,7 +196,9 @@ export default function Page({ data, leadershipStyle }) {
                                     </div>
                                     <div
                                       className={`triangle f11 small section6 ${
-                                        leadershipStyle === "조정자"
+                                        leadershipStyle.some(
+                                          (style) => style === "조정자"
+                                        )
                                           ? "active"
                                           : ""
                                       }`}
@@ -181,11 +206,22 @@ export default function Page({ data, leadershipStyle }) {
                                       조정자
                                     </div>
                                   </div>
+                                  <div
+                                    className={`${
+                                      orgCultureType.some(
+                                        (type) => type === "성과중시형"
+                                      )
+                                        ? "emphasizeOC"
+                                        : ""
+                                    } block4`}
+                                  ></div>
                                   <div className="flex jce afe fwb block small">
                                     성과중시형
                                     <div
                                       className={`triangle f11 small section7 ${
-                                        leadershipStyle === "감독자"
+                                        leadershipStyle.some(
+                                          (style) => style === "감독자"
+                                        )
                                           ? "active"
                                           : ""
                                       }`}
@@ -194,7 +230,9 @@ export default function Page({ data, leadershipStyle }) {
                                     </div>
                                     <div
                                       className={`triangle f11 small section8 ${
-                                        leadershipStyle === "성취자"
+                                        leadershipStyle.some(
+                                          (style) => style === "성취자"
+                                        )
                                           ? "active"
                                           : ""
                                       }`}
@@ -249,7 +287,9 @@ export default function Page({ data, leadershipStyle }) {
                                 <tr>
                                   <td
                                     className={`bt ${
-                                      조직문화유형 === "공동체형"
+                                      orgCultureType.some(
+                                        (type) => type === "공동체형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -259,7 +299,9 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      조직문화유형 === "공동체형"
+                                      orgCultureType.some(
+                                        (type) => type === "공동체형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -269,7 +311,9 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      조직문화유형 === "공동체형"
+                                      orgCultureType.some(
+                                        (type) => type === "공동체형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -279,9 +323,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "조언자"
+                                      leadershipStyle.some(
+                                        (style) => style === "조언자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "공동체형"
+                                        : orgCultureType.some(
+                                            (type) => type === "공동체형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -290,9 +338,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      leadershipStyle === "조언자"
+                                      leadershipStyle.some(
+                                        (style) => style === "조언자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "공동체형"
+                                        : orgCultureType.some(
+                                            (type) => type === "공동체형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -304,9 +356,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "조언자"
+                                      leadershipStyle.some(
+                                        (style) => style === "조언자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "공동체형"
+                                        : orgCultureType.some(
+                                            (type) => type === "공동체형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -320,9 +376,13 @@ export default function Page({ data, leadershipStyle }) {
                                 <tr>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "촉진자"
+                                      leadershipStyle.some(
+                                        (style) => style === "촉진자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "공동체형"
+                                        : orgCultureType.some(
+                                            (type) => type === "공동체형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -331,9 +391,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      leadershipStyle === "촉진자"
+                                      leadershipStyle.some(
+                                        (style) => style === "촉진자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "공동체형"
+                                        : orgCultureType.some(
+                                            (type) => type === "공동체형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -345,9 +409,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "촉진자"
+                                      leadershipStyle.some(
+                                        (style) => style === "촉진자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "공동체형"
+                                        : orgCultureType.some(
+                                            (type) => type === "공동체형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -361,7 +429,9 @@ export default function Page({ data, leadershipStyle }) {
                                 <tr>
                                   <td
                                     className={`bt ${
-                                      조직문화유형 === "위계질서형"
+                                      orgCultureType.some(
+                                        (type) => type === "위계질서형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -371,7 +441,9 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      조직문화유형 === "위계질서형"
+                                      orgCultureType.some(
+                                        (type) => type === "위계질서형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -381,7 +453,9 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      조직문화유형 === "위계질서형"
+                                      orgCultureType.some(
+                                        (type) => type === "위계질서형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -391,9 +465,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "감시자"
+                                      leadershipStyle.some(
+                                        (style) => style === "감시자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "위계질서형"
+                                        : orgCultureType.some(
+                                            (type) => type === "위계질서형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -402,9 +480,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      leadershipStyle === "감시자"
+                                      leadershipStyle.some(
+                                        (style) => style === "감시자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "위계질서형"
+                                        : orgCultureType.some(
+                                            (type) => type === "위계질서형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -416,9 +498,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "감시자"
+                                      leadershipStyle.some(
+                                        (style) => style === "감시자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "위계질서형"
+                                        : orgCultureType.some(
+                                            (type) => type === "위계질서형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -432,9 +518,13 @@ export default function Page({ data, leadershipStyle }) {
                                 <tr>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "조정자"
+                                      leadershipStyle.some(
+                                        (style) => style === "조정자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "위계질서형"
+                                        : orgCultureType.some(
+                                            (type) => type === "위계질서형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -443,9 +533,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      leadershipStyle === "조정자"
+                                      leadershipStyle.some(
+                                        (style) => style === "조정자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "위계질서형"
+                                        : orgCultureType.some(
+                                            (type) => type === "위계질서형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -457,9 +551,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "조정자"
+                                      leadershipStyle.some(
+                                        (style) => style === "조정자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "위계질서형"
+                                        : orgCultureType.some(
+                                            (type) => type === "위계질서형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -473,7 +571,9 @@ export default function Page({ data, leadershipStyle }) {
                                 <tr>
                                   <td
                                     className={`bt ${
-                                      조직문화유형 === "성과중시형"
+                                      orgCultureType.some(
+                                        (type) => type === "성과중시형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -483,7 +583,9 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      조직문화유형 === "성과중시형"
+                                      orgCultureType.some(
+                                        (type) => type === "성과중시형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -496,7 +598,9 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      조직문화유형 === "성과중시형"
+                                      orgCultureType.some(
+                                        (type) => type === "성과중시형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -509,9 +613,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "감독자"
+                                      leadershipStyle.some(
+                                        (style) => style === "감독자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "성과중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "성과중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -520,9 +628,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      leadershipStyle === "감독자"
+                                      leadershipStyle.some(
+                                        (style) => style === "감독자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "성과중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "성과중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -534,9 +646,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "감독자"
+                                      leadershipStyle.some(
+                                        (style) => style === "감독자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "성과중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "성과중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -550,9 +666,13 @@ export default function Page({ data, leadershipStyle }) {
                                 <tr>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "성취자"
+                                      leadershipStyle.some(
+                                        (style) => style === "성취자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "성과중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "성과중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -561,9 +681,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      leadershipStyle === "성취자"
+                                      leadershipStyle.some(
+                                        (style) => style === "성취자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "성과중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "성과중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -575,9 +699,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "성취자"
+                                      leadershipStyle.some(
+                                        (style) => style === "성취자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "성과중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "성과중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -591,7 +719,9 @@ export default function Page({ data, leadershipStyle }) {
                                 <tr>
                                   <td
                                     className={`bt ${
-                                      조직문화유형 === "혁신중시형"
+                                      orgCultureType.some(
+                                        (type) => type === "혁신중시형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -604,7 +734,9 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      조직문화유형 === "혁신중시형"
+                                      orgCultureType.some(
+                                        (type) => type === "혁신중시형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -620,7 +752,9 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      조직문화유형 === "혁신중시형"
+                                      orgCultureType.some(
+                                        (type) => type === "혁신중시형"
+                                      )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -636,9 +770,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "중재자"
+                                      leadershipStyle.some(
+                                        (style) => style === "중재자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "혁신중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "혁신중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -647,9 +785,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      leadershipStyle === "중재자"
+                                      leadershipStyle.some(
+                                        (style) => style === "중재자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "혁신중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "혁신중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -661,9 +803,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "중재자"
+                                      leadershipStyle.some(
+                                        (style) => style === "중재자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "혁신중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "혁신중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -677,9 +823,13 @@ export default function Page({ data, leadershipStyle }) {
                                 <tr>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "개혁자"
+                                      leadershipStyle.some(
+                                        (style) => style === "개혁자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "혁신중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "혁신중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -691,9 +841,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt fwb ${
-                                      leadershipStyle === "개혁자"
+                                      leadershipStyle.some(
+                                        (style) => style === "개혁자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "혁신중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "혁신중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
@@ -708,9 +862,13 @@ export default function Page({ data, leadershipStyle }) {
                                   </td>
                                   <td
                                     className={`bt ${
-                                      leadershipStyle === "개혁자"
+                                      leadershipStyle.some(
+                                        (style) => style === "개혁자"
+                                      )
                                         ? "blue-bg"
-                                        : 조직문화유형 === "혁신중시형"
+                                        : orgCultureType.some(
+                                            (type) => type === "혁신중시형"
+                                          )
                                         ? "yello-bg"
                                         : ""
                                     }`}
