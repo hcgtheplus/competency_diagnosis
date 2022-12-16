@@ -50,18 +50,16 @@ export default function Page({ data }) {
                   {text123[0] ? <li>{text123[0]}</li> : ""}
                   {text123[1] ? <li>{text123[1]}</li> : ""}
                 </ul>
-                <div className="info mt20">
-                  {text123[2] ? (
-                    <>
-                      <span className="material-symbols-outlined">
-                        arrow_right
-                      </span>
-                      {text123[2]}
-                    </>
-                  ) : (
-                    ""
-                  )}
-                </div>
+                {text123[2] && text123[2].trim() ? (
+                  <div className="info mt20">
+                    <span className="material-symbols-outlined">
+                      arrow_right
+                    </span>
+                    {text123[2].trim()}
+                  </div>
+                ) : (
+                  ""
+                )}
               </div>
               <div className="text-container mt50">
                 <h5 className="mb20">관계별 결과 비교</h5>
