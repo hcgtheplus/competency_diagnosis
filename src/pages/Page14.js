@@ -378,7 +378,9 @@ export default function Page({
                       <div className="mb30 mt30">
                         <div className="flc jcs">
                           <img
-                            className="w250px"
+                            style={{
+                              width: leadershipStyle.length > 1 ? 400 : 250,
+                            }}
                             src={leadershipStyleImage()}
                             alt="leadership-style"
                           />
