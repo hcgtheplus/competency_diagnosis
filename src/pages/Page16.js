@@ -38,6 +38,13 @@ export default function Page({
     },
   };
 
+  const orgCultureType = needType.orgCultureType
+    .split(",")
+    .map((type) => type.trim());
+  const leadershipStyle = needType.leadershipStyle
+    .split(",")
+    .map((type) => type.trim());
+
   return (
     <div className="image-container page 16 pr">
       <div className="page-absolute">16 / 39</div>
@@ -99,42 +106,141 @@ export default function Page({
                               style={{ position: "relative" }}
                             >
                               <div className="flc">
-                                <div className="emphasize block2"></div>
+                                <div
+                                  className={`${
+                                    orgCultureType.some(
+                                      (type) => type === "공동체형"
+                                    )
+                                      ? "emphasize"
+                                      : ""
+                                  }  block1`}
+                                ></div>
                                 <div className="fwb block small active mr5 mb5">
                                   공동체형
-                                  <div className="triangle f11 small section1">
+                                  <div
+                                    className={`triangle f11 small section1 ${
+                                      leadershipStyle.some(
+                                        (style) => style === "촉진자"
+                                      )
+                                        ? "active"
+                                        : ""
+                                    }`}
+                                  >
                                     촉진자
                                   </div>
-                                  <div className="triangle f11 small section2">
+                                  <div
+                                    className={`triangle f11 small section2 ${
+                                      leadershipStyle.some(
+                                        (style) => style === "조언자"
+                                      )
+                                        ? "active"
+                                        : ""
+                                    }`}
+                                  >
                                     조언자
                                   </div>
                                 </div>
+                                <div
+                                  className={`${
+                                    orgCultureType.some(
+                                      (type) => type === "혁신중시형"
+                                    )
+                                      ? "emphasize"
+                                      : ""
+                                  }  block2`}
+                                ></div>
                                 <div className="flex jce fwb block small mb5">
                                   혁신중시형
-                                  <div className="triangle f11 small section3">
+                                  <div
+                                    className={`triangle f11 small section3 ${
+                                      leadershipStyle.some(
+                                        (style) => style === "개혁자"
+                                      )
+                                        ? "active"
+                                        : ""
+                                    }`}
+                                  >
                                     개혁자
                                   </div>
-                                  <div className="triangle f11 small section4">
+                                  <div
+                                    className={`triangle f11 small section4 ${
+                                      leadershipStyle.some(
+                                        (style) => style === "중재자"
+                                      )
+                                        ? "active"
+                                        : ""
+                                    }`}
+                                  >
                                     중재자
                                   </div>
                                 </div>
                               </div>
                               <div className="flc">
-                                <div className="flex afe fwb block small mr5">
+                                <div
+                                  className={`${
+                                    orgCultureType.some(
+                                      (type) => type === "위계질서형"
+                                    )
+                                      ? "emphasize"
+                                      : ""
+                                  }  block3`}
+                                ></div>
+                                <div className="flex afe fwb block small mr5 ">
                                   위계질서형
-                                  <div className="triangle f11 small section5">
+                                  <div
+                                    className={`triangle f11 small section5 ${
+                                      leadershipStyle.some(
+                                        (style) => style === "감시자"
+                                      )
+                                        ? "active"
+                                        : ""
+                                    }`}
+                                  >
                                     감시자
                                   </div>
-                                  <div className="triangle f11 small section6 active">
+                                  <div
+                                    className={`triangle f11 small section6 ${
+                                      leadershipStyle.some(
+                                        (style) => style === "조정자"
+                                      )
+                                        ? "active"
+                                        : ""
+                                    }`}
+                                  >
                                     조정자
                                   </div>
                                 </div>
+                                <div
+                                  className={`${
+                                    orgCultureType.some(
+                                      (type) => type === "성과중시형"
+                                    )
+                                      ? "emphasize"
+                                      : ""
+                                  }  block4`}
+                                ></div>
                                 <div className="flex jce afe fwb block small">
                                   성과중시형
-                                  <div className="triangle f11 small section7">
+                                  <div
+                                    className={`triangle f11 small section7 ${
+                                      leadershipStyle.some(
+                                        (style) => style === "감독자"
+                                      )
+                                        ? "active"
+                                        : ""
+                                    }`}
+                                  >
                                     감독자
                                   </div>
-                                  <div className="triangle f11 small section8">
+                                  <div
+                                    className={`triangle f11 small section8 ${
+                                      leadershipStyle.some(
+                                        (style) => style === "성취자"
+                                      )
+                                        ? "active"
+                                        : ""
+                                    }`}
+                                  >
                                     성취자
                                   </div>
                                 </div>

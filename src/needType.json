@@ -2,7 +2,7 @@
   {
     "email": "jeongyc@nhqv.com",
     "name": "정영채",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -10,7 +10,7 @@
   {
     "email": "ks.kevin.cho@nhqv.com",
     "name": "조규상",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -18,7 +18,7 @@
   {
     "email": "yesol@nhqv.com",
     "name": "유현숙",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -26,7 +26,7 @@
   {
     "email": "pretty69@nhqv.com",
     "name": "김진여",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -34,7 +34,7 @@
   {
     "email": "twkim1451@nhqv.com",
     "name": "김태원",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -42,7 +42,7 @@
   {
     "email": "dwoon@nhqv.com",
     "name": "김동운",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -50,7 +50,7 @@
   {
     "email": "pasaho@nhqv.com",
     "name": "박상호",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -58,7 +58,7 @@
   {
     "email": "hgt12@nhqv.com",
     "name": "황경태",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -66,7 +66,7 @@
   {
     "email": "sooseogi@nhqv.com",
     "name": "이수석",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -74,7 +74,7 @@
   {
     "email": "cschoi@nhqv.com",
     "name": "최창선",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -82,7 +82,7 @@
   {
     "email": "byoon@nhqv.com",
     "name": "윤병운",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -90,7 +90,7 @@
   {
     "email": "jh.kang@nhqv.com",
     "name": "강진호",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -98,7 +98,7 @@
   {
     "email": "hyoung@nhqv.com",
     "name": "김주형",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -106,7 +106,7 @@
   {
     "email": "bluechip@nhqv.com",
     "name": "조영래",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -114,7 +114,7 @@
   {
     "email": "songjh@nhqv.com",
     "name": "송지훈",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -122,7 +122,7 @@
   {
     "email": "jinx@nhqv.com",
     "name": "김형진",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -130,7 +130,7 @@
   {
     "email": "jinho@nhqv.com",
     "name": "정진호",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -138,7 +138,7 @@
   {
     "email": "mrhelper@nhqv.com",
     "name": "김규진",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -146,7 +146,7 @@
   {
     "email": "saintlee@nhqv.com",
     "name": "이성",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -154,7 +154,7 @@
   {
     "email": "mozoobeta@nhqv.com",
     "name": "강민훈",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -162,7 +162,7 @@
   {
     "email": "ares@nhqv.com",
     "name": "김중곤",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -170,7 +170,7 @@
   {
     "email": "sch88@nhqv.com",
     "name": "송창하",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -178,7 +178,7 @@
   {
     "email": "sshimson@nhqv.com",
     "name": "심기필",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -186,7 +186,7 @@
   {
     "email": "jbs@nhqv.com",
     "name": "정병석",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -194,7 +194,7 @@
   {
     "email": "thinks@nhqv.com",
     "name": "배광수",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -202,7 +202,7 @@
   {
     "email": "lgh99@nhqv.com",
     "name": "임계현",
-    "leadershipStyle": "감독자(Director), 개혁자(Innovator)",
+    "leadershipStyle": "감독자, 개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -210,7 +210,7 @@
   {
     "email": "1billion@nhqv.com",
     "name": "성종윤",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -218,7 +218,7 @@
   {
     "email": "lastar@nhqv.com",
     "name": "나영균",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -226,7 +226,7 @@
   {
     "email": "chang.lee@nhqv.com",
     "name": "이창목",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -234,7 +234,7 @@
   {
     "email": "tedoh@nhqv.com",
     "name": "오태동",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -242,7 +242,7 @@
   {
     "email": "clemens.kang@nhqv.com",
     "name": "강현철",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -250,7 +250,7 @@
   {
     "email": "martin.song@nhqv.com",
     "name": "송재학",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -258,7 +258,7 @@
   {
     "email": "flood@nhqv.com",
     "name": "박홍수",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -266,7 +266,7 @@
   {
     "email": "jmp@nhqv.com",
     "name": "박정목",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -274,7 +274,7 @@
   {
     "email": "jason.lee@nhqv.com",
     "name": "이주승",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "성과중시형, 위계질서형",
     "needType1": "감독자",
     "needType2": "성취자",
@@ -284,7 +284,7 @@
   {
     "email": "jbh@nhqv.com",
     "name": "정병훈",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -292,7 +292,7 @@
   {
     "email": "allison@nhqv.com",
     "name": "이승아",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -300,7 +300,7 @@
   {
     "email": "snowgun@nhqv.com",
     "name": "권순호",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -308,7 +308,7 @@
   {
     "email": "shin34@nhqv.com",
     "name": "신동섭",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -316,7 +316,7 @@
   {
     "email": "joohyunlee@nhqv.com",
     "name": "이주현",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -324,7 +324,7 @@
   {
     "email": "chrispark@nhqv.com",
     "name": "박창섭",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -332,7 +332,7 @@
   {
     "email": "helios@nhqv.com",
     "name": "최승호",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -340,7 +340,7 @@
   {
     "email": "donald.kim@nhqv.com",
     "name": "김도식",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -348,7 +348,7 @@
   {
     "email": "nhpf@nhqv.com",
     "name": "신재욱",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -356,7 +356,7 @@
   {
     "email": "okj9903@nhqv.com",
     "name": "오광준",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -364,7 +364,7 @@
   {
     "email": "ysjun@nhqv.com",
     "name": "전용석",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -372,7 +372,7 @@
   {
     "email": "youngroe.kim@nhqv.com",
     "name": "김영노",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -380,7 +380,7 @@
   {
     "email": "soocheol.lee@nhqv.com",
     "name": "이수철",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -388,7 +388,7 @@
   {
     "email": "jrjeong@nhqv.com",
     "name": "정중락",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -396,7 +396,7 @@
   {
     "email": "warren.kim@nhqv.com",
     "name": "김홍욱",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -404,7 +404,7 @@
   {
     "email": "jk1017.lee@nhqv.com",
     "name": "이재경",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -412,7 +412,7 @@
   {
     "email": "isking@nhqv.com",
     "name": "정해영",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -420,7 +420,7 @@
   {
     "email": "jongsura@nhqv.com",
     "name": "김종설",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -428,7 +428,7 @@
   {
     "email": "gmjang@nhqv.com",
     "name": "장재성",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -436,7 +436,7 @@
   {
     "email": "five5@nhqv.com",
     "name": "오규택",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -444,7 +444,7 @@
   {
     "email": "jbshin@nhqv.com",
     "name": "신재범",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -452,7 +452,7 @@
   {
     "email": "sopy@nhqv.com",
     "name": "이선령",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -460,7 +460,7 @@
   {
     "email": "natak@nhqv.com",
     "name": "이정숙",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -468,7 +468,7 @@
   {
     "email": "art@nhqv.com",
     "name": "정혜란",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -476,7 +476,7 @@
   {
     "email": "jnkim@nhqv.com",
     "name": "김정남",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -484,7 +484,7 @@
   {
     "email": "yhla@nhqv.com",
     "name": "라윤호",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -492,7 +492,7 @@
   {
     "email": "hg.kim@nhqv.com",
     "name": "김휘곤",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -500,7 +500,7 @@
   {
     "email": "mjmj@nhqv.com",
     "name": "강미정",
-    "leadershipStyle": "성취자(Producer), 중재자(Broker)",
+    "leadershipStyle": "성취자, 중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -508,7 +508,7 @@
   {
     "email": "acelee@nhqv.com",
     "name": "이재열",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -516,7 +516,7 @@
   {
     "email": "lovejin@nhqv.com",
     "name": "공수진",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -524,7 +524,7 @@
   {
     "email": "miso@nhqv.com",
     "name": "정창숙",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -532,7 +532,7 @@
   {
     "email": "peach@nhqv.com",
     "name": "이수영",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -540,7 +540,7 @@
   {
     "email": "pjk0829_2@nhqv.com",
     "name": "박정균",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -548,7 +548,7 @@
   {
     "email": "pjk0829@nhqv.com",
     "name": "박정균",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -556,7 +556,7 @@
   {
     "email": "sbyoo@nhqv.com",
     "name": "유승범",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -564,7 +564,7 @@
   {
     "email": "kjgeun41350@nhqv.com",
     "name": "구종근",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -572,7 +572,7 @@
   {
     "email": "23017@nhqv.com",
     "name": "윤춘로",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -580,7 +580,7 @@
   {
     "email": "junpark@nhqv.com",
     "name": "박준희",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -588,7 +588,7 @@
   {
     "email": "bond_yong@nhqv.com",
     "name": "최용우",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -596,7 +596,7 @@
   {
     "email": "mooa@nhqv.com",
     "name": "문무수",
-    "leadershipStyle": "성취자(Producer), 중재자(Broker)",
+    "leadershipStyle": "성취자, 중재자",
     "orgCultureType": "성과중시형, 혁신중시형",
     "needType1": "감독자",
     "needType2": "성취자",
@@ -606,7 +606,7 @@
   {
     "email": "mkjun@nhqv.com",
     "name": "전민경",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -614,7 +614,7 @@
   {
     "email": "lyena@nhqv.com",
     "name": "이진우",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -622,7 +622,7 @@
   {
     "email": "yscho744@nhqv.com",
     "name": "조영순",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -630,7 +630,7 @@
   {
     "email": "aandy@nhqv.com",
     "name": "권승혁",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -638,7 +638,7 @@
   {
     "email": "asj@nhqv.com",
     "name": "안소정",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -646,7 +646,7 @@
   {
     "email": "syj8812@nhqv.com",
     "name": "신윤종",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -654,7 +654,7 @@
   {
     "email": "prosg@nhqv.com",
     "name": "김순규",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -662,7 +662,7 @@
   {
     "email": "god21c@nhqv.com",
     "name": "김봉기",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -670,7 +670,7 @@
   {
     "email": "moon77@nhqv.com",
     "name": "황문기",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -678,7 +678,7 @@
   {
     "email": "choi@nhqv.com",
     "name": "최승희",
-    "leadershipStyle": "조언자(Mentor), 개혁자(Innovator)",
+    "leadershipStyle": "조언자, 개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -686,7 +686,7 @@
   {
     "email": "hjmoon@nhqv.com",
     "name": "문희진",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -694,7 +694,7 @@
   {
     "email": "ppinj@nhqv.com",
     "name": "정명이",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -702,7 +702,7 @@
   {
     "email": "prominding@nhqv.com",
     "name": "류희진",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -710,7 +710,7 @@
   {
     "email": "ace1@nhqv.com",
     "name": "유희경",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형, 성과중시형",
     "needType1": "조언자",
     "needType2": "촉진자",
@@ -720,7 +720,7 @@
   {
     "email": "a14274@nhqv.com",
     "name": "이용철",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -728,7 +728,7 @@
   {
     "email": "kimoh@nhqv.com",
     "name": "김오훈",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -736,7 +736,7 @@
   {
     "email": "hyc8069@nhqv.com",
     "name": "홍용철",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -744,7 +744,7 @@
   {
     "email": "sihan@nhqv.com",
     "name": "박일규",
-    "leadershipStyle": "조정자(Coordinator), 감독자(Director)",
+    "leadershipStyle": "조정자, 감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -752,7 +752,7 @@
   {
     "email": "dean@nhqv.com",
     "name": "이상화",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -760,7 +760,7 @@
   {
     "email": "bigiron@nhqv.com",
     "name": "강대철",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -768,7 +768,7 @@
   {
     "email": "ijr@nhqv.com",
     "name": "이종렬",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -776,7 +776,7 @@
   {
     "email": "jsc0000@nhqv.com",
     "name": "주성찬",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -784,7 +784,7 @@
   {
     "email": "capcha@nhqv.com",
     "name": "장경태",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -792,7 +792,7 @@
   {
     "email": "sss@nhqv.com",
     "name": "신승식",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -800,7 +800,7 @@
   {
     "email": "wklee@nhqv.com",
     "name": "이원규",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -808,7 +808,7 @@
   {
     "email": "kwhur@nhqv.com",
     "name": "허광우",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -816,7 +816,7 @@
   {
     "email": "jhnam@nhqv.com",
     "name": "남정희",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -824,7 +824,7 @@
   {
     "email": "jinsh@nhqv.com",
     "name": "진석훈",
-    "leadershipStyle": "중재자(Broker), 개혁자(Innovator)",
+    "leadershipStyle": "중재자, 개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -832,7 +832,7 @@
   {
     "email": "dclee@nhqv.com",
     "name": "이동철",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -840,7 +840,7 @@
   {
     "email": "mjjoo907@nhqv.com",
     "name": "주명진",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -848,7 +848,7 @@
   {
     "email": "jongs@nhqv.com",
     "name": "김종석",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -856,7 +856,7 @@
   {
     "email": "chita@nhqv.com",
     "name": "김형표",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -864,7 +864,7 @@
   {
     "email": "parkyk@nhqv.com",
     "name": "박양구",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -872,7 +872,7 @@
   {
     "email": "cook69@nhqv.com",
     "name": "박형묵",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -880,7 +880,7 @@
   {
     "email": "hrchoi@nhqv.com",
     "name": "최해열",
-    "leadershipStyle": "중재자(Broker), 개혁자(Innovator)",
+    "leadershipStyle": "중재자, 개혁자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -888,7 +888,7 @@
   {
     "email": "kdh2303@nhqv.com",
     "name": "김대현",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -896,7 +896,7 @@
   {
     "email": "gilbert@nhqv.com",
     "name": "최영길",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -904,7 +904,7 @@
   {
     "email": "ssi7421@nhqv.com",
     "name": "서성일",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -912,7 +912,7 @@
   {
     "email": "hwjeon@nhqv.com",
     "name": "전혜원",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -920,7 +920,7 @@
   {
     "email": "kimjoo@nhqv.com",
     "name": "김주환",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -928,7 +928,7 @@
   {
     "email": "tomy@nhqv.com",
     "name": "오형석",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형, 성과중시형",
     "needType1": "조언자",
     "needType2": "촉진자",
@@ -938,7 +938,7 @@
   {
     "email": "hoon1853@nhqv.com",
     "name": "한창훈",
-    "leadershipStyle": "조정자(Coordinator), 감독자(Director)",
+    "leadershipStyle": "조정자, 감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -946,7 +946,7 @@
   {
     "email": "tic2002@nhqv.com",
     "name": "김성길",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -954,7 +954,7 @@
   {
     "email": "yit24597@nhqv.com",
     "name": "윤인탁",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -962,7 +962,7 @@
   {
     "email": "msmsmms@nhqv.com",
     "name": "김형곤",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -970,7 +970,7 @@
   {
     "email": "skipper@nhqv.com",
     "name": "부상훈",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -978,7 +978,7 @@
   {
     "email": "daebak@nhqv.com",
     "name": "권남헌",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -986,7 +986,7 @@
   {
     "email": "junghc@nhqv.com",
     "name": "정호철",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형, 성과중시형, 혁신중시형",
     "needType1": "조언자",
     "needType2": "촉진자",
@@ -998,7 +998,7 @@
   {
     "email": "yongseok.choi@nhqv.com",
     "name": "최용석",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1006,7 +1006,7 @@
   {
     "email": "bmwoon@nhqv.com",
     "name": "이성운",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -1014,7 +1014,7 @@
   {
     "email": "y.k.lee@nhqv.com",
     "name": "이윤기",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1022,7 +1022,7 @@
   {
     "email": "ycbok@nhqv.com",
     "name": "윤철복",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1030,7 +1030,7 @@
   {
     "email": "hks72@nhqv.com",
     "name": "허경석",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "공동체형, 성과중시형",
     "needType1": "조언자",
     "needType2": "촉진자",
@@ -1040,7 +1040,7 @@
   {
     "email": "vivamjs@nhqv.com",
     "name": "문종석",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1048,7 +1048,7 @@
   {
     "email": "dallae@nhqv.com",
     "name": "전달래",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1056,7 +1056,7 @@
   {
     "email": "jtko@nhqv.com",
     "name": "고정택",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형, 성과중시형",
     "needType1": "조언자",
     "needType2": "촉진자",
@@ -1066,7 +1066,7 @@
   {
     "email": "dewing@nhqv.com",
     "name": "김정현",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1074,7 +1074,7 @@
   {
     "email": "zzang@nhqv.com",
     "name": "장정임",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1082,7 +1082,7 @@
   {
     "email": "kunu@nhqv.com",
     "name": "이원경",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1090,7 +1090,7 @@
   {
     "email": "eagle@nhqv.com",
     "name": "김태훈",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1098,7 +1098,7 @@
   {
     "email": "hoseung@nhqv.com",
     "name": "이호승",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1106,7 +1106,7 @@
   {
     "email": "cmh0907@nhqv.com",
     "name": "최민호",
-    "leadershipStyle": "중재자(Broker), 개혁자(Innovator)",
+    "leadershipStyle": "중재자, 개혁자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1114,7 +1114,7 @@
   {
     "email": "namcj@nhqv.com",
     "name": "남창주",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1122,7 +1122,7 @@
   {
     "email": "jhl@nhqv.com",
     "name": "이재호",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1130,7 +1130,7 @@
   {
     "email": "dwlab@nhqv.com",
     "name": "유동완",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1138,7 +1138,7 @@
   {
     "email": "yhahn@nhqv.com",
     "name": "안영현",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1146,7 +1146,7 @@
   {
     "email": "aic2000@nhqv.com",
     "name": "안인채",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1154,7 +1154,7 @@
   {
     "email": "changheon21@nhqv.com",
     "name": "이창헌",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1162,7 +1162,7 @@
   {
     "email": "trex71@nhqv.com",
     "name": "이수환",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -1170,7 +1170,7 @@
   {
     "email": "jwahn@nhqv.com",
     "name": "안재환",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1178,7 +1178,7 @@
   {
     "email": "jungslee@nhqv.com",
     "name": "이정수",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1186,7 +1186,7 @@
   {
     "email": "juriob@nhqv.com",
     "name": "김용규",
-    "leadershipStyle": "촉진자(Facilitator), 조정자(Coordinator)",
+    "leadershipStyle": "촉진자, 조정자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1194,7 +1194,7 @@
   {
     "email": "semsn@nhqv.com",
     "name": "김현중",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1202,7 +1202,7 @@
   {
     "email": "skyryong@nhqv.com",
     "name": "용승재",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1210,7 +1210,7 @@
   {
     "email": "lyj2000@nhqv.com",
     "name": "이윤재",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1218,7 +1218,7 @@
   {
     "email": "mphwan@nhqv.com",
     "name": "정환",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1226,7 +1226,7 @@
   {
     "email": "cjhgoodnews@nhqv.com",
     "name": "최정호",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1234,7 +1234,7 @@
   {
     "email": "conan@nhqv.com",
     "name": "황태석",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1242,7 +1242,7 @@
   {
     "email": "yousunny76@nhqv.com",
     "name": "민유선",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1250,7 +1250,7 @@
   {
     "email": "kbpark@nhqv.com",
     "name": "박균배",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형, 위계질서형",
     "needType1": "감독자",
     "needType2": "성취자",
@@ -1260,7 +1260,7 @@
   {
     "email": "hkcho14@nhqv.com",
     "name": "조현광",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1268,7 +1268,7 @@
   {
     "email": "hipo2@nhqv.com",
     "name": "홍국일",
-    "leadershipStyle": "조정자(Coordinator), 중재자(Broker)",
+    "leadershipStyle": "조정자, 중재자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1276,7 +1276,7 @@
   {
     "email": "juryman@nhqv.com",
     "name": "임성훈",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1284,7 +1284,7 @@
   {
     "email": "sunq93@nhqv.com",
     "name": "이선규",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1292,7 +1292,7 @@
   {
     "email": "iamroot@nhqv.com",
     "name": "김근호",
-    "leadershipStyle": "촉진자(Facilitator), 개혁자(Innovator)",
+    "leadershipStyle": "촉진자, 개혁자",
     "orgCultureType": "공동체형, 혁신중시형",
     "needType1": "조언자",
     "needType2": "촉진자",
@@ -1302,7 +1302,7 @@
   {
     "email": "shinnam@nhqv.com",
     "name": "신남",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1310,7 +1310,7 @@
   {
     "email": "nahs@nhqv.com",
     "name": "나홍섭",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1318,7 +1318,7 @@
   {
     "email": "csim@nhqv.com",
     "name": "임철순",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -1326,7 +1326,7 @@
   {
     "email": "imissk2000@nhqv.com",
     "name": "이주호",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1334,7 +1334,7 @@
   {
     "email": "tiamo@nhqv.com",
     "name": "정승기",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1342,7 +1342,7 @@
   {
     "email": "dbmktger@nhqv.com",
     "name": "황인찬",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1350,7 +1350,7 @@
   {
     "email": "bayesian@nhqv.com",
     "name": "김형돈",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1358,7 +1358,7 @@
   {
     "email": "hsjeon@nhqv.com",
     "name": "전호승",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1366,7 +1366,7 @@
   {
     "email": "micro@nhqv.com",
     "name": "박기춘",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1374,7 +1374,7 @@
   {
     "email": "swimkim@nhqv.com",
     "name": "김수영",
-    "leadershipStyle": "조정자(Coordinator)",
+    "leadershipStyle": "조정자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1382,7 +1382,7 @@
   {
     "email": "k.h.park@nhqv.com",
     "name": "박건후",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1390,7 +1390,7 @@
   {
     "email": "dandyguy@nhqv.com",
     "name": "박준형",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1398,7 +1398,7 @@
   {
     "email": "bys93@nhqv.com",
     "name": "배윤수",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1406,7 +1406,7 @@
   {
     "email": "jmsyts@nhqv.com",
     "name": "윤봉석",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1414,7 +1414,7 @@
   {
     "email": "k9488040@nhqv.com",
     "name": "이혁준",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1422,7 +1422,7 @@
   {
     "email": "leader@nhqv.com",
     "name": "전태희",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1430,7 +1430,7 @@
   {
     "email": "sillee@nhqv.com",
     "name": "이실",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1438,7 +1438,7 @@
   {
     "email": "lch@nhqv.com",
     "name": "이채혁",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1446,7 +1446,7 @@
   {
     "email": "mjh2001@nhqv.com",
     "name": "맹정호",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1454,7 +1454,7 @@
   {
     "email": "air41@nhqv.com",
     "name": "최홍석",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1462,7 +1462,7 @@
   {
     "email": "jchoi@nhqv.com",
     "name": "최장현",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1470,7 +1470,7 @@
   {
     "email": "slayers76@nhqv.com",
     "name": "이광호",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1478,7 +1478,7 @@
   {
     "email": "goldzone@nhqv.com",
     "name": "조정구",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1486,7 +1486,7 @@
   {
     "email": "knemiss@nhqv.com",
     "name": "김성률",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1494,7 +1494,7 @@
   {
     "email": "magic@nhqv.com",
     "name": "왕태식",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1502,7 +1502,7 @@
   {
     "email": "gold21@nhqv.com",
     "name": "김창수",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1510,7 +1510,7 @@
   {
     "email": "jangbaksa@nhqv.com",
     "name": "장훈",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1518,7 +1518,7 @@
   {
     "email": "kdw6373@nhqv.com",
     "name": "강대원",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1526,7 +1526,7 @@
   {
     "email": "johnny21@nhqv.com",
     "name": "이상선",
-    "leadershipStyle": "중재자(Broker), 개혁자(Innovator)",
+    "leadershipStyle": "중재자, 개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1534,7 +1534,7 @@
   {
     "email": "billion072@nhqv.com",
     "name": "임정현",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1542,7 +1542,7 @@
   {
     "email": "t2089@nhqv.com",
     "name": "김태우",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1550,7 +1550,7 @@
   {
     "email": "primowoo@nhqv.com",
     "name": "우찬명",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1558,7 +1558,7 @@
   {
     "email": "doctorsim@nhqv.com",
     "name": "심혁",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1566,7 +1566,7 @@
   {
     "email": "kyc672@nhqv.com",
     "name": "김윤철",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -1574,7 +1574,7 @@
   {
     "email": "archein@nhqv.com",
     "name": "변정웅",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -1582,7 +1582,7 @@
   {
     "email": "lawrence.kim@nhqv.com",
     "name": "김병연",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1590,7 +1590,7 @@
   {
     "email": "jitkim@nhqv.com",
     "name": "김지택",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1598,7 +1598,7 @@
   {
     "email": "rothing@nhqv.com",
     "name": "박준호",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1606,7 +1606,7 @@
   {
     "email": "bajo@nhqv.com",
     "name": "신웅조",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1614,7 +1614,7 @@
   {
     "email": "moonijj@nhqv.com",
     "name": "문익주",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1622,7 +1622,7 @@
   {
     "email": "ysglobal@nhqv.com",
     "name": "김예섭",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1630,7 +1630,7 @@
   {
     "email": "econwrs@nhqv.com",
     "name": "조영욱",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1638,7 +1638,7 @@
   {
     "email": "sukjaelee@nhqv.com",
     "name": "이석재",
-    "leadershipStyle": "감시자(Monitor), 개혁자(Innovator)",
+    "leadershipStyle": "감시자, 개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1646,7 +1646,7 @@
   {
     "email": "dannyjeon@nhqv.com",
     "name": "전동현",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1654,7 +1654,7 @@
   {
     "email": "ruby7071@nhqv.com",
     "name": "김진웅",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -1662,7 +1662,7 @@
   {
     "email": "chaedc@nhqv.com",
     "name": "채대철",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -1670,7 +1670,7 @@
   {
     "email": "hgkang@nhqv.com",
     "name": "강환구",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1678,7 +1678,7 @@
   {
     "email": "reostar@nhqv.com",
     "name": "최용석",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1686,7 +1686,7 @@
   {
     "email": "jspark@nhqv.com",
     "name": "박준석",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1694,7 +1694,7 @@
   {
     "email": "khkim1@nhqv.com",
     "name": "김기환",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1702,7 +1702,7 @@
   {
     "email": "hskwak@nhqv.com",
     "name": "곽형서",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1710,7 +1710,7 @@
   {
     "email": "somi@nhqv.com",
     "name": "손승현",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1718,7 +1718,7 @@
   {
     "email": "yoon.moon@nhqv.com",
     "name": "문윤석",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1726,7 +1726,7 @@
   {
     "email": "kimkitai@nhqv.com",
     "name": "김기태",
-    "leadershipStyle": "성취자(Producer), 중재자(Broker)",
+    "leadershipStyle": "성취자, 중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1734,7 +1734,7 @@
   {
     "email": "seungjun.lee@nhqv.com",
     "name": "이승준",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1742,7 +1742,7 @@
   {
     "email": "hmg2686@nhqv.com",
     "name": "홍만기",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1750,7 +1750,7 @@
   {
     "email": "marine59@nhqv.com",
     "name": "조진오",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1758,7 +1758,7 @@
   {
     "email": "jhshim@nhqv.com",
     "name": "심재훈",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형, 혁신중시형",
     "needType1": "조언자",
     "needType2": "촉진자",
@@ -1768,7 +1768,7 @@
   {
     "email": "359874@nhqv.com",
     "name": "이창휘",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1776,7 +1776,7 @@
   {
     "email": "anycall@nhqv.com",
     "name": "강승완",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1784,7 +1784,7 @@
   {
     "email": "jihoonkim@nhqv.com",
     "name": "김지훈",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1792,7 +1792,7 @@
   {
     "email": "hyeonjeong.seong@nhqv.com",
     "name": "성현정",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1800,7 +1800,7 @@
   {
     "email": "cain72@nhqv.com",
     "name": "박근범",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -1808,7 +1808,7 @@
   {
     "email": "yourturn0@nhqv.com",
     "name": "윤준호",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1816,7 +1816,7 @@
   {
     "email": "jonghoon.kim@nhqv.com",
     "name": "김종훈",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1824,7 +1824,7 @@
   {
     "email": "yjjung70@nhqv.com",
     "name": "정영재",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1832,7 +1832,7 @@
   {
     "email": "soohong.cho@nhqv.com",
     "name": "조수홍",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1840,7 +1840,7 @@
   {
     "email": "wj.kim@nhqv.com",
     "name": "김우재",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1848,7 +1848,7 @@
   {
     "email": "hkmoon@nhqv.com",
     "name": "문혜경",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1856,7 +1856,7 @@
   {
     "email": "hyuk-sang.kwon@nhqv.com",
     "name": "권혁상",
-    "leadershipStyle": "조언자(Mentor)",
+    "leadershipStyle": "조언자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1864,7 +1864,7 @@
   {
     "email": "etree72@nhqv.com",
     "name": "박찬호",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -1872,7 +1872,7 @@
   {
     "email": "unpacked@nhqv.com",
     "name": "윤종윤",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1880,7 +1880,7 @@
   {
     "email": "galgoria@nhqv.com",
     "name": "박장훈",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1888,7 +1888,7 @@
   {
     "email": "t2800@nhqv.com",
     "name": "이경수",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1896,7 +1896,7 @@
   {
     "email": "comp17@nhqv.com",
     "name": "김기홍",
-    "leadershipStyle": "조언자(Mentor), 감독자(Director)",
+    "leadershipStyle": "조언자, 감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1904,7 +1904,7 @@
   {
     "email": "yjoocha@nhqv.com",
     "name": "차용주",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1912,7 +1912,7 @@
   {
     "email": "hjsohn@nhqv.com",
     "name": "손홍정",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1920,7 +1920,7 @@
   {
     "email": "captain@nhqv.com",
     "name": "김영정",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1928,7 +1928,7 @@
   {
     "email": "tohyun22@nhqv.com",
     "name": "노두현",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1936,7 +1936,7 @@
   {
     "email": "euisoo72@nhqv.com",
     "name": "김의수",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1944,7 +1944,7 @@
   {
     "email": "effacer@nhqv.com",
     "name": "류환철",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -1952,7 +1952,7 @@
   {
     "email": "gsmis@nhqv.com",
     "name": "송원용",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1960,7 +1960,7 @@
   {
     "email": "djh@nhqv.com",
     "name": "한동진",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -1968,7 +1968,7 @@
   {
     "email": "tak5@nhqv.com",
     "name": "최재탁",
-    "leadershipStyle": "감독자(Director), 중재자(Broker)",
+    "leadershipStyle": "감독자, 중재자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1976,7 +1976,7 @@
   {
     "email": "yha@nhqv.com",
     "name": "하윤목",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -1984,7 +1984,7 @@
   {
     "email": "ykchung@nhqv.com",
     "name": "정영경",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -1992,7 +1992,7 @@
   {
     "email": "tmoon@nhqv.com",
     "name": "문태곤",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -2000,7 +2000,7 @@
   {
     "email": "vincent.hwang@nhqv.com",
     "name": "황병진",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -2008,7 +2008,7 @@
   {
     "email": "jpark@nhqv.com",
     "name": "박재하",
-    "leadershipStyle": "중재자(Broker)",
+    "leadershipStyle": "중재자",
     "orgCultureType": "위계질서형",
     "needType1": "감시자",
     "needType2": "조정자"
@@ -2016,7 +2016,7 @@
   {
     "email": "jj888@nhqv.com",
     "name": "JASON KIM",
-    "leadershipStyle": "성취자(Producer)",
+    "leadershipStyle": "성취자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -2024,7 +2024,7 @@
   {
     "email": "nhre@nhqv.com",
     "name": "박유신",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -2032,7 +2032,7 @@
   {
     "email": "64789@nhqv.com",
     "name": "김한백",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -2040,7 +2040,7 @@
   {
     "email": "sc348.choi@nhqv.com",
     "name": "최석천",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -2048,7 +2048,7 @@
   {
     "email": "heartest@nhqv.com",
     "name": "남현석",
-    "leadershipStyle": "개혁자(Innovator)",
+    "leadershipStyle": "개혁자",
     "orgCultureType": "혁신중시형",
     "needType1": "중재자",
     "needType2": "개혁자"
@@ -2056,7 +2056,7 @@
   {
     "email": "hyoon@nhqv.com",
     "name": "이호윤",
-    "leadershipStyle": "감독자(Director)",
+    "leadershipStyle": "감독자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
@@ -2064,7 +2064,7 @@
   {
     "email": "mk.chae@nhqv.com",
     "name": "채민균",
-    "leadershipStyle": "촉진자(Facilitator)",
+    "leadershipStyle": "촉진자",
     "orgCultureType": "성과중시형",
     "needType1": "감독자",
     "needType2": "성취자"
@@ -2072,7 +2072,7 @@
   {
     "email": "cutlass@nhqv.com",
     "name": "이용성",
-    "leadershipStyle": "감시자(Monitor)",
+    "leadershipStyle": "감시자",
     "orgCultureType": "공동체형",
     "needType1": "조언자",
     "needType2": "촉진자"
