@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-pascal-case */
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
 import Page3 from "./pages/Page3";
@@ -50,7 +50,9 @@ import keyword from "./keyword.json";
 import needType from "./needType.json";
 
 function App() {
-  const [userEmail, setUserEmail] = useState("jeongyc@nhqv.com");
+  const [userIndex, setUserIndex] = useState(68);
+  const [activeUser, setActiveUser] = useState(emailList[0]);
+
   const groupByEmail = groupBy(fullData, "B");
   const groupByEmailWithPage = reduce(
     groupByEmail,
@@ -62,6 +64,16 @@ function App() {
     },
     {}
   );
+
+  useEffect(() => {
+    document.title = activeUser.email;
+  }, [activeUser.email, userIndex]);
+
+  useEffect(() => {
+    setActiveUser(emailList[userIndex - 1]);
+  }, [userIndex]);
+
+  const userEmail = activeUser.email;
   const sampleData = groupByEmailWithPage[userEmail];
   const mainData = sampleData["12"];
   const name = mainData[0].Column6;
@@ -79,16 +91,38 @@ function App() {
     <div className="App">
       <div className="w-100 flex input-fixed">
         <div className="index-input">
-          <div className="index-label">대상자 Email</div>
-          <input
-            placeholder="Email 값을 입력하십시오"
-            onChange={(event) => {
-              const { value } = event.target;
-              if (groupByEmailWithPage[value]) {
-                setUserEmail(value);
-              }
-            }}
-          />
+          <div style={{ marginBottom: 20 }}>
+            <div>번호: {userIndex}</div>
+            <div>이름: {activeUser.name}</div>
+            <div>이메일: {activeUser.email}</div>
+          </div>
+          <div>
+            <button
+              type="button"
+              onClick={() => {
+                if (userIndex === 1) {
+                  return;
+                }
+                const prevPage = userIndex - 1;
+                setUserIndex(prevPage);
+              }}
+            >
+              이전
+            </button>
+            <button
+              autoFocus
+              type="button"
+              onClick={() => {
+                if (userIndex === 257) {
+                  return;
+                }
+                const nextPage = userIndex + 1;
+                setUserIndex(nextPage);
+              }}
+            >
+              다음
+            </button>
+          </div>
         </div>
       </div>
       <div className="for-center">
