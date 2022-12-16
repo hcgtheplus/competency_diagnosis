@@ -53,46 +53,57 @@ export default function Page({
     }
   };
 
-  const leadershipStyleImage = (style) => {
-    switch (style) {
-      case "감독자":
-        return page_13_감독자;
-      case "감시자":
-        return page_13_감시자;
-      case "개혁자":
-        return page_13_개혁자;
-      case "성취자":
-        return page_13_성취자;
-      case "조언자":
-        return page_13_조언자;
-      case "조정자":
-        return page_13_조정자;
-      case "중재자":
-        return page_13_중재자;
-      case "촉진자":
-        return page_13_촉진자;
-      case "감독자-개혁자":
+  const leadershipStyleImage = () => {
+    switch (true) {
+      case leadershipStyle.some((style) => style === "감독자") &&
+        leadershipStyle.some((style) => style === "개혁자"):
         return page_13_감독자_개혁자;
-      case "감독자-중재자":
+      case leadershipStyle.some((style) => style === "감독자") &&
+        leadershipStyle.some((style) => style === "중재자"):
         return page_13_감독자_중재자;
-      case "감시자-개혁자":
+      case leadershipStyle.some((style) => style === "감시자") &&
+        leadershipStyle.some((style) => style === "개혁자"):
         return page_13_감시자_개혁자;
-      case "성취자-중재자":
+      case leadershipStyle.some((style) => style === "성취자") &&
+        leadershipStyle.some((style) => style === "중재자"):
         return page_13_성취자_중재자;
-      case "조언자-감독자":
+      case leadershipStyle.some((style) => style === "조언자") &&
+        leadershipStyle.some((style) => style === "감독자"):
         return page_13_조언자_감독자;
-      case "조언자-개혁자":
+      case leadershipStyle.some((style) => style === "조언자") &&
+        leadershipStyle.some((style) => style === "개혁자"):
         return page_13_조언자_개혁자;
-      case "조정자-감독자":
+      case leadershipStyle.some((style) => style === "조정자") &&
+        leadershipStyle.some((style) => style === "감독자"):
         return page_13_조정자_감독자;
-      case "조정자-중재자":
+      case leadershipStyle.some((style) => style === "조정자") &&
+        leadershipStyle.some((style) => style === "중재자"):
         return page_13_조정자_중재자;
-      case "중재자-개혁자":
+      case leadershipStyle.some((style) => style === "중재자") &&
+        leadershipStyle.some((style) => style === "개혁자"):
         return page_13_중재자_개혁자;
-      case "촉진자-개혁자":
+      case leadershipStyle.some((style) => style === "촉진자") &&
+        leadershipStyle.some((style) => style === "개혁자"):
         return page_13_촉진자_개혁자;
-      case "촉진자-조정자":
+      case leadershipStyle.some((style) => style === "촉진자") &&
+        leadershipStyle.some((style) => style === "조정자"):
         return page_13_촉진자_조정자;
+      case leadershipStyle.some((style) => style === "감독자"):
+        return page_13_감독자;
+      case leadershipStyle.some((style) => style === "감시자"):
+        return page_13_감시자;
+      case leadershipStyle.some((style) => style === "개혁자"):
+        return page_13_개혁자;
+      case leadershipStyle.some((style) => style === "성취자"):
+        return page_13_성취자;
+      case leadershipStyle.some((style) => style === "조언자"):
+        return page_13_조언자;
+      case leadershipStyle.some((style) => style === "조정자"):
+        return page_13_조정자;
+      case leadershipStyle.some((style) => style === "중재자"):
+        return page_13_중재자;
+      case leadershipStyle.some((style) => style === "촉진자"):
+        return page_13_촉진자;
       default:
         return null;
     }
@@ -366,16 +377,11 @@ export default function Page({
                     <div className="text-container">
                       <div className="mb30 mt30">
                         <div className="flc jcs">
-                          {leadershipStyle.map((style) => {
-                            return (
-                              <img
-                                key={style}
-                                className="w250px"
-                                src={leadershipStyleImage(style)}
-                                alt="leadership-style"
-                              />
-                            );
-                          })}
+                          <img
+                            className="w250px"
+                            src={leadershipStyleImage()}
+                            alt="leadership-style"
+                          />
                         </div>
                         <div className="main-sub-title mb10">특징</div>
                         {data[11].Column6.trim() && (
