@@ -1543,7 +1543,10 @@ ul {
   border: 3px solid red;
   width: 96px;
   height: -webkit-fill-available;
-  right: 196px;
+  right: 204px;
+  &.correction {
+    right: 196px;
+  }
 }
 
 .lecture-list-table {
