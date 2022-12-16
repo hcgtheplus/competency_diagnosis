@@ -3,35 +3,57 @@ import { compact } from "lodash";
 export default function Page({ data, name, organization, position }) {
   const 강한특성 = {
     특질: compact([
-      data[9].Column6,
-      data[10].Column6,
-      data[11].Column6,
-      data[12].Column6,
-      data[13].Column6,
-      data[14].Column6,
+      data[9] && data[9].Column6,
+      data[10] && data[10].Column6,
+      data[11] && data[11].Column6,
+      data[12] && data[12].Column6,
+      data[13] && data[13].Column6,
+      data[14] && data[14].Column6,
     ]).length,
-    행동특성: compact([data[16].Column6, data[17].Column6]).length,
-    동기부여: compact([data[19].Column6, data[20].Column6]).length,
-    흥미선호: compact([data[22].Column6, data[23].Column6]).length,
+    행동특성: compact([
+      data[16] && data[16].Column6,
+      data[17] && data[17].Column6,
+    ]).length,
+    동기부여: compact([
+      data[19] && data[19].Column6,
+      data[20] && data[20].Column6,
+    ]).length,
+    흥미선호: compact([
+      data[22] && data[22].Column6,
+      data[23] && data[23].Column6,
+    ]).length,
   };
   const 약한특성 = {
     특질: compact([
-      data[25].Column6,
-      data[26].Column6,
-      data[27].Column6,
-      data[28].Column6,
-      data[29].Column6,
-      data[30].Column6,
+      data[25] && data[25].Column6,
+      data[26] && data[26].Column6,
+      data[27] && data[27].Column6,
+      data[28] && data[28].Column6,
+      data[29] && data[29].Column6,
+      data[30] && data[30].Column6,
     ]).length,
-    행동특성: compact([data[32].Column6, data[33].Column6]).length,
-    동기부여: compact([data[35].Column6, data[36].Column6]).length,
-    흥미선호: compact([data[38].Column6, data[39].Column6]).length,
+    행동특성: compact([
+      data[32] && data[32].Column6,
+      data[33] && data[33].Column6,
+    ]).length,
+    동기부여: compact([
+      data[35] && data[35].Column6,
+      data[36] && data[36].Column6,
+    ]).length,
+    흥미선호: compact([
+      data[38] && data[38].Column6,
+      data[39] && data[39].Column6,
+    ]).length,
   };
   const 피해야할특질 = compact([
-    data[41].Column6,
-    data[42].Column6,
-    data[43].Column6,
+    data[41] && data[41].Column6,
+    data[42] && data[42].Column6,
+    data[43] && data[43].Column6,
   ]).length;
+
+  if (data.length === 2) {
+    return <div></div>;
+  }
 
   return (
     <div className="image-container page 17 pr">
@@ -67,10 +89,10 @@ export default function Page({ data, name, organization, position }) {
                     <div className="mb30">
                       <div className="mb10 fb f24">강한 특성</div>
                       <ul>
-                        {data[0].Column6.trim() && (
+                        {data[0].Column6 && data[0].Column6.trim() && (
                           <li>{data[0].Column6.trim()}</li>
                         )}
-                        {data[1].Column6.trim() && (
+                        {data[1].Column6 && data[1].Column6.trim() && (
                           <li>{data[1].Column6.trim()}</li>
                         )}
                       </ul>
@@ -78,17 +100,17 @@ export default function Page({ data, name, organization, position }) {
                     <div className="mb30">
                       <div className="mb10 fb f24">약한 특성</div>
                       <ul>
-                        {data[3].Column6.trim() && (
+                        {data[3].Column6 && data[3].Column6.trim() && (
                           <li>{data[3].Column6.trim()}</li>
                         )}
-                        {data[4].Column6.trim() && (
+                        {data[4].Column6 && data[4].Column6.trim() && (
                           <li>{data[4].Column6.trim()}</li>
                         )}
                       </ul>
                     </div>
                     <div className="mb30">
                       <div className="mb10 fb f24">피해야 할 특질</div>
-                      {data[6].Column6.trim() && (
+                      {data[6].Column6 && data[6].Column6.trim() && (
                         <ul>
                           <li>{data[6].Column6.trim()}</li>
                         </ul>
