@@ -50,7 +50,7 @@ import keyword from "./keyword.json";
 import needType from "./needType.json";
 
 function App() {
-  const [userEmail, setUserEmail] = useState("lgh99@nhqv.com");
+  const [userEmail, setUserEmail] = useState("jeongyc@nhqv.com");
   const groupByEmail = groupBy(fullData, "B");
   const groupByEmailWithPage = reduce(
     groupByEmail,
