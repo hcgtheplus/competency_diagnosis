@@ -92,12 +92,13 @@ function App() {
       <div className="w-100 flex input-fixed">
         <div className="index-input">
           <div style={{ marginBottom: 20 }}>
-            <div>번호: {userIndex}</div>
-            <div>이름: {activeUser.name}</div>
-            <div>이메일: {activeUser.email}</div>
+            <div className="text">번호: {userIndex}</div>
+            <div className="text">이름: {activeUser.name}</div>
+            <div className="text">이메일: {activeUser.email}</div>
           </div>
-          <div>
+          <div className="flex jc" style={{ gap: "10px" }}>
             <button
+              className="btn-before"
               type="button"
               onClick={() => {
                 if (userIndex === 1) {
@@ -111,6 +112,7 @@ function App() {
             </button>
             <button
               autoFocus
+              className="btn-after"
               type="button"
               onClick={() => {
                 if (userIndex === 257) {
