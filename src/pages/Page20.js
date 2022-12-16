@@ -114,10 +114,12 @@ export default function Page({ data }) {
                       <div
                         className="page-20-our-department company four"
                         style={{
-                          height: `${LeadingBusiness.H.toFixed(1) * 20}%`,
+                          height: `${
+                            (LeadingBusiness.H?.toFixed(1) || 0) * 20
+                          }%`,
                         }}
                       >
-                        {LeadingBusiness.H.toFixed(1)}
+                        {LeadingBusiness.H?.toFixed(1) || "0"}
                       </div>
                     </div>
                     <div className="page-20-active-item"></div>
@@ -152,10 +154,10 @@ export default function Page({ data }) {
                       <div
                         className="page-20-our-department company four"
                         style={{
-                          height: `${비전제시.H.toFixed(1) * 20}%`,
+                          height: `${비전제시.H?.toFixed(1) || 0 * 20}%`,
                         }}
                       >
-                        {비전제시.H.toFixed(1)}
+                        {비전제시.H?.toFixed(1) || "0"}
                       </div>
                     </div>
                     <div className="top-line-page-20"></div>
@@ -189,10 +191,10 @@ export default function Page({ data }) {
                       <div
                         className="page-20-our-department company four"
                         style={{
-                          height: `${합리적의사결정.H.toFixed(1) * 20}%`,
+                          height: `${합리적의사결정.H?.toFixed(1) || 0 * 20}%`,
                         }}
                       >
-                        {합리적의사결정.H.toFixed(1)}
+                        {합리적의사결정.H?.toFixed(1) || "0"}
                       </div>
                     </div>
                     <div className="top-line-page-20"></div>
@@ -226,10 +228,10 @@ export default function Page({ data }) {
                       <div
                         className="page-20-our-department company four"
                         style={{
-                          height: `${강력한실행력.H.toFixed(1) * 20}%`,
+                          height: `${강력한실행력.H?.toFixed(1) || 0 * 20}%`,
                         }}
                       >
-                        {강력한실행력.H.toFixed(1)}
+                        {강력한실행력.H?.toFixed(1) || "0"}
                       </div>
                     </div>
                     <div className="top-line-page-20"></div>
