@@ -50,7 +50,7 @@ import keyword from "./keyword.json";
 import needType from "./needType.json";
 
 function App() {
-  const [userIndex, setUserIndex] = useState(68);
+  const [userIndex, setUserIndex] = useState(1);
   const [activeUser, setActiveUser] = useState(emailList[0]);
 
   const groupByEmail = groupBy(fullData, "B");
