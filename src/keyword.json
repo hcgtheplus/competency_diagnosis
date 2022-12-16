@@ -1,0 +1,74 @@
+[
+  {
+    "type": "조언자",
+    "keyword1": "경력비전제시",
+    "keyword2": "코칭/피드백",
+    "keyword3": "동기부여",
+    "keyword4": "다양성 존중",
+    "keyword5": "경청/의사소통",
+    "keyword6": "인간적 관계 형성/지원"
+  },
+  {
+    "type": "촉진자",
+    "keyword1": "동기부여",
+    "keyword2": "상호이해",
+    "keyword3": "문제해결 지원",
+    "keyword4": "갈등관리",
+    "keyword5": "경청/의사소통",
+    "keyword6": "인간적 관계 형성/지원"
+  },
+  {
+    "type": "감독자",
+    "keyword1": "전략적 판단/계획수립",
+    "keyword2": "권한/책임부여",
+    "keyword3": "성과관리",
+    "keyword4": "R&amp;R 및 프로세스 관리",
+    "keyword5": "조직관리 공정성",
+    "keyword6": "책임감"
+  },
+  {
+    "type": "성취자",
+    "keyword1": "전문성",
+    "keyword2": "추진력",
+    "keyword3": "동기부여",
+    "keyword4": "권한/책임부여",
+    "keyword5": "성과관리",
+    "keyword6": "의사결정 공정성"
+  },
+  {
+    "type": "중재자",
+    "keyword1": "비즈니스 감각",
+    "keyword2": "고객중심",
+    "keyword3": "전략적 네트워크",
+    "keyword4": "추진력",
+    "keyword5": "자원관리",
+    "keyword6": "주체성"
+  },
+  {
+    "type": "개혁자",
+    "keyword1": "혁신적 사고",
+    "keyword2": "변화주도/비전실행 관리",
+    "keyword3": "고객중심",
+    "keyword4": "추진력",
+    "keyword5": "주체성",
+    "keyword6": "솔선수범"
+  },
+  {
+    "type": "감시자",
+    "keyword1": "위험관리",
+    "keyword2": "성과관리",
+    "keyword3": "업무 연속성 유지/관리",
+    "keyword4": "R&amp;R 및 프로세스 관리",
+    "keyword5": "원칙준수",
+    "keyword6": "정보공유"
+  },
+  {
+    "type": "조정자",
+    "keyword1": "전략적 판단/계획수립",
+    "keyword2": "업무 연속성 유지/관리",
+    "keyword3": "R&amp;R 및 프로세스 관리",
+    "keyword4": "문제해결 지원",
+    "keyword5": "갈등관리",
+    "keyword6": "정보공유"
+  }
+]

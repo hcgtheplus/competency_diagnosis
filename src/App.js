@@ -46,6 +46,8 @@ import Page36 from "./pages/Page36";
 import { groupBy, reduce } from "lodash";
 import fullData from "./fullData.json";
 import emailList from "./emailList.json"; // 257명
+import keyword from "./keyword.json";
+import needType from "./needType.json";
 
 function App() {
   const [userEmail, setUserEmail] = useState("1billion@nhqv.com");
@@ -125,6 +127,8 @@ function App() {
             organization={organization}
             name={name}
             position={position}
+            keyword={keyword}
+            needType={needType.find((type) => type.email === userEmail)}
           />
           <Page17
             data={sampleData["15"]}

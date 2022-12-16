@@ -1,6 +1,13 @@
 import page_15_sub_image_1 from "../image/sub-image/page-15/page-15-sub-image-1.png";
 
-export default function Page({ data, organization, name, position }) {
+export default function Page({
+  data,
+  organization,
+  name,
+  position,
+  keyword,
+  needType,
+}) {
   const culture = {
     team: {
       working: data[13].E.toFixed(1),
@@ -165,45 +172,37 @@ export default function Page({ data, organization, name, position }) {
                         </span>
                         역량에 관한 상세사항은 12페이지에 서술되어 있습니다.
                       </div>
+                      {[1, 2, 3, 4, 5, 6].map((num) => {
+                        const item = needType[`needType${num}`];
 
-                      <table className="page-15-table mt50">
-                        <tbody>
-                          <tr className="tc header">
-                            <td colSpan={3}>조언자</td>
-                          </tr>
-                          <tr>
-                            <td className="tc">경력비전제시</td>
-                            <td className="tc">코칭/피드백</td>
-                          </tr>
-                          <tr>
-                            <td className="tc">동기부여</td>
-                            <td className="tc">다양성존중</td>
-                          </tr>
-                          <tr>
-                            <td className="tc">경청/의사소통</td>
-                            <td className="tc">인간 관계 형성/지원</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <table className="page-15-table mt50">
-                        <tbody>
-                          <tr className="tc header">
-                            <td colSpan={3}>촉진자</td>
-                          </tr>
-                          <tr>
-                            <td className="tc">동기부여</td>
-                            <td className="tc">상호이해</td>
-                          </tr>
-                          <tr>
-                            <td className="tc">문제해결지원</td>
-                            <td className="tc">갈등관리</td>
-                          </tr>
-                          <tr>
-                            <td className="tc">경청/의사소통</td>
-                            <td className="tc">인간적 관계 형성/지원</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                        if (!item) {
+                          return null;
+                        }
+
+                        const type = keyword.find((k) => k.type === item);
+
+                        return (
+                          <table className="page-15-table mt50">
+                            <tbody>
+                              <tr className="tc header">
+                                <td colSpan={3}>{item}</td>
+                              </tr>
+                              <tr>
+                                <td className="tc">{type.keyword1}</td>
+                                <td className="tc">{type.keyword2}</td>
+                              </tr>
+                              <tr>
+                                <td className="tc">{type.keyword3}</td>
+                                <td className="tc">{type.keyword4}</td>
+                              </tr>
+                              <tr>
+                                <td className="tc">{type.keyword5}</td>
+                                <td className="tc">{type.keyword6}</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        );
+                      })}
                     </div>
                   </div>
                 </div>
