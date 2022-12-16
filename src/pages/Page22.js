@@ -235,7 +235,10 @@ export default function Page({ data }) {
                 <h5 className="mb20">연도별/조직간 비교</h5>
               </div>
               <div className="mt20 pr">
-                <div className="emphasize-line"></div>
+                <div
+                  className="emphasize-line"
+                  style={{ right: chart2column.H === "사업부" ? 194 : 196 }}
+                ></div>
                 <table className="bt">
                   <tbody>
                     <tr className="tc header">

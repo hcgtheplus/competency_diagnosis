@@ -28,6 +28,10 @@ export default function Page({ data }) {
   const chart2위험관리 = data[22];
   const chart2추진력 = data[23];
 
+  console.log(chart2column.H);
+
+  chart2column.H === "사업부" ? console.log("맞음") : console.log("아님");
+
   return (
     <div className="image-container page 20 pr">
       <div className="page-absolute">20 / 36</div>
@@ -252,7 +256,10 @@ export default function Page({ data }) {
                 <h5 className="mb20">연도별/조직간 비교</h5>
               </div>
               <div className="mt20 pr">
-                <div className="emphasize-line"></div>
+                <div
+                  className="emphasize-line"
+                  style={{ right: chart2column.H === "사업부" ? 208 : 196 }}
+                ></div>
                 <table className="bt">
                   <tbody>
                     <tr className="tc header">
