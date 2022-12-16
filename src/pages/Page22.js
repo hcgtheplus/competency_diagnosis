@@ -115,10 +115,10 @@ export default function Page({ data }) {
                       <div
                         className="page-20-our-department company four"
                         style={{
-                          height: `${buildingTrust.H.toFixed(1) * 20}%`,
+                          height: `${buildingTrust.H?.toFixed(1) || 0 * 20}%`,
                         }}
                       >
-                        {buildingTrust.H.toFixed(1)}
+                        {buildingTrust.H?.toFixed(1) || "0"}
                       </div>
                     </div>
                     <div className="page-20-active-item thr"></div>
@@ -148,9 +148,9 @@ export default function Page({ data }) {
                       </div>
                       <div
                         className="page-20-our-department company four"
-                        style={{ height: `${윤리의식.H.toFixed(1) * 20}%` }}
+                        style={{ height: `${윤리의식.H?.toFixed(1) || 0 * 20}%` }}
                       >
-                        {윤리의식.H.toFixed(1)}
+                        {윤리의식.H?.toFixed(1) || "0"}
                       </div>
                     </div>
                     <div className="top-line-page-20"></div>
@@ -179,9 +179,9 @@ export default function Page({ data }) {
                       </div>
                       <div
                         className="page-20-our-department company four"
-                        style={{ height: `${감성지능.H.toFixed(1) * 20}%` }}
+                        style={{ height: `${감성지능.H?.toFixed(1) || 0 * 20}%` }}
                       >
-                        {감성지능.H.toFixed(1)}
+                        {감성지능.H?.toFixed(1) || "0"}
                       </div>
                     </div>
                     <div className="top-line-page-20"></div>
@@ -208,9 +208,9 @@ export default function Page({ data }) {
                       </div>
                       <div
                         className="page-20-our-department company four"
-                        style={{ height: `${롤모델.H.toFixed(1) * 20}%` }}
+                        style={{ height: `${롤모델.H?.toFixed(1) || 0 * 20}%` }}
                       >
-                        {롤모델.H.toFixed(1)}
+                        {롤모델.H?.toFixed(1) || "0"}
                       </div>
                     </div>
                     <div className="top-line-page-20"></div>

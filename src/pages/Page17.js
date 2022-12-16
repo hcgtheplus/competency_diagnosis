@@ -592,9 +592,9 @@ export default function Page({ data, name, organization, position }) {
                             >
                               피해야할 특질
                             </td>
-                            {data[41].Column6 && (
-                              <td className="right-td">
-                                <div className="flc sb">
+                            <td className="right-td">
+                              <div className="flc sb">
+                                {data[41].Column6 ? (
                                   <div>
                                     <div>
                                       {data[41].Column6.split("\r\n")[0]}
@@ -603,10 +603,14 @@ export default function Page({ data, name, organization, position }) {
                                       {data[41].Column6.split("\r\n")[1]}
                                     </div>
                                   </div>
-                                  <div>{data[41].E.toFixed(1)}</div>
+                                ) : (
+                                  <div>-</div>
+                                )}
+                                <div>
+                                  {data[41].E ? data[41].E.toFixed(1) : "-"}
                                 </div>
-                              </td>
-                            )}
+                              </div>
+                            </td>
                           </tr>
                           {data[42].Column6 && (
                             <tr>
