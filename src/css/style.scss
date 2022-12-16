@@ -1638,12 +1638,12 @@ ul {
     background-color: #e7eaf7;
     color: #1f2647;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 4px;
     cursor: pointer;
-    btn-before:hover {
-      background-color: #d8dae4;
-    }
+  }
+  .btn-before:hover {
+    background-color: #dfe2ee;
   }
   .btn-after {
     width: 100%;
@@ -1656,9 +1656,9 @@ ul {
     font-weight: 500;
     border-radius: 4px;
     cursor: pointer;
-    btn-after:hover {
-      background-color: #30b0ff;
-    }
+  }
+  .btn-after:hover {
+    background-color: #029eff;
   }
 }
 
