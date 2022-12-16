@@ -777,7 +777,11 @@ h6 {
     width: 192px;
   }
   ul {
+    width: 100%;
+    padding-left: 10px;
     li {
+      font-size: 18px;
+      align-items: left;
       margin: 20px 20px;
     }
   }
@@ -993,8 +997,10 @@ table {
 }
 
 ul {
+  word-break: keep-all;
   li {
     font-size: 16px;
+    word-break: keep-all;
   }
 }
 
