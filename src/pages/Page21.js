@@ -1,4 +1,6 @@
 export default function Page({ data }) {
+  console.log("🚀 ~ file: Page21.js:2 ~ Page ~ data", data);
+
   const convertData = data.reduce(
     (acc, cur, idx) => {
       if (cur["C"] === "Text 1") {
@@ -51,6 +53,19 @@ export default function Page({ data }) {
             "타인진단(상향+하향)": cur["F"]?.toFixed(1) || 0,
             상향진단: cur["Column9"]?.toFixed(1) || 0,
             하향진단: cur["H"]?.toFixed(1) || 0,
+          },
+        };
+      }
+
+      if (idx === 10) {
+        acc["chart2"] = {
+          ...acc["chart2"],
+          column: {
+            "20년": cur["E"] || "-",
+            "21년": cur["F"] || "-",
+            "22년": cur["Column9"] || "-",
+            사업부: cur["H"] || "-",
+            전사평균: cur["I"] || "-",
           },
         };
       }
@@ -232,6 +247,7 @@ export default function Page({ data }) {
         경계없는협력: {},
       },
       chart2: {
+        column: {},
         Total: {},
         인재육성: {},
         경력비전제시: {},
@@ -255,6 +271,7 @@ export default function Page({ data }) {
     text3,
     chart1: { managingOrganization, 인재육성, 효율적조직운영, 경계없는협력 },
     chart2: {
+      column,
       Total,
       인재육성: 인재육성2,
       경력비전제시,
@@ -509,17 +526,17 @@ export default function Page({ data }) {
                       <td className="br" rowSpan={2}>
                         역량 Keyword
                       </td>
-                      <td rowSpan={2}>'20년</td>
-                      <td rowSpan={2}>'21년</td>
-                      <td rowSpan={2}>'22년</td>
+                      <td rowSpan={2}>{column["20년"]}</td>
+                      <td rowSpan={2}>{column["21년"]}</td>
+                      <td rowSpan={2}>{column["22년"]}</td>
                       <td colSpan={2}>평균</td>
                     </tr>
                     <tr className="tc header">
                       <td className="bt br" style={{ width: 100 }}>
-                        부문
+                        {column["사업부"]}
                       </td>
                       <td className="bt br" style={{ width: 100 }}>
-                        전사평균
+                        {column["전사평균"]}
                       </td>
                     </tr>
                     <tr className="tc bt">
