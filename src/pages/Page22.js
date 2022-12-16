@@ -235,10 +235,7 @@ export default function Page({ data }) {
                 <h5 className="mb20">연도별/조직간 비교</h5>
               </div>
               <div className="mt20 pr">
-                <div
-                  className="emphasize-line"
-                  style={{ right: chart2column.H && "사업부" ? 194 : 196 }}
-                ></div>
+                <div className="emphasize-line"></div>
                 <table className="bt">
                   <tbody>
                     <tr className="tc header">
@@ -257,8 +254,12 @@ export default function Page({ data }) {
                       <td colSpan="2">평균</td>
                     </tr>
                     <tr className="tc header">
-                      <td className="bt br">{chart2column.H}</td>
-                      <td className="bt br">{chart2column.I}</td>
+                      <td className="bt br" style={{ width: 100 }}>
+                        {chart2column.H}
+                      </td>
+                      <td className="bt br" style={{ width: 100 }}>
+                        {chart2column.I}
+                      </td>
                     </tr>
                     <tr className="tc bt">
                       <td></td>

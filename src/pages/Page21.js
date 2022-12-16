@@ -515,8 +515,12 @@ export default function Page({ data }) {
                       <td colSpan={2}>평균</td>
                     </tr>
                     <tr className="tc header">
-                      <td className="bt br">부문</td>
-                      <td className="bt br">전사평균</td>
+                      <td className="bt br" style={{ width: 100 }}>
+                        부문
+                      </td>
+                      <td className="bt br" style={{ width: 100 }}>
+                        전사평균
+                      </td>
                     </tr>
                     <tr className="tc bt">
                       <td></td>
