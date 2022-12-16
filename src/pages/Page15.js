@@ -77,11 +77,11 @@ export default function Page({
             <div className="title-container">
               <div className="top-line"></div>
               <div>
-                <div className="flex ab sb">
+                <div className="flex ac sb">
                   <h4 className="main-title">Summary 리더십 유형</h4>
-                  <div className="flc">
-                    <div className="mr30 fb">리더십Type :</div>
-                    <div>{data[0].Column6}</div>
+                  <div className="flex fc w-60">
+                    <div className="f16 fb mb5">리더십Type :</div>
+                    <div className="f18 word-k-all">{data[0].Column6}</div>
                   </div>
                 </div>
 
