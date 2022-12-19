@@ -1,13 +1,13 @@
-import page_13_공동체형_성과중시형_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-공동체형-성과중시형-혁신중시형.jpg";
-import page_13_공동체형_성과중시형 from "../image/sub-image/page-13/division-culture/page-13-공동체형-성과중시형.jpg";
-import page_13_공동체형_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-공동체형-혁신중시형.jpg";
-import page_13_공동체형 from "../image/sub-image/page-13/division-culture/page-13-공동체형.jpg";
+import page_13_공동체형_성과중시형_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-gong-sung-hyuck.jpg"; // gong-sung-hyuck
+import page_13_공동체형_성과중시형 from "../image/sub-image/page-13/division-culture/page-13-gong-sung.jpg"; // gong-sung
+import page_13_공동체형_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-gong-hyuck.jpg"; // gong-hyuck
+import page_13_공동체형 from "../image/sub-image/page-13/division-culture/page-13-gong.jpg"; // gong
 
-import page_13_성과중시형_위계질서형 from "../image/sub-image/page-13/division-culture/page-13-성과중시형-위계질서형.jpg";
-import page_13_성과중시형_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-성과중시형-혁신중시형.jpg";
-import page_13_성과중시형 from "../image/sub-image/page-13/division-culture/page-13-성과중시형.jpg";
-import page_13_위계질서형 from "../image/sub-image/page-13/division-culture/page-13-위계질서형.jpg";
-import page_13_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-혁신중시형.jpg";
+import page_13_성과중시형_위계질서형 from "../image/sub-image/page-13/division-culture/page-13-sung-we.jpg"; // sung-we
+import page_13_성과중시형_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-sung-hyuck.jpg"; // sung-hyuck
+import page_13_성과중시형 from "../image/sub-image/page-13/division-culture/page-13-sung.jpg"; // sung
+import page_13_위계질서형 from "../image/sub-image/page-13/division-culture/page-13-we.jpg"; // we
+import page_13_혁신중시형 from "../image/sub-image/page-13/division-culture/page-13-hyuck.jpg"; // hyuck
 
 export default function Page({
   data,

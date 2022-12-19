@@ -1,34 +1,34 @@
-import page_13_위임형 from "../image/sub-image/page-13/leadership-type/page-13-위임형.jpg";
-import page_13_지시형 from "../image/sub-image/page-13/leadership-type/page-13-지시형.jpg";
-import page_13_지원형 from "../image/sub-image/page-13/leadership-type/page-13-지원형.jpg";
-import page_13_코칭형 from "../image/sub-image/page-13/leadership-type/page-13-코칭형.jpg";
+import page_13_위임형 from "../image/sub-image/page-13/leadership-type/page-13-we.jpg";
+import page_13_지시형 from "../image/sub-image/page-13/leadership-type/page-13-jisi.jpg";
+import page_13_지원형 from "../image/sub-image/page-13/leadership-type/page-13-jiwon.jpg";
+import page_13_코칭형 from "../image/sub-image/page-13/leadership-type/page-13-co.jpg";
 
-import page_13_감독자 from "../image/sub-image/page-13/leadership-style/page-13-감독자.jpg";
-import page_13_감시자 from "../image/sub-image/page-13/leadership-style/page-13-감시자.jpg";
-import page_13_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-개혁자.jpg";
-import page_13_성취자 from "../image/sub-image/page-13/leadership-style/page-13-성취자.jpg";
-import page_13_조언자 from "../image/sub-image/page-13/leadership-style/page-13-조언자.jpg";
-import page_13_조정자 from "../image/sub-image/page-13/leadership-style/page-13-조정자.jpg";
-import page_13_중재자 from "../image/sub-image/page-13/leadership-style/page-13-중재자.jpg";
-import page_13_촉진자 from "../image/sub-image/page-13/leadership-style/page-13-촉진자.jpg";
+import page_13_감독자 from "../image/sub-image/page-13/leadership-style/page-13-gam.jpg";
+import page_13_감시자 from "../image/sub-image/page-13/leadership-style/page-13-gamsi.jpg";
+import page_13_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-gae.jpg";
+import page_13_성취자 from "../image/sub-image/page-13/leadership-style/page-13-sung.jpg";
+import page_13_조언자 from "../image/sub-image/page-13/leadership-style/page-13-jo.jpg";
+import page_13_조정자 from "../image/sub-image/page-13/leadership-style/page-13-jojung.jpg";
+import page_13_중재자 from "../image/sub-image/page-13/leadership-style/page-13-jung.jpg";
+import page_13_촉진자 from "../image/sub-image/page-13/leadership-style/page-13-chock.jpg";
 
-import page_13_감독자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-감독자-개혁자.jpg";
-import page_13_감독자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-감독자-중재자.jpg";
+import page_13_감독자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-gam-gae.jpg";
+import page_13_감독자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-gam-jung.jpg";
 
-import page_13_감시자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-감시자-개혁자.jpg";
+import page_13_감시자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-gam-gae.jpg";
 
-import page_13_성취자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-성취자-중재자.jpg";
+import page_13_성취자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-sung-jung.jpg";
 
-import page_13_조언자_감독자 from "../image/sub-image/page-13/leadership-style/page-13-조언자-감독자.jpg";
-import page_13_조언자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-조언자-개혁자.jpg";
+import page_13_조언자_감독자 from "../image/sub-image/page-13/leadership-style/page-13-jo-gam.jpg";
+import page_13_조언자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-jo-gae.jpg";
 
-import page_13_조정자_감독자 from "../image/sub-image/page-13/leadership-style/page-13-조정자-감독자.jpg";
-import page_13_조정자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-조정자-중재자.jpg";
+import page_13_조정자_감독자 from "../image/sub-image/page-13/leadership-style/page-13-jo-gam.jpg";
+import page_13_조정자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-jo-jung.jpg";
 
-import page_13_중재자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-중재자-개혁자.jpg";
-import page_13_촉진자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-촉진자-개혁자.jpg";
+import page_13_중재자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-jung-gae.jpg";
+import page_13_촉진자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-chock-gae.jpg";
 
-import page_13_촉진자_조정자 from "../image/sub-image/page-13/leadership-style/page-13-촉진자-조정자.jpg";
+import page_13_촉진자_조정자 from "../image/sub-image/page-13/leadership-style/page-13-chock-jo.jpg";
 
 export default function Page({
   data,
