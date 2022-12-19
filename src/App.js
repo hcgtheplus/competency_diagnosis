@@ -190,7 +190,6 @@ function App() {
             leadershipStyle={leadershipStyle}
             needType={needType.find((type) => type.email === userEmail)}
           />
-          <Page25 data={sampleData["23"]} />
           <Page25 data={sampleData["23"]} fixedData={fixedData["23"]} />
           <Page26 data={sampleData["24"]} />
           <Page27 />
