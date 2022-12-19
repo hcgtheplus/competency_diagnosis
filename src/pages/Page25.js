@@ -1,4 +1,4 @@
-export default function Page({ data }) {
+export default function Page({ data, fixedData }) {
   // 부서 E 사업부 F
   const 업무및의사소통방식 = {
     업무효율성: { 부서: data[3].E.toFixed(1), 사업부: data[3].F.toFixed(1) },
@@ -51,6 +51,15 @@ export default function Page({ data }) {
     },
   };
 
+  const text1 = fixedData[8].Column6;
+  const text2 = fixedData[10].Column6;
+  const text3 = fixedData[21].Column6;
+  const text4 = fixedData[23].Column6;
+  const text5 = fixedData[25].Column6;
+  const text6 = fixedData[27].Column6;
+  const text7 = fixedData[34].Column6;
+  const text8 = fixedData[36].Column6;
+
   return (
     <div className="image-container page 25 pr">
       <div className="page-absolute">25 / 36</div>
@@ -92,10 +101,10 @@ export default function Page({ data }) {
                           <div className="page-graph-line-left"></div>
                           <div>
                             <div className="graph-title">
-                              {data[8].Column6.split("\r\n")[0]}
+                              {text1.split("\r\n")[0]}
                             </div>
                             <div className="graph-body-txt">
-                              {data[8].Column6.split("\r\n")[1]}
+                              {text1.split("\r\n")[1]}
                             </div>
                           </div>
                           <div className="page-graph-line-right"></div>
@@ -104,10 +113,10 @@ export default function Page({ data }) {
                           <div className="page-graph-line-left"></div>
                           <div>
                             <div className="graph-title">
-                              {data[10].Column6.split("\r\n")[0]}
+                              {text2.split("\r\n")[0]}
                             </div>
                             <div className="graph-body-txt">
-                              {data[10].Column6.split("\r\n")[1]}
+                              {text2.split("\r\n")[1]}
                             </div>
                           </div>
                           <div className="page-graph-line-right"></div>
@@ -268,10 +277,10 @@ export default function Page({ data }) {
                           <div className="page-graph-line-left"></div>
                           <div>
                             <div className="graph-title">
-                              {data[21].Column6.split("\r\n")[0]}
+                              {text3.split("\r\n")[0]}
                             </div>
                             <div className="graph-body-txt">
-                              {data[21].Column6.split("\r\n")[1]}
+                              {text3.split("\r\n")[1]}
                             </div>
                           </div>
                           <div className="page-graph-line-right"></div>
@@ -280,10 +289,10 @@ export default function Page({ data }) {
                           <div className="page-graph-line-left"></div>
                           <div>
                             <div className="graph-title">
-                              {data[23].Column6.split("\r\n")[0]}
+                              {text4.split("\r\n")[0]}
                             </div>
                             <div className="graph-body-txt">
-                              {data[23].Column6.split("\r\n")[1]}
+                              {text4.split("\r\n")[1]}
                             </div>
                           </div>
                           <div className="page-graph-line-right"></div>
@@ -292,20 +301,20 @@ export default function Page({ data }) {
                           <div className="page-graph-line-left"></div>
                           <div>
                             <div className="graph-title">
-                              {data[25].Column6.split("\r\n")[0]}
+                              {text5.split("\r\n")[0]}
                             </div>
                             <div className="graph-body-txt">
-                              {data[25].Column6.split("\r\n")[1]}
+                              {text5.split("\r\n")[1]}
                             </div>
                           </div>
                           <div className="page-graph-line-right"></div>
                         </div>
                         <div className="w-50">
                           <div className="graph-title">
-                            {data[27].Column6.split("\r\n")[0]}
+                            {text6.split("\r\n")[0]}
                           </div>
                           <div className="graph-body-txt">
-                            {data[27].Column6.split("\r\n")[1]}
+                            {text6.split("\r\n")[1]}
                           </div>
                         </div>
                       </div>
@@ -562,10 +571,10 @@ export default function Page({ data }) {
                               <div className="page-graph-line-left"></div>
                               <div>
                                 <div className="graph-title">
-                                  {data[34].Column6.split("\r\n")[0]}
+                                  {text7.split("\r\n")[0]}
                                 </div>
                                 <div className="graph-body-txt">
-                                  {data[34].Column6.split("\r\n")[1]}
+                                  {text7.split("\r\n")[1]}
                                 </div>
                               </div>
                               <div className="page-graph-line-right"></div>
@@ -667,10 +676,10 @@ export default function Page({ data }) {
                               <div className="page-graph-line-left"></div>
                               <div>
                                 <div className="graph-title">
-                                  {data[36].Column6.split("\r\n")[0]}
+                                  {text8.split("\r\n")[0]}
                                 </div>
                                 <div className="graph-body-txt">
-                                  {data[36].Column6.split("\r\n")[1]}
+                                  {text8.split("\r\n")[1]}
                                 </div>
                               </div>
                               <div className="page-graph-line-right"></div>

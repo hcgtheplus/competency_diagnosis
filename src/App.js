@@ -87,6 +87,8 @@ function App() {
   const anotherView = // 임원인 경우 28, 29, 30, 31, 32, 33 페이지는 별도로 보여준다
     emailList.find((item) => item.email === userEmail).position === "임원";
 
+  const fixedData = groupByEmailWithPage["1billion@nhqv.com"];
+
   return (
     <div className="App">
       <div className="w-100 flex input-fixed">
@@ -189,6 +191,7 @@ function App() {
             needType={needType.find((type) => type.email === userEmail)}
           />
           <Page25 data={sampleData["23"]} />
+          <Page25 data={sampleData["23"]} fixedData={fixedData["23"]} />
           <Page26 data={sampleData["24"]} />
           <Page27 />
           {anotherView ? (
