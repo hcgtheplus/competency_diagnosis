@@ -22,8 +22,8 @@ import page_13_성취자_중재자 from "../image/sub-image/page-13/leadership-s
 import page_13_조언자_감독자 from "../image/sub-image/page-13/leadership-style/page-13-jo-gam.jpg";
 import page_13_조언자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-jo-gae.jpg";
 
-import page_13_조정자_감독자 from "../image/sub-image/page-13/leadership-style/page-13-jo-gam.jpg";
-import page_13_조정자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-jo-jung.jpg";
+import page_13_조정자_감독자 from "../image/sub-image/page-13/leadership-style/page-13-jojung-gam.jpg";
+import page_13_조정자_중재자 from "../image/sub-image/page-13/leadership-style/page-13-jojung-jung.jpg";
 
 import page_13_중재자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-jung-gae.jpg";
 import page_13_촉진자_개혁자 from "../image/sub-image/page-13/leadership-style/page-13-chock-gae.jpg";
