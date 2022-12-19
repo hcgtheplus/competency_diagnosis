@@ -111,7 +111,7 @@ export default function Page({
               <div>
                 <div className="flex ab sb">
                   <h4 className="main-title">
-                    Summary 부서 조직문화 진단 결과
+                    Summary 소속별 조직문화 진단 결과
                   </h4>
                   <div className="flc">
                     <div>{data[0].Column6}</div>
@@ -123,7 +123,7 @@ export default function Page({
 
               <div className="text-container mt20 mb30">
                 <div className="main-sub-title mb10">
-                  부서 조직문화 특징과 적합한 리더십 스타일
+                  소속별 조직문화 특징과 적합한 리더십 스타일
                 </div>
                 <div className="flex">
                   <div className="flex">
@@ -374,7 +374,7 @@ export default function Page({
                 <div className="text-container">
                   <div className="mb30">
                     <div className="main-sub-title mb10">
-                      부서 조직문화 진단 영역 결과
+                      소속별 조직문화 진단 영역결과
                     </div>
                     <ul>
                       {data[9].Column6.trim() && (
@@ -389,7 +389,7 @@ export default function Page({
                   <div className="page-16-data-image flex">
                     <div className="page-16-grape-item">
                       <div className="h130 al-end">
-                        <div className="flc mb10">
+                        <div className="flc" style={{ marginBottom: "9px" }}>
                           <div className="page-16-legend"></div>
                           <div>{data[8].Column6}</div>
                         </div>
