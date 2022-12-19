@@ -546,7 +546,11 @@ h6 {
     font-size: 16px;
     margin: 0 10px;
   }
-
+  .all-bar-chart-base {
+    display: flex;
+    width: 100%;
+    background-color: #cfebfc;
+  }
   .item-row {
     display: flex;
     .categories-header {

@@ -69,7 +69,7 @@ export default function Page({ data }) {
                     <div className="w-100">
                       <div className="flex w-100 mb2">
                         <div className="type-header">복종 강요형</div>
-                        <div className="flex w-100">
+                        <div className="all-bar-chart-base">
                           {leaderShipRiskObject.개선이시급함값.복종강요형 >
                             0 && (
                             <div
@@ -111,10 +111,7 @@ export default function Page({ data }) {
                           )}
                         </div>
                       </div>
-                      <div
-                        className="flex w-100"
-                        style={{ backgroundColor: "#cfebfc" }}
-                      >
+                      <div className="all-bar-chart-base">
                         <div className="type-header">책임 전가형</div>
                         <div className="flex w-100">
                           {leaderShipRiskObject.개선이시급함값.책임전가형 >
@@ -163,7 +160,7 @@ export default function Page({ data }) {
                   <div className="item-row w-100 mb10">
                     <div className="categories-header">비즈니스</div>
                     <div className="w-100">
-                      <div className="flex w-100 mb2">
+                      <div className="all-bar-chart-base mb2">
                         <div className="type-header">의사결정회피형</div>
                         <div className="flex w-100">
                           {leaderShipRiskObject.개선이시급함값.의사결정회피형 >
@@ -207,7 +204,7 @@ export default function Page({ data }) {
                           )}
                         </div>
                       </div>
-                      <div className="flex w-100 mb2">
+                      <div className="all-bar-chart-base mb2">
                         <div className="type-header">현실안주형</div>
                         <div className="flex w-100">
                           {leaderShipRiskObject.개선이시급함값.현실안주형 >
@@ -256,7 +253,7 @@ export default function Page({ data }) {
                   <div className="item-row w-100 mb10">
                     <div className="categories-header">대인관계</div>
                     <div className="w-100">
-                      <div className="flex w-100 mb2">
+                      <div className="all-bar-chart-base mb2">
                         <div className="type-header">파벌형성형</div>
                         <div className="flex w-100">
                           {leaderShipRiskObject.개선이시급함값.파벌형성형 >
@@ -300,7 +297,7 @@ export default function Page({ data }) {
                           )}
                         </div>
                       </div>
-                      <div className="flex w-100">
+                      <div className="all-bar-chart-base">
                         <div className="type-header">소통장애형</div>
                         <div className="flex w-100">
                           {leaderShipRiskObject.개선이시급함값.소통장애형 >
@@ -349,7 +346,7 @@ export default function Page({ data }) {
                   <div className="item-row w-100 mb10">
                     <div className="categories-header">자기조절</div>
                     <div className="w-100">
-                      <div className="flex w-100 mb2">
+                      <div className="all-bar-chart-base mb2">
                         <div className="type-header">비관형</div>
                         <div className="flex w-100">
                           {leaderShipRiskObject.개선이시급함값.비관형 > 0 && (
@@ -391,7 +388,7 @@ export default function Page({ data }) {
                           )}
                         </div>
                       </div>
-                      <div className="flex w-100">
+                      <div className="all-bar-chart-base">
                         <div className="type-header">변덕형</div>
                         <div className="flex w-100">
                           {leaderShipRiskObject.개선이시급함값.변덕형 > 0 && (
