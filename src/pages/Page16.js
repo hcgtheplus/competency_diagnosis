@@ -389,18 +389,22 @@ export default function Page({
                   <div className="page-16-data-image flex">
                     <div className="page-16-grape-item">
                       <div className="h130 al-end">
-                        <div className="flc" style={{ marginBottom: "9px" }}>
-                          <div className="page-16-legend"></div>
-                          <div>{data[8].Column6}</div>
+                        <div style={{ height: 160 }}>
+                          <div className="flc" style={{ marginBottom: "9px" }}>
+                            <div className="page-16-legend"></div>
+                            <div>{data[8].Column6}</div>
+                          </div>
+                          <div className="flc">
+                            <div className="page-16-legend sec"></div>
+                            <div>우리 회사</div>
+                          </div>
+                          <div>
+                            <div className="page-16-legend-title">
+                              조직 문화
+                            </div>
+                          </div>
                         </div>
-                        <div className="flc">
-                          <div className="page-16-legend sec"></div>
-                          <div>우리 회사</div>
-                        </div>
-                        <div>
-                          <div className="page-16-legend-title">조직 문화</div>
-                        </div>
-                        <div className="top-line mt30"></div>
+                        <div className="top-line"></div>
                       </div>
                     </div>
 
@@ -512,14 +516,12 @@ export default function Page({
 
                   <div className="page-16-data-image flex">
                     <div className="page-16-grape-item">
-                      <div className="h130 al-end">
-                        <div>
-                          <div className="page-16-legend-title sec">
-                            조직內관계
-                          </div>
+                      <div style={{ height: 160, paddingTop: 97 }}>
+                        <div className="page-16-legend-title sec">
+                          조직內관계
                         </div>
-                        <div className="top-line mt30"></div>
                       </div>
+                      <div className="top-line"></div>
                     </div>
 
                     <div className="page-16-grape-item">
