@@ -305,17 +305,16 @@ export default function Page({ data }) {
               <div className="text-container mt50">
                 <h5 className="mb10">총평</h5>
                 <ul>
-                  <li>{text1}</li>
-                  <li>{text2}</li>
+                  {text1 && <li>{text1}</li>}
+                  {text2 && <li>{text2}</li>}
+                  {text3 && <li>{text3}</li>}
                 </ul>
-                {text3 && text3.trim() && (
-                  <div className="info mt20">
-                    <span className="material-symbols-outlined">
-                      arrow_right
-                    </span>
-                    {text3}
-                  </div>
-                )}
+                <div className="info mt20">
+                  <span className="material-symbols-outlined">arrow_right</span>
+                  {
+                    "회사 평균 대비 +0.5 초과인 경우 “우수한” 수준, -0.5~0.5 사이인 경우 “양호한“ 수준, -0.5 미만인 경우 “낮은“ 수준으로 표현하였습니다."
+                  }
+                </div>
               </div>
               <div className="text-container mt50">
                 <h5 className="mb20">관계별 결과 비교</h5>
