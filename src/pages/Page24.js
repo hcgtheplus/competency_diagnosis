@@ -899,6 +899,12 @@ export default function Page({ data, needType }) {
                       {data[31].Column6.trim() && (
                         <li>{data[31].Column6.trim()}</li>
                       )}
+                      <li>
+                        현재 소속 조직의 조직문화에 적합한 리더십 스타일을
+                        발현하기 위한 노력 혹은 현재 소속 조직의 조직문화 유형을
+                        변화시키려는 노력이 리더십 스타일과 조직문화 간 시너지를
+                        증가시키는 데 도움이 될 수 있습니다.
+                      </li>
                     </ul>
                   </div>
                 </div>
